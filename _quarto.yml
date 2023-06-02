@@ -4,17 +4,19 @@ project:
 bibliography: bibliography.bib
 
 website:
-  title: "."
+  title: "GATAS Lab, University Florida"
   favicon: _assets/brand/favicon.ico
   navbar:
     logo: _assets/brand/logo-darkbg.svg
     collapse-below: sm
     right:
+      - blog.qmd
       - about.qmd
+      - members.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/AlgebraicJulia
+      # - icon: twitter
+      #   href: https://twitter.com
 format:
   html:
     html-math-method: katex
