@@ -1,6 +1,6 @@
 ---
 title: "Member 2 Name"
-image: profile.jpg
+image: /_assets/profile.jpg
 about:
     template: jolla
 ---

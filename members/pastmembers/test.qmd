@@ -1,6 +1,6 @@
 ---
-title: "James Fairbanks"
-image: fairbanks-james-web.png
+title: "Past Member "
+image: /_assets/profile.jpg
 about:
     template: jolla
 ---

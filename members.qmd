@@ -1,9 +1,30 @@
 ---
-title: "Current Members"
-listing:
-  contents: 
-  - "members"
-  sort: "title desc"
-  image-align: left
-
+title: Members
+listing: 
+  - id: members
+    contents: "members/*.qmd"
+    type: default
+    image-align: left
+    image-height: 150px
+  - id: past-members
+    contents: "members/pastmembers/*.qmd"
+    type: table
 ---
+
+## Current Member
+
+:::{#members}
+:::
+
+## Past Members
+
+:::{#past-members}
+:::
+
+## Accepting Applications for...
+
+PhD Students in both CISE and MAE
+
+Research Projects for Undergraduates and Graduate Students in CISE, MAE, and Math
+
+Research Scientist and Postdoc in CISE, MAE, Math
