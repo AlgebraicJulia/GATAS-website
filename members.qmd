@@ -1,5 +1,9 @@
 ---
-title: "Members"
+title: "Current Members"
 listing:
-  contents: members
+  contents: 
+  - "members"
+  sort: "title desc"
+  image-align: left
+
 ---

@@ -1,0 +1,9 @@
+---
+title: "Member 2 Name"
+image: profile.jpg
+about:
+    template: jolla
+---
+this member is another person who does things
+--- 
+links + other more detailed info

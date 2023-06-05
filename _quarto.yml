@@ -13,6 +13,7 @@ website:
       - blog.qmd
       - about.qmd
       - members.qmd
+      - seminars.qmd
       - icon: github
         href: https://github.com/AlgebraicJulia
       - icon: favicon.ico
