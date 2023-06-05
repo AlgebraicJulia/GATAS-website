@@ -1,6 +1,5 @@
 ---
 title: "Members"
+listing:
+  contents: members
 ---
-| Members Name | Position |
-|---|---|
-| Micah | Nobody|

@@ -1,6 +1,7 @@
 ---
 title: "Member Name"
----
 image: _assets/profile.jpg
-
+about:
+    template: jolla
+---
 this member is a person who does things
