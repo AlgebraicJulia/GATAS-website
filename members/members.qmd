@@ -1,8 +1,6 @@
 ---
 title: "Members"
 ---
-
 | Members Name | Position |
 |---|---|
-|text: Micah
- href: test.qmd | Nobody|
+| Micah | Nobody|
