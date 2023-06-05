@@ -15,7 +15,7 @@ website:
       - members.qmd
       - icon: github
         href: https://github.com/AlgebraicJulia
-      - favicon: _assets/brand/favicon.ico
+      - icon: _assets/brand/favicon.ico
         href: https://www.algebraicjulia.org/
 format:
   html:
