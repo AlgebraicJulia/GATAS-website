@@ -1,0 +1,6 @@
+---
+title: "Member Name"
+---
+image: _assets/profile.jpg
+
+this member is a person who does things

@@ -4,4 +4,5 @@ title: "Members"
 
 | Members Name | Position |
 |---|---|
-| Micah | Nobody|
+|text: Micah
+ href: link to micah bio | Nobody|
