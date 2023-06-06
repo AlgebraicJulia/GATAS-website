@@ -6,11 +6,6 @@ listing:
     type: default
     image-align: left
     image-height: 150px
-  - id: members
-    contents: "past_members/*.qmd"
-    type: default
-    image-align: left
-    image-height: 150px
 ---
 
 ## Current Members
@@ -18,13 +13,20 @@ listing:
 :::{#members}
 :::
 
-## Past members
-
+## Past Members
+Caroline Rogers   
+<!-- 
+we can link an email here or add a where are they now column
+-->
+Rebecca Boes    
+James Eschrich  
+James Horn  
+Kris Brown
 
 ## Accepting Applications for...
 
-PhD Students in both CISE and MAE
+* PhD Students in both CISE and MAE
 
-Research Projects for Undergraduates and Graduate Students in CISE, MAE, and Math
+* Research Projects for Undergraduates and Graduate Students in CISE, MAE, and Math
 
-Research Scientist and Postdoc in CISE, MAE, Math
+* Research Scientist and Postdoc in CISE, MAE, Math
