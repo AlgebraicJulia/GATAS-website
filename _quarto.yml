@@ -10,11 +10,11 @@ website:
     logo: _assets/brand/logo-darkbg.svg
     collapse-below: sm
     right:
-      - text: "Blog"
-        href: https://blog.algebraicjulia.org/
       - about.qmd
       - members.qmd
-      - seminars.qmd
+      - seminars.qmd    
+      - text: "Blog"
+        href: https://blog.algebraicjulia.org/
       - icon: github
         href: https://github.com/AlgebraicJulia
       - icon: favicon.ico

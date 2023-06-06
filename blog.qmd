@@ -1,6 +1,0 @@
----
-[Blog](https://blog.algebraicjulia.org/)
- 
----
-
-
