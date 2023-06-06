@@ -6,20 +6,20 @@ listing:
     type: default
     image-align: left
     image-height: 150px
-  - id: past-members
-    contents: "members/pastmembers/*.qmd"
-    type: table
+  - id: members
+    contents: "past_members/*.qmd"
+    type: default
+    image-align: left
+    image-height: 150px
 ---
 
-## Current Member
+## Current Members
 
 :::{#members}
 :::
 
-## Past Members
+## Past members
 
-:::{#past-members}
-:::
 
 ## Accepting Applications for...
 

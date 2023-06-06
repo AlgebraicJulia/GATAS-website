@@ -1,0 +1,13 @@
+---
+about:
+    template: jolla
+---
+:::{#hero-heading}
+
+## Caroline Rogers 
+## Rebecca Boes    
+## James Eschrich  
+## James Horn
+## Kris Brown
+
+:::
