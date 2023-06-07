@@ -5,25 +5,3 @@ about:
   template: jolla
 
 ---
----
-## Current Projects
-### Decapodes.jl
-Decapodes are a graphical tool for the composition of physical systems.     
-Ultimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
-https://algebraicjulia.github.io/Decapodes.jl/stable/
-
-## AlgabraicControl.jl
-
-https://github.com/AlgebraicJulia/AlgebraicControl.jl.git
----
----
-## Recent Publications
-
-https://arxiv.org/pdf/2305.17208.pdf
-https://arxiv.org/pdf/2305.03820.pdf
-https://arxiv.org/pdf/2305.01811.pdf
-https://journals.sagepub.com/doi/pdf/10.1177/00375497221114861
-
-for sure there's a way to make this more automated, 
-let's think on it
----
