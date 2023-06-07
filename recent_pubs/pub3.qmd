@@ -1,6 +1,5 @@
 ---
-title: A Categorical Representation Language and Computational System for
-Knowledge-Based Planning
+title: "A Categorical Representation Language and Computational System for Knowledge-Based Planning"
 
 ---
 
