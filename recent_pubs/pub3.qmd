@@ -1,0 +1,10 @@
+---
+title: A Categorical Representation Language and Computational System for
+Knowledge-Based Planning
+
+---
+
+```{=html}
+<iframe width="780" height="500" src="
+https://arxiv.org/pdf/2305.17208.pdf" ></iframe>
+```
