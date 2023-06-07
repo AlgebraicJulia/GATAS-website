@@ -4,5 +4,5 @@ title: "The application of applied category theory to quantify mission success"
 
 ```{=html}
 <iframe width="780" height="500" src="
-https://journals.sagepub.com/doi/pdf/10.1177/00375497221114861" ></iframe>
+https://doi.org/10.1177/00375497221114861" ></iframe>
 ```

@@ -1,7 +1,0 @@
----
-title: "James Fairbanks"
-image: fairbanks-james-web.png
-about:
-    template: jolla
----
-this member is a person who does things

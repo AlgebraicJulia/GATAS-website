@@ -4,7 +4,8 @@ image: lukemorris.jpeg
 about:
     template: jolla
 ---
-Luke is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects     
+I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
+
 for representing multiphysics models and automatically generating simulations from those representations.
 --- 
 [Luke Morris](https://www.cise.ufl.edu/~luke.morris)

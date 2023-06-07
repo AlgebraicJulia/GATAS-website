@@ -1,0 +1,11 @@
+---
+title: "James Fairbanks"
+image: fairbanks-james-web.png
+about:
+    template: jolla
+---
+James P Fairbanks is an Assistant Professor in Computer and Information Science and Engineering at the University of Florida. 
+
+He studies mathematical modeling and scientific computing through the lens of abstract algebra and combinatorics, 
+and leads the AlgebraicJulia.org project. 
+He is has won both the DARPA Young Faculty and Director’s awards supporting his work on ACT and scientific computing.
