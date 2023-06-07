@@ -3,7 +3,10 @@ title: "A Categorical Representation Language and Computational System for Knowl
 
 ---
 
-```{=html}
-<iframe width="780" height="500" src="
-https://arxiv.org/pdf/2305.17208.pdf" ></iframe>
-```
+
+<embed
+	src="garrett-et-al-2022-the-application-of-applied-category-theory-to-quantify-mission-success.pdf"
+	type="application/pdf"
+	width="100%"
+	height="100%"
+/>

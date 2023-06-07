@@ -4,6 +4,7 @@ image: fairbanks-james-web.png
 about:
     template: jolla
 ---
+
 James P Fairbanks is an Assistant Professor in Computer and Information Science and Engineering at the University of Florida. 
 
 He studies mathematical modeling and scientific computing through the lens of abstract algebra and combinatorics, 

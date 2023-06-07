@@ -14,14 +14,14 @@ listing:
 :::
 
 ## Past Members
-Caroline Rogers   
-<!-- 
-we can link an email here or add a where are they now column
--->
-Rebecca Boes    
-James Eschrich  
-James Horn  
-Kris Brown
+
+|  Name           | Where are they now?|
+|:----------------|:-------------------|
+|Caroline Rogers  |       place        |
+|Rebecca Boes     |       place        |
+|James Eschrich   |       place        |
+|James Horn       |       place        |
+|Kris Brown       |       place        |
 
 ## Accepting Applications for...
 
@@ -30,3 +30,5 @@ Kris Brown
 * Research Projects for Undergraduates and Graduate Students in CISE, MAE, and Math
 
 * Research Scientist and Postdoc in CISE, MAE, Math
+
+###### Email fairbanksj@ufl.edu for all new position inquiries
