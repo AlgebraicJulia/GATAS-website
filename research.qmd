@@ -3,5 +3,30 @@ title: "Current Work"
 image: _assets/profile.jpg
 about:
   template: jolla
-
+listing: 
+  - id: recent_pubs
+    contents: "recent_pubs/*.qmd"
+    type: default
 ---
+
+## Current Projects
+### [Decapodes.jl](https://algebraicjulia.github.io/Decapodes.jl/stable/)
+
+Decapodes are a graphical tool for the composition of physical systems.     
+Ultimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
+
+
+### [AlgebraicControl.jl](https://github.com/AlgebraicJulia/AlgebraicControl.jl.git)
+
+Model predictive control (MPC) is an optimal control technique which involves 
+solving a sequence of constrained optimization problems across a given time horizon.
+We present a novel Julia library that leverages our theoretical results to automate 
+the implementation of correct-by-construction MPC problems in software. 
+
+### Recent Publications
+
+:::{#recent_pubs}
+:::
+
+for sure there's a way to make this more automated, 
+let's think on it
