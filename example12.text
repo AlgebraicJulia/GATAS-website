@@ -1,0 +1,42 @@
+---
+title: 403 Forbidden
+---
+
+# Access Denied
+
+Sadly, your client does not supply a proper User-Agent, and is
+consequently excluded.
+
+We have an inordinate number of problems with automated scripts which do
+not supply a User-Agent, and violate the automated access guidelines
+posted at arxiv.org \-- hence we now exclude them all.
+
+(In rare cases, we have found that accesses through proxy servers strip
+the User-Agent information. If this is the case, you need to contact the
+administrator of your proxy server to get it fixed.)
+
+If you are using the PDF Plug-in, it has many bugs and is forbidden here
+due to problems it causes at the server end. You must confirm that you
+have disabled it before access can be restored.
+
+In Netscape try `Edit -> Preferences -> Navigator -> Applications`, look
+for `Portable Document Format` and uncheck the plug-in box. Or delete
+the pdf plugin dll file from the
+`Program Files/Netscape/Navigator/Program/plugins` directory and restart
+browser. Or for Acroread4/Explorer5 users, go into Acroread\'s
+`File : Preferences : General : Web_Browser_Integration` and make sure
+the little box is unchecked.
+
+**Note to MacOSX users**: There is a bug in the Acrobat reader which
+causes it to make endless streams of requests *after* having
+successfully downloaded the full pdf. Note that it is not necessary to
+use Acrobat at all, since pdf\'s from here render as well or better in
+the default Preview.app on MacOSX. If for some reason you think you need
+to use Acrobat, go to Acrobat `Preferences -> Internet` and turn off the
+\"Allow speculative downloading in the background\" option, which comes
+(incorrectly) turned on by default, and whose behavior is quite broken.
+
+If you believe this determination to be in error, see
+<https://arxiv.org/denied.html> for additional information about
+restoring access and detailed guidelines for harvesting arXiv content.
+**\[UPDATED: 12-18-2019\]**

@@ -5,8 +5,10 @@ about:
   template: jolla
 listing: 
   - id: recent_pubs
+    type: grid
     contents: "recent_pubs/*.qmd"
-    type: default
+    image-placeholder: _assets/brand/logo.svg
+    image-height: 200px
 ---
 
 ## Current Projects
@@ -28,5 +30,3 @@ the implementation of correct-by-construction MPC problems in software.
 :::{#recent_pubs}
 :::
 
-for sure there's a way to make this more automated, 
-let's think on it
