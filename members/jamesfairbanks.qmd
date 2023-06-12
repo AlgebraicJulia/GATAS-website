@@ -1,6 +1,6 @@
 ---
 title: "James Fairbanks"
-image: fairbanks-james-web.png
+image: james.png
 about:
     template: jolla
 ---
