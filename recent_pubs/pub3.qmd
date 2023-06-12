@@ -5,7 +5,7 @@ title: "A Categorical Representation Language and Computational System for Knowl
 
 
 <embed
-	src="garrett-et-al-2022-the-application-of-applied-category-theory-to-quantify-mission-success.pdf"
+	src="aguinaldo et al 23.pdf"
 	type="application/pdf"
 	width="100%"
 	height="100%"

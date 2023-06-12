@@ -5,8 +5,11 @@ about:
     template: jolla
 ---
 
-James P Fairbanks is an Assistant Professor in Computer and Information Science and Engineering at the University of Florida. 
+Is an assistant professor in Computer and Information Science and Engineering       
+affiliated with Mechanical and Aerospace Engineering and the Florida Institute for National Security. 
 
-He studies mathematical modeling and scientific computing through the lens of abstract algebra and combinatorics, 
-and leads the AlgebraicJulia.org project. 
-He is has won both the DARPA Young Faculty and Director’s awards supporting his work on ACT and scientific computing.
+
+My research focuses on new paradigms in scientific computing, specifically applied category theory. 
+This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. 
+The GATAS lab studies these topics and supports software-focused research in the AlgebraicJulia Ecosystem. 
+We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos 
