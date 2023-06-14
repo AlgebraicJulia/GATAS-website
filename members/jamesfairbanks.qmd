@@ -6,10 +6,10 @@ about:
 ---
 
 Is an assistant professor in Computer and Information Science and Engineering       
-affiliated with Mechanical and Aerospace Engineering and the Florida Institute for National Security. 
+affiliated with Mechanical and Aerospace Engineering, Institute for Computational Engineering, and the Florida Institute for National Security. 
 
 
 My research focuses on new paradigms in scientific computing, specifically applied category theory. 
 This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. 
 The GATAS lab studies these topics and supports software-focused research in the AlgebraicJulia Ecosystem. 
-We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos 
+We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos Institute.
