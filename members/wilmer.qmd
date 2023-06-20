@@ -6,9 +6,10 @@ about:
 ---
 
 I am a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.    
+
 I am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions 
-and using chemical intuition to inspire mathematical insights.      
-My current research revolves around developing categorical models for various flavours of compositionality in chemistry.    
+and using chemical intuition to inspire mathematical insights.  
+My current research revolves around developing categorical models for various flavours of compositionality in chemistry.
 As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.
 
 Prior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and 
