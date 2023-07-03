@@ -2,10 +2,19 @@
 title: Members
 listing: 
   - id: members
-    contents: "members/*.qmd"
+    contents: 
+      - members/jamesfairbanks.qmd
+      - members/patrickstokes.qmd
+      - members/benbumpus.qmd
+      - members/wilmer.qmd
+      - members/lukemorris.qmd
+      - members/tyler.qmd
+      - members/taylorfrederick.qmd
+      - members/georgerauta.qmd
     type: default
     image-align: left
     image-height: 150px
+    sort: false
 ---
 ## Accepting Applications for...
 
@@ -24,13 +33,13 @@ listing:
 
 ## Past Members
 
-|  Name           | Where are they now?|
-|:----------------|:-------------------|
-|James Horn       |Master Student at Georgia Tech        |
-|Kris Brown       |Research Software Engineer at the Topos Institute|
-|Micah Halter     |Research Scientist at the Georgia Tech Research Institute|
-|Caroline Rogers  |               |
-|Rebecca Boes     |               |
-|James Eschrich   |               |
+|  Name | Where are they now?|
+|:------|:-------------------|
+|James Horn      |Master Student at Georgia Tech        |
+|Kris Brown      |Research Software Engineer at the Topos Institute|
+|Micah Halter    |Research Scientist at the Georgia Tech Research Institute|
+|Caroline Rogers |               |
+|Rebecca Boes    |               |
+|James Eschrich  |               |
 
 
