@@ -12,4 +12,5 @@ about:
       href: https://www.algebraicjulia.org/
 ---
 
-About this lab
+The GATAS Lab AlgebraicJulia aims to create novel approaches 
+to scientific computing based on applied category theory
