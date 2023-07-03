@@ -1,0 +1,9 @@
+---
+title: "Patrick Stokes"
+image: profile.jpg
+
+about:
+    template: jolla
+---
+
+I am a research scientist who likes math.
