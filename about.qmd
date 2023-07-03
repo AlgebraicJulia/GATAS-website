@@ -13,4 +13,18 @@ about:
 ---
 
 The GATAS Lab AlgebraicJulia aims to create novel approaches 
-to scientific computing based on applied category theory
+to scientific computing based on applied category theory to 
+solve computational science and engineering problems. 
+
+We are domain agnostic, working in [dynamics](https://arxiv.org/abs/2105.12282), [physics](https://github.com/AlgebraicJulia/Decapodes.jl), 
+[biology](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2021.0309) and [life sciences](https://arxiv.org/abs/2301.01445), 
+and [industrial engineering applications](https://arxiv.org/abs/2305.03820).
+
+The GATAS lab works with Evan Patterson’s research group at the Topos Institute to develop and maintain the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.   
+Scientists develop simulations by thinking about their scientific concepts, formulating mathematical models,  
+and then translating those models into software that answers their questions. 
+
+Our goal is to automate as much of the modeling and simulation process using formalization directly on their scientific concepts. 
+Categorical logic gives us the tools to develop custom mathematical tools for each scientific discipline in a coherent framework of useful abstractions. 
+By implementing these abstractions in software, we can build more powerful and robust scientific software bespoke to each application, without starting from scratch in each domain.
+This conceptual reuse leads to software reuse and acts as a multiplier enabling significant reductions in software engineering effort to develop state of the art scientific codes that can solve complex scientific problems.
