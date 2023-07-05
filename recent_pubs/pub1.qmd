@@ -1,0 +1,8 @@
+---
+title: "AlgebraicControl.jl"
+---
+
+```{=html}
+<iframe width="780" height="500" src="
+https://arxiv.org/pdf/2305.03820.pdf" ></iframe>
+```

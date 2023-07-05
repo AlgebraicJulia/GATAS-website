@@ -1,0 +1,11 @@
+---
+title: "Luke Morris"
+image: lukemorris.jpeg
+about:
+    template: jolla
+---
+I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
+
+for representing multiphysics models and automatically generating simulations from those representations.
+--- 
+[Luke Morris](https://www.cise.ufl.edu/~luke.morris)

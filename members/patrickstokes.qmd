@@ -1,0 +1,13 @@
+---
+title: "Patrick Stokes"
+image: profile.jpg
+
+about:
+    template: jolla
+---
+
+I am a faculty research scientist in the GATAS lab. 
+    
+My background is in signal processing, statistical modeling, and system identification in computational neuroscience.   
+My research interest is applying category theory to develop structures and algorithms for robust inference 
+and identification of complex, high-dimensional, multi-scale, and stochastic systems.

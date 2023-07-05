@@ -2,4 +2,9 @@
 title: "GATAS Lab"
 ---
 
-Some stuff...
+The GATAS Lab AlgebraicJulia aims to create novel approaches 
+to scientific computing based on applied category theory to 
+solve computational science and engineering problems. 
+
+See our "About" section for more detailed information on our lab's research goals and philosophy.
+

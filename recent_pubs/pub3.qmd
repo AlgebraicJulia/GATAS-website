@@ -1,0 +1,12 @@
+---
+title: "A Categorical Representation Language and Computational System for Knowledge-Based Planning"
+
+---
+
+
+<embed
+	src="aguinaldo et al 23.pdf"
+	type="application/pdf"
+	width="100%"
+	height="100%"
+/>
