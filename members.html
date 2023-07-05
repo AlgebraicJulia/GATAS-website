@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./_assets/brand/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,7 +64,52 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-members .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-members'] = new List('listing-members', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -88,10 +135,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
- <span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
@@ -99,8 +142,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./members.html" rel="" target="" aria-current="page">
  <span class="menu-text">Members</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./seminars.html" rel="" target="">
+ <span class="menu-text">Seminars</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html" rel="" target="">
+ <span class="menu-text">Current Work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://blog.algebraicjulia.org/" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/AlgebraicJulia" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.algebraicjulia.org/" rel="" target=""><i class="bi bi-favicon.ico" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -137,22 +197,240 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="accepting-applications-for" class="level2">
+<h2 class="anchored" data-anchor-id="accepting-applications-for">Accepting Applications for…</h2>
+<ul>
+<li><p>PhD Students in both <a href="https://www.cise.ufl.edu/academics/graduate/phd/">CISE</a> and <a href="https://mae.ufl.edu/students/graduate/degree-programs-requirements/">MAE</a>. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.</p></li>
+<li><p>Research Projects for Undergraduates and Graduate Students in CISE, MAE, and Math</p></li>
+<li><p>Research Scientist and Postdoc in CISE, MAE, Math</p></li>
+</ul>
+<section id="email-fairbanksjufl.edu-for-all-new-position-inquiries" class="level6">
+<h6 class="anchored" data-anchor-id="email-fairbanksjufl.edu-for-all-new-position-inquiries">Email fairbanksj@ufl.edu for all new position inquiries</h6>
+</section>
+</section>
+<section id="current-members" class="level2">
+<h2 class="anchored" data-anchor-id="current-members">Current Members</h2>
+<div id="listing-members" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1688555862882" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/jamesfairbanks.html"> <img src="./members/james.png" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/jamesfairbanks.html">
+<h3 class="no-anchor listing-title">
+James Fairbanks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+Is an assistant professor in Computer and Information Science and Engineering<br>
+affiliated with Mechanical and Aerospace…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/jamesfairbanks.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1688555862882" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/patrickstokes.html"> <img src="./members/profile.jpg" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/patrickstokes.html">
+<h3 class="no-anchor listing-title">
+Patrick Stokes
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I am a faculty research scientist in the GATAS lab.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/patrickstokes.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1688555862878" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/benbumpus.html"> <img src="./members/ben.png" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/benbumpus.html">
+<h3 class="no-anchor listing-title">
+Benjamin Merlin Bumpus
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I am a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/benbumpus.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-file-modified-sort="1688555862882" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/wilmer.html"> <img src="./members/wilmer.jpg" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/wilmer.html">
+<h3 class="no-anchor listing-title">
+Wilmer Leal
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I am a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/wilmer.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-listing-file-modified-sort="1688555862882" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/lukemorris.html"> <img src="./members/lukemorris.jpeg" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/lukemorris.html">
+<h3 class="no-anchor listing-title">
+Luke Morris
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/lukemorris.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="5" data-listing-file-modified-sort="1688555862882" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/tyler.html"> <img src="./members/profile.jpg" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/tyler.html">
+<h3 class="no-anchor listing-title">
+Tyler Hanks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I am a PhD student in the GATAS lab working on optimization, control theory, and machine learning.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/tyler.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="6" data-listing-file-modified-sort="1688555862882" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/taylorfrederick.html"> <img src="./members/profile.jpg" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/taylorfrederick.html">
+<h3 class="no-anchor listing-title">
+Taylor Frederick
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I am a research scientist who likes math.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/taylorfrederick.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="7" data-listing-file-modified-sort="1688555862878" data-listing-reading-time-sort="1">
+<div class="thumbnail">
+<p><a href="./members/georgerauta.html"> <img src="./members/profile.jpg" class="thumbnail-image" style="height: 150px;"> </a></p>
+</div>
+<div class="body">
+<a href="./members/georgerauta.html">
+<h3 class="no-anchor listing-title">
+George Rauta
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+I am a research scientist who likes math.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./members/georgerauta.html"> </a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="past-members" class="level2">
+<h2 class="anchored" data-anchor-id="past-members">Past Members</h2>
 <table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 74%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Members Name</th>
-<th>Position</th>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Where are they now?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Micah</td>
-<td>Nobody</td>
+<td style="text-align: left;">James Horn</td>
+<td style="text-align: left;">Master Student at Georgia Tech</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Kris Brown</td>
+<td style="text-align: left;">Research Software Engineer at the Topos Institute</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Micah Halter</td>
+<td style="text-align: left;">Research Scientist at the Georgia Tech Research Institute</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Caroline Rogers</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rebecca Boes</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">James Eschrich</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
 
 
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

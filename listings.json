@@ -1,9 +1,23 @@
 [
   {
-    "listing": "/blog.html",
+    "listing": "/members.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/members/jamesfairbanks.html",
+      "/members/patrickstokes.html",
+      "/members/benbumpus.html",
+      "/members/wilmer.html",
+      "/members/lukemorris.html",
+      "/members/tyler.html",
+      "/members/taylorfrederick.html",
+      "/members/georgerauta.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": [
+      "/recent_pubs/pub3.html",
+      "/recent_pubs/pub1.html",
+      "/recent_pubs/pub2.html"
     ]
   }
 ]
