@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: _assets/profile.jpg
+image: _assets/gatas_logo.png
 about:
   template: jolla
   links:
