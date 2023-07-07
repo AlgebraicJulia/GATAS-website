@@ -1,6 +1,6 @@
 ---
 title: "Tyler Hanks"
-image: profile.jpg
+image: TylerHanks.png
 
 about:
     template: jolla
