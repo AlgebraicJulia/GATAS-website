@@ -1,13 +1,15 @@
 ---
 title: "Current Work"
-image: _assets/profile.jpg
+image: _assets/gatas_logo.png
 about:
   template: jolla
+  image-shape: rectangle
+
 listing: 
   - id: recent_pubs
     type: grid
     contents: "recent_pubs/*.qmd"
-    image-placeholder: _assets/brand/logo.svg
+    image-placeholder: _assets/gatas_logo.png
     image-height: 200px
 ---
 
