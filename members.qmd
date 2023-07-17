@@ -13,7 +13,7 @@ listing:
       - members/georgerauta.qmd
     type: default
     image-align: left
-    image-height: 150px
+    image-height: 250px
     sort: false
 ---
 ## Accepting Applications for...
