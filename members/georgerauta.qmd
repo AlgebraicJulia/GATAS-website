@@ -3,7 +3,7 @@ title: "George Rauta"
 image: images/profile.jpg
 
 about:
-    template: trestles
+    template: solana
 ---
 
 I am a research scientist who likes math.

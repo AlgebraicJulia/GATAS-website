@@ -2,7 +2,7 @@
 title: "About"
 image: _assets/gatas_logo.png
 about:
-  template: trestles
+  template: solana
   image-shape: rectangle
 
   links:
@@ -14,6 +14,8 @@ about:
       href: https://www.algebraicjulia.org/
 ---
 
+# Research
+
 The GATAS laboratory uses applied category to develop novel approaches to scientific
 computing. We are domain-agnostic, solving problems in
 [dynamics](https://arxiv.org/abs/2105.12282),
@@ -24,9 +26,12 @@ and [industrial engineering](https://arxiv.org/abs/2305.03820). The laboratory w
 with Evan Patterson's research group at the [Topos Institute](https://topos.institute) to
 maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
 
+# Philosophy
+
 Scientists develop simulations by translating scientific concepts into mathematical models,
-and then embodying those models in software. We seek to automate this process using category
-theory. Category theory is a language rich enough in abstraction to represent any scientific
+and then embodying those models in software. We seek to automate this process using
+[category theory](https://en.wikipedia.org/wiki/Category_theory).
+Category theory is a language rich enough in abstraction to represent any scientific
 concept, yet pliable enough to manipulate efficiently with a computer. The software in
 [AlgebraicJulia](https://www.algebraicjulia.org/) manipulates these abstractions directly;
 with it, scientists can build powerful, robust, and bespoke scientific models without

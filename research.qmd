@@ -1,9 +1,5 @@
 ---
 title: "Current Work"
-image: _assets/gatas_logo.png
-about:
-  template: jolla
-  image-shape: rectangle
 
 listing: 
   - id: recent_pubs
@@ -27,7 +23,7 @@ solving a sequence of constrained optimization problems across a given time hori
 We present a novel Julia library that leverages our theoretical results to automate 
 the implementation of correct-by-construction MPC problems in software. 
 
-### Recent Publications
+## Recent Publications
 
 :::{#recent_pubs}
 :::

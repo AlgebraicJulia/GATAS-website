@@ -3,7 +3,7 @@ title: "Tyler Hanks"
 image: images/tylerhanks.png
 
 about:
-    template: trestles
+    template: solana
 ---
 
 I am a PhD student in the GATAS lab working on optimization, control theory, and machine learning. 

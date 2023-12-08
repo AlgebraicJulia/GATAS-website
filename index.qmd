@@ -1,5 +1,5 @@
 ---
-title: "GATAS Lab"
+title: "The GATAS Laboratory"
 ---
 
 The GATAS laboratory uses applied category to develop novel approaches to scientific
@@ -11,3 +11,5 @@ computing. We are domain-agnostic, solving problems in
 and [industrial engineering](https://arxiv.org/abs/2305.03820). The laboratory works closely
 with Evan Patterson's research group at the [Topos Institute](https://topos.institute) to
 maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
+
+See the [About](about.qmd) page to learn more about our research goals and philosophy.

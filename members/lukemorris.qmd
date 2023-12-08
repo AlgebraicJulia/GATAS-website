@@ -2,7 +2,7 @@
 title: "Luke Morris"
 image: images/lukemorris.jpeg
 about:
-    template: trestles
+    template: solana
 ---
 I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
 

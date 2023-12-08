@@ -2,7 +2,7 @@
 title: "Benjamin Merlin Bumpus"
 image: images/benbumpus.png
 about:
-    template: trestles
+    template: solana
 ---
 
 I am a faculty research scientist and the lead of algorithms subprojects within the GATAS lab. 
