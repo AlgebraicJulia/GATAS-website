@@ -6,11 +6,12 @@ listing:
       - members/jamesfairbanks.qmd
       - members/patrickstokes.qmd
       - members/benbumpus.qmd
-      - members/wilmer.qmd
+      - members/wilmerleal.qmd
       - members/lukemorris.qmd
-      - members/tyler.qmd
+      - members/tylerhanks.qmd
       - members/taylorfrederick.qmd
       - members/georgerauta.qmd
+      - members/richardsamuelson.qmd
     type: default
     image-align: left
     image-height: 250px

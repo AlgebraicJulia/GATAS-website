@@ -1,8 +1,8 @@
 ---
 title: "James Fairbanks"
-image: james.png
+image: images/jamesfairbanks.png
 about:
-    template: jolla
+    template: trestles
 ---
 
 Is an assistant professor in Computer and Information Science and Engineering       

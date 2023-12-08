@@ -1,0 +1,8 @@
+---
+title: "Richard Samuelson"
+image: images/richardsamuelson.png
+about:
+    template: trestles
+---
+
+I am a doctoral student researching category theory, machine learning, and convex analysis.

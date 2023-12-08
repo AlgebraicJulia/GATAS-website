@@ -1,9 +1,9 @@
 ---
 title: "Tyler Hanks"
-image: TylerHanks.png
+image: images/tylerhanks.png
 
 about:
-    template: jolla
+    template: trestles
 ---
 
 I am a PhD student in the GATAS lab working on optimization, control theory, and machine learning. 
