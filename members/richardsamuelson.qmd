@@ -1,8 +1,15 @@
 ---
 title: "Richard Samuelson"
-image: images/richardsamuelson.png
+image: images/richardsamuelson.jpg
 about:
-    template: trestles
+    template: solana
+
+    links:
+        - icon: Github
+          text: GitHub
+          href: https://github.com/samuelsonric
+        - text: Website
+          href: https://richardsamuelson.com
 ---
 
 I am a doctoral student researching category theory, machine learning, and convex analysis.

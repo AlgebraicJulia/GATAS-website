@@ -3,7 +3,7 @@ title: "Patrick Stokes"
 image: images/profile.jpg
 
 about:
-    template: trestles
+    template: solana
 ---
 
 I am a faculty research scientist in the GATAS lab. 
