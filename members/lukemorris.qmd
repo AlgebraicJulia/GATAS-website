@@ -1,8 +1,8 @@
 ---
 title: "Luke Morris"
-image: lukemorris.jpeg
+image: images/lukemorris.jpeg
 about:
-    template: jolla
+    template: trestles
 ---
 I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
 

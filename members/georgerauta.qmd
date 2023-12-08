@@ -1,9 +1,9 @@
 ---
 title: "George Rauta"
-image: profile.jpg
+image: images/profile.jpg
 
 about:
-    template: jolla
+    template: trestles
 ---
 
 I am a research scientist who likes math.

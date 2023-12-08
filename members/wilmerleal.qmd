@@ -1,8 +1,8 @@
 ---
 title: "Wilmer Leal"
-image: wilmer.jpg
+image: images/wilmerleal.jpg
 about:
-    template: jolla
+    template: trestles
 ---
 
 I am a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.    
