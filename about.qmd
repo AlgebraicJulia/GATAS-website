@@ -31,8 +31,8 @@ maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) softw
 Scientists develop simulations by translating scientific concepts into mathematical models,
 and then embodying those models in software. We seek to automate this process using
 [category theory](https://en.wikipedia.org/wiki/Category_theory).
-Category theory is a language rich enough in abstraction to represent any scientific
-concept, yet pliable enough to manipulate efficiently with a computer. The software in
-[AlgebraicJulia](https://www.algebraicjulia.org/) manipulates these abstractions directly;
-with it, scientists can build powerful, robust, and bespoke scientific models without
-starting from scratch in each domain.
+Category theory is a mathematical language rich enough in abstraction to represent any
+scientific concept, yet pliable enough to manipulate efficiently with a computer. The
+software in [AlgebraicJulia](https://www.algebraicjulia.org/) manipulates these abstractions
+directly; with it, scientists can build powerful, robust, and bespoke scientific models
+without starting from scratch in each domain.

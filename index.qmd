@@ -12,4 +12,4 @@ and [industrial engineering](https://arxiv.org/abs/2305.03820). The laboratory w
 with Evan Patterson's research group at the [Topos Institute](https://topos.institute) to
 maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
 
-See the [About](about.qmd) page to learn more about our research goals and philosophy.
+See the laboratory's [About](about.qmd) page to learn more about our research goals and philosophy.
