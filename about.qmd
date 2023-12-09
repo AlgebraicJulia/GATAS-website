@@ -33,6 +33,6 @@ and then embodying those models in software. We seek to automate this process us
 [category theory](https://en.wikipedia.org/wiki/Category_theory).
 Category theory is a mathematical language rich enough in abstraction to represent any
 scientific concept, yet pliable enough to manipulate efficiently with a computer. The
-software in [AlgebraicJulia](https://www.algebraicjulia.org/) manipulates these abstractions
-directly; with it, scientists can build powerful, robust, and bespoke scientific models
+software in [AlgebraicJulia](https://www.algebraicjulia.org/) encodes a number of these
+abstractions; with it, scientists can build powerful, robust, and bespoke scientific models
 without starting from scratch in each domain.
