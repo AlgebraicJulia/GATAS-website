@@ -88,7 +88,7 @@
     "href": "index.html",
     "title": "The GATAS Laboratory",
     "section": "",
-    "text": "The GATAS laboratory uses applied category to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem.\nSee the About page to learn more about our research goals and philosophy."
+    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem.\nSee the laboratory’s About page to learn more about our research goals and philosophy."
   },
   {
     "objectID": "seminars.html",
@@ -130,20 +130,20 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "The GATAS laboratory uses applied category to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
+    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
   },
   {
     "objectID": "about.html#research",
     "href": "about.html#research",
     "title": "About",
     "section": "",
-    "text": "The GATAS laboratory uses applied category to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
+    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
   },
   {
     "objectID": "about.html#philosophy",
     "href": "about.html#philosophy",
     "title": "About",
     "section": "Philosophy",
-    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia manipulates these abstractions directly; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain."
+    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain."
   }
 ]
