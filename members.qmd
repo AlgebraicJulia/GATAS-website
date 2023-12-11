@@ -12,14 +12,13 @@ listing:
       - members/taylorfrederick.qmd
       - members/georgerauta.qmd
       - members/richardsamuelson.qmd
+      - members/cuffaro.matt.qmd
     type: default
     image-align: left
     image-height: 250px
     sort: false
 ---
 ## Accepting Applications for...
-
-* [Systems Admin/Programmer IV](https://explore.jobs.ufl.edu/en-us/job/527710/systems-adminprogrammer-iv)
 
 * PhD Students in both [CISE](https://www.cise.ufl.edu/academics/graduate/phd/) and [MAE](https://mae.ufl.edu/students/graduate/degree-programs-requirements/). Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.
 

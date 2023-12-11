@@ -1,0 +1,8 @@
+---
+title: "Matt Cuffaro"
+image: images/cuffaromatt.jpeg
+about:
+  template: solana
+---
+
+I am the systems administrator for the GATAS lab. I help my colleagues build the AlgebraicJulia ecosystem as a custodian of our IT infrastructure as well as upholding best practices in code quality. 
