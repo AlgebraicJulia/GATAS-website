@@ -4,21 +4,21 @@
     "href": "members.html",
     "title": "Members",
     "section": "",
-    "text": "Systems Admin/Programmer IV\nPhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
+    "text": "PhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
   },
   {
     "objectID": "members.html#accepting-applications-for",
     "href": "members.html#accepting-applications-for",
     "title": "Members",
     "section": "",
-    "text": "Systems Admin/Programmer IV\nPhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
+    "text": "PhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
   },
   {
     "objectID": "members.html#current-members",
     "href": "members.html#current-members",
     "title": "Members",
     "section": "Current Members",
-    "text": "Current Members\n\n\n\n\n  \n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPatrick Stokes\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTaylor Frederick\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Current Members\n\n\n\n\n  \n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPatrick Stokes\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nTaylor Frederick\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "members.html#past-members",
@@ -28,39 +28,53 @@
     "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nJames Horn\nMaster Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\n\n\n\nRebecca Boes\n\n\n\nJames Eschrich"
   },
   {
-    "objectID": "members/georgerauta.html",
-    "href": "members/georgerauta.html",
-    "title": "George Rauta",
+    "objectID": "members/cuffaromatt.html",
+    "href": "members/cuffaromatt.html",
+    "title": "Matt Cuffaro",
+    "section": "",
+    "text": "I am the systems administrator for the GATAS lab. I help my colleagues build the AlgebraicJulia ecosystem as a custodian of our IT infrastructure as well as upholding best practices in code quality."
+  },
+  {
+    "objectID": "members/taylorfrederick.html",
+    "href": "members/taylorfrederick.html",
+    "title": "Taylor Frederick",
     "section": "",
     "text": "I am a research scientist who likes math."
   },
   {
-    "objectID": "members/lukemorris.html",
-    "href": "members/lukemorris.html",
-    "title": "Luke Morris",
+    "objectID": "members/jamesfairbanks.html",
+    "href": "members/jamesfairbanks.html",
+    "title": "James Fairbanks",
     "section": "",
-    "text": "I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects\nfor representing multiphysics models and automatically generating simulations from those representations.\n\nLuke Morris"
+    "text": "Is an assistant professor in Computer and Information Science and Engineering\naffiliated with Mechanical and Aerospace Engineering, Institute for Computational Engineering, and the Florida Institute for National Security.\nMy research focuses on new paradigms in scientific computing, specifically applied category theory. This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. The GATAS lab studies these topics and supports software-focused research in the AlgebraicJulia Ecosystem. We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos Institute."
   },
   {
-    "objectID": "members/tylerhanks.html",
-    "href": "members/tylerhanks.html",
-    "title": "Tyler Hanks",
+    "objectID": "members/benbumpus.html",
+    "href": "members/benbumpus.html",
+    "title": "Benjamin Merlin Bumpus",
     "section": "",
-    "text": "I am a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
+    "text": "I am a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.\nThe main character in the stories I tell is Complexity and I mean this in the broadest sense: I am interested in classifying different kinds of complexity (Structural, algorithmic, behavioral, etc.) and in understanding how complexity arises. The main focus of my work is the emergence of complexity and how this relates to the mathematics of Compositionality (the philosophical contention that the structure or meaning of the whole depends on that of its parts).\nIn this context, the stories I am interested in are often set in the land of computational complexity where combinatorial explosion guides and motivates deep insights in graph structure theory, parameterized complexity theory and finite model theory. I use category theory to better understand how the profound tools developed in the above areas relate to each other and to understand how far they can be pushed and generalized."
   },
   {
-    "objectID": "members/wilmerleal.html",
-    "href": "members/wilmerleal.html",
-    "title": "Wilmer Leal",
+    "objectID": "members/patrickstokes.html",
+    "href": "members/patrickstokes.html",
+    "title": "Patrick Stokes",
     "section": "",
-    "text": "I am a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
+    "text": "I am a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
   },
   {
-    "objectID": "members/richardsamuelson.html",
-    "href": "members/richardsamuelson.html",
-    "title": "Richard Samuelson",
+    "objectID": "seminars.html",
+    "href": "seminars.html",
+    "title": "Seminars",
     "section": "",
-    "text": "I am a doctoral student researching category theory, machine learning, and convex analysis."
+    "text": "Stay tuned…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The GATAS Laboratory",
+    "section": "",
+    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem.\nSee the laboratory’s About page to learn more about our research goals and philosophy."
   },
   {
     "objectID": "research.html",
@@ -84,44 +98,37 @@
     "text": "Recent Publications\n\n\n\n\n\n\n\n\n\n\nA Categorical Representation Language and Computational System for Knowledge-Based Planning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgebraicControl.jl\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe application of applied category theory to quantify mission success\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The GATAS Laboratory",
+    "objectID": "members/richardsamuelson.html",
+    "href": "members/richardsamuelson.html",
+    "title": "Richard Samuelson",
     "section": "",
-    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem.\nSee the laboratory’s About page to learn more about our research goals and philosophy."
+    "text": "I am a doctoral student researching category theory, machine learning, and convex analysis."
   },
   {
-    "objectID": "seminars.html",
-    "href": "seminars.html",
-    "title": "Seminars",
+    "objectID": "members/wilmerleal.html",
+    "href": "members/wilmerleal.html",
+    "title": "Wilmer Leal",
     "section": "",
-    "text": "Stay tuned…"
+    "text": "I am a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
   },
   {
-    "objectID": "members/patrickstokes.html",
-    "href": "members/patrickstokes.html",
-    "title": "Patrick Stokes",
+    "objectID": "members/tylerhanks.html",
+    "href": "members/tylerhanks.html",
+    "title": "Tyler Hanks",
     "section": "",
-    "text": "I am a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
+    "text": "I am a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
   },
   {
-    "objectID": "members/benbumpus.html",
-    "href": "members/benbumpus.html",
-    "title": "Benjamin Merlin Bumpus",
+    "objectID": "members/lukemorris.html",
+    "href": "members/lukemorris.html",
+    "title": "Luke Morris",
     "section": "",
-    "text": "I am a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.\nThe main character in the stories I tell is Complexity and I mean this in the broadest sense: I am interested in classifying different kinds of complexity (Structural, algorithmic, behavioral, etc.) and in understanding how complexity arises. The main focus of my work is the emergence of complexity and how this relates to the mathematics of Compositionality (the philosophical contention that the structure or meaning of the whole depends on that of its parts).\nIn this context, the stories I am interested in are often set in the land of computational complexity where combinatorial explosion guides and motivates deep insights in graph structure theory, parameterized complexity theory and finite model theory. I use category theory to better understand how the profound tools developed in the above areas relate to each other and to understand how far they can be pushed and generalized."
+    "text": "I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects\nfor representing multiphysics models and automatically generating simulations from those representations.\n\nLuke Morris"
   },
   {
-    "objectID": "members/jamesfairbanks.html",
-    "href": "members/jamesfairbanks.html",
-    "title": "James Fairbanks",
-    "section": "",
-    "text": "Is an assistant professor in Computer and Information Science and Engineering\naffiliated with Mechanical and Aerospace Engineering, Institute for Computational Engineering, and the Florida Institute for National Security.\nMy research focuses on new paradigms in scientific computing, specifically applied category theory. This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. The GATAS lab studies these topics and supports software-focused research in the AlgebraicJulia Ecosystem. We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos Institute."
-  },
-  {
-    "objectID": "members/taylorfrederick.html",
-    "href": "members/taylorfrederick.html",
-    "title": "Taylor Frederick",
+    "objectID": "members/georgerauta.html",
+    "href": "members/georgerauta.html",
+    "title": "George Rauta",
     "section": "",
     "text": "I am a research scientist who likes math."
   },
