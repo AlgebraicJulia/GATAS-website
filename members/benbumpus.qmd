@@ -17,3 +17,6 @@ In this context, the stories I am interested in are often set in the land of com
 combinatorial explosion guides and motivates deep insights in graph structure theory, parameterized complexity theory
 and finite model theory. I use category theory to better understand how the profound tools developed in the above areas 
 relate to each other and to understand how far they can be pushed and generalized.
+
+
+[Personal Site](https://bmbumpus.com/)
