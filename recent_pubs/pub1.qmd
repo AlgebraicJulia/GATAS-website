@@ -1,6 +1,8 @@
 ---
 title: "AlgebraicControl.jl"
+image: cross_constraint.pdf
 ---
+
 
 ```{=html}
 <iframe width="780" height="500" src="
