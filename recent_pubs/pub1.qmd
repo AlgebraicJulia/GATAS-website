@@ -1,6 +1,6 @@
 ---
 title: "AlgebraicControl.jl"
-image: cross_constraint.pdf
+image: cross_constraint.png
 ---
 
 
