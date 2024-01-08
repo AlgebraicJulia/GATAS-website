@@ -4,7 +4,6 @@ listing:
   - id: members
     contents: 
       - members/jamesfairbanks.qmd
-      - members/patrickstokes.qmd
       - members/benbumpus.qmd
       - members/wilmerleal.qmd
       - members/lukemorris.qmd
