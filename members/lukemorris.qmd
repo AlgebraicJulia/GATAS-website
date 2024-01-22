@@ -10,7 +10,6 @@ I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects
 --- 
 [Luke Morris](https://www.cise.ufl.edu/~luke.morris)
 
----
 I am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: [Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) and [CombinatorialSpaces.jl](https://github.com/AlgebraicJulia/CombinatorialSpaces.jl).
 
 We use techniques from Applied Category Theory (ACT) to represent models (as "Decapodes") and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the "science of composition" - lets us analyze scientific models as mathematical objects in their own right. [Catlab.jl](https://algebraicjulia.github.io/Catlab.jl/stable/) - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab's implementation of "C-Sets" by specifying a small Decapode "schema", which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.
