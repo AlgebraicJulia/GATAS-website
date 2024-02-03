@@ -31,7 +31,7 @@ the implementation of correct-by-construction MPC problems in software.
 
 | Year | Title |
 | ---- | ----- |
-| 2023 | [Computational category-theoretic rewriting](https://arxiv.org/abs/2111.03784) <br> Kristopher Brown, Evan Patterson, Tyler Hanks, and James Fairbanks <br> [Journal of Logical and Algebraic Methods in Programming](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming) |
+| 2023 | [Computational category-theoretic rewriting](https://www.sciencedirect.com/science/article/abs/pii/S2352220823000421) <br> Kristopher Brown, Evan Patterson, Tyler Hanks, and James Fairbanks <br> [Journal of Logical and Algebraic Methods in Programming](https://www.sciencedirect.com/journal/journal-of-logical-and-algebraic-methods-in-programming) |
 | 2023 | [The application of applied category theory to quantify mission success](https://journals.sagepub.com/doi/abs/10.1177/00375497221114861) <br> Robert K Garrett, James Fairbanks, Margaret Loper, and James Moreland <br> [Simulation](https://journals.sagepub.com/home/SIM) |
 | 2022 | [An algebraic framework for structured epidemic modelling](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2021.0309) <br> Sophie Libkind, Andrew Baas, Micah Halter, Evan Patterson, and James Fairbanks <br> [Philosophical Transactions of the Royal Society A](https://royalsocietypublishing.org/journal/rsta) |
 | 2022 | [A diagrammatic view of differential equations in physics](http://www.aimspress.com/article/doi/10.3934/mine.2023036) <br> Evan Patterson, Andrew Baas, Timothy Hosgood, and James Fairbanks <br> [Mathematics in Engineering](http://www.aimspress.com/journal/mine) |
