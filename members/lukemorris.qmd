@@ -4,7 +4,7 @@ image: images/lukemorris.jpeg
 about:
     template: solana
 ---
-I am leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
+is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
 
 ... for representing multiphysics models and automatically generating simulations from those representations.
 --- 

@@ -10,9 +10,7 @@ website:
     logo: _assets/gatas_logo.png
     collapse-below: sm
     right:
-      - about.qmd
       - members.qmd
-      - seminars.qmd    
       - research.qmd
       - text: "Blog"
         href: https://blog.algebraicjulia.org/

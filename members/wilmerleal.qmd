@@ -5,7 +5,7 @@ about:
     template: solana
 ---
 
-I am a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.    
+is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.    
 
 I am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions 
 and using chemical intuition to inspire mathematical insights.  

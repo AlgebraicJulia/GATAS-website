@@ -6,4 +6,4 @@ about:
     template: solana
 ---
 
-I am a research scientist who likes math.
+is a research scientist who likes math.
