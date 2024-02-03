@@ -12,4 +12,13 @@ and [industrial engineering](https://arxiv.org/abs/2305.03820). The laboratory w
 with Evan Patterson's research group at the [Topos Institute](https://topos.institute) to
 maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
 
-See the laboratory's [About](about.qmd) page to learn more about our research goals and philosophy.
+## Philosophy
+
+Scientists develop simulations by translating scientific concepts into mathematical models,
+and then embodying those models in software. We seek to automate this process using
+[category theory](https://en.wikipedia.org/wiki/Category_theory).
+Category theory is a mathematical language rich enough in abstraction to represent any
+scientific concept, yet pliable enough to manipulate efficiently with a computer. The
+software in [AlgebraicJulia](https://www.algebraicjulia.org/) encodes a number of these
+abstractions; with it, scientists can build powerful, robust, and bespoke scientific models
+without starting from scratch in each domain.
