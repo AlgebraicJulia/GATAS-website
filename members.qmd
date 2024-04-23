@@ -4,12 +4,10 @@ listing:
   - id: members
     contents: 
       - members/jamesfairbanks.qmd
-      - members/patrickstokes.qmd
       - members/benbumpus.qmd
       - members/wilmerleal.qmd
       - members/lukemorris.qmd
       - members/tylerhanks.qmd
-      - members/taylorfrederick.qmd
       - members/georgerauta.qmd
       - members/richardsamuelson.qmd
       - members/cuffaromatt.qmd
@@ -43,5 +41,6 @@ listing:
 |Caroline Rogers |               |
 |Rebecca Boes    |               |
 |James Eschrich  |               |
-
+|Taylor Frederick|               |
+|Patrick Stokes  |               |
 

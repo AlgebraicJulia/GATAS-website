@@ -12,6 +12,8 @@ website:
     right:
       - members.qmd
       - research.qmd
+      - text: "AMMA"
+        href: amma.qmd
       - text: "Blog"
         href: https://blog.algebraicjulia.org/
       - icon: github
