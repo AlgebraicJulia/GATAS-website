@@ -1,0 +1,26 @@
+---
+title: ""
+---
+
+# Abstract Methods in Multivariate Algorithmics
+
+![](UF_Skyline.webp)
+
+## About
+
+The Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.
+
+## Dates
+
+August 12-16, 2024
+
+#### Registration
+
+[Register here](https://airtable.com/appRyZLo3hFzz1iCd/shrsiKE3Dgcy1BTi2)
+
+#### Organizers
+
+- [Benjamin Bumpus](https://bmbumpus.com/)
+- [James Fairbanks](https://jpfairbanks.com/)
+- [Michael R. Fellows](https://en.wikipedia.org/wiki/Michael_Fellows)
+- [Frances A. Rosamond](https://en.wikipedia.org/wiki/Frances_A._Rosamond)
