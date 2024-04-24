@@ -42,5 +42,5 @@ listing:
 |Rebecca Boes    |               |
 |James Eschrich  |               |
 |Taylor Frederick|               |
-|Patrick Stokes  |               |
+|Patrick Stokes  |GatorSense |
 
