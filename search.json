@@ -51,23 +51,16 @@
   {
     "objectID": "amma.html",
     "href": "amma.html",
-    "title": "Abstract Methods in Multivariate Algorithmics",
+    "title": "GATAS Laboratory | University of Florida",
     "section": "",
-    "text": "The Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\n\n\n\nAugust 12-16, 2024\n\n\nRegister here\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
+    "text": "The Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\nAugust 12-16, 2024\n\n\n\nSubmit here\n\n\n\n\nHoliday Inn Gainesville-University Ctr\nAC Hotel Gainesville Downtown\n\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
   },
   {
-    "objectID": "amma.html#about",
-    "href": "amma.html#about",
-    "title": "Abstract Methods in Multivariate Algorithmics",
+    "objectID": "amma.html#amma-2024-abstract-methods-in-multivariate-algorithmics",
+    "href": "amma.html#amma-2024-abstract-methods-in-multivariate-algorithmics",
+    "title": "GATAS Laboratory | University of Florida",
     "section": "",
-    "text": "The Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities."
-  },
-  {
-    "objectID": "amma.html#dates",
-    "href": "amma.html#dates",
-    "title": "Abstract Methods in Multivariate Algorithmics",
-    "section": "",
-    "text": "August 12-16, 2024\n\n\nRegister here\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
+    "text": "The Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\nAugust 12-16, 2024\n\n\n\nSubmit here\n\n\n\n\nHoliday Inn Gainesville-University Ctr\nAC Hotel Gainesville Downtown\n\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
   },
   {
     "objectID": "members.html",
@@ -95,7 +88,7 @@
     "href": "members.html#past-members",
     "title": "Members",
     "section": "Past Members",
-    "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nJames Horn\nMaster Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\n\n\n\nRebecca Boes\n\n\n\nJames Eschrich\n\n\n\nTaylor Frederick\n\n\n\nPatrick Stokes"
+    "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nJames Horn\nMaster Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\n\n\n\nRebecca Boes\n\n\n\nJames Eschrich\n\n\n\nTaylor Frederick\n\n\n\nPatrick Stokes\nGatorSense"
   },
   {
     "objectID": "research.html",
