@@ -49,18 +49,39 @@
     "text": "Postponed\n\n\n\nAMMA 2024 is now postponed to 2025 due to international changes in the organizing committee\n\n\n\n\n\nThe Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The GATAS Laboratory",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
+    "text": "Decapodes are a graphical tool for the composition of physical systems.\nUltimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\nLinks:\n\nJournal of Computational Science\n\n\n\n\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
   },
   {
-    "objectID": "index.html#philosophy",
-    "href": "index.html#philosophy",
-    "title": "The GATAS Laboratory",
-    "section": "Philosophy",
-    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain."
+    "objectID": "research.html#software",
+    "href": "research.html#software",
+    "title": "Research",
+    "section": "",
+    "text": "Decapodes are a graphical tool for the composition of physical systems.\nUltimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\nLinks:\n\nJournal of Computational Science\n\n\n\n\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
+  },
+  {
+    "objectID": "research.html#preprints",
+    "href": "research.html#preprints",
+    "title": "Research",
+    "section": "Preprints",
+    "text": "Preprints\n\n\n\nYear\nTitle\n\n\n\n\n2024\nThe diagrammatic presentation of equations in categories  Kevin Arlin, James Fairbanks, Tim Hosgood, and Evan Patterson\n\n\n2024\nTowards a Compositional Framework for Convex Analysis  Richard Samuelson and Dario Stein\n\n\n2023\nA Compositional Framework for Convex Model Predictive Control  Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, and James Fairbanks\n\n\n2023\nCharacterizing Compositionality of LQR from the Categorical Perspective  Baike She, Tyler Hanks, James Fairbanks, and Matthew Hale\n\n\n2023\nCompositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves  Ernst Althaus, Benjamin Merlin Bumpus, James Fairbanks, and Daniel Rosiak\n\n\n2023\nA compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks  Rebekah Aduddell, James Fairbanks, Amit Kumar, Pablo Ocal, Evan Patterson, and Brandon Shapiro"
+  },
+  {
+    "objectID": "research.html#journal-papers",
+    "href": "research.html#journal-papers",
+    "title": "Research",
+    "section": "Journal Papers",
+    "text": "Journal Papers\n\n\n\nYear\nTitle\n\n\n\n\n2023\nComputational category-theoretic rewriting  Kristopher Brown, Evan Patterson, Tyler Hanks, and James Fairbanks  Journal of Logical and Algebraic Methods in Programming\n\n\n2023\nThe application of applied category theory to quantify mission success  Robert K Garrett, James Fairbanks, Margaret Loper, and James Moreland  Simulation\n\n\n2022\nAn algebraic framework for structured epidemic modelling  Sophie Libkind, Andrew Baas, Micah Halter, Evan Patterson, and James Fairbanks  Philosophical Transactions of the Royal Society A\n\n\n2022\nA diagrammatic view of differential equations in physics  Evan Patterson, Andrew Baas, Timothy Hosgood, and James Fairbanks  Mathematics in Engineering\n\n\n2021\nCategorical Data Structures for Technical Computing  Evan Patterson, Owen Lynch, and James Fairbanks  Compositionality\n\n\n2021\nCategory-Theoretic Formulation of the Model-Based Systems Architecting Cognitive-Computational Cycle  Yaniv Mordecai, James Fairbanks, and Edward Crawley  Applied Sciences"
+  },
+  {
+    "objectID": "research.html#conference-papers",
+    "href": "research.html#conference-papers",
+    "title": "Research",
+    "section": "Conference Papers",
+    "text": "Conference Papers\n\n\n\nYear\nTitle\n\n\n\n\n2023\nA Categorical Representation Language and Computational System for Knowledge-Based Robotic Task Planning  Angeline Aguinaldo, Evan Patterson, James Fairbanks, William Regli, and Jaime Ruiz  2023 AAAI Fall Symposium on Unifying Representations for Robot Application Development\n\n\n2022\nCompositional Exploration of Combinatorial Scientific Models  Kristopher Brown, Tyler Hanks, and James Fairbanks  5th International Conference on Applied Category Theory\n\n\n2022\nComputational Category-Theoretic Rewriting  Kristopher Brown, Evan Patterson, Tyler Hanks, and James Fairbanks  15th International Conference on Graph Transformation\n\n\n2021\nOperadic Modeling of Dynamical Systems: Mathematics and Computation  Sophie Libkind, Andrew Baas, Evan Patterson, and James Fairbanks  4th International Conference on Applied Category Theory"
   },
   {
     "objectID": "members.html",
@@ -91,39 +112,46 @@
     "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nJames Horn\nMaster Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\nIndustry\n\n\nRebecca Boes\nIndustry\n\n\nJames Eschrich\n\n\n\nTaylor Frederick\nIndustry\n\n\nPatrick Stokes\nGatorSense"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The GATAS Laboratory",
     "section": "",
-    "text": "Decapodes are a graphical tool for the composition of physical systems.\nUltimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\n\n\n\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
+    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
   },
   {
-    "objectID": "research.html#software",
-    "href": "research.html#software",
-    "title": "Research",
+    "objectID": "index.html#philosophy",
+    "href": "index.html#philosophy",
+    "title": "The GATAS Laboratory",
+    "section": "Philosophy",
+    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain."
+  },
+  {
+    "objectID": "publications/jocs.html",
+    "href": "publications/jocs.html",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
     "section": "",
-    "text": "Decapodes are a graphical tool for the composition of physical systems.\nUltimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\n\n\n\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
   },
   {
-    "objectID": "research.html#preprints",
-    "href": "research.html#preprints",
-    "title": "Research",
-    "section": "Preprints",
-    "text": "Preprints\n\n\n\nYear\nTitle\n\n\n\n\n2024\nThe diagrammatic presentation of equations in categories  Kevin Arlin, James Fairbanks, Tim Hosgood, and Evan Patterson\n\n\n2024\nTowards a Compositional Framework for Convex Analysis  Richard Samuelson and Dario Stein\n\n\n2023\nA Compositional Framework for Convex Model Predictive Control  Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, and James Fairbanks\n\n\n2023\nCharacterizing Compositionality of LQR from the Categorical Perspective  Baike She, Tyler Hanks, James Fairbanks, and Matthew Hale\n\n\n2023\nCompositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves  Ernst Althaus, Benjamin Merlin Bumpus, James Fairbanks, and Daniel Rosiak\n\n\n2023\nA compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks  Rebekah Aduddell, James Fairbanks, Amit Kumar, Pablo Ocal, Evan Patterson, and Brandon Shapiro"
+    "objectID": "publications/jocs.html#abstract",
+    "href": "publications/jocs.html#abstract",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "",
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
   },
   {
-    "objectID": "research.html#journal-papers",
-    "href": "research.html#journal-papers",
-    "title": "Research",
-    "section": "Journal Papers",
-    "text": "Journal Papers\n\n\n\nYear\nTitle\n\n\n\n\n2023\nComputational category-theoretic rewriting  Kristopher Brown, Evan Patterson, Tyler Hanks, and James Fairbanks  Journal of Logical and Algebraic Methods in Programming\n\n\n2023\nThe application of applied category theory to quantify mission success  Robert K Garrett, James Fairbanks, Margaret Loper, and James Moreland  Simulation\n\n\n2022\nAn algebraic framework for structured epidemic modelling  Sophie Libkind, Andrew Baas, Micah Halter, Evan Patterson, and James Fairbanks  Philosophical Transactions of the Royal Society A\n\n\n2022\nA diagrammatic view of differential equations in physics  Evan Patterson, Andrew Baas, Timothy Hosgood, and James Fairbanks  Mathematics in Engineering\n\n\n2021\nCategorical Data Structures for Technical Computing  Evan Patterson, Owen Lynch, and James Fairbanks  Compositionality\n\n\n2021\nCategory-Theoretic Formulation of the Model-Based Systems Architecting Cognitive-Computational Cycle  Yaniv Mordecai, James Fairbanks, and Edward Crawley  Applied Sciences"
+    "objectID": "publications/jocs.html#keywords",
+    "href": "publications/jocs.html#keywords",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "Keywords",
+    "text": "Keywords\nMultiphysics, Discrete exterior calculus, Numerical methods, Operad algebras"
   },
   {
-    "objectID": "research.html#conference-papers",
-    "href": "research.html#conference-papers",
-    "title": "Research",
-    "section": "Conference Papers",
-    "text": "Conference Papers\n\n\n\nYear\nTitle\n\n\n\n\n2023\nA Categorical Representation Language and Computational System for Knowledge-Based Robotic Task Planning  Angeline Aguinaldo, Evan Patterson, James Fairbanks, William Regli, and Jaime Ruiz  2023 AAAI Fall Symposium on Unifying Representations for Robot Application Development\n\n\n2022\nCompositional Exploration of Combinatorial Scientific Models  Kristopher Brown, Tyler Hanks, and James Fairbanks  5th International Conference on Applied Category Theory\n\n\n2022\nComputational Category-Theoretic Rewriting  Kristopher Brown, Evan Patterson, Tyler Hanks, and James Fairbanks  15th International Conference on Graph Transformation\n\n\n2021\nOperadic Modeling of Dynamical Systems: Mathematics and Computation  Sophie Libkind, Andrew Baas, Evan Patterson, and James Fairbanks  4th International Conference on Applied Category Theory"
+    "objectID": "publications/jocs.html#links",
+    "href": "publications/jocs.html#links",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "Links",
+    "text": "Links\n\nJournal\nCode\nDocs"
   },
   {
     "objectID": "members/richardsamuelson.html",
