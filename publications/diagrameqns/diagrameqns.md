@@ -1,8 +1,6 @@
 ---
 title: "A diagrammatic view of differential equations in physics"
 image: ./fig1.jpg
-about:
-    template: solana
 type: "article"
 author: "Evan Patterson, Andrew Baas, Timothy Hosgood, James Fairbanks"
 year: "2022"
@@ -19,7 +17,6 @@ categories:
     - Computational physics
     - Multiphysics
 ---
-
 
 ## Abstract
 
