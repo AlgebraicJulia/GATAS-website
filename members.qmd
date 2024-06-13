@@ -38,9 +38,9 @@ listing:
 |James Horn      |Master Student at Georgia Tech        |
 |Kris Brown      |Research Software Engineer at the Topos Institute|
 |Micah Halter    |Research Scientist at the Georgia Tech Research Institute|
-|Caroline Rogers |               |
-|Rebecca Boes    |               |
+|Caroline Rogers |Industry|
+|Rebecca Boes    |Industry|
 |James Eschrich  |               |
-|Taylor Frederick|               |
+|Taylor Frederick|Industry|
 |Patrick Stokes  |GatorSense |
 
