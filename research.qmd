@@ -1,6 +1,26 @@
 ---
 title: "Research"
+listing:
+  - id: publications
+    template: ./ejs/article.ejs 
+    contents:
+      - publications/jocs.md
+      - publications/diagrameqns/diagrameqns.md
+      - publications/diagrampresentations/diagrampresentations.md
+    sort: 
+      - "year desc"
+      - "title"
+    categories: true
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 10
+    field-display-names: 
+      publication: "Publication"
+      year: "Year"
 ---
+
+:::{#articles}
+:::
 
 ## Software
 
@@ -11,7 +31,9 @@ Ultimately, this library will include tooling which takes advantage of the forma
 
 Links:
 
+- [Mathematics in Engineering](publications/diagrameqns/diagrameqns.md)
 - [Journal of Computational Science](publications/jocs.md)
+- [General Categorical Story](publications/diagrampresentations/diagrampresentations.md)
 
 ### [AlgebraicControl.jl](https://github.com/AlgebraicJulia/AlgebraicControl.jl.git)
 

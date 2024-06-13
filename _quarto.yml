@@ -11,6 +11,7 @@ website:
     collapse-below: sm
     right:
       - members.qmd
+      - projects.qmd
       - research.qmd
       - text: "AMMA"
         href: amma.qmd

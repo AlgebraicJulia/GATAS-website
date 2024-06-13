@@ -1,0 +1,29 @@
+---
+title: "Projects"
+---
+
+## Software
+
+### Decapodes.jl
+
+![Decapodes Logo](https://raw.githubusercontent.com/AlgebraicJulia/Decapodes.jl/main/docs/src/logo/decapodes_logo.svg)
+
+[Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) are a graphical tool for the composition of physical systems.     
+This library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
+
+![Point vortices spiraling](https://algebraicjulia.github.io/Decapodes.jl/dev/navier_stokes/vort.gif)
+
+Links:
+
+- [Mathematics in Engineering](publications/diagrameqns/diagrameqns.md)
+- [Journal of Computational Science](publications/jocs.md)
+- [General Categorical Story](publications/diagrampresentations/diagrampresentations.md)
+
+### Dynamics, Optimization and Control
+
+[AlgebraicControl.jl](https://github.com/AlgebraicJulia/AlgebraicControl.jl)
+
+Model predictive control (MPC) is an optimal control technique which involves 
+solving a sequence of constrained optimization problems across a given time horizon.
+We present a novel Julia library that leverages our theoretical results to automate 
+the implementation of correct-by-construction MPC problems in software. 
