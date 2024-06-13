@@ -1,14 +1,15 @@
 ---
 title: "Luke Morris"
 image: images/lukemorris.jpeg
+- contents:
+  text: "Full Bio"
+  href: members/lukemorris.qmd
 about:
     template: solana
 ---
 is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
 
 ... for representing multiphysics models and automatically generating simulations from those representations.
-
-[Full Bio](members/lukemorris.qmd)
 --- 
 [Personal Website](https://www.cise.ufl.edu/~luke.morris)
 
