@@ -3,11 +3,15 @@ title: "Research"
 ---
 
 ## Software
+
 ### [Decapodes.jl](https://algebraicjulia.github.io/Decapodes.jl/stable/)
 
 Decapodes are a graphical tool for the composition of physical systems.     
 Ultimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
 
+Links:
+
+- [Journal of Computational Science](publications/jocs.md)
 
 ### [AlgebraicControl.jl](https://github.com/AlgebraicJulia/AlgebraicControl.jl.git)
 
