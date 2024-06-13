@@ -7,8 +7,10 @@ about:
 is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects        
 
 ... for representing multiphysics models and automatically generating simulations from those representations.
+
+[Full Bio](members/lukemorris.qmd)
 --- 
-[Luke Morris](https://www.cise.ufl.edu/~luke.morris)
+[Personal Website](https://www.cise.ufl.edu/~luke.morris)
 
 I am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: [Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) and [CombinatorialSpaces.jl](https://github.com/AlgebraicJulia/CombinatorialSpaces.jl).
 
