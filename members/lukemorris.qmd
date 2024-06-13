@@ -1,9 +1,7 @@
 ---
 title: "Luke Morris"
 image: images/lukemorris.jpeg
-contents:
-  text: "Full Bio"
-  href: members/lukemorris.qmd
+[Full Bio](members/lukemorris.qmd)
 about:
     template: solana
 ---
