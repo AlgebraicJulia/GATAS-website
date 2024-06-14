@@ -1,0 +1,70 @@
+---
+title: "Projects"
+listing:
+  - id: decapodes-articles
+    template: ejs/article.ejs
+    contents:
+      - publications/jocs.md
+      - publications/diagrameqns/diagrameqns.md
+      - publications/diagrampresentations/diagrampresentations.md
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title desc"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 20
+    field-display-names: 
+      publication: "Journal"
+      date: "Date"
+      year: "Year"
+      href: "Link"
+---
+
+## Software
+
+### Decapodes.jl
+
+[Project Leader: Luke Morris](members/lukemorris.qmd)
+
+![Decapodes Logo](https://raw.githubusercontent.com/AlgebraicJulia/Decapodes.jl/main/docs/src/logo/decapodes_logo.svg){width=50%}
+
+[Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) are a graphical tool for the composition of physical systems.     
+This library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
+
+![Point vortices spiraling](https://algebraicjulia.github.io/Decapodes.jl/dev/navier_stokes/vort.gif)
+
+Links:
+
+- [Diagrammatic Equations Paper](https://www.aimspress.com/data/article/preview/pdf/62989382ba35de155149669f.pdf)
+- [Decapodes Computational Paper](https://www.sciencedirect.com/science/article/pii/S1877750324001388)
+- [Code](https://github.com/AlgebraicJulia/Decapodes.jl)
+- [Docs](https://algebraicjulia.github.io/Decapodes.jl/dev/)
+
+#### General Categorical Equations
+
+Project Leader: Kevin Carlson
+
+![Diagrammatic Presentations of Equations](publications/diagrampresentations/fig1.png)
+
+- [Topos Blog 1](https://topos.site/blog/2022-04-08-diagrammatic-differential-equations-1/)
+- [Topos Blog 2](https://topos.site/blog/2022-04-15-diagrammatic-differential-equations-2/)
+- [arxiv](https://arxiv.org/abs/2401.09751)
+
+#### Decapodes Articles
+
+:::{#decapodes-articles}
+:::
+
+### Dynamics, Optimization and Control
+
+[Project Leader: Tyler Hanks](members/tylerhanks.qmd)
+
+[AlgebraicControl.jl](https://github.com/AlgebraicJulia/AlgebraicControl.jl)
+
+Model predictive control (MPC) is an optimal control technique which involves 
+solving a sequence of constrained optimization problems across a given time horizon.
+We present a novel Julia library that leverages our theoretical results to automate 
+the implementation of correct-by-construction MPC problems in software. 
