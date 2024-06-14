@@ -12,6 +12,8 @@ categories:
     - Category-theoretic diagrams
 ---
 
+![Equations](./fig1.png)
+
 ## Abstract
 
 Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams "having the same solutions''. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍.
