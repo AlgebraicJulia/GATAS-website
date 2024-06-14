@@ -21,95 +21,32 @@
     "text": "is a research scientist who likes math."
   },
   {
-    "objectID": "members/patrickstokes.html",
-    "href": "members/patrickstokes.html",
-    "title": "Patrick Stokes",
+    "objectID": "members/cuffaromatt.html",
+    "href": "members/cuffaromatt.html",
+    "title": "Matt Cuffaro",
     "section": "",
-    "text": "is a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
+    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
   },
   {
-    "objectID": "members/tylerhanks.html",
-    "href": "members/tylerhanks.html",
-    "title": "Tyler Hanks",
+    "objectID": "members/wilmerleal.html",
+    "href": "members/wilmerleal.html",
+    "title": "Wilmer Leal",
     "section": "",
-    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
+    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
   },
   {
-    "objectID": "members/richardsamuelson.html",
-    "href": "members/richardsamuelson.html",
-    "title": "Richard Samuelson",
+    "objectID": "amma.html",
+    "href": "amma.html",
+    "title": "GATAS Laboratory | University of Florida",
     "section": "",
-    "text": "is a doctoral student researching category theory, machine learning, and convex analysis."
+    "text": "Postponed\n\n\n\nAMMA 2024 is now postponed to 2025 due to international changes in the organizing committee\n\n\n\n\n\nThe Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
   },
   {
-    "objectID": "publications/jocs.html",
-    "href": "publications/jocs.html",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "objectID": "amma.html#amma-2024-abstract-methods-in-multivariate-algorithmics",
+    "href": "amma.html#amma-2024-abstract-methods-in-multivariate-algorithmics",
+    "title": "GATAS Laboratory | University of Florida",
     "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
-  },
-  {
-    "objectID": "publications/jocs.html#abstract",
-    "href": "publications/jocs.html#abstract",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
-  },
-  {
-    "objectID": "publications/jocs.html#keywords",
-    "href": "publications/jocs.html#keywords",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "Keywords",
-    "text": "Keywords\nMultiphysics, Discrete exterior calculus, Numerical methods, Operad algebras"
-  },
-  {
-    "objectID": "publications/jocs.html#links",
-    "href": "publications/jocs.html#links",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "Links",
-    "text": "Links\n\nJournal\nCode\nDocs"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The GATAS Laboratory",
-    "section": "",
-    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
-  },
-  {
-    "objectID": "index.html#philosophy",
-    "href": "index.html#philosophy",
-    "title": "The GATAS Laboratory",
-    "section": "Philosophy",
-    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain."
-  },
-  {
-    "objectID": "members.html",
-    "href": "members.html",
-    "title": "Members",
-    "section": "",
-    "text": "PhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
-  },
-  {
-    "objectID": "members.html#accepting-applications-for",
-    "href": "members.html#accepting-applications-for",
-    "title": "Members",
-    "section": "",
-    "text": "PhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
-  },
-  {
-    "objectID": "members.html#current-members",
-    "href": "members.html#current-members",
-    "title": "Members",
-    "section": "Current Members",
-    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSamuel Cohen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "members.html#past-members",
-    "href": "members.html#past-members",
-    "title": "Members",
-    "section": "Past Members",
-    "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nJames Horn\nMaster Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\nIndustry\n\n\nRebecca Boes\nIndustry\n\n\nJames Eschrich\n\n\n\nTaylor Frederick\nIndustry\n\n\nPatrick Stokes\nGatorSense"
+    "text": "Postponed\n\n\n\nAMMA 2024 is now postponed to 2025 due to international changes in the organizing committee\n\n\n\n\n\nThe Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
   },
   {
     "objectID": "research.html",
@@ -147,39 +84,95 @@
     "text": "Conference Papers\n\n\n\nYear\nTitle\n\n\n\n\n2023\nA Categorical Representation Language and Computational System for Knowledge-Based Robotic Task Planning  Angeline Aguinaldo, Evan Patterson, James Fairbanks, William Regli, and Jaime Ruiz  2023 AAAI Fall Symposium on Unifying Representations for Robot Application Development\n\n\n2022\nCompositional Exploration of Combinatorial Scientific Models  Kristopher Brown, Tyler Hanks, and James Fairbanks  5th International Conference on Applied Category Theory\n\n\n2022\nComputational Category-Theoretic Rewriting  Kristopher Brown, Evan Patterson, Tyler Hanks, and James Fairbanks  15th International Conference on Graph Transformation\n\n\n2021\nOperadic Modeling of Dynamical Systems: Mathematics and Computation  Sophie Libkind, Andrew Baas, Evan Patterson, and James Fairbanks  4th International Conference on Applied Category Theory"
   },
   {
-    "objectID": "amma.html",
-    "href": "amma.html",
-    "title": "GATAS Laboratory | University of Florida",
+    "objectID": "members.html",
+    "href": "members.html",
+    "title": "Members",
     "section": "",
-    "text": "Postponed\n\n\n\nAMMA 2024 is now postponed to 2025 due to international changes in the organizing committee\n\n\n\n\n\nThe Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
+    "text": "PhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
   },
   {
-    "objectID": "amma.html#amma-2024-abstract-methods-in-multivariate-algorithmics",
-    "href": "amma.html#amma-2024-abstract-methods-in-multivariate-algorithmics",
-    "title": "GATAS Laboratory | University of Florida",
+    "objectID": "members.html#accepting-applications-for",
+    "href": "members.html#accepting-applications-for",
+    "title": "Members",
     "section": "",
-    "text": "Postponed\n\n\n\nAMMA 2024 is now postponed to 2025 due to international changes in the organizing committee\n\n\n\n\n\nThe Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
+    "text": "PhD Students in both CISE and MAE. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.\nResearch Projects for Undergraduates and Graduate Students in CISE, MAE, and Math\nResearch Scientist and Postdoc in CISE, MAE, Math"
   },
   {
-    "objectID": "members/wilmerleal.html",
-    "href": "members/wilmerleal.html",
-    "title": "Wilmer Leal",
-    "section": "",
-    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
+    "objectID": "members.html#current-members",
+    "href": "members.html#current-members",
+    "title": "Members",
+    "section": "Current Members",
+    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "members/cuffaromatt.html",
-    "href": "members/cuffaromatt.html",
-    "title": "Matt Cuffaro",
-    "section": "",
-    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
+    "objectID": "members.html#past-members",
+    "href": "members.html#past-members",
+    "title": "Members",
+    "section": "Past Members",
+    "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nJames Horn\nMaster Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\nIndustry\n\n\nRebecca Boes\nIndustry\n\n\nJames Eschrich\n\n\n\nTaylor Frederick\nIndustry\n\n\nPatrick Stokes\nGatorSense"
   },
   {
-    "objectID": "members/samuelcohen.html",
-    "href": "members/samuelcohen.html",
-    "title": "Samuel Cohen",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The GATAS Laboratory",
     "section": "",
-    "text": "is an undergraduate studying math and computer science.\nMy work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems."
+    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. The laboratory works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
+  },
+  {
+    "objectID": "index.html#philosophy",
+    "href": "index.html#philosophy",
+    "title": "The GATAS Laboratory",
+    "section": "Philosophy",
+    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain."
+  },
+  {
+    "objectID": "publications/jocs.html",
+    "href": "publications/jocs.html",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "",
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+  },
+  {
+    "objectID": "publications/jocs.html#abstract",
+    "href": "publications/jocs.html#abstract",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "",
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+  },
+  {
+    "objectID": "publications/jocs.html#keywords",
+    "href": "publications/jocs.html#keywords",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "Keywords",
+    "text": "Keywords\nMultiphysics, Discrete exterior calculus, Numerical methods, Operad algebras"
+  },
+  {
+    "objectID": "publications/jocs.html#links",
+    "href": "publications/jocs.html#links",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "Links",
+    "text": "Links\n\nJournal\nCode\nDocs"
+  },
+  {
+    "objectID": "members/richardsamuelson.html",
+    "href": "members/richardsamuelson.html",
+    "title": "Richard Samuelson",
+    "section": "",
+    "text": "is a doctoral student researching category theory, machine learning, and convex analysis."
+  },
+  {
+    "objectID": "members/tylerhanks.html",
+    "href": "members/tylerhanks.html",
+    "title": "Tyler Hanks",
+    "section": "",
+    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
+  },
+  {
+    "objectID": "members/patrickstokes.html",
+    "href": "members/patrickstokes.html",
+    "title": "Patrick Stokes",
+    "section": "",
+    "text": "is a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
   },
   {
     "objectID": "members/benbumpus.html",
@@ -193,6 +186,6 @@
     "href": "members/lukemorris.html",
     "title": "Luke Morris",
     "section": "",
-    "text": "is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.\n… for representing multiphysics models and automatically generating simulations from those representations.\n\nPersonal Website\nI am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: Decapodes.jl and CombinatorialSpaces.jl.\nWe use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. Catlab.jl - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.\nOf course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.\nDeveloping a library for scientific computing is best done by collaborating with the user that you have in mind. So I lead a few collaborations with labs who study space weather. One model simulates electron dissipation - where electrons end up in our atmosphere as they precipitate down from space - and another is a model for galactic cosmic ray (GCR) and solar energetic particle (SEP) transport - how particles coming from other stars or the Sun travel through our solar system. There are applications for the weather on Earth as well, from modeling glacier dynamics to the circulation of matter in our atmosphere."
+    "text": "is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects\n… for representing multiphysics models and automatically generating simulations from those representations.\n\nLuke Morris\nI am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: Decapodes.jl and CombinatorialSpaces.jl.\nWe use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. Catlab.jl - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.\nOf course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.\nDeveloping a library for scientific computing is best done by collaborating with the user that you have in mind. So I lead a few collaborations with labs who study space weather. One model simulates electron dissipation - where electrons end up in our atmosphere as they precipitate down from space - and another is a model for galactic cosmic ray (GCR) and solar energetic particle (SEP) transport - how particles coming from other stars or the Sun travel through our solar system. There are applications for the weather on Earth as well, from modeling glacier dynamics to the circulation of matter in our atmosphere."
   }
 ]
