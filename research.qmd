@@ -2,33 +2,61 @@
 title: "Research"
 listing:
   - id: journal-articles
-    template: ./ejs/article.ejs 
+    type: table
+    table-striped: true
+    table-hover: true
     contents:
-      - publications/article/*.md
+      - publications/article/listing.yaml
     sort: 
       - "year desc"
-      - "title"
+      - "publication asc"
+      - "title desc"
     categories: true
+    fields: [year, title, author, publication, href]
     sort-ui: [title,author,publication,year]
     filter-ui: [title,author,publication,year]
     page-size: 20
     field-display-names: 
-      publication: "Publication"
+      publication: "Journal"
       date: "Date"
+      year: "Year"
+      href: "Link"
   - id: conference-articles
-    template: ./ejs/article.ejs 
+    type: table
     contents:
-      - publications/conference_publication/*.md
+      - publications/conference_publication/listing.yaml
     sort: 
       - "year desc"
+      - "publication asc"
       - "title"
     categories: true
+    fields: [year, title, author, publication, href]
     sort-ui: [title,author,publication,year]
     filter-ui: [title,author,publication,year]
     page-size: 10
     field-display-names: 
-      publication: "Publication"
+      publication: "Venue"
       date: "Date"
+      year: "Year"
+      href: "Link"
+  - id: conference-talks
+    type: table
+    contents:
+      - publications/conference_presentation/listing.yaml
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 10
+    field-display-names: 
+      publication: "Venue"
+      date: "Date"
+      year: "Year"
+      href: "Link"
 ---
 
 
@@ -40,6 +68,11 @@ listing:
 ## Conference Papers
 
 :::{#conference-articles}
+:::
+
+## Conference Talks
+
+:::{#conference-talks}
 :::
 
 ## Preprints

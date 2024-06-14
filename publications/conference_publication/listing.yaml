@@ -1,0 +1,394 @@
+- materials: ""
+  Date: "2023 (Best paper award)"
+  toc: false
+  author: "A. Aguinaldo, E. Patterson, J. Fairbanks and J. Ruiz"
+  Authors: "A. Aguinaldo, E. Patterson, J. Fairbanks and J. Ruiz"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2023"
+  date: "2023 (Best paper award)"
+  Title: "A Categorical Representation Language and Computational System for Knowledge-Based Planning"
+  Venue: "AAAI Fall Symposium on Unifying Representations for Robot Application Development"
+  publication: "AAAI Fall Symposium on Unifying Representations for Robot Application Development"
+  title: "A Categorical Representation Language and Computational System for Knowledge-Based Planning"
+  type: "conference_publication"
+- materials: ""
+  Date: "Submitted March 2024"
+  toc: false
+  author: "T Hanks, M. Klawonn, J. Fairbanks"
+  Authors: "T Hanks, M. Klawonn, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted March 2024"
+  Title: "Generalized Gradient Descent is a Hypergraph Functor"
+  Venue: "Applied Category Theory"
+  publication: "Applied Category Theory"
+  title: "Generalized Gradient Descent is a Hypergraph Functor"
+  type: "conference_publication"
+- materials: ""
+  Date: "Submitted March 2024"
+  toc: false
+  author: "B. Bumpus, D. Rosiak, C. Puca, F. Genovese, J. Fairbanks"
+  Authors: "B. Bumpus, D. Rosiak, C. Puca, F. Genovese, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted March 2024"
+  Title: "How Nice is this Functor? Two Squares and Some Homology go a Long Way"
+  Venue: "Applied Category Theory"
+  publication: "Applied Category Theory"
+  title: "How Nice is this Functor? Two Squares and Some Homology go a Long Way"
+  type: "conference_publication"
+- materials: ""
+  Date: "Submitted March 2024"
+  toc: false
+  author: "B. Bumpus, D. Rosiak, M. Cappucci, J. Fairbanks"
+  Authors: "B. Bumpus, D. Rosiak, M. Cappucci, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted March 2024"
+  Title: "Short Note on Cohomology, Sheafification and Lavish Presheaves"
+  Venue: "Applied Category Theory"
+  publication: "Applied Category Theory"
+  title: "Short Note on Cohomology, Sheafification and Lavish Presheaves"
+  type: "conference_publication"
+- materials: ""
+  Date: "June 2024"
+  toc: false
+  author: "O Lynch, K Brown, JP Fairbanks, and E Patterson."
+  Authors: "O Lynch, K Brown, JP Fairbanks, and E Patterson."
+  href: |-
+    <a href="Mathematical Foundations of Programming Semantics" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "June 2024"
+  Title: "GATlab: Modeling and Programming with Generalized Algebraic Theories"
+  Venue: "https://arxiv.org/abs/2404.04837"
+  URL: "Mathematical Foundations of Programming Semantics"
+  publication: "https://arxiv.org/abs/2404.04837"
+  title: "GATlab: Modeling and Programming with Generalized Algebraic Theories"
+  type: "conference_publication"
+- preprint: "https://doi.org/10.48550/arXiv.2305.03820"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2305.03820"
+  Date: "Jul 2024"
+  toc: false
+  author: "Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, James Fairbanks"
+  Authors: "Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, James Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2305.03820" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Jul 2024"
+  Title: "Modeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems"
+  Venue: "American Control Conference"
+  URL: "https://doi.org/10.48550/arXiv.2305.03820"
+  publication: "American Control Conference"
+  title: "Modeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems"
+  type: "conference_publication"
+- preprint: "https://doi.org/10.48550/arXiv.2305.01811"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2305.01811"
+  Date: "2023"
+  toc: false
+  author: "Baike She, Tyler Hanks, James Fairbanks, Matthew Hale"
+  Authors: "Baike She, Tyler Hanks, James Fairbanks, Matthew Hale"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2305.01811" class="btn btn-secondary">DOI</a>
+  year: "2023"
+  date: "2023"
+  Title: "Characterizing Compositionality of LQR from the Categorical Perspective"
+  Venue: "IEEE Conf. Decision and Control"
+  URL: "https://doi.org/10.48550/arXiv.2305.01811"
+  publication: "IEEE Conf. Decision and Control"
+  title: "Characterizing Compositionality of LQR from the Categorical Perspective"
+  type: "conference_publication"
+- preprint: "https://doi.org/10.48550/arXiv.2206.08755"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2206.08755"
+  Date: "Jul 2022"
+  toc: false
+  author: "K. Brown, T. Hanks, J. P. Fairbanks"
+  Authors: "K. Brown, T. Hanks, J. P. Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2206.08755" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Jul 2022"
+  Title: "Compositional Exploration of Combinatorial Scientific Models"
+  Venue: "Applied Category Theory"
+  URL: "https://doi.org/10.48550/arXiv.2206.08755"
+  publication: "Applied Category Theory"
+  title: "Compositional Exploration of Combinatorial Scientific Models"
+  type: "conference_publication"
+- preprint: "https://arxiv.org/abs/2111.03784"
+  materials: ""
+  Date: "Jul 2022"
+  toc: false
+  author: "K. Brown, E. Patterson, T. Hanks, J. P. Fairbanks"
+  Authors: "K. Brown, E. Patterson, T. Hanks, J. P. Fairbanks"
+  href: |-
+    <a href="https://arxiv.org/abs/2111.03784" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Jul 2022"
+  Title: "Computational Category-Theoretic Rewriting"
+  Venue: "International Conference on Graph Transformation (Best Paper Award)"
+  URL: "https://arxiv.org/abs/2111.03784"
+  publication: "International Conference on Graph Transformation (Best Paper Award)"
+  title: "Computational Category-Theoretic Rewriting"
+  type: "conference_publication"
+- materials: ""
+  Date: "Jul 2021"
+  toc: false
+  author: "S. Libkind, A. Baas, E. J. Patterson, J. P. Fairbanks"
+  Authors: "S. Libkind, A. Baas, E. J. Patterson, J. P. Fairbanks"
+  href: |-
+    <a href="https://www.cl.cam.ac.uk/events/act2021/papers/ACT_2021_paper_53.pdf" class="btn btn-secondary">DOI</a>
+  year: "2021"
+  date: "Jul 2021"
+  Title: "Operadic Modeling of Dynamical Systems: Mathematics and Computation"
+  Venue: "Applied category Theory (Proceedings)"
+  URL: "https://www.cl.cam.ac.uk/events/act2021/papers/ACT_2021_paper_53.pdf"
+  publication: "Applied category Theory (Proceedings)"
+  title: "Operadic Modeling of Dynamical Systems: Mathematics and Computation"
+  type: "conference_publication"
+- materials: ""
+  Date: "Jul 2020"
+  toc: false
+  author: "M. Halter, S. Raparti, K. Cao, C. Herlihy, J. P. Fairbanks"
+  Authors: "M. Halter, S. Raparti, K. Cao, C. Herlihy, J. P. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2020"
+  date: "Jul 2020"
+  Title: "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
+  Venue: "Proceedings of the JuliaCon Conferences"
+  URL: ""
+  publication: "Proceedings of the JuliaCon Conferences"
+  title: "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
+  type: "conference_publication"
+- materials: ""
+  Date: "Aug 2019"
+  toc: false
+  author: "K. Cao, J. P. Fairbanks"
+  Authors: "K. Cao, J. P. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2019"
+  date: "Aug 2019"
+  Title: "Constructing Knowledge Graphs from Scientific Texts"
+  Venue: "KDD workshop on Machine Learning in Graphs"
+  URL: ""
+  publication: "KDD workshop on Machine Learning in Graphs"
+  title: "Constructing Knowledge Graphs from Scientific Texts"
+  type: "conference_publication"
+- preprint: "https://arxiv.org/pdf/1907.03536"
+  materials: ""
+  Date: "July 2019"
+  toc: false
+  author: "M. Halter, C. Herlihy, J. P. Fairbanks"
+  Authors: "M. Halter, C. Herlihy, J. P. Fairbanks"
+  href: |-
+    <a href="https://arxiv.org/pdf/1907.03536" class="btn btn-secondary">DOI</a>
+  year: "2019"
+  date: "July 2019"
+  Title: "A Compositional Framework for Scientific Model Augmentation"
+  Venue: "Applied Category Theory"
+  URL: "https://arxiv.org/pdf/1907.03536"
+  publication: "Applied Category Theory"
+  title: "A Compositional Framework for Scientific Model Augmentation"
+  type: "conference_publication"
+- materials: ""
+  Date: "May 2019"
+  toc: false
+  author: "J. P. Fairbanks, C. Herlihy, K. Cao, S. Reparthi"
+  Authors: "J. P. Fairbanks, C. Herlihy, K. Cao, S. Reparthi"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2019"
+  date: "May 2019"
+  Title: "Semantic Program Analysis for Scientific Model Augmentation"
+  Venue: "Modeling the World's Systems"
+  URL: ""
+  publication: "Modeling the World's Systems"
+  title: "Semantic Program Analysis for Scientific Model Augmentation"
+  type: "conference_publication"
+- materials: ""
+  Date: "Oct 2018"
+  toc: false
+  author: "N. Campbell, T. Goodyear, W. Messer, E. Stuart, J. P. Fairbanks"
+  Authors: "N. Campbell, T. Goodyear, W. Messer, E. Stuart, J. P. Fairbanks"
+  href: |-
+    <a href="http://ieee-hst.org/october23.htm" class="btn btn-secondary">DOI</a>
+  year: "2018"
+  date: "Oct 2018"
+  Title: "Digital Witness: Remote Methods for Volunteering Digital Evidence on Mobile Devices"
+  Venue: "IEEE Technologies for Homeland Security"
+  URL: "http://ieee-hst.org/october23.htm"
+  publication: "IEEE Technologies for Homeland Security"
+  title: "Digital Witness: Remote Methods for Volunteering Digital Evidence on Mobile Devices"
+  type: "conference_publication"
+- materials: ""
+  Date: "Sep 2018"
+  toc: false
+  author: "R. Varkey Thankachan, B. P. Swenson, J. P. Fairbanks"
+  Authors: "R. Varkey Thankachan, B. P. Swenson, J. P. Fairbanks"
+  href: |-
+    <a href="http://ieee-hpec.org/copy/agendatext.html" class="btn btn-secondary">DOI</a>
+  year: "2018"
+  date: "Sep 2018"
+  Title: "Performance Effects of Backing Data Stores in Community Detection Algorithms"
+  Venue: "IEEE High Performance Extreme Computing"
+  URL: "http://ieee-hpec.org/copy/agendatext.html"
+  publication: "IEEE High Performance Extreme Computing"
+  title: "Performance Effects of Backing Data Stores in Community Detection Algorithms"
+  type: "conference_publication"
+- materials: ""
+  Date: "Feb 2018"
+  toc: false
+  author: "N. Fitch, N. Knauf, J. P. Fairbanks, E. Briscoe"
+  Authors: "N. Fitch, N. Knauf, J. P. Fairbanks, E. Briscoe"
+  href: |-
+    <a href="http://snap.stanford.edu/mis2/files/MIS2_paper_17.pdf" class="btn btn-secondary">DOI</a>
+  year: "2018"
+  date: "Feb 2018"
+  Title: "Credibility Assessment in the News: Do we need to read?"
+  Venue: "ACM WSDM MIS2"
+  URL: "http://snap.stanford.edu/mis2/files/MIS2_paper_17.pdf"
+  publication: "ACM WSDM MIS2"
+  title: "Credibility Assessment in the News: Do we need to read?"
+  type: "conference_publication"
+- materials: ""
+  Date: "Sep 2017"
+  toc: false
+  author: "R. Varkey Thankachan, E. Hein, B. P. Swenson, J. P. Fairbanks"
+  Authors: "R. Varkey Thankachan, E. Hein, B. P. Swenson, J. P. Fairbanks"
+  href: |-
+    <a href="https://ieeexplore.ieee.org/document/8091068/" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "Sep 2017"
+  Title: "Integrating Productivity-Oriented Programming Languages with High-Performance Data Structures"
+  Venue: "IEEE High Performance Extreme Computing"
+  URL: "https://ieeexplore.ieee.org/document/8091068/"
+  publication: "IEEE High Performance Extreme Computing"
+  title: "Integrating Productivity-Oriented Programming Languages with High-Performance Data Structures"
+  type: "conference_publication"
+- materials: ""
+  Date: "2017"
+  toc: false
+  author: "J. P. Fairbanks, D. M. Ediger"
+  Authors: "J. P. Fairbanks, D. M. Ediger"
+  href: |-
+    <a href="http://graphanalysis.org/GABB17_program_final.pdf" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "2017"
+  Title: "Deriving Streaming Graph Algorithms from Static Definitions"
+  Venue: "IEEE International Parallel and Distributed Processing Graph Algorithms Building Blocks"
+  URL: "http://graphanalysis.org/GABB17_program_final.pdf"
+  publication: "IEEE International Parallel and Distributed Processing Graph Algorithms Building Blocks"
+  title: "Deriving Streaming Graph Algorithms from Static Definitions"
+  type: "conference_publication"
+- materials: ""
+  Date: "Jan 2017"
+  toc: false
+  author: "J. P. Fairbanks, D. A. Bader, and G. D. Sanders"
+  Authors: "J. P. Fairbanks, D. A. Bader, and G. D. Sanders"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "Jan 2017"
+  Title: "Graph Partitioning with Spectral Blends"
+  Venue: "Oxford Journal of Complex Networks"
+  URL: ""
+  publication: "Oxford Journal of Complex Networks"
+  title: "Graph Partitioning with Spectral Blends"
+  type: "conference_publication"
+- materials: ""
+  Date: "2017"
+  toc: false
+  author: "E. Nathan, J. P. Fairbanks, D. A. Bader"
+  Authors: "E. Nathan, J. P. Fairbanks, D. A. Bader"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "2017"
+  Title: "Ranking in Dynamic Graphs Using Exponential Centrality"
+  Venue: "International Conference on Complex Networks and their Applications"
+  URL: ""
+  publication: "International Conference on Complex Networks and their Applications"
+  title: "Ranking in Dynamic Graphs Using Exponential Centrality"
+  type: "conference_publication"
+- materials: ""
+  Date: "2017"
+  toc: false
+  author: "E. Nathan, G. Sanders, J. P. Fairbanks, V. Henson and D. Bader"
+  Authors: "E. Nathan, G. Sanders, J. P. Fairbanks, V. Henson and D. Bader"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "2017"
+  Title: "Graph Ranking Guarantees for Numerical Approximations to Katz Centrality"
+  Venue: "International Conference On Computational Science"
+  URL: ""
+  publication: "International Conference On Computational Science"
+  title: "Graph Ranking Guarantees for Numerical Approximations to Katz Centrality"
+  type: "conference_publication"
+- materials: ""
+  Date: "2017"
+  toc: false
+  author: "D. M. Ediger and J. P. Fairbanks"
+  Authors: "D. M. Ediger and J. P. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "2017"
+  Title: "Deriving Streaming Graph Algorithms from Static Definitions."
+  Venue: "IEEE Parallel and Distributed Processing - Graph Algorithm Building Blocks"
+  URL: ""
+  publication: "IEEE Parallel and Distributed Processing - Graph Algorithm Building Blocks"
+  title: "Deriving Streaming Graph Algorithms from Static Definitions."
+  type: "conference_publication"
+- materials: ""
+  Date: ""
+  toc: false
+  author: "A. Zakrzewska, E. Nathan, J. P. Fairbanks, D. A. Bader"
+  Authors: "A. Zakrzewska, E. Nathan, J. P. Fairbanks, D. A. Bader"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: ""
+  date: ""
+  Title: "A local measure of community change in dynamic graphs."
+  Venue: "IEEE/ACM ASONAM"
+  URL: ""
+  publication: "IEEE/ACM ASONAM"
+  title: "A local measure of community change in dynamic graphs."
+  type: "conference_publication"
+- materials: ""
+  Date: "Jul 2016"
+  toc: false
+  author: "J. P. Fairbanks, A. Zakrzewska, D.A. Bader"
+  Authors: "J. P. Fairbanks, A. Zakrzewska, D.A. Bader"
+  href: |-
+    <a href="www.siam.org/meetings/ns16/" class="btn btn-secondary">DOI</a>
+  year: "2016"
+  date: "Jul 2016"
+  Title: "Novel Stopping Criteria for Spectral Partitioning"
+  Venue: "SIAM Network Science"
+  URL: "www.siam.org/meetings/ns16/"
+  publication: "SIAM Network Science"
+  title: "Novel Stopping Criteria for Spectral Partitioning"
+  type: "conference_publication"
+- materials: ""
+  Date: "Aug 2013"
+  toc: false
+  author: "J. P. Fairbanks, D. Ediger, R. McColl, D.A. Bader, E. Gilbert"
+  Authors: "J. P. Fairbanks, D. Ediger, R. McColl, D.A. Bader, E. Gilbert"
+  href: |-
+    <a href="http://stingergraph.com/data/uploads/papers/streaming-twitter-stats.pdf" class="btn btn-secondary">DOI</a>
+  year: "2013"
+  date: "Aug 2013"
+  Title: "A Statistical Framework for Analyzing Streaming Graphs"
+  Venue: "IEEE/ACM ASONAM"
+  URL: "http://stingergraph.com/data/uploads/papers/streaming-twitter-stats.pdf"
+  publication: "IEEE/ACM ASONAM"
+  title: "A Statistical Framework for Analyzing Streaming Graphs"
+  type: "conference_publication"

@@ -1,0 +1,194 @@
+- materials: ""
+  Date: "Jul 2022"
+  toc: false
+  author: "E. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks"
+  Authors: "E. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Jul 2022"
+  Title: "Diagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,"
+  Venue: "Applied Category Theory 2022"
+  URL: ""
+  publication: "Applied Category Theory 2022"
+  title: "Diagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Jul 2022"
+  toc: false
+  author: "S. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks"
+  Authors: "S. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Jul 2022"
+  Title: "Typed and stratified models with slice categories"
+  Venue: "Applied Category Theory 2022"
+  URL: ""
+  publication: "Applied Category Theory 2022"
+  title: "Typed and stratified models with slice categories"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Jul 2022"
+  toc: false
+  author: "S. Wu (speaker), K. Browm, and J. Fairbanks"
+  Authors: "S. Wu (speaker), K. Browm, and J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Jul 2022"
+  Title: "Individual.jl: Rewriting individual-based models for epidemiology using graph rewriting"
+  Venue: "Applied Category Theory 2022"
+  URL: ""
+  publication: "Applied Category Theory 2022"
+  title: "Individual.jl: Rewriting individual-based models for epidemiology using graph rewriting"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Sep 2021"
+  toc: false
+  author: "M. Jackson, M. Halter, T. Goodyear, B. O’Donnell, and J. Fairbanks"
+  Authors: "M. Jackson, M. Halter, T. Goodyear, B. O’Donnell, and J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2021"
+  date: "Sep 2021"
+  Title: "Accelerating Automatic Target Recognition Performance Evaluation with a Relational Database"
+  Venue: "Tri-Service Radar Symposium"
+  publication: "Tri-Service Radar Symposium"
+  title: "Accelerating Automatic Target Recognition Performance Evaluation with a Relational Database"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Jul 2021"
+  toc: false
+  author: "S. Libkind, J. P. Fairbanks"
+  Authors: "S. Libkind, J. P. Fairbanks"
+  href: |-
+    <a href="https://pretalx.com/juliacon2021/talk/ARURL8/" class="btn btn-secondary">DOI</a>
+  year: "2021"
+  date: "Jul 2021"
+  Title: "AlgebraicDynamics: Compositional dynamical systems"
+  Venue: "JuliaCon, Online"
+  URL: "https://pretalx.com/juliacon2021/talk/ARURL8/"
+  publication: "JuliaCon, Online"
+  title: "AlgebraicDynamics: Compositional dynamical systems"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Jul 2021"
+  toc: false
+  author: "O. Lynch, E. J. Patterson, J. P. Fairbanks"
+  Authors: "O. Lynch, E. J. Patterson, J. P. Fairbanks"
+  href: |-
+    <a href="https://pretalx.com/juliacon2021/talk/NWRPGY/" class="btn btn-secondary">DOI</a>
+  year: "2021"
+  date: "Jul 2021"
+  Title: "Shaped Data with Acsets"
+  Venue: "JuliaCon, Online"
+  URL: "https://pretalx.com/juliacon2021/talk/NWRPGY/"
+  publication: "JuliaCon, Online"
+  title: "Shaped Data with Acsets"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Jul 2019"
+  toc: false
+  author: "J. P. Fairbanks and C. R. Herlihy"
+  Authors: "J. P. Fairbanks and C. R. Herlihy"
+  href: |-
+    <a href="https://www.youtube.com/watch?v=WJneK7OjqMQ" class="btn btn-secondary">DOI</a>
+  year: "2019"
+  date: "Jul 2019"
+  Title: "SemanticModels.jl: Not Just Another Modeling Framework"
+  Venue: "JuliaCon, Baltimore, MD"
+  URL: "https://www.youtube.com/watch?v=WJneK7OjqMQ"
+  publication: "JuliaCon, Baltimore, MD"
+  title: "SemanticModels.jl: Not Just Another Modeling Framework"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Apr 2019"
+  toc: false
+  author: "M. Nadolski and J. P. Fairbanks"
+  Authors: "M. Nadolski and J. P. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2019"
+  date: "Apr 2019"
+  Title: "Complex Systems Analysis of Hybrid Warfare"
+  Venue: "Conference on Systems Engineering Research"
+  URL: ""
+  publication: "Conference on Systems Engineering Research"
+  title: "Complex Systems Analysis of Hybrid Warfare"
+  type: "conference_presentation"
+- materials: ""
+  toc: false
+  ate: "2018"
+  author: "M. Besan\\c{c}on, J. P. Fairbanks"
+  Authors: "M. Besan\\c{c}on, J. P. Fairbanks"
+  href: |-
+    <a href="https://youtu.be/OD-BSn4FZ2A" class="btn btn-secondary">DOI</a>
+  year: ""
+  date: ""
+  Title: "Graph Interfaces: Bespoke Graphs for Every Occasion"
+  Venue: "JuliaCon, London, UK"
+  URL: "https://youtu.be/OD-BSn4FZ2A"
+  publication: "JuliaCon, London, UK"
+  title: "Graph Interfaces: Bespoke Graphs for Every Occasion"
+  type: "conference_presentation"
+- materials: ""
+  Date: "2018"
+  toc: false
+  author: "J. P. Fairbanks"
+  Authors: "J. P. Fairbanks"
+  href: |-
+    <a href="https://youtu.be/OZuQoxTPoyM" class="btn btn-secondary">DOI</a>
+  year: "2018"
+  date: "2018"
+  Title: "The JuliaGraphs Ecosystem: Move Fast and Don't Break Things"
+  Venue: "JuliaCon, London, UK"
+  URL: "https://youtu.be/OZuQoxTPoyM"
+  publication: "JuliaCon, London, UK"
+  title: "The JuliaGraphs Ecosystem: Move Fast and Don't Break Things"
+  type: "conference_presentation"
+- materials: ""
+  Date: "2017"
+  toc: false
+  author: "J. P. Fairbanks"
+  Authors: "J. P. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "2017"
+  Title: "Assessing Credibility in Global Media Networks"
+  Venue: "Human Language Technologies"
+  URL: ""
+  publication: "Human Language Technologies"
+  title: "Assessing Credibility in Global Media Networks"
+  type: "conference_presentation"
+- materials: ""
+  Date: "2017"
+  toc: false
+  author: "T. Frederick, C. Herlihy, J. P. Fairbanks"
+  Authors: "T. Frederick, C. Herlihy, J. P. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "2017"
+  Title: "Using Big Data to Predict and Analyze Cooperation and Conflict"
+  Venue: "The Conflict Conference at UT-Austin"
+  URL: ""
+  publication: "The Conflict Conference at UT-Austin"
+  title: "Using Big Data to Predict and Analyze Cooperation and Conflict"
+  type: "conference_presentation"
+- materials: ""
+  Date: "2017"
+  toc: false
+  author: "S. Bromberger, J. P. Fairbanks"
+  Authors: "S. Bromberger, J. P. Fairbanks"
+  href: |-
+    <a href="https://youtu.be/MFD-qmApXl8" class="btn btn-secondary">DOI</a>
+  year: "2017"
+  date: "2017"
+  Title: "LightGraphs: Our Network, Our Story"
+  Venue: "JuliaCon, Berkeley, CA"
+  URL: "https://youtu.be/MFD-qmApXl8"
+  publication: "JuliaCon, Berkeley, CA"
+  title: "LightGraphs: Our Network, Our Story"
+  type: "conference_presentation"
