@@ -27,6 +27,13 @@ format:
     theme:
       light: flatly
       dark: darkly
+    linkcolor: "#4E8ABB" 
+    navbar:
+      background: "#4E8ABB"
+      foreground: "#6FB450"
+    # Blue: "#4E8ABB" 
+    # Green: "#6FB450"
+    # Orange: "#6FB450"
     css: styles.css
     monofont: JuliaMono-Regular
 
