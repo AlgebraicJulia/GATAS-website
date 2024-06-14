@@ -11,6 +11,8 @@ listing:
       - members/georgerauta.qmd
       - members/richardsamuelson.qmd
       - members/cuffaromatt.qmd
+      - members/samuelcohen.qmd
+
     type: default
     image-align: left
     image-height: 250px
