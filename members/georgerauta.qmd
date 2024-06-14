@@ -1,9 +1,9 @@
 ---
 title: "George Rauta"
-image: images/profile.jpg
+image: images/georgerauta.jpg
 
 about:
     template: solana
 ---
 
-is a research scientist who likes math.
+is a master's student with a focus in numerical linear algebra and high performance computing.
