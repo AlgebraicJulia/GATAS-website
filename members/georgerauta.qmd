@@ -1,9 +1,17 @@
 ---
 title: "George Rauta"
-image: images/profile.jpg
+image: images/georgerauta.jpg
 
 about:
     template: solana
 ---
 
-is a research scientist who likes math.
+is a master's student with a focus in numerical linear algebra and high-performance computing.
+
+I believe that advances in the field of computer science are dependent on the existence of a highly 
+performant computational foundation. It is critical that this foundation considers the theoretical
+aspects of algorithms, the method by which they are implemented in code and how they interact with the
+physical designs of modern processing and memory units.
+
+I am also a developer on the [Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) and
+[CombinatorialSpaces.jl](https://github.com/AlgebraicJulia/CombinatorialSpaces.jl) projects.
