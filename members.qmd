@@ -37,12 +37,12 @@ listing:
 
 |  Name | Where are they now?|
 |:------|:-------------------|
-|James Horn      |Master Student at Georgia Tech        |
+|James Horn      |Master's Student at Georgia Tech        |
 |Kris Brown      |Research Software Engineer at the Topos Institute|
 |Micah Halter    |Research Scientist at the Georgia Tech Research Institute|
 |Caroline Rogers |Industry|
 |Rebecca Boes    |Industry|
-|James Eschrich  |               |
+|James Eschrich  |PhD Student at University of Illinois (UIUC) |
 |Taylor Frederick|Industry|
-|Patrick Stokes  |GatorSense |
+|Patrick Stokes  |GatorSense Lab at UF ECE|
 
