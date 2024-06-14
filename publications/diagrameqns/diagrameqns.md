@@ -18,7 +18,7 @@ categories:
     - Multiphysics
 ---
 
-![](./fig1.jpg){width=50%}
+![Tonti](./fig1.jpg)
 
 ## Abstract
 

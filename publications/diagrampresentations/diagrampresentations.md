@@ -12,7 +12,7 @@ categories:
     - Category-theoretic diagrams
 ---
 
-![](./fig1.png)
+![Equations](./fig1.png)
 
 ## Abstract
 
