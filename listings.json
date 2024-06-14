@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/research.html",
+    "items": []
+  },
+  {
     "listing": "/members.html",
     "items": [
       "/members/jamesfairbanks.html",
@@ -9,7 +13,16 @@
       "/members/tylerhanks.html",
       "/members/georgerauta.html",
       "/members/richardsamuelson.html",
-      "/members/cuffaromatt.html"
+      "/members/cuffaromatt.html",
+      "/members/samuelcohen.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html"
     ]
   }
 ]

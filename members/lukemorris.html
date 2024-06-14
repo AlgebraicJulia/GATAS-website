@@ -98,6 +98,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Members</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
@@ -144,10 +148,10 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </header> 
       <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects</p>
+<p>is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.</p>
 <p>… for representing multiphysics models and automatically generating simulations from those representations.</p>
 <hr>
-<p><a href="https://www.cise.ufl.edu/~luke.morris">Luke Morris</a></p>
+<p><a href="https://www.cise.ufl.edu/~luke.morris">Personal Website</a></p>
 <p>I am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: <a href="https://github.com/AlgebraicJulia/Decapodes.jl">Decapodes.jl</a> and <a href="https://github.com/AlgebraicJulia/CombinatorialSpaces.jl">CombinatorialSpaces.jl</a>.</p>
 <p>We use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. <a href="https://algebraicjulia.github.io/Catlab.jl/stable/">Catlab.jl</a> - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.</p>
 <p>Of course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.</p>
