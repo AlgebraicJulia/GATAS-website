@@ -1,0 +1,62 @@
+- preprint: "https://doi.org/10.48550/arXiv.2402.00206"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2402.00206"
+  Date: "Submitted 2024"
+  toc: false
+  author: "B. Bumpus, J. Fairbanks, M. Karvonen, W. Leal, F. Simard"
+  Authors: "B. Bumpus, J. Fairbanks, M. Karvonen, W. Leal, F. Simard"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2402.00206" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted 2024"
+  Title: "Towards a Unified Theory of Time-varying Data"
+  Venue: "Proc. of the Royal Society Phil. Trans."
+  URL: "https://doi.org/10.48550/arXiv.2402.00206"
+  publication: "Proc. of the Royal Society Phil. Trans."
+  title: "Towards a Unified Theory of Time-varying Data"
+  type: "article"
+- preprint: "https://doi.org/10.48550/arXiv.2302.05575"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2302.05575"
+  Date: "Submitted 2024"
+  toc: false
+  author: "E. Althaus, B. Bumpus, J. Fairbanks, D. Rosiak"
+  Authors: "E. Althaus, B. Bumpus, J. Fairbanks, D. Rosiak"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2302.05575" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted 2024"
+  Title: "Compositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves"
+  Venue: "Fundamenta Informaticae"
+  URL: "https://doi.org/10.48550/arXiv.2302.05575"
+  publication: "Fundamenta Informaticae"
+  title: "Compositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves"
+  type: "article"
+- materials: ""
+  Date: "Submitted March 2024"
+  toc: false
+  author: "B. Bumpus, D. Rosiak, C. Puca, F. Genovese, J. Fairbanks"
+  Authors: "B. Bumpus, D. Rosiak, C. Puca, F. Genovese, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted March 2024"
+  Title: "How Nice is this Functor? Two Squares and Some Homology go a Long Way"
+  Venue: "Applied Category Theory"
+  publication: "Applied Category Theory"
+  title: "How Nice is this Functor? Two Squares and Some Homology go a Long Way"
+  type: "conference_publication"
+- materials: ""
+  Date: "Submitted March 2024"
+  toc: false
+  author: "B. Bumpus, D. Rosiak, M. Cappucci, J. Fairbanks"
+  Authors: "B. Bumpus, D. Rosiak, M. Cappucci, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted March 2024"
+  Title: "Short Note on Cohomology, Sheafification and Lavish Presheaves"
+  Venue: "Applied Category Theory"
+  publication: "Applied Category Theory"
+  title: "Short Note on Cohomology, Sheafification and Lavish Presheaves"
+  type: "conference_publication"
