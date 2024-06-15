@@ -6,6 +6,7 @@ paths = joinpath.(INPUT_DIR, ["article", "conference_publication", "conference_p
 
 deca = []
 algopt = []
+sheaves = []
 
 map(paths) do pth
   @show pth
@@ -18,10 +19,17 @@ map(paths) do pth
     if contains(author, "Hanks") & !contains(author, "Brown") || contains(author, "Libkind")
       push!(algopt, record)
     end
+    if contains(author, "Bumpus") || contains(author, "Leal")
+      push!(sheaves, record)
+    end
     return record
 end
 end;
 
-map(["decapodes.yaml" => deca, "optimization.yaml"=>algopt]) do (listing, data)
+projects = ["decapodes.yaml" => deca,
+  "sheaves.yaml"=>sheaves,
+  "optimization.yaml"=>algopt]
+
+map(projects) do (listing, data)
   YAML.write_file(joinpath(OUTPUT_DIR, listing), data)
 end

@@ -6,12 +6,10 @@ listing:
     contents:
       - project/decapodes.qmd
       - project/optimization.qmd
-    sort: 
-      - "title desc"
+      - project/sheaves.qmd
+    sort: none
     categories: false
     # fields: [year, title, author, publication, href]
-    # sort-ui: [title,author,publication,year]
-    # filter-ui: [title,author,publication,year]
     page-size: 20
     image-align: left
     field-display-names: 
