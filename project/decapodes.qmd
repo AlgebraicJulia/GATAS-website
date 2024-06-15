@@ -1,0 +1,76 @@
+---
+title: "Decapodes"
+image: https://raw.githubusercontent.com/AlgebraicJulia/Decapodes.jl/main/docs/src/logo/decapodes_logo.svg
+about: solana
+listing:
+  - id: articles
+    template: ../ejs/article.ejs
+    contents:
+      - ../publications/jocs.md
+      - ../publications/diagrameqns/diagrameqns.md
+      - ../publications/diagrampresentations/diagrampresentations.md
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title desc"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 20
+    field-display-names: 
+      publication: "Journal"
+      date: "Date"
+      year: "Year"
+      href: "Link"
+  - id: team
+    type: table
+    contents:
+      - ../members/lukemorris.qmd
+      - ../members/cuffaromatt.qmd
+      - ../members/georgerauta.qmd
+    categories: true
+    fields: [image, title, start_year, degree, program]
+    sort: none
+    page-size: 10
+    field-display-names: 
+      title: Name
+      start_year: "Member Since"
+      degree: "Degree"
+      program: "Program"
+---
+
+[Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) are a graphical tool for the composition of physical systems.     
+This library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
+
+![Point vortices spiraling](https://algebraicjulia.github.io/Decapodes.jl/dev/navier_stokes/vort.gif)
+
+Links:
+
+- [Diagrammatic Equations Paper](https://www.aimspress.com/data/article/preview/pdf/62989382ba35de155149669f.pdf)
+- [Decapodes Computational Paper](https://www.sciencedirect.com/science/article/pii/S1877750324001388)
+- [Code](https://github.com/AlgebraicJulia/Decapodes.jl)
+- [Docs](https://algebraicjulia.github.io/Decapodes.jl/dev/)
+
+
+
+#### Project Team
+
+:::{#team}
+:::
+
+#### Project Articles
+
+:::{#articles}
+:::
+
+
+#### Subproject: General Categorical Equations
+
+Project Leader: Kevin Carlson at the Topos Institute 
+
+![Diagrammatic Presentations of Equations](../publications/diagrampresentations/fig1.png)
+
+- [Topos Blog 1](https://topos.site/blog/2022-04-08-diagrammatic-differential-equations-1/)
+- [Topos Blog 2](https://topos.site/blog/2022-04-15-diagrammatic-differential-equations-2/)
+- [arxiv](https://arxiv.org/abs/2401.09751)
