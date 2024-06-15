@@ -1,7 +1,11 @@
 ---
 title: "George Rauta"
 image: images/georgerauta.jpg
-
+start_year: 2022
+program: CISE
+degree: MS
+status: Starting
+href: ""
 about:
     template: solana
 ---

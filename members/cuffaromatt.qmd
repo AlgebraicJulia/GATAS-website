@@ -1,6 +1,11 @@
 ---
 title: "Matt Cuffaro"
 image: images/cuffaromatt.jpeg
+start_year: 2023
+program: Research Software Engineer
+degree: N/A
+status: Crushing it
+href: ""
 about:
   template: solana
 ---
