@@ -10,6 +10,8 @@ materials: ""
 toc: false
 categories:
     - Category-theoretic diagrams
+about:
+    template: solana
 ---
 
 ## Abstract
