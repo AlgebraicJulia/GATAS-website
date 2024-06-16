@@ -40,7 +40,7 @@ listing:
       program: "Program"
 ---
 
-[Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) are a graphical tool for the composition of physical systems.     
+[Decapodes.jl](https://github.com/AlgebraicJulia/Decapodes.jl) is a graphical tool for the composition of physical systems.     
 This library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
 
 ![Point vortices spiraling](https://algebraicjulia.github.io/Decapodes.jl/dev/navier_stokes/vort.gif)
@@ -74,3 +74,11 @@ Project Leader: Kevin Carlson at the Topos Institute
 - [Topos Blog 1](https://topos.site/blog/2022-04-08-diagrammatic-differential-equations-1/)
 - [Topos Blog 2](https://topos.site/blog/2022-04-15-diagrammatic-differential-equations-2/)
 - [arxiv](https://arxiv.org/abs/2401.09751)
+
+## Sponsors
+
+![Decapodes has been supported by the following DARPA programs:](/_assets/sponsors/darpa.svg){width=25%}
+
+  - Automating Scientific Knolwedge Extraction
+  - Directly Computable Models
+  - Automating Scientific Knolwedge Extraction and Modeling
