@@ -16,3 +16,5 @@ listing:
       year: "Year"
       href: "Link"
 ---
+
+Here you can find a list of our current research projects. Each project is composed of multiple publications.
