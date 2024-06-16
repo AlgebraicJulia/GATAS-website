@@ -1,6 +1,14 @@
 ---
 title: "Wilmer Leal"
 image: images/wilmerleal.jpg
+start_year: 2022
+date: 1/1/2023
+role: Postdoctoral Fellow
+degree: PhD
+program: N/A
+status: Writing
+href: |- 
+    <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
 about:
     template: solana
 ---
