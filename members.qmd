@@ -17,6 +17,16 @@ listing:
     image-align: left
     image-height: 250px
     sort: false
+  - id: mentoring
+    contents: 
+      - members/mentoring.yaml
+    type: table
+    # image-height: 250px
+    sort: "Year desc"
+    fields: [Name, Degree, Company, Dates]
+    field-display-names: 
+      Degree: "Program"
+      Company: "Last Known Institution"
 ---
 
 The members of the lab come from diverse perspectives with unique training. We are always looking for students and researchers with a desire to solve problems by leveraging abstract applications in novel science and engineering applications.
@@ -53,3 +63,9 @@ If you are interested in a career in Applied Category Theory or Computational Sc
 |Taylor Frederick|Industry|
 |Patrick Stokes  |GatorSense Lab at UF ECE|
 
+## Lab Mentees
+
+These are people who might not have spent full-time employment in the lab, but were involved in a mentorship program or ongoing mentoring relationship outside beyond the institution.
+
+:::{#mentoring}
+:::
