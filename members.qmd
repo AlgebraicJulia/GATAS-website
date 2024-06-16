@@ -18,15 +18,18 @@ listing:
     image-height: 250px
     sort: false
 ---
-## Accepting Applications for...
+
+The members of the lab come from diverse perspectives with unique training. We are always looking for students and researchers with a desire to solve problems by leveraging abstract applications in novel science and engineering applications.
+
+Accepting Applications for 
 
 * PhD Students in both [CISE](https://www.cise.ufl.edu/academics/graduate/phd/) and [MAE](https://mae.ufl.edu/students/graduate/degree-programs-requirements/). Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.
 
 * Research Projects for Undergraduates and Graduate Students in CISE, MAE, and Math
 
-* Research Scientist and Postdoc in CISE, MAE, Math
+* Research Scientists and Postdocs in CISE, MAE, Math
 
-###### Email fairbanksj@ufl.edu for all new position inquiries
+*Email fairbanksj [at] ufl [dot] edu for all new position inquiries*
 
 ## Current Members
 
