@@ -42,65 +42,87 @@ cv = TOML.parsefile("cv.toml")
 map(distinct_keys, cv["Research"]["Categories"])
 
 mkpath(OUTPUT_DIR)
-
-map(cv["Research"]["Categories"]) do type
-  t = pubtype(type["Name"])
-  if !(t ∈ INCLUDED_CATEGORIES)
-    println("Skipping Category: $t")
-    return []
-  end
-  println("Processing Publications of Type $t")
-  listing = Dict()
-  listing["template"] = "table"
-  listing["contents"] = []
-  map(type["Activities"]) do p
-    # Get the fields we expect
-    date = get(p, "Date", "")
-    venue = get(p, "Venue", "")
-    authors = get(p, "Authors", "")
-    title = get(p, "Title", "")
-    url = get(p, "URL", "")
-
-    href = "<a href=\"$url\" class=\"btn btn-secondary\">DOI</a>"
-    # Normalizing the keys to what the Quarto Template expects
-    p["title"] = title
-    p["author"] = authors
-    p["type"] = t
-    p["year"] = @show extract_year(date)
-    p["date"] = date
-    p["publication"] = venue
-    if contains(url, "doi")
-      p["doi"] = p["URL"]
+function extract_publications(cv)
+  map(cv["Research"]["Categories"]) do type
+    t = pubtype(type["Name"])
+    if !(t ∈ INCLUDED_CATEGORIES)
+      println("Skipping Category: $t")
+      return []
     end
-    if contains(url, "arxiv") || contains(url, "arXiv")
-      p["preprint"] = p["URL"]
-    end
-    p["materials"] = ""
-    p["toc"] = false
-    p["href"] = href
+    println("Processing Publications of Type $t")
+    listing = Dict()
+    listing["template"] = "table"
+    listing["contents"] = []
+    map(type["Activities"]) do p
+      # Get the fields we expect
+      date = get(p, "Date", "")
+      venue = get(p, "Venue", "")
+      authors = get(p, "Authors", "")
+      title = get(p, "Title", "")
+      url = get(p, "URL", "")
 
-
-    if INDIVIDUAL_PAGES
-      # writing individual YAML files for each page
-      s = YAML.yaml(p)
-      s = "---\n$s---\n\n"# Abstract\nAbstract to be entered."
-      pagetitle = p["Title"]
-      slug = replace(pagetitle, " "=>"_") |> lowercase |> strip_punc
-      file = "$slug.md"
-      folder = joinpath(OUTPUT_DIR,t)
-      mkpath(folder)
-      path = joinpath(folder, file)
-      @show path
-      open(path, "w") do fp
-        write(fp, s)
+      href = "<a href=\"$url\" class=\"btn btn-secondary\">DOI</a>"
+      # Normalizing the keys to what the Quarto Template expects
+      p["title"] = title
+      p["author"] = authors
+      p["type"] = t
+      p["year"] = extract_year(date)
+      p["date"] = date
+      p["publication"] = venue
+      if contains(url, "doi")
+        p["doi"] = p["URL"]
       end
-    else
-    # write one YAML file for the contents of all pages.
-      push!(listing["contents"], p)
+      if contains(url, "arxiv") || contains(url, "arXiv")
+        p["preprint"] = p["URL"]
+      end
+      p["materials"] = ""
+      p["toc"] = false
+      p["href"] = href
+
+
+      if INDIVIDUAL_PAGES
+        # writing individual YAML files for each page
+        s = YAML.yaml(p)
+        s = "---\n$s---\n\n"# Abstract\nAbstract to be entered."
+        pagetitle = p["Title"]
+        slug = replace(pagetitle, " "=>"_") |> lowercase |> strip_punc
+        file = "$slug.md"
+        folder = joinpath(OUTPUT_DIR,t)
+        mkpath(folder)
+        path = joinpath(folder, file)
+        @show path
+        open(path, "w") do fp
+          write(fp, s)
+        end
+      else
+      # write one YAML file for the contents of all pages.
+        push!(listing["contents"], p)
+      end
     end
-  end
-  if !INDIVIDUAL_PAGES
-    mkpath(joinpath(OUTPUT_DIR, t))
-    YAML.write_file(joinpath(OUTPUT_DIR, t,"listing.yaml"), listing["contents"])
+    if !INDIVIDUAL_PAGES
+      mkpath(joinpath(OUTPUT_DIR, t))
+      YAML.write_file(joinpath(OUTPUT_DIR, t,"listing.yaml"), listing["contents"])
+    end
   end
 end
+
+# extract_publications(cv)
+
+function extract_mentoring(cv)
+  path = joinpath("members", "mentoring.yaml")
+   mentees = map(cv["Mentoring"]["Students"]) do s
+    y = get(s, "Year", "None")
+    n = get(s, "Name", "Missing Name")
+    deg = get(s, "Degree", Missing)
+    comp = get(s, "Company", "Missing Inst.")
+    if deg in [Missing, ""] || contains(comp, "Thesis")
+      return nothing
+    end
+    s["date"] = y
+    s["title"] = n
+    return s
+   end
+   mentees = filter(!isnothing, mentees)
+   YAML.write_file(path, mentees)
+end
+extract_mentoring(cv)

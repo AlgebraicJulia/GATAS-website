@@ -835,7 +835,7 @@ Date = "2024-06-14"
     Degree = "PhD"
     Year = 2022
     Company = "Thesis Committee"
-    Dates = "2022-Present"
+    Dates = "2022-2024"
 
   [[Mentoring.Students]]
     Name = "Daniel A. Delgado"
@@ -860,9 +860,9 @@ Date = "2024-06-14"
 
   [[Mentoring.Students]]
     Name = "Kris Brown"
-    Degree = "Post-Doctoral Researcher"
+    Degree = "UF Post-Doctoral Researcher"
     Year = 2022
-    Company = "UF"
+    Company = "Topos Institute, Research Software Engineer"
     Dates = "2021-22"
 
   [[Mentoring.Students]]
@@ -871,43 +871,54 @@ Date = "2024-06-14"
     Year = 2021
     Company = ""
     Dates = "2021"
-
   [[Mentoring.Students]]
-    Name = "ACT Adjoint School"
-    Degree = ""
+    Name = "Anna Knoerr"
     Year = 2021
-    Company = "A. Knoerr, G. Generaux, A. Searle"
+    Degree = "ACT Adjoint School"
     Dates = "2021"
+    Company = "ETH Zurich"
+  [[Mentoring.Students]]
+    Name = "Grant Generaux"
+    Year = 2021
+    Degree = "ACT Adjoint School"
+    Dates = "2021"
+    Company = "Bristol Myers Squibb"
+  [[Mentoring.Students]]
+    Name = "Amy Searle"
+    Year = 2021
+    Degree = "ACT Adjoint School"
+    Dates = "2021"
+    Company = "Oxford Physics, PhD Student"
   [[Mentoring.Students]]
     Name = "Kris Brown"
     Degree = "Chemical Engineering, Stanford University"
     Year = 2021
-    Company = ""
+    Company = "UF, Post-Doctoral Researcher"
     Dates = "2021-2022"
   [[Mentoring.Students]]
     Name = "Sophie Libkind"
     Degree = "Mathematics, Stanford University"
     Year = 2021
-    Company = ""
+    Company = "Topos Institute, Mathematician"
     Dates = "2020-2022"
   [[Mentoring.Students]]
     Name = "Owen Lynch"
-    Degree = "Statistics University of Utrecht"
+    Degree = "Statistics, University of Utrecht"
     Year = 2021
-    Company = ""
+    Company = "Topos Institute, Research Software Engineer"
     Dates = "2020-Present"
   [[Mentoring.Students]]
     Name = "Julian Perez"
     Degree = "BS BME GT"
     Year = 2021
-    Company = ""
+    Company = "Stanford, PhD Student"
     Dates = "2021-22"
   [[Mentoring.Students]]
     Name = "Stephen Wellburg"
     Degree = "BS DAS UF"
     Year = 2021
-    Company = ""
-    Dates = "2021"
+    Company = "Capital One, Software Engineer"
+    Dates = "2021-22"
   [[Mentoring.Students]]
     Name = "Sreenath Reparti"
     Degree = "BS ISYE Georgia Tech"
