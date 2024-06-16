@@ -1,6 +1,7 @@
 ---
 title: "Samuel Cohen"
 image: images/samuelcohen.jpg
+date: 5/21/2024
 about:
     template: solana
 ---

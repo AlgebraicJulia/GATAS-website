@@ -1,6 +1,14 @@
 ---
 title: "James Fairbanks"
 image: images/jamesfairbanks.png
+start_year: 2021
+date: 1/1/2021
+role: Principal Investigator
+degree: PhD
+program: Computational Science and Engineering
+status: Asst. Prof.
+href: |- 
+    <a href="gataslab.org" class="btn btn-secondary">Site</a>
 about:
     template: solana
 ---
