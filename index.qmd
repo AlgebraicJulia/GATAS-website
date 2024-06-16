@@ -1,5 +1,13 @@
 ---
 title: "The GATAS Laboratory"
+listing:
+  id: pages
+  type: grid
+  image-height: 250px
+  contents:
+    - projects.qmd
+    - members.qmd
+    - research.qmd
 ---
 
 The GATAS laboratory uses applied category theory to develop novel approaches to scientific
@@ -22,3 +30,15 @@ scientific concept, yet pliable enough to manipulate efficiently with a computer
 software in [AlgebraicJulia](https://www.algebraicjulia.org/) encodes a number of these
 abstractions; with it, scientists can build powerful, robust, and bespoke scientific models
 without starting from scratch in each domain.
+
+:::{#pages}
+:::
+
+## Sponsors
+
+Our lab is supported by several sponsors, specifically the following US Federal Agencies.
+
+![DARPA](_assets/sponsors/darpa.svg){width=25%}
+![ONR](_assets/sponsors/onr.svg){width=25%}
+![NSF](_assets/sponsors/nsf.svg){width=25%}
+![AFRL](_assets/sponsors/afrl.svg){width=25%}
