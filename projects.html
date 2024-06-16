@@ -74,20 +74,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-decapodes-articles .list');
+    const listingTargetEl = window.document.querySelector('#listing-projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-year','listing-title','listing-author','listing-publication','listing-href',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-publication","listing-year"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-decapodes-articles'] = new List('listing-decapodes-articles', options);
+    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -148,7 +148,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -210,9 +210,7 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Category-theoretic diagrams">Category-theoretic diagrams <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Computational physics">Computational physics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Discrete exterior calculus">Discrete exterior calculus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Exterior calculus">Exterior calculus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Multiphysics">Multiphysics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Numerical methods">Numerical methods <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Operad algebras">Operad algebras <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Partial differential equations">Partial differential equations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tonti diagrams">Tonti diagrams <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -235,159 +233,85 @@ window.Quarto = {
 </header>
 
 
-<section id="software" class="level2">
-<h2 class="anchored" data-anchor-id="software">Software</h2>
-<section id="decapodes.jl" class="level3">
-<h3 class="anchored" data-anchor-id="decapodes.jl">Decapodes.jl</h3>
-<p><a href="./members/lukemorris.html">Project Leader: Luke Morris</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://raw.githubusercontent.com/AlgebraicJulia/Decapodes.jl/main/docs/src/logo/decapodes_logo.svg" class="img-fluid figure-img" style="width:50.0%"></p>
-<figcaption>Decapodes Logo</figcaption>
-</figure>
+<p>Here you can find a list of our current research projects. Each project is composed of multiple publications.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-projects">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1718567631064" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
+<div class="thumbnail">
+<p><a href="./project/decapodes.html" class="no-external"></a></p><a href="./project/decapodes.html" class="no-external">
+<p><img src="https://raw.githubusercontent.com/AlgebraicJulia/Decapodes.jl/main/docs/src/logo/decapodes_logo.svg" class="thumbnail-image"></p>
+</a><p><a href="./project/decapodes.html" class="no-external"></a></p>
 </div>
-<p><a href="https://github.com/AlgebraicJulia/Decapodes.jl">Decapodes.jl</a> are a graphical tool for the composition of physical systems.<br>
-This library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://algebraicjulia.github.io/Decapodes.jl/dev/navier_stokes/vort.gif" class="img-fluid figure-img"></p>
-<figcaption>Point vortices spiraling</figcaption>
-</figure>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./project/decapodes.html" class="no-external">Decapodes</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./project/decapodes.html" class="no-external"></a>
 </div>
-<p>Links:</p>
-<ul>
-<li><a href="https://www.aimspress.com/data/article/preview/pdf/62989382ba35de155149669f.pdf">Diagrammatic Equations Paper</a></li>
-<li><a href="https://www.sciencedirect.com/science/article/pii/S1877750324001388">Decapodes Computational Paper</a></li>
-<li><a href="https://github.com/AlgebraicJulia/Decapodes.jl">Code</a></li>
-<li><a href="https://algebraicjulia.github.io/Decapodes.jl/dev/">Docs</a></li>
-</ul>
-<section id="general-categorical-equations" class="level4">
-<h4 class="anchored" data-anchor-id="general-categorical-equations">General Categorical Equations</h4>
-<p>Project Leader: Kevin Carlson</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="publications/diagrampresentations/fig1.png" class="img-fluid figure-img"></p>
-<figcaption>Diagrammatic Presentations of Equations</figcaption>
-</figure>
+<div class="listing-description">
+<a href="./project/decapodes.html" class="no-external">Decapodes.jl is a graphical tool for the composition of physical systems.<br>
+This library includes tooling which takes advantage of the formalization of physical theories…</a>
 </div>
-<ul>
-<li><a href="https://topos.site/blog/2022-04-08-diagrammatic-differential-equations-1/">Topos Blog 1</a></li>
-<li><a href="https://topos.site/blog/2022-04-15-diagrammatic-differential-equations-2/">Topos Blog 2</a></li>
-<li><a href="https://arxiv.org/abs/2401.09751">arxiv</a></li>
-</ul>
-</section>
-<section id="decapodes-articles" class="level4">
-<h4 class="anchored" data-anchor-id="decapodes-articles">Decapodes Articles</h4>
-<div id="listing-decapodes-articles" class="quarto-listing quarto-listing-container-custom">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-decapodes-articles-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-decapodes-articles'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-         <option value="listing-publication" data-direction="asc">
-          Journal
-        </option>
-         <option value="listing-year" data-direction="asc">
-          Year
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
 </div>
-<ul class="pub-list list">
-
-  <li data-index="0" data-categories="Multiphysics,Discrete exterior calculus,Numerical methods,Operad algebras" data-listing-file-modified-sort="1718395962326" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
-    <span class="listing-title lead">Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations</span><br>
-    <span class="listing-author">Luke Morris, Andrew Baas, Jesus Arias, Maia Gatlin, Evan Patterson, James P. Fairbanks</span><br>
-    <span class="listing-publication fst-italic ">Journal of Computational Science</span>
-    <span class="listing-year">(2024)</span><br>
-    <a href="./publications/jocs.html" class="btn btn-primary">
-      Details
-    </a>
-    
-    <a href="https://doi.org/10.1016/j.jocs.2024.102345" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      DOI
-    </a>
-    
-    
-    
-    <a href="https://arxiv.org/abs/2401.17432" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    
-    
-  </li>
-
-  <li data-index="1" data-categories="Category-theoretic diagrams" data-listing-file-modified-sort="1718395962326" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
-    <span class="listing-title lead">A Diagrammatic Presentation of Equations in Categories</span><br>
-    <span class="listing-author">Kevin Arlin, James Fairbanks, Tim Hosgood, Evan Patterson</span><br>
-    <span class="listing-publication fst-italic ">Arxiv</span>
-    <span class="listing-year">(2022)</span><br>
-    <a href="./publications/diagrampresentations/diagrampresentations.html" class="btn btn-primary">
-      Details
-    </a>
-    
-    
-    
-    <a href="https://arxiv.org/abs/2204.01843" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    
-    
-  </li>
-
-  <li data-index="2" data-categories="Tonti diagrams,Category-theoretic diagrams,Partial differential equations,Exterior calculus,Computational physics,Multiphysics" data-listing-file-modified-sort="1718395962326" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
-    <span class="listing-title lead">A diagrammatic view of differential equations in physics</span><br>
-    <span class="listing-author">Evan Patterson, Andrew Baas, Timothy Hosgood, James Fairbanks</span><br>
-    <span class="listing-publication fst-italic ">Mathematics in Engineering</span>
-    <span class="listing-year">(2022)</span><br>
-    <a href="./publications/diagrameqns/diagrameqns.html" class="btn btn-primary">
-      Details
-    </a>
-    
-    <a href="https://doi.org/10.3934/mine.2023036" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-      DOI
-    </a>
-    
-    
-    
-    <a href="https://arxiv.org/abs/2204.01843" class="btn btn-light" target="_blank" rel="noopener noreferrer">
-      <i class="bi bi-file-earmark-text"></i> Preprint
-    </a>
-    
-    
-  </li>
-
-</ul>
-
+<div class="metadata">
+<p><a href="./project/decapodes.html" class="no-external"></a></p><a href="./project/decapodes.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1718567631068" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
+<div class="thumbnail">
+<p><a href="./project/optimization.html" class="no-external"></a></p><a href="./project/optimization.html" class="no-external">
+<p><img src="./_assets/gatas_logo.png" class="thumbnail-image"></p>
+</a><p><a href="./project/optimization.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./project/optimization.html" class="no-external">Algebraic Dynamics, Optimization, and Control</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./project/optimization.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./project/optimization.html" class="no-external">AlgebraicControl.jl</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./project/optimization.html" class="no-external"></a></p><a href="./project/optimization.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1718567631068" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
+<div class="thumbnail">
+<p><a href="./project/sheaves.html" class="no-external"></a></p><a href="./project/sheaves.html" class="no-external">
+<p><img src="./_assets/gatas_logo.png" class="thumbnail-image"></p>
+</a><p><a href="./project/sheaves.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./project/sheaves.html" class="no-external">Compositional Algorithms with Sheaves</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./project/sheaves.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./project/sheaves.html" class="no-external">StructuredDecompositions.jl</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./project/sheaves.html" class="no-external"></a></p><a href="./project/sheaves.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-</section>
-</section>
-<section id="dynamics-optimization-and-control" class="level3">
-<h3 class="anchored" data-anchor-id="dynamics-optimization-and-control">Dynamics, Optimization and Control</h3>
-<p><a href="./members/tylerhanks.html">Project Leader: Tyler Hanks</a></p>
-<p><a href="https://github.com/AlgebraicJulia/AlgebraicControl.jl">AlgebraicControl.jl</a></p>
-<p>Model predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software.</p>
-
-
-
-</section>
-</section>
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

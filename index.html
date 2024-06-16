@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./_assets/brand/favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,7 +71,79 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-pages .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-pages'] = new List('listing-pages', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -163,6 +237,79 @@ ul.task-list li input[type="checkbox"] {
 <section id="philosophy" class="level2">
 <h2 class="anchored" data-anchor-id="philosophy">Philosophy</h2>
 <p>Scientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using <a href="https://en.wikipedia.org/wiki/Category_theory">category theory</a>. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in <a href="https://www.algebraicjulia.org/">AlgebraicJulia</a> encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain.</p>
+<div id="listing-pages" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1718567631032" data-listing-reading-time-sort="2" data-listing-word-count-sort="288">
+<a href="./members.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="members/images/jamesfairbanks.png" style="height: 250px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Members
+</h5>
+<div class="card-text listing-description">
+The members of the lab come from diverse perspectives with unique training. We are always looking for students and researchers with a desire to solve problems by leveraging…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1718567631068" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<a href="./projects.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Projects
+</h5>
+<div class="card-text listing-description">
+Here you can find a list of our current research projects. Each project is composed of multiple publications.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1718567631068" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+<a href="./research.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 250px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Research
+</h5>
+<div class="card-text listing-description">
+This page has tables of our research publications broken down by category.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="sponsors" class="level2">
+<h2 class="anchored" data-anchor-id="sponsors">Sponsors</h2>
+<p>Our lab is supported by several sponsors, specifically the following US Federal Agencies.</p>
+<p><img src="_assets/sponsors/darpa.svg" class="img-fluid" style="width:25.0%" alt="DARPA"> <img src="_assets/sponsors/onr.svg" class="img-fluid" style="width:25.0%" alt="ONR"> <img src="_assets/sponsors/nsf.svg" class="img-fluid" style="width:25.0%" alt="NSF"> <img src="_assets/sponsors/afrl.svg" class="img-fluid" style="width:25.0%" alt="AFRL"></p>
+
 
 
 </section>

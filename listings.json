@@ -11,18 +11,52 @@
       "/members/wilmerleal.html",
       "/members/lukemorris.html",
       "/members/tylerhanks.html",
-      "/members/georgerauta.html",
       "/members/richardsamuelson.html",
       "/members/cuffaromatt.html",
+      "/members/georgerauta.html",
       "/members/samuelcohen.html"
+    ]
+  },
+  {
+    "listing": "/project/sheaves.html",
+    "items": [
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html"
+    ]
+  },
+  {
+    "listing": "/project/optimization.html",
+    "items": [
+      "/members/tylerhanks.html",
+      "/members/samuelcohen.html",
+      "/members/richardsamuelson.html"
+    ]
+  },
+  {
+    "listing": "/project/decapodes.html",
+    "items": [
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html",
+      "/members/lukemorris.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/members.html",
+      "/projects.html",
+      "/research.html"
     ]
   },
   {
     "listing": "/projects.html",
     "items": [
-      "/publications/jocs.html",
-      "/publications/diagrampresentations/diagrampresentations.html",
-      "/publications/diagrameqns/diagrameqns.html"
+      "/project/decapodes.html",
+      "/project/optimization.html",
+      "/project/sheaves.html"
     ]
   }
 ]
