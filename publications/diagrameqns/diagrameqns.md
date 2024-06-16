@@ -16,6 +16,8 @@ categories:
     - Exterior calculus
     - Computational physics
     - Multiphysics
+about:
+    template: solana
 ---
 
 ## Abstract

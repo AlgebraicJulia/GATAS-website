@@ -14,6 +14,8 @@ categories:
     - Discrete exterior calculus
     - Numerical methods
     - Operad algebras
+about:
+    template: solana
 ---
 
 ## Abstract
