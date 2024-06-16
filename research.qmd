@@ -59,6 +59,7 @@ listing:
       href: "Link"
 ---
 
+This page has tables of our research publications broken down by category.
 
 ## Journal Papers
 
