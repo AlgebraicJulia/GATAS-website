@@ -49,3 +49,6 @@ listing:
 :::{#articles}
 :::
 
+## Sponsors
+
+![Computation Sheaf Theory has been supported by the DARPA program Automating Scientific Knolwedge Extraction and Modeling](/_assets/sponsors/darpa.svg){width=25%}
