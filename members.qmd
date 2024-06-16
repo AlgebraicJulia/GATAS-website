@@ -8,9 +8,9 @@ listing:
       - members/wilmerleal.qmd
       - members/lukemorris.qmd
       - members/tylerhanks.qmd
-      - members/georgerauta.qmd
       - members/richardsamuelson.qmd
       - members/cuffaromatt.qmd
+      - members/georgerauta.qmd
       - members/samuelcohen.qmd
 
     type: default
