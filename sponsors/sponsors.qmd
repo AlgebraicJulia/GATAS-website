@@ -1,0 +1,50 @@
+---
+title: Sponsors 
+image: ../_assets/sponsors/sponsors.png
+# about:
+#   template: broadside
+#   image-shape: rounded
+listing:
+  - id: sponsor-pages
+    type: grid
+    image-height: 200px
+    sort: false
+    grid-columns: 2
+    contents:
+      - darpa.qmd
+      - onr.qmd
+      - afrl.qmd
+      - nsf.qmd
+  - id: grants
+    contents: 
+      - sponsors.yaml
+    type: table
+    # image-height: 250px
+    sort: "date desc"
+    date-format: "YYYY"
+    fields: [sponsor, title, amount, date, until, prime]
+    field-display-names: 
+      amount: "Amount"
+      until: "End Year"
+      date: "Start Year"
+      sponsor: "Sponsor"
+      prime: "Primary Institution"
+      title: Title
+---
+
+:::{#hero-heading}
+
+Our lab is [supported](sponsors/sponsors.qmd) by several sponsors, specifically the following US Federal Agencies.
+:::
+
+Test Text
+
+:::{#sponsor-pages}
+:::
+
+## Grants and Contracts
+
+Our sponsors have supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.
+
+:::{#grants}
+:::

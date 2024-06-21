@@ -1,13 +1,16 @@
 ---
 title: "The GATAS Laboratory"
 listing:
-  id: pages
-  type: grid
-  image-height: 250px
-  contents:
-    - projects.qmd
-    - members.qmd
-    - research.qmd
+  - id: pages
+    type: grid
+    image-height: 500px
+    image-align: left
+    grid-columns: 2
+    contents:
+      - projects.qmd
+      - members.qmd
+      - research.qmd
+      - sponsors/sponsors.qmd
 ---
 
 The GATAS laboratory uses applied category theory to develop novel approaches to scientific
@@ -16,7 +19,7 @@ computing. We are domain-agnostic, solving problems in
 [physics](https://github.com/AlgebraicJulia/Decapodes.jl),
 [biology](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2021.0309),
 [the life sciences](https://arxiv.org/abs/2301.01445),
-and [industrial engineering](https://arxiv.org/abs/2305.03820). The laboratory works closely
+and [industrial engineering](https://arxiv.org/abs/2305.03820). Our group works closely
 with Evan Patterson's research group at the [Topos Institute](https://topos.institute) to
 maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
 
@@ -33,12 +36,3 @@ without starting from scratch in each domain.
 
 :::{#pages}
 :::
-
-## Sponsors
-
-Our lab is supported by several sponsors, specifically the following US Federal Agencies.
-
-![DARPA](_assets/sponsors/darpa.svg){width=25%}
-![ONR](_assets/sponsors/onr.svg){width=25%}
-![NSF](_assets/sponsors/nsf.svg){width=25%}
-![AFRL](_assets/sponsors/afrl.svg){width=25%}

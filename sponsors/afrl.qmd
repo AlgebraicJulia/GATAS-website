@@ -1,0 +1,15 @@
+---
+title: "Air Force Research Laboratory"
+image: ../_assets/sponsors/afrl.svg
+about:
+    template: solana
+    links:
+        - text: Sponsor Website
+          href: https://www.afrl.mil
+---
+
+AFRL has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.
+
+- Summer Internships through the AFRL Scholars Program 
+- Summer Internships through the Griffis Scholars Program 
+- Collaboration with AFRL research staff

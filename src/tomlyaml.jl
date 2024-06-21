@@ -36,12 +36,6 @@ extract_year(s) = begin
   m.match
 end
 
-cv = TOML.parsefile("cv.toml")
-
-# Debugging Info to make sure the keys are correct in the toml file.
-map(distinct_keys, cv["Research"]["Categories"])
-
-mkpath(OUTPUT_DIR)
 function extract_publications(cv)
   map(cv["Research"]["Categories"]) do type
     t = pubtype(type["Name"])
@@ -106,7 +100,6 @@ function extract_publications(cv)
   end
 end
 
-# extract_publications(cv)
 
 function extract_mentoring(cv)
   path = joinpath("members", "mentoring.yaml")
@@ -125,4 +118,39 @@ function extract_mentoring(cv)
    mentees = filter(!isnothing, mentees)
    YAML.write_file(path, mentees)
 end
-extract_mentoring(cv)
+
+cv = TOML.parsefile("cv.toml")
+
+# Debugging Info to make sure the keys are correct in the toml file.
+map(distinct_keys, cv["Research"]["Categories"])
+
+mkpath(OUTPUT_DIR)
+# extract_publications(cv)
+# extract_mentoring(cv)
+
+function extract_sponsors(cv)
+  path = joinpath("sponsors", "sponsors.yaml")
+   grants = map(cv["Funding"]["Grants"]) do grant
+    record = Dict()
+    ys = get(grant, "Start", "None")
+    ye = get(grant, "End", "None")
+    n = get(grant, "Title", "Title Missing")
+    sponsor = get(grant, "Agency", "Missing Inst.")
+    amount = get(grant, "Amount", "Missing")
+    prime = get(grant, "Prime", nothing)
+    if sponsor == "GTRI"
+      return nothing
+    end
+    record = Dict(
+      "date" => ys,
+      "sponsor" => sponsor,
+      "until" => ye,
+      "amount" => amount,
+      "prime" => prime,
+      "title" => n)
+    return record
+   end
+   grants = filter(!isnothing, grants)
+   YAML.write_file(path, grants)
+end
+extract_sponsors(cv)
