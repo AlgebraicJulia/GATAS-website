@@ -1,5 +1,6 @@
 ---
 title: "Research"
+image: publications/mie_title.png
 listing:
   - id: journal-articles
     type: table

@@ -61,6 +61,7 @@ the implementation of correct-by-construction MPC problems in software.
 ![AFRL](/_assets/sponsors/AFRL.svg){width=25%}
 
 AlgebraicOptimization and Control has been supported by the following programs:
-  - NSF: Graduate Research Fellowship Program
-  - ONR: Domain Transfer for Continuity of Performance
-  - AFRL: Griffis Summer Internship Program
+
+- NSF: Graduate Research Fellowship Program
+- ONR: Domain Transfer for Continuity of Performance
+- AFRL: Griffis Summer Internship Program
