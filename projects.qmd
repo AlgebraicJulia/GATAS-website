@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+image: /_assets/brand/logo.png
 listing:
   - id: projects
     type: default

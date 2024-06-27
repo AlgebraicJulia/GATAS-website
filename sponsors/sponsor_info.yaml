@@ -1,0 +1,28 @@
+- title: "Defense Advanced Research Projects Agency"
+  image: ../_assets/sponsors/darpa.svg
+  about:
+    template: solana
+    links:
+    - text: Sponsor Website
+      href: https://www.darpa.mil
+- title: "National Science Foundation"
+  image: ../_assets/sponsors/nsf.svg
+  about:
+    template: solana
+    links:
+    - text: Sponsor Website
+      href: https://www.nsf.gov
+- title: "Office of Naval Research"
+  image: ../_assets/sponsors/onr.svg
+  about:
+    template: solana
+    links:
+    - text: Sponsor Website
+      href: https://www.onr.mil
+- title: "Air Force Research Laboratory"
+  image: ../_assets/sponsors/afrl.svg
+  about:
+    template: solana
+    links:
+    - text: Sponsor Website
+      href: https://www.afrl.mil
