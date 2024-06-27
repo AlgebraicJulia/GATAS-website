@@ -73,7 +73,6 @@ function extract_publications(cv)
       p["toc"] = false
       p["href"] = href
 
-
       if INDIVIDUAL_PAGES
         # writing individual YAML files for each page
         s = YAML.yaml(p)
@@ -99,7 +98,6 @@ function extract_publications(cv)
     end
   end
 end
-
 
 function extract_mentoring(cv)
   path = joinpath("members", "mentoring.yaml")
