@@ -18,18 +18,21 @@
     ]
   },
   {
-    "listing": "/project/sheaves.html",
+    "listing": "/sponsors/sponsors.html",
     "items": [
-      "/members/benbumpus.html",
-      "/members/wilmerleal.html"
+      "/sponsors/darpa.html",
+      "/sponsors/onr.html",
+      "/sponsors/afrl.html",
+      "/sponsors/nsf.html"
     ]
   },
   {
-    "listing": "/project/optimization.html",
+    "listing": "/index.html",
     "items": [
-      "/members/tylerhanks.html",
-      "/members/samuelcohen.html",
-      "/members/richardsamuelson.html"
+      "/members.html",
+      "/projects.html",
+      "/research.html",
+      "/sponsors/sponsors.html"
     ]
   },
   {
@@ -44,11 +47,18 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/project/sheaves.html",
     "items": [
-      "/members.html",
-      "/projects.html",
-      "/research.html"
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html"
+    ]
+  },
+  {
+    "listing": "/project/optimization.html",
+    "items": [
+      "/members/tylerhanks.html",
+      "/members/samuelcohen.html",
+      "/members/richardsamuelson.html"
     ]
   },
   {
