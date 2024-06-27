@@ -34,10 +34,8 @@ listing:
 
 :::{#hero-heading}
 
-Our lab is [supported](sponsors/sponsors.qmd) by several sponsors, specifically the following US Federal Agencies.
+Our lab is supported by several sponsors, specifically the following US Federal Agencies.
 :::
-
-Test Text
 
 :::{#sponsor-pages}
 :::
