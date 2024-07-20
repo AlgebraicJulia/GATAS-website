@@ -26,7 +26,7 @@ listing:
       - ../members/benbumpus.qmd
       - ../members/wilmerleal.qmd
     categories: true
-    fields: [image, title, start_year, degree, program]
+    fields: [image, title, start_year, degree, role]
     sort: none
     page-size: 10
     field-display-names: 
@@ -34,6 +34,7 @@ listing:
       start_year: "Member Since"
       degree: "Degree"
       program: "Program"
+      role: "Role"
 ---
 
 [StructuredDecompositions.jl](https://github.com/AlgebraicJulia/StructuredDecompositions.jl)
