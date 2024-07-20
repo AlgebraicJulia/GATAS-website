@@ -1,6 +1,7 @@
 ---
 title: "Algebraic Dynamics, Optimization, and Control"
-image: /_assets/gatas_logo.png
+image: img/cross_constraint.png
+about: marquee
 listing:
   - id: articles
     template: ../ejs/article.ejs
