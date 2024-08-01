@@ -5,7 +5,7 @@ on:
   pull_request:
 jobs:
   render:
-    uses: AlgebraicJulia/GATAS-website/.github/workflows/render_quarto.yml
+    uses: AlgebraicJulia/GATAS-website/.github/workflows/render_quarto.yml@jpf/fix-actions
     with:
       build_all: false
       save_build: true
