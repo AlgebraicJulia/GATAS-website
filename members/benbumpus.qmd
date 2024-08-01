@@ -4,8 +4,7 @@ image: images/benbumpus.png
 start_year: 2022
 date: 10/1/2022
 role: Research Assistant Professor
-degree: 
-program:
+degree: PhD
 status: Writing
 href: |- 
     <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
@@ -14,6 +13,9 @@ tools:
     href: members/benbumpus.qmd
 about:
     template: solana
+    links:
+        - text: Website
+          href: https://bmbumpus.com/
 ---
 
 is a faculty research scientist and the lead of algorithms subprojects within the GATAS lab. 
