@@ -1,7 +1,7 @@
 ---
 title: "Decapodes"
 image: https://raw.githubusercontent.com/AlgebraicJulia/Decapodes.jl/main/docs/src/logo/decapodes_logo.svg
-about: solana
+about: marquee
 listing:
   - id: articles
     template: ../ejs/article.ejs
