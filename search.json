@@ -1,24 +1,38 @@
 [
   {
-    "objectID": "sponsors/darpa.html",
-    "href": "sponsors/darpa.html",
-    "title": "Defense Advanced Research Projects Agency",
+    "objectID": "project/sheaves.html",
+    "href": "project/sheaves.html",
+    "title": "Compositional Algorithms with Sheaves",
     "section": "",
-    "text": "DARPA has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nAutomating Scientific Knowledge Extraction\nDirectly Computable Models\nDARPA Young Faculty Award\nDARPA Young Faculty Award: Director’s Fellowship\nAutomating Scientific Knowledge Extraction and Modeling"
+    "text": "StructuredDecompositions.jl"
   },
   {
-    "objectID": "sponsors/sponsors.html",
-    "href": "sponsors/sponsors.html",
-    "title": "Sponsors",
-    "section": "",
-    "text": "Our lab is supported by several sponsors, specifically the following US Federal Agencies."
+    "objectID": "project/sheaves.html#sponsors",
+    "href": "project/sheaves.html#sponsors",
+    "title": "Compositional Algorithms with Sheaves",
+    "section": "Sponsors",
+    "text": "Sponsors\n\n\n\nComputation Sheaf Theory has been supported by the DARPA program Automating Scientific Knolwedge Extraction and Modeling"
   },
   {
-    "objectID": "sponsors/sponsors.html#grants-and-contracts",
-    "href": "sponsors/sponsors.html#grants-and-contracts",
-    "title": "Sponsors",
-    "section": "Grants and Contracts",
-    "text": "Grants and Contracts\nOur sponsors have supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Amount\n        \n         \n          End Year\n        \n         \n          Sponsor\n        \n         \n          Title\n        \n         \n          Start Year - Oldest\n        \n         \n          Start Year - Newest\n        \n         \n          Primary Institution\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nSponsor\n\n\nTitle\n\n\nAmount\n\n\nStart Year\n\n\nEnd Year\n\n\nPrimary Institution\n\n\n\n\n\n\nONR\n\n\nDomain Transfer for Continuity of Performance Across Synthetic Aperture Sonar\n\n\n500K\n\n\n2023\n\n\n2026\n\n\nUFL\n\n\n\n\nARO\n\n\nMachine Learning-based Sensor Fusion for Electro-optical and Infrared Target Detection\n\n\n175K\n\n\n2022\n\n\n2023\n\n\nHuntington-Ingalls\n\n\n\n\nDARPA\n\n\nASKEM: Generalized Algebraic Techniques Advancing Scientific Discovery\n\n\n5.8M\n\n\n2022\n\n\n2025\n\n\nUFL\n\n\n\n\nDARPA\n\n\nDirector’s Fellowship: Model Aware Scientific Computing\n\n\n250K\n\n\n2022\n\n\n2023\n\n\nUFL\n\n\n\n\nDARPA\n\n\nPerceptual Task Guidance: ENKIx\n\n\n4.8M\n\n\n2022\n\n\n2024\n\n\nUFL\n\n\n\n\nDARPA\n\n\nYoung Faculty Award: Model Aware Scientific Computing\n\n\n500K\n\n\n2020\n\n\n2022\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nAIE: Automating Scientific Knowledge Extraction Extended\n\n\n700K\n\n\n2020\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nDirectly Computable Models: Generalized Algebraic Theories Enhancing Multiphysics\n\n\n1M\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nArtificial Social Intelligence for Successful Teams (ASIST)\n\n\n400K\n\n\n2019\n\n\n2023\n\n\nGallup\n\n\n\n\nONR\n\n\nExtracting, Explaining, and Estimating Information in Sonar Data (E3ISD)\n\n\n695K\n\n\n2019\n\n\n2022\n\n\nGTRI\n\n\n\n\nONR\n\n\nMine Counter-measures Situational Awareness\n\n\n375K\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nArtificial Intelligence Exporation: Automating Scientific Knowledge Extraction\n\n\n1M\n\n\n2018\n\n\n2020\n\n\nGTRI\n\n\n\n\nNIJ\n\n\nDeveloping Novel Means of Evidence Collection\n\n\n400K\n\n\n2016\n\n\n2018\n\n\nGTRI\n\n\n\n\nONR\n\n\nPerformance Estimation of Underwater Mine Counter-measures Operations\n\n\n990K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\nGTRI SI\n\n\nMulti-source Anticipatory Intelligence\n\n\n900K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\n\nNo matching items"
+    "objectID": "project/decapodes.html",
+    "href": "project/decapodes.html",
+    "title": "Decapodes",
+    "section": "",
+    "text": "Decapodes.jl is a graphical tool for the composition of physical systems.\nThis library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\nLinks:"
+  },
+  {
+    "objectID": "project/decapodes.html#sponsors",
+    "href": "project/decapodes.html#sponsors",
+    "title": "Decapodes",
+    "section": "Sponsors",
+    "text": "Sponsors\n\n\n\nDecapodes has been supported by the following DARPA programs:\n\n\n\nAutomating Scientific Knolwedge Extraction\nDirectly Computable Models\nAutomating Scientific Knolwedge Extraction and Modeling"
+  },
+  {
+    "objectID": "sponsors/nsf.html",
+    "href": "sponsors/nsf.html",
+    "title": "National Science Foundation",
+    "section": "",
+    "text": "NSF has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nNSF Graduate Research Fellowship Program: Tyler Hanks"
   },
   {
     "objectID": "sponsors/afrl.html",
@@ -28,81 +42,25 @@
     "text": "AFRL has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nSummer Internships through the AFRL Scholars Program\nSummer Internships through the Griffis Scholars Program\nCollaboration with AFRL research staff"
   },
   {
-    "objectID": "project/optimization.html",
-    "href": "project/optimization.html",
-    "title": "Algebraic Dynamics, Optimization, and Control",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "AlgebraicControl.jl\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
+    "text": "Here you can find a list of our current research projects. Each project is composed of multiple publications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDecapodes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgebraic Dynamics, Optimization, and Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompositional Algorithms with Sheaves\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "project/optimization.html#sponsors",
-    "href": "project/optimization.html#sponsors",
-    "title": "Algebraic Dynamics, Optimization, and Control",
-    "section": "Sponsors",
-    "text": "Sponsors\n  \nAlgebraicOptimization and Control has been supported by the following programs:\n\nNSF: Graduate Research Fellowship Program\nONR: Domain Transfer for Continuity of Performance\nAFRL: Griffis Summer Internship Program"
-  },
-  {
-    "objectID": "members/georgerauta.html",
-    "href": "members/georgerauta.html",
-    "title": "George Rauta",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The GATAS Laboratory",
     "section": "",
-    "text": "is a master’s student with a focus in numerical linear algebra and high-performance computing.\nI believe that advances in the field of computer science are dependent on the existence of a highly performant computational foundation. It is critical that this foundation considers the theoretical aspects of algorithms, the method by which they are implemented in code and how they interact with the physical designs of modern processing and memory units.\nI am also a developer on the Decapodes.jl and CombinatorialSpaces.jl projects."
+    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. Our group works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
   },
   {
-    "objectID": "members/samuelcohen.html",
-    "href": "members/samuelcohen.html",
-    "title": "Samuel Cohen",
-    "section": "",
-    "text": "is an undergraduate studying math and computer science.\nMy work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems."
-  },
-  {
-    "objectID": "members/cuffaromatt.html",
-    "href": "members/cuffaromatt.html",
-    "title": "Matt Cuffaro",
-    "section": "",
-    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
-  },
-  {
-    "objectID": "members/jamesfairbanks.html",
-    "href": "members/jamesfairbanks.html",
-    "title": "James Fairbanks",
-    "section": "",
-    "text": "is an assistant professor in Computer and Information Science and Engineering department. He is also affiliated with the Mechanical and Aerospace Engineering department, the Institute for Computational Engineering, and the Florida Institute for National Security.\nMy research focuses on new paradigms in scientific computing, specifically applied category theory. This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. The GATAS lab studies these topics and supports software-focused research in the AlgebraicJulia Ecosystem. We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos Institute."
-  },
-  {
-    "objectID": "members/tylerhanks.html",
-    "href": "members/tylerhanks.html",
-    "title": "Tyler Hanks",
-    "section": "",
-    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
-  },
-  {
-    "objectID": "members/richardsamuelson.html",
-    "href": "members/richardsamuelson.html",
-    "title": "Richard Samuelson",
-    "section": "",
-    "text": "is a doctoral student researching category theory, machine learning, and convex analysis."
-  },
-  {
-    "objectID": "publications/jocs.html",
-    "href": "publications/jocs.html",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
-  },
-  {
-    "objectID": "publications/jocs.html#abstract",
-    "href": "publications/jocs.html#abstract",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
-  },
-  {
-    "objectID": "publications/jocs.html#links",
-    "href": "publications/jocs.html#links",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "Links",
-    "text": "Links\n\nJournal\nCode\nDocs"
+    "objectID": "index.html#philosophy",
+    "href": "index.html#philosophy",
+    "title": "The GATAS Laboratory",
+    "section": "Philosophy",
+    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain.\n\n\n\n\n\n\n\n\nMembers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSponsors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/diagrameqns/diagrameqns.html",
@@ -126,6 +84,48 @@
     "text": "Links\n\nTopos Blog 1\nTopos Blog 2\nJournal\nPDF\nCode\nDocs"
   },
   {
+    "objectID": "members/lukemorris.html",
+    "href": "members/lukemorris.html",
+    "title": "Luke Morris",
+    "section": "",
+    "text": "is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.\n… for representing multiphysics models and automatically generating simulations from those representations.\n\nI am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: Decapodes.jl and CombinatorialSpaces.jl.\nWe use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. Catlab.jl - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.\nOf course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.\nDeveloping a library for scientific computing is best done by collaborating with the user that you have in mind. So I lead a few collaborations with labs who study space weather. One model simulates electron dissipation - where electrons end up in our atmosphere as they precipitate down from space - and another is a model for galactic cosmic ray (GCR) and solar energetic particle (SEP) transport - how particles coming from other stars or the Sun travel through our solar system. There are applications for the weather on Earth as well, from modeling glacier dynamics to the circulation of matter in our atmosphere."
+  },
+  {
+    "objectID": "members/jamesfairbanks.html",
+    "href": "members/jamesfairbanks.html",
+    "title": "James Fairbanks",
+    "section": "",
+    "text": "is an assistant professor in Computer and Information Science and Engineering department. He is also affiliated with the Mechanical and Aerospace Engineering department, the Institute for Computational Engineering, and the Florida Institute for National Security.\nMy research focuses on new paradigms in scientific computing, specifically applied category theory. This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. The GATAS lab studies these topics and supports software-focused research in the AlgebraicJulia Ecosystem. We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos Institute."
+  },
+  {
+    "objectID": "members/wilmerleal.html",
+    "href": "members/wilmerleal.html",
+    "title": "Wilmer Leal",
+    "section": "",
+    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
+  },
+  {
+    "objectID": "members/patrickstokes.html",
+    "href": "members/patrickstokes.html",
+    "title": "Patrick Stokes",
+    "section": "",
+    "text": "is a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
+  },
+  {
+    "objectID": "members/cuffaromatt.html",
+    "href": "members/cuffaromatt.html",
+    "title": "Matt Cuffaro",
+    "section": "",
+    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
+  },
+  {
+    "objectID": "members/taylorfrederick.html",
+    "href": "members/taylorfrederick.html",
+    "title": "Taylor Frederick",
+    "section": "",
+    "text": "is a research scientist who likes math."
+  },
+  {
     "objectID": "amma.html",
     "href": "amma.html",
     "title": "GATAS Laboratory | University of Florida",
@@ -138,13 +138,6 @@
     "title": "GATAS Laboratory | University of Florida",
     "section": "",
     "text": "Postponed\n\n\n\nAMMA 2024 is now postponed to 2025 due to international changes in the organizing committee\n\n\n\n\n\nThe Abstract Methods in Multivariate Algorithmics (AMMA) is an international workshop bringing together two mathematical communities: (1) researchers in parameterized (multivariate) complexity theory and (2) researchers in applied topology and category theory. The two communities share many core goals such as understanding compositional systems and compositional algorithms and the systematic confinement of emergent complexity (such as combinatorial explosion). The workshop will consist of a blend of invited and contributed talks as well as tutorials on parameterized complexity and applied category theory aiming to bridge the mathematical and linguistic gap between the two communities.\nThe topics may include but are not limited to:\n\nSheaves and dynamic programming\nWell-quasi-ordering and encountered-instance algorithmic frameworks beyond worst-case analysis\nUniversal obstructions in graph structural width metrics and a general theory of such metrics\nAbstract approaches to second-order Myhill-Nerode congruences and beyond\nDiagram-completion paradigms in parameterized complexity such as solution diversity,\nTransfer learning and dynamic input\nGeneral theories of purposeful kernelization\nParameterizing on quantization\nInductive gradients in parameterized algorithms\nProblem-specific well quasi-ordering and functorial approaches to parameterized complexity classification\nAbstract views of input normal forms such as graphs as lineal topologies\nAbstract models of computation appropriate to truly linear FPT (O(n) + f(k)) algorithmics\nAbstract models of graphs arising from data points plus metric knobs, and their natural decompositions.\n\n\n\n\nBenjamin Bumpus\nJames Fairbanks\nMichael R. Fellows\nFrances A. Rosamond"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here you can find a list of our current research projects. Each project is composed of multiple publications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDecapodes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgebraic Dynamics, Optimization, and Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompositional Algorithms with Sheaves\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "research.html",
@@ -182,6 +175,83 @@
     "text": "Preprints\n\n\n\nYear\nTitle\n\n\n\n\n2024\nTowards a Compositional Framework for Convex Analysis  Richard Samuelson and Dario Stein\n\n\n2023\nA Compositional Framework for Convex Model Predictive Control  Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, and James Fairbanks"
   },
   {
+    "objectID": "members/tylerhanks.html",
+    "href": "members/tylerhanks.html",
+    "title": "Tyler Hanks",
+    "section": "",
+    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
+  },
+  {
+    "objectID": "members/samuelcohen.html",
+    "href": "members/samuelcohen.html",
+    "title": "Samuel Cohen",
+    "section": "",
+    "text": "is an undergraduate studying math and computer science.\nMy work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems."
+  },
+  {
+    "objectID": "members/georgerauta.html",
+    "href": "members/georgerauta.html",
+    "title": "George Rauta",
+    "section": "",
+    "text": "is a master’s student with a focus in numerical linear algebra and high-performance computing.\nI believe that advances in the field of computer science are dependent on the existence of a highly performant computational foundation. It is critical that this foundation considers the theoretical aspects of algorithms, the method by which they are implemented in code and how they interact with the physical designs of modern processing and memory units.\nI am also a developer on the Decapodes.jl and CombinatorialSpaces.jl projects."
+  },
+  {
+    "objectID": "members/benbumpus.html",
+    "href": "members/benbumpus.html",
+    "title": "Benjamin Merlin Bumpus",
+    "section": "",
+    "text": "is a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.\nThe main character in the stories I tell is Complexity and I mean this in the broadest sense: I am interested in classifying different kinds of complexity (structural, algorithmic, behavioral, etc.) and in understanding how complexity arises. The main focus of my work is the emergence of complexity and how this relates to the mathematics of Compositionality (the philosophical contention that the structure or meaning of the whole depends on that of its parts).\nIn this context, the stories I am interested in are often set in the land of computational complexity where combinatorial explosion guides and motivates deep insights in graph structure theory, parameterized complexity theory and finite model theory. I use category theory to better understand how the profound tools developed in the above areas relate to each other and to understand how far they can be pushed and generalized."
+  },
+  {
+    "objectID": "members/richardsamuelson.html",
+    "href": "members/richardsamuelson.html",
+    "title": "Richard Samuelson",
+    "section": "",
+    "text": "is a doctoral student researching category theory, machine learning, and convex analysis."
+  },
+  {
+    "objectID": "publications/jocs.html",
+    "href": "publications/jocs.html",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "",
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+  },
+  {
+    "objectID": "publications/jocs.html#abstract",
+    "href": "publications/jocs.html#abstract",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "",
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+  },
+  {
+    "objectID": "publications/jocs.html#links",
+    "href": "publications/jocs.html#links",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "Links",
+    "text": "Links\n\nJournal\nCode\nDocs"
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html",
+    "href": "publications/diagrampresentations/diagrampresentations.html",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "",
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "",
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
+    "href": "publications/diagrampresentations/diagrampresentations.html#links",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "Links",
+    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
+  },
+  {
     "objectID": "members.html",
     "href": "members.html",
     "title": "Members",
@@ -210,102 +280,11 @@
     "text": "Lab Mentees\nThese are people who might not have spent full-time employment in the lab, but were involved in a mentorship program or ongoing mentoring relationship outside beyond the institution.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Dates\n        \n         \n          Last Known Institution\n        \n         \n          Program\n        \n         \n          Name\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nProgram\n\n\nLast Known Institution\n\n\nDates\n\n\n\n\n\n\nKris Brown\n\n\nUF Post-Doctoral Researcher\n\n\nTopos Institute, Research Software Engineer\n\n\n2021-22\n\n\n\n\nAnna Knoerr\n\n\nACT Adjoint School\n\n\nETH Zurich\n\n\n2021\n\n\n\n\nGrant Generaux\n\n\nACT Adjoint School\n\n\nBristol Myers Squibb\n\n\n2021\n\n\n\n\nAmy Searle\n\n\nACT Adjoint School\n\n\nOxford Physics, PhD Student\n\n\n2021\n\n\n\n\nKris Brown\n\n\nChemical Engineering, Stanford University\n\n\nUF, Post-Doctoral Researcher\n\n\n2021-2022\n\n\n\n\nSophie Libkind\n\n\nMathematics, Stanford University\n\n\nTopos Institute, Mathematician\n\n\n2020-2022\n\n\n\n\nOwen Lynch\n\n\nStatistics, University of Utrecht\n\n\nTopos Institute, Research Software Engineer\n\n\n2020-Present\n\n\n\n\nJulian Perez\n\n\nBS BME GT\n\n\nStanford, PhD Student\n\n\n2021-22\n\n\n\n\nStephen Wellburg\n\n\nBS DAS UF\n\n\nCapital One, Software Engineer\n\n\n2021-22\n\n\n\n\nSreenath Reparti\n\n\nBS ISYE Georgia Tech\n\n\nKPMG\n\n\n2018-19\n\n\n\n\nKun Cao\n\n\nMS CS Georgia Tech\n\n\nGT\n\n\n2019\n\n\n\n\nMicah Halter\n\n\nBS CS Georgia Tech\n\n\nGTRI\n\n\n2016-19\n\n\n\n\nNate Knauf\n\n\nBS CS Georgia Tech\n\n\nGT\n\n\n2016\n\n\n\n\nRohit Varkey\n\n\nMS CS Georgia Tech\n\n\nGoogle\n\n\n2016-18\n\n\n\n\nPushkar Godbole\n\n\nMS CSE Georgia Tech\n\n\nYelp\n\n\n2015\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html",
-    "href": "publications/diagrampresentations/diagrampresentations.html",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "objectID": "sponsors/darpa.html",
+    "href": "sponsors/darpa.html",
+    "title": "Defense Advanced Research Projects Agency",
     "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
-  },
-  {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
-    "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
-  },
-  {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
-    "href": "publications/diagrampresentations/diagrampresentations.html#links",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
-    "section": "Links",
-    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The GATAS Laboratory",
-    "section": "",
-    "text": "The GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. Our group works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
-  },
-  {
-    "objectID": "index.html#philosophy",
-    "href": "index.html#philosophy",
-    "title": "The GATAS Laboratory",
-    "section": "Philosophy",
-    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain.\n\n\n\n\n\n\n\n\nMembers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSponsors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "members/taylorfrederick.html",
-    "href": "members/taylorfrederick.html",
-    "title": "Taylor Frederick",
-    "section": "",
-    "text": "is a research scientist who likes math."
-  },
-  {
-    "objectID": "members/patrickstokes.html",
-    "href": "members/patrickstokes.html",
-    "title": "Patrick Stokes",
-    "section": "",
-    "text": "is a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
-  },
-  {
-    "objectID": "members/lukemorris.html",
-    "href": "members/lukemorris.html",
-    "title": "Luke Morris",
-    "section": "",
-    "text": "is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.\n… for representing multiphysics models and automatically generating simulations from those representations.\n\nI am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: Decapodes.jl and CombinatorialSpaces.jl.\nWe use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. Catlab.jl - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.\nOf course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.\nDeveloping a library for scientific computing is best done by collaborating with the user that you have in mind. So I lead a few collaborations with labs who study space weather. One model simulates electron dissipation - where electrons end up in our atmosphere as they precipitate down from space - and another is a model for galactic cosmic ray (GCR) and solar energetic particle (SEP) transport - how particles coming from other stars or the Sun travel through our solar system. There are applications for the weather on Earth as well, from modeling glacier dynamics to the circulation of matter in our atmosphere."
-  },
-  {
-    "objectID": "members/benbumpus.html",
-    "href": "members/benbumpus.html",
-    "title": "Benjamin Merlin Bumpus",
-    "section": "",
-    "text": "is a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.\nThe main character in the stories I tell is Complexity and I mean this in the broadest sense: I am interested in classifying different kinds of complexity (structural, algorithmic, behavioral, etc.) and in understanding how complexity arises. The main focus of my work is the emergence of complexity and how this relates to the mathematics of Compositionality (the philosophical contention that the structure or meaning of the whole depends on that of its parts).\nIn this context, the stories I am interested in are often set in the land of computational complexity where combinatorial explosion guides and motivates deep insights in graph structure theory, parameterized complexity theory and finite model theory. I use category theory to better understand how the profound tools developed in the above areas relate to each other and to understand how far they can be pushed and generalized."
-  },
-  {
-    "objectID": "members/wilmerleal.html",
-    "href": "members/wilmerleal.html",
-    "title": "Wilmer Leal",
-    "section": "",
-    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
-  },
-  {
-    "objectID": "project/sheaves.html",
-    "href": "project/sheaves.html",
-    "title": "Compositional Algorithms with Sheaves",
-    "section": "",
-    "text": "StructuredDecompositions.jl"
-  },
-  {
-    "objectID": "project/sheaves.html#sponsors",
-    "href": "project/sheaves.html#sponsors",
-    "title": "Compositional Algorithms with Sheaves",
-    "section": "Sponsors",
-    "text": "Sponsors\n\n\n\nComputation Sheaf Theory has been supported by the DARPA program Automating Scientific Knolwedge Extraction and Modeling"
-  },
-  {
-    "objectID": "project/decapodes.html",
-    "href": "project/decapodes.html",
-    "title": "Decapodes",
-    "section": "",
-    "text": "Decapodes.jl is a graphical tool for the composition of physical systems.\nThis library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\nLinks:"
-  },
-  {
-    "objectID": "project/decapodes.html#sponsors",
-    "href": "project/decapodes.html#sponsors",
-    "title": "Decapodes",
-    "section": "Sponsors",
-    "text": "Sponsors\n\n\n\nDecapodes has been supported by the following DARPA programs:\n\n\n\nAutomating Scientific Knolwedge Extraction\nDirectly Computable Models\nAutomating Scientific Knolwedge Extraction and Modeling"
+    "text": "DARPA has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nAutomating Scientific Knowledge Extraction\nDirectly Computable Models\nDARPA Young Faculty Award\nDARPA Young Faculty Award: Director’s Fellowship\nAutomating Scientific Knowledge Extraction and Modeling"
   },
   {
     "objectID": "sponsors/onr.html",
@@ -315,10 +294,31 @@
     "text": "ONR has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nONR Domain Transfer for Continuity of Performance Across Synthetic Aperture Sonar\nONR Extracting, Explaining, and Estimating Information in Sonar Data (E3ISD)\nONR Mine Counter-measures Situational Awareness\nONR Performance Estimation of Underwater Mine Counter-measures Operations"
   },
   {
-    "objectID": "sponsors/nsf.html",
-    "href": "sponsors/nsf.html",
-    "title": "National Science Foundation",
+    "objectID": "sponsors/sponsors.html",
+    "href": "sponsors/sponsors.html",
+    "title": "Sponsors",
     "section": "",
-    "text": "NSF has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nNSF Graduate Research Fellowship Program: Tyler Hanks"
+    "text": "Our lab is supported by several sponsors, specifically the following US Federal Agencies."
+  },
+  {
+    "objectID": "sponsors/sponsors.html#grants-and-contracts",
+    "href": "sponsors/sponsors.html#grants-and-contracts",
+    "title": "Sponsors",
+    "section": "Grants and Contracts",
+    "text": "Grants and Contracts\nOur sponsors have supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Amount\n        \n         \n          End Year\n        \n         \n          Sponsor\n        \n         \n          Title\n        \n         \n          Start Year - Oldest\n        \n         \n          Start Year - Newest\n        \n         \n          Primary Institution\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nSponsor\n\n\nTitle\n\n\nAmount\n\n\nStart Year\n\n\nEnd Year\n\n\nPrimary Institution\n\n\n\n\n\n\nONR\n\n\nDomain Transfer for Continuity of Performance Across Synthetic Aperture Sonar\n\n\n500K\n\n\n2023\n\n\n2026\n\n\nUFL\n\n\n\n\nARO\n\n\nMachine Learning-based Sensor Fusion for Electro-optical and Infrared Target Detection\n\n\n175K\n\n\n2022\n\n\n2023\n\n\nHuntington-Ingalls\n\n\n\n\nDARPA\n\n\nASKEM: Generalized Algebraic Techniques Advancing Scientific Discovery\n\n\n5.8M\n\n\n2022\n\n\n2025\n\n\nUFL\n\n\n\n\nDARPA\n\n\nDirector’s Fellowship: Model Aware Scientific Computing\n\n\n250K\n\n\n2022\n\n\n2023\n\n\nUFL\n\n\n\n\nDARPA\n\n\nPerceptual Task Guidance: ENKIx\n\n\n4.8M\n\n\n2022\n\n\n2024\n\n\nUFL\n\n\n\n\nDARPA\n\n\nYoung Faculty Award: Model Aware Scientific Computing\n\n\n500K\n\n\n2020\n\n\n2022\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nAIE: Automating Scientific Knowledge Extraction Extended\n\n\n700K\n\n\n2020\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nDirectly Computable Models: Generalized Algebraic Theories Enhancing Multiphysics\n\n\n1M\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nArtificial Social Intelligence for Successful Teams (ASIST)\n\n\n400K\n\n\n2019\n\n\n2023\n\n\nGallup\n\n\n\n\nONR\n\n\nExtracting, Explaining, and Estimating Information in Sonar Data (E3ISD)\n\n\n695K\n\n\n2019\n\n\n2022\n\n\nGTRI\n\n\n\n\nONR\n\n\nMine Counter-measures Situational Awareness\n\n\n375K\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nArtificial Intelligence Exporation: Automating Scientific Knowledge Extraction\n\n\n1M\n\n\n2018\n\n\n2020\n\n\nGTRI\n\n\n\n\nNIJ\n\n\nDeveloping Novel Means of Evidence Collection\n\n\n400K\n\n\n2016\n\n\n2018\n\n\nGTRI\n\n\n\n\nONR\n\n\nPerformance Estimation of Underwater Mine Counter-measures Operations\n\n\n990K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\nGTRI SI\n\n\nMulti-source Anticipatory Intelligence\n\n\n900K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "project/optimization.html",
+    "href": "project/optimization.html",
+    "title": "Algebraic Dynamics, Optimization, and Control",
+    "section": "",
+    "text": "AlgebraicControl.jl\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
+  },
+  {
+    "objectID": "project/optimization.html#sponsors",
+    "href": "project/optimization.html#sponsors",
+    "title": "Algebraic Dynamics, Optimization, and Control",
+    "section": "Sponsors",
+    "text": "Sponsors\n  \nAlgebraicOptimization and Control has been supported by the following programs:\n\nNSF: Graduate Research Fellowship Program\nONR: Domain Transfer for Continuity of Performance\nAFRL: Griffis Summer Internship Program"
   }
 ]

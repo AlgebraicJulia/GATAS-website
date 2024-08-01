@@ -1,19 +1,20 @@
 [
   {
-    "listing": "/sponsors/sponsors.html",
+    "listing": "/project/sheaves.html",
     "items": [
-      "/sponsors/darpa.html",
-      "/sponsors/onr.html",
-      "/sponsors/afrl.html",
-      "/sponsors/nsf.html"
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html"
     ]
   },
   {
-    "listing": "/project/optimization.html",
+    "listing": "/project/decapodes.html",
     "items": [
-      "/members/tylerhanks.html",
-      "/members/samuelcohen.html",
-      "/members/richardsamuelson.html"
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html",
+      "/members/lukemorris.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html"
     ]
   },
   {
@@ -22,6 +23,15 @@
       "/project/decapodes.html",
       "/project/optimization.html",
       "/project/sheaves.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/members.html",
+      "/projects.html",
+      "/research.html",
+      "/sponsors/sponsors.html"
     ]
   },
   {
@@ -43,30 +53,20 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/sponsors/sponsors.html",
     "items": [
-      "/members.html",
-      "/projects.html",
-      "/research.html",
-      "/sponsors/sponsors.html"
+      "/sponsors/darpa.html",
+      "/sponsors/onr.html",
+      "/sponsors/afrl.html",
+      "/sponsors/nsf.html"
     ]
   },
   {
-    "listing": "/project/sheaves.html",
+    "listing": "/project/optimization.html",
     "items": [
-      "/members/benbumpus.html",
-      "/members/wilmerleal.html"
-    ]
-  },
-  {
-    "listing": "/project/decapodes.html",
-    "items": [
-      "/publications/jocs.html",
-      "/publications/diagrampresentations/diagrampresentations.html",
-      "/publications/diagrameqns/diagrameqns.html",
-      "/members/lukemorris.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html"
+      "/members/tylerhanks.html",
+      "/members/samuelcohen.html",
+      "/members/richardsamuelson.html"
     ]
   }
 ]
