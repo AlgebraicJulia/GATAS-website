@@ -1,8 +1,0 @@
----
-title: "The application of applied category theory to quantify mission success"
---- 
-
-```{=html}
-<iframe width="780" height="500" src="
-garrett-et-al-2022-the-application-of-applied-category-theory-to-quantify-mission-success.pdf" ></iframe>
-```
