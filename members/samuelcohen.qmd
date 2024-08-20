@@ -1,0 +1,11 @@
+---
+title: "Samuel Cohen"
+image: images/samuelcohen.jpg
+date: 5/21/2024
+about:
+    template: solana
+---
+
+is an undergraduate studying math and computer science. 
+
+My work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems.

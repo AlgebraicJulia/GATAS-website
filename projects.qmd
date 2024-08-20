@@ -1,0 +1,21 @@
+---
+title: "Projects"
+image: /_assets/brand/logo.png
+listing:
+  - id: projects
+    type: default
+    contents:
+      - project/decapodes.qmd
+      - project/optimization.qmd
+      - project/sheaves.qmd
+    sort: none
+    categories: false
+    # fields: [year, title, author, publication, href]
+    page-size: 20
+    image-align: left
+    field-display-names: 
+      year: "Year"
+      href: "Link"
+---
+
+Here you can find a list of our current research projects. Each project is composed of multiple publications.

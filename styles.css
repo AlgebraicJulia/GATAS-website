@@ -74,3 +74,8 @@ div.proof:after {
 .rmenv > :last-child {
   margin-bottom: 0 !important;
 }
+
+h3.listing-title {
+  color: #4e8abb;
+  text-decoration: underline;
+}

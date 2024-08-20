@@ -5,7 +5,7 @@ on:
   pull_request:
 jobs:
   render:
-    uses: AlgebraicJulia/.github/.github/workflows/render_quarto.yml@main
+    uses: ./.github/workflows/render_quarto.yml
     with:
       build_all: false
       save_build: true

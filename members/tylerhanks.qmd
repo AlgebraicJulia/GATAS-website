@@ -1,12 +1,18 @@
 ---
 title: "Tyler Hanks"
 image: images/tylerhanks.png
-
+start_year: 2021
+date: 8/15/2021
+program: CISE
+degree: PhD
+status: Qualified
+href: |-
+    <a href="https://gataslab.org/members/tylerhanks" class="btn btn-secondary">Site</a>
 about:
     template: solana
 ---
 
-I am a PhD student in the GATAS lab working on optimization, control theory, and machine learning. 
+is a PhD student in the GATAS lab working on optimization, control theory, and machine learning. 
 
 Specifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields.
 Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures.

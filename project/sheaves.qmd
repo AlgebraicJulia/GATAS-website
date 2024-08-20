@@ -1,0 +1,55 @@
+---
+title: "Compositional Algorithms with Sheaves"
+image: /_assets/gatas_logo.png
+listing:
+  - id: articles
+    template: ../ejs/article.ejs
+    contents:
+      - sheaves.yaml
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title desc"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 20
+    field-display-names: 
+      publication: "Journal"
+      date: "Date"
+      year: "Year"
+      href: "Link"
+  - id: team
+    type: table
+    contents:
+      - ../members/benbumpus.qmd
+      - ../members/wilmerleal.qmd
+    categories: true
+    fields: [image, title, start_year, degree, role]
+    sort: none
+    page-size: 10
+    field-display-names: 
+      title: Name
+      start_year: "Member Since"
+      degree: "Degree"
+      program: "Program"
+      role: "Role"
+---
+
+[StructuredDecompositions.jl](https://github.com/AlgebraicJulia/StructuredDecompositions.jl)
+
+
+#### Project Team
+
+:::{#team}
+:::
+
+#### Project Articles
+
+:::{#articles}
+:::
+
+## Sponsors
+
+![Computation Sheaf Theory has been supported by the DARPA program Automating Scientific Knolwedge Extraction and Modeling](/_assets/sponsors/darpa.svg){width=25%}

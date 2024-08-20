@@ -1,5 +1,16 @@
 ---
 title: "The GATAS Laboratory"
+listing:
+  - id: pages
+    type: grid
+    image-height: 500px
+    image-align: left
+    grid-columns: 2
+    contents:
+      - projects.qmd
+      - members.qmd
+      - research.qmd
+      - sponsors/sponsors.qmd
 ---
 
 The GATAS laboratory uses applied category theory to develop novel approaches to scientific
@@ -8,8 +19,20 @@ computing. We are domain-agnostic, solving problems in
 [physics](https://github.com/AlgebraicJulia/Decapodes.jl),
 [biology](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2021.0309),
 [the life sciences](https://arxiv.org/abs/2301.01445),
-and [industrial engineering](https://arxiv.org/abs/2305.03820). The laboratory works closely
+and [industrial engineering](https://arxiv.org/abs/2305.03820). Our group works closely
 with Evan Patterson's research group at the [Topos Institute](https://topos.institute) to
 maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
 
-See the laboratory's [About](about.qmd) page to learn more about our research goals and philosophy.
+## Philosophy
+
+Scientists develop simulations by translating scientific concepts into mathematical models,
+and then embodying those models in software. We seek to automate this process using
+[category theory](https://en.wikipedia.org/wiki/Category_theory).
+Category theory is a mathematical language rich enough in abstraction to represent any
+scientific concept, yet pliable enough to manipulate efficiently with a computer. The
+software in [AlgebraicJulia](https://www.algebraicjulia.org/) encodes a number of these
+abstractions; with it, scientists can build powerful, robust, and bespoke scientific models
+without starting from scratch in each domain.
+
+:::{#pages}
+:::

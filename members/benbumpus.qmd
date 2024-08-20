@@ -1,14 +1,27 @@
 ---
 title: "Benjamin Merlin Bumpus"
 image: images/benbumpus.png
+start_year: 2022
+date: 10/1/2022
+role: Research Assistant Professor
+degree: PhD
+status: Writing
+href: |- 
+    <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
+tools:
+  - text: Full Bio
+    href: members/benbumpus.qmd
 about:
     template: solana
+    links:
+        - text: Website
+          href: https://bmbumpus.com/
 ---
 
-I am a faculty research scientist and the lead of algorithms subprojects within the GATAS lab. 
+is a faculty research scientist and the lead of algorithms subprojects within the GATAS lab. 
 
 The main character in the stories I tell is Complexity and I mean this in the broadest sense:
-I am interested in classifying different kinds of complexity (Structural, algorithmic, behavioral, etc.) 
+I am interested in classifying different kinds of complexity (structural, algorithmic, behavioral, etc.) 
 and in understanding how complexity arises. The main focus of my work is the emergence of complexity 
 and how this relates to the mathematics of Compositionality (the philosophical contention that the structure or 
 meaning of the whole depends on that of its parts). 

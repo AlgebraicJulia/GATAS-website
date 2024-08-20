@@ -1,30 +1,85 @@
 ---
-title: "Current Work"
-
-listing: 
-  - id: recent_pubs
-    type: grid
-    contents: "recent_pubs/*.qmd"
-    image-placeholder: _assets/gatas_logo.png
-    image-height: 200px
+title: "Research"
+image: publications/mie_title.png
+listing:
+  - id: journal-articles
+    type: table
+    table-striped: true
+    table-hover: true
+    contents:
+      - publications/article/listing.yaml
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title desc"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 20
+    field-display-names: 
+      publication: "Journal"
+      date: "Date"
+      year: "Year"
+      href: "Link"
+  - id: conference-articles
+    type: table
+    contents:
+      - publications/conference_publication/listing.yaml
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 10
+    field-display-names: 
+      publication: "Venue"
+      date: "Date"
+      year: "Year"
+      href: "Link"
+  - id: conference-talks
+    type: table
+    contents:
+      - publications/conference_presentation/listing.yaml
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 10
+    field-display-names: 
+      publication: "Venue"
+      date: "Date"
+      year: "Year"
+      href: "Link"
 ---
 
-## Current Projects
-### [Decapodes.jl](https://algebraicjulia.github.io/Decapodes.jl/stable/)
+This page has tables of our research publications broken down by category.
 
-Decapodes are a graphical tool for the composition of physical systems.     
-Ultimately, this library will include tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.
+## Journal Papers
 
-
-### [AlgebraicControl.jl](https://github.com/AlgebraicJulia/AlgebraicControl.jl.git)
-
-Model predictive control (MPC) is an optimal control technique which involves 
-solving a sequence of constrained optimization problems across a given time horizon.
-We present a novel Julia library that leverages our theoretical results to automate 
-the implementation of correct-by-construction MPC problems in software. 
-
-## Recent Publications
-
-:::{#recent_pubs}
+:::{#journal-articles}
 :::
 
+## Conference Papers
+
+:::{#conference-articles}
+:::
+
+## Conference Talks
+
+:::{#conference-talks}
+:::
+
+## Preprints
+
+| Year | Title |
+| ---- | ----- |
+| 2024 | [Towards a Compositional Framework for Convex Analysis](https://arxiv.org/abs/2312.02291) <br> Richard Samuelson and Dario Stein |
+| 2023 | [A Compositional Framework for Convex Model Predictive Control](https://arxiv.org/abs/2305.03820) <br> Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, and James Fairbanks |

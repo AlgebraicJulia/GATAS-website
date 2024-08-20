@@ -10,10 +10,11 @@ website:
     logo: _assets/gatas_logo.png
     collapse-below: sm
     right:
-      - about.qmd
       - members.qmd
-      - seminars.qmd    
+      - projects.qmd
       - research.qmd
+      - text: "AMMA"
+        href: amma.qmd
       - text: "Blog"
         href: https://blog.algebraicjulia.org/
       - icon: github
@@ -26,6 +27,13 @@ format:
     theme:
       light: flatly
       dark: darkly
+    linkcolor: "#4E8ABB" 
+    navbar:
+      background: "#4E8ABB"
+      foreground: "#6FB450"
+    # Blue: "#4E8ABB" 
+    # Green: "#6FB450"
+    # Orange: "#6FB450"
     css: styles.css
     monofont: JuliaMono-Regular
 

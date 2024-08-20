@@ -1,0 +1,13 @@
+---
+title: "National Science Foundation"
+image: ../_assets/sponsors/nsf.jpg
+about:
+    template: solana
+    links:
+        - text: Sponsor Website
+          href: https://www.nsf.gov
+---
+
+NSF has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.
+
+- NSF Graduate Research Fellowship Program: [Tyler Hanks](../members/tylerhanks.qmd)
