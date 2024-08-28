@@ -6,6 +6,10 @@ date: 8/15/2021
 program: CISE
 degree: PhD
 status: Qualifying
+format:
+    html:
+        template-partials:
+            member-title.tex
 href: |-
     <a href="https://www.cise.ufl.edu/~luke.morris" class="btn btn-secondary">Site</a>
 tools:
