@@ -1,5 +1,25 @@
 [
   {
+    "listing": "/project/decapodes.html",
+    "items": [
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html",
+      "/members/lukemorris.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/members.html",
+      "/projects.html",
+      "/research.html",
+      "/sponsors/sponsors.html"
+    ]
+  },
+  {
     "listing": "/sponsors/sponsors.html",
     "items": [
       "/sponsors/darpa.html",
@@ -9,24 +29,12 @@
     ]
   },
   {
-    "listing": "/project/optimization.html",
-    "items": [
-      "/members/tylerhanks.html",
-      "/members/samuelcohen.html",
-      "/members/richardsamuelson.html"
-    ]
-  },
-  {
     "listing": "/projects.html",
     "items": [
       "/project/decapodes.html",
       "/project/optimization.html",
       "/project/sheaves.html"
     ]
-  },
-  {
-    "listing": "/research.html",
-    "items": []
   },
   {
     "listing": "/members.html",
@@ -43,12 +51,15 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/research.html",
+    "items": []
+  },
+  {
+    "listing": "/project/optimization.html",
     "items": [
-      "/members.html",
-      "/projects.html",
-      "/research.html",
-      "/sponsors/sponsors.html"
+      "/members/tylerhanks.html",
+      "/members/samuelcohen.html",
+      "/members/richardsamuelson.html"
     ]
   },
   {
@@ -56,17 +67,6 @@
     "items": [
       "/members/benbumpus.html",
       "/members/wilmerleal.html"
-    ]
-  },
-  {
-    "listing": "/project/decapodes.html",
-    "items": [
-      "/publications/jocs.html",
-      "/publications/diagrampresentations/diagrampresentations.html",
-      "/publications/diagrameqns/diagrameqns.html",
-      "/members/lukemorris.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html"
     ]
   }
 ]
