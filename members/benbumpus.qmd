@@ -2,6 +2,7 @@
 title: "Benjamin Merlin Bumpus"
 image: images/benbumpus.png
 start_year: 2022
+published-title: "Lab Member Since:"
 date: 10/1/2022
 role: Research Assistant Professor
 degree: PhD

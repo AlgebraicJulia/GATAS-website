@@ -1,7 +1,9 @@
 ---
 title: "Richard Samuelson"
 image: images/richardsamuelson.jpg
+start_year: 2024
 date: 1/1/2024
+published-title: "Lab Member Since:"
 about:
     template: solana
     links:

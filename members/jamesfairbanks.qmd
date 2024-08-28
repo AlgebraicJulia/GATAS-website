@@ -2,6 +2,7 @@
 title: "James Fairbanks"
 image: images/jamesfairbanks.png
 start_year: 2021
+published-title: "Lab Member Since:"
 date: 1/1/2021
 role: Principal Investigator
 degree: PhD

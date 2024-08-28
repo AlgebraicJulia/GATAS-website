@@ -2,6 +2,7 @@
 title: "Tyler Hanks"
 image: images/tylerhanks.png
 start_year: 2021
+published-title: "Lab Member Since:"
 date: 8/15/2021
 program: CISE
 degree: PhD
