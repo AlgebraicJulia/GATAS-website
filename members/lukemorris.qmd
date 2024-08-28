@@ -3,6 +3,7 @@ title: "Luke Morris"
 image: images/lukemorris.jpeg
 start_year: 2021
 date: 8/15/2021
+published-title: "Lab Member Since:"
 program: CISE
 degree: PhD
 status: Qualifying
