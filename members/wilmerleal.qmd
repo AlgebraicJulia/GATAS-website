@@ -2,6 +2,7 @@
 title: "Wilmer Leal"
 image: images/wilmerleal.jpg
 start_year: 2022
+published-title: "Lab Member Since:"
 date: 1/1/2023
 role: Postdoctoral Fellow
 degree: PhD

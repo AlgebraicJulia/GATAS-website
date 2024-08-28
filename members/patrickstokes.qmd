@@ -3,6 +3,7 @@ title: "Patrick Stokes"
 image: images/profile.jpg
 
 start_year: 2021
+published-title: "Lab Member Since:"
 program: CISE
 degree: PhD
 status: Qualifying
