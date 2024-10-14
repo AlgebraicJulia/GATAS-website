@@ -1,0 +1,23 @@
+---
+title: "Lab Meeting Presentations"
+image: assets/gatas_logo.png
+listing:
+  - id: 
+    type: table
+    table-striped: true
+    table-hover: true
+    contents:
+      - presentations.yaml
+    sort: 
+      - "date desc"
+      - "title desc"
+    categories: true
+    fields: [date, title, author, href]
+    sort-ui: [title,author,date]
+    filter-ui: [title,author,year]
+    page-size: 20
+    field-display-names: 
+      date: "Date"
+      title: "Title"
+      author: "Presenter"
+      href: "Link"
