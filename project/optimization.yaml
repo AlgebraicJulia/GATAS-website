@@ -1,0 +1,126 @@
+- preprint: "https://doi.org/10.48550/arXiv.2403.05711"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2403.05711"
+  Date: "Submitted 2024"
+  toc: false
+  author: "T. Hanks, M Klawonn, M Hale, E Patterson, JP Fairbanks"
+  Authors: "T. Hanks, M Klawonn, M Hale, E Patterson, JP Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2403.05711" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted 2024"
+  Title: "A Compositional Framework for First-Order Optimization"
+  Venue: "arxiv"
+  URL: "https://doi.org/10.48550/arXiv.2403.05711"
+  publication: "arxiv"
+  title: "A Compositional Framework for First-Order Optimization"
+  type: "article"
+- materials: ""
+  doi: "https://doi.org/10.1098/rsta.2021.0309"
+  Date: "Aug 2022"
+  toc: false
+  author: "S. Libkind, A. Baas, M. Halter, E. Patterson, and J. P. Fairbanks"
+  Authors: "S. Libkind, A. Baas, M. Halter, E. Patterson, and J. P. Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.1098/rsta.2021.0309" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Aug 2022"
+  Title: "An Algebraic Framework for Structured Epidemic Modeling"
+  Venue: "Proc. of the Royal Society Phil. Trans."
+  URL: "https://doi.org/10.1098/rsta.2021.0309"
+  publication: "Proc. of the Royal Society Phil. Trans."
+  title: "An Algebraic Framework for Structured Epidemic Modeling"
+  type: "article"
+- materials: ""
+  Date: "Submitted March 2024"
+  toc: false
+  author: "T Hanks, M. Klawonn, J. Fairbanks"
+  Authors: "T Hanks, M. Klawonn, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Submitted March 2024"
+  Title: "Generalized Gradient Descent is a Hypergraph Functor"
+  Venue: "Applied Category Theory"
+  publication: "Applied Category Theory"
+  title: "Generalized Gradient Descent is a Hypergraph Functor"
+  type: "conference_publication"
+- preprint: "https://doi.org/10.48550/arXiv.2305.03820"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2305.03820"
+  Date: "Jul 2024"
+  toc: false
+  author: "Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, James Fairbanks"
+  Authors: "Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, James Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2305.03820" class="btn btn-secondary">DOI</a>
+  year: "2024"
+  date: "Jul 2024"
+  Title: "Modeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems"
+  Venue: "American Control Conference"
+  URL: "https://doi.org/10.48550/arXiv.2305.03820"
+  publication: "American Control Conference"
+  title: "Modeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems"
+  type: "conference_publication"
+- preprint: "https://doi.org/10.48550/arXiv.2305.01811"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2305.01811"
+  Date: "2023"
+  toc: false
+  author: "Baike She, Tyler Hanks, James Fairbanks, Matthew Hale"
+  Authors: "Baike She, Tyler Hanks, James Fairbanks, Matthew Hale"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2305.01811" class="btn btn-secondary">DOI</a>
+  year: "2023"
+  date: "2023"
+  Title: "Characterizing Compositionality of LQR from the Categorical Perspective"
+  Venue: "IEEE Conf. Decision and Control"
+  URL: "https://doi.org/10.48550/arXiv.2305.01811"
+  publication: "IEEE Conf. Decision and Control"
+  title: "Characterizing Compositionality of LQR from the Categorical Perspective"
+  type: "conference_publication"
+- materials: ""
+  Date: "Jul 2021"
+  toc: false
+  author: "S. Libkind, A. Baas, E. J. Patterson, J. P. Fairbanks"
+  Authors: "S. Libkind, A. Baas, E. J. Patterson, J. P. Fairbanks"
+  href: |-
+    <a href="https://www.cl.cam.ac.uk/events/act2021/papers/ACT_2021_paper_53.pdf" class="btn btn-secondary">DOI</a>
+  year: "2021"
+  date: "Jul 2021"
+  Title: "Operadic Modeling of Dynamical Systems: Mathematics and Computation"
+  Venue: "Applied category Theory (Proceedings)"
+  URL: "https://www.cl.cam.ac.uk/events/act2021/papers/ACT_2021_paper_53.pdf"
+  publication: "Applied category Theory (Proceedings)"
+  title: "Operadic Modeling of Dynamical Systems: Mathematics and Computation"
+  type: "conference_publication"
+- materials: ""
+  Date: "Jul 2022"
+  toc: false
+  author: "S. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks"
+  Authors: "S. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Jul 2022"
+  Title: "Typed and stratified models with slice categories"
+  Venue: "Applied Category Theory 2022"
+  URL: ""
+  publication: "Applied Category Theory 2022"
+  title: "Typed and stratified models with slice categories"
+  type: "conference_presentation"
+- materials: ""
+  Date: "Jul 2021"
+  toc: false
+  author: "S. Libkind, J. P. Fairbanks"
+  Authors: "S. Libkind, J. P. Fairbanks"
+  href: |-
+    <a href="https://pretalx.com/juliacon2021/talk/ARURL8/" class="btn btn-secondary">DOI</a>
+  year: "2021"
+  date: "Jul 2021"
+  Title: "AlgebraicDynamics: Compositional dynamical systems"
+  Venue: "JuliaCon, Online"
+  URL: "https://pretalx.com/juliacon2021/talk/ARURL8/"
+  publication: "JuliaCon, Online"
+  title: "AlgebraicDynamics: Compositional dynamical systems"
+  type: "conference_presentation"

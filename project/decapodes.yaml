@@ -1,0 +1,47 @@
+- materials: ""
+  doi: "https://doi.org/10.1016/j.jocs.2024.102345"
+  Date: "Sub. 2023, Accepted April 2024."
+  toc: false
+  author: "L. Morris, A. Baas, J. Arias, M. Gaitlin, E. Patterson, J. Fairbanks"
+  Authors: "L. Morris, A. Baas, J. Arias, M. Gaitlin, E. Patterson, J. Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.1016/j.jocs.2024.102345" class="btn btn-secondary">DOI</a>
+  year: "2023"
+  date: "Sub. 2023, Accepted April 2024."
+  Title: "Decapodes: A Diagrammatic Tool for Representing, Composing, and Computing Spatialized Partial Differential Equations"
+  Venue: "Journal of Computational Science"
+  URL: "https://doi.org/10.1016/j.jocs.2024.102345"
+  publication: "Journal of Computational Science"
+  title: "Decapodes: A Diagrammatic Tool for Representing, Composing, and Computing Spatialized Partial Differential Equations"
+  type: "article"
+- materials: ""
+  doi: "https://doi.org/10.3934/mine.2023036"
+  Date: "May 2022"
+  toc: false
+  author: "E. Patterson, A. Baas, T. Hosgood, J. P. Fairbanks"
+  Authors: "E. Patterson, A. Baas, T. Hosgood, J. P. Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.3934/mine.2023036" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "May 2022"
+  Title: "A Diagrammatic View of Differential Equations in Physics"
+  Venue: "Mathematics in Engineering"
+  URL: "https://doi.org/10.3934/mine.2023036"
+  publication: "Mathematics in Engineering"
+  title: "A Diagrammatic View of Differential Equations in Physics"
+  type: "article"
+- materials: ""
+  Date: "Jul 2022"
+  toc: false
+  author: "E. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks"
+  Authors: "E. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks"
+  href: |-
+    <a href="" class="btn btn-secondary">DOI</a>
+  year: "2022"
+  date: "Jul 2022"
+  Title: "Diagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,"
+  Venue: "Applied Category Theory 2022"
+  URL: ""
+  publication: "Applied Category Theory 2022"
+  title: "Diagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,"
+  type: "conference_presentation"

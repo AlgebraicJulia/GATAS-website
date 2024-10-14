@@ -1,0 +1,17 @@
+---
+title: "Matt Cuffaro"
+image: images/cuffaromatt.jpeg
+start_year: 2023
+published-title: "Lab Member Since:"
+date: 10/1/2023
+program: Research Software Engineer
+degree: N/A
+status: Crushing it
+href: ""
+about:
+  template: solana
+---
+
+is the systems administrator and research programmer for the GATAS lab. 
+
+I help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure.

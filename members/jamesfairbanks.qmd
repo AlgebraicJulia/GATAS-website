@@ -1,13 +1,21 @@
 ---
 title: "James Fairbanks"
-image: james.png
+image: images/jamesfairbanks.png
+start_year: 2021
+published-title: "Lab Member Since:"
+date: 1/1/2021
+role: Principal Investigator
+degree: PhD
+program: Computational Science and Engineering
+status: Asst. Prof.
+href: |- 
+    <a href="gataslab.org" class="btn btn-secondary">Site</a>
 about:
-    template: jolla
+    template: solana
 ---
 
-Is an assistant professor in Computer and Information Science and Engineering       
-affiliated with Mechanical and Aerospace Engineering, Institute for Computational Engineering, and the Florida Institute for National Security. 
-
+is an assistant professor in Computer and Information Science and Engineering department.
+He is also affiliated with the Mechanical and Aerospace Engineering department, the Institute for Computational Engineering, and the Florida Institute for National Security. 
 
 My research focuses on new paradigms in scientific computing, specifically applied category theory. 
 This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. 

@@ -1,0 +1,16 @@
+---
+title: "Office of Naval Research"
+image: ../_assets/sponsors/onr.svg
+about:
+    template: solana
+    links:
+        - text: Sponsor Website
+          href: https://www.onr.mil
+---
+
+ONR has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.
+
+- ONR	Domain Transfer for Continuity of Performance Across Synthetic Aperture Sonar
+- ONR	Extracting, Explaining, and Estimating Information in Sonar Data (E3ISD)
+- ONR	Mine Counter-measures Situational Awareness	
+- ONR	Performance Estimation of Underwater Mine Counter-measures Operations

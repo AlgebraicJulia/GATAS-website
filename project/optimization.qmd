@@ -1,0 +1,68 @@
+---
+title: "Algebraic Dynamics, Optimization, and Control"
+image: img/cross_constraint.png
+about: marquee
+listing:
+  - id: articles
+    template: ../ejs/article.ejs
+    contents:
+      - optimization.yaml
+    sort: 
+      - "year desc"
+      - "publication asc"
+      - "title desc"
+    categories: true
+    fields: [year, title, author, publication, href]
+    sort-ui: [title,author,publication,year]
+    filter-ui: [title,author,publication,year]
+    page-size: 20
+    field-display-names: 
+      publication: "Journal"
+      date: "Date"
+      year: "Year"
+      href: "Link"
+  - id: team
+    type: table
+    contents:
+      - ../members/tylerhanks.qmd
+      - ../members/samuelcohen.qmd
+      - ../members/richardsamuelson.qmd
+    categories: true
+    fields: [image, title, start_year, degree, program]
+    sort: none
+    page-size: 10
+    field-display-names: 
+      title: Name
+      start_year: "Member Since"
+      degree: "Degree"
+      program: "Program"
+---
+
+[AlgebraicControl.jl](https://github.com/AlgebraicJulia/AlgebraicControl.jl)
+
+Model predictive control (MPC) is an optimal control technique which involves 
+solving a sequence of constrained optimization problems across a given time horizon.
+We present a novel Julia library that leverages our theoretical results to automate 
+the implementation of correct-by-construction MPC problems in software. 
+
+#### Project Team
+
+:::{#team}
+:::
+
+#### Project Articles
+
+:::{#articles}
+:::
+
+## Sponsors
+
+![NSF](/_assets/sponsors/NSF.svg){width=25%}
+![ONR](/_assets/sponsors/ONR.svg){width=25%}
+![AFRL](/_assets/sponsors/AFRL.svg){width=25%}
+
+AlgebraicOptimization and Control has been supported by the following programs:
+
+- NSF: Graduate Research Fellowship Program
+- ONR: Domain Transfer for Continuity of Performance
+- AFRL: Griffis Summer Internship Program

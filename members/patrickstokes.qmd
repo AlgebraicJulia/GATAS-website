@@ -1,12 +1,19 @@
 ---
 title: "Patrick Stokes"
-image: profile.jpg
+image: images/profile.jpg
 
+start_year: 2021
+published-title: "Lab Member Since:"
+program: CISE
+degree: PhD
+status: Qualifying
+href: |-
+    <a href="https://www.cise.ufl.edu/~luke.morris" class="btn btn-secondary">Site</a>
 about:
-    template: jolla
+    template: solana
 ---
 
-I am a faculty research scientist in the GATAS lab. 
+is a faculty research scientist in the GATAS lab. 
     
 My background is in signal processing, statistical modeling, and system identification in computational neuroscience.   
 My research interest is applying category theory to develop structures and algorithms for robust inference 

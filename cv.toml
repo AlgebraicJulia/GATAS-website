@@ -1,0 +1,969 @@
+Title = "Resume"
+Authors = "James Fairbanks"
+Email = "fairbanksj@ufl.edu"
+GitHub = "jpfairbanks"
+Name = "James Fairbanks, PhD"
+URL = "jpfairbanks.com"
+Date = "2024-06-14"
+
+[Research]
+  Name = "Research"
+  Label = "research"
+
+  [[Research.Categories]]
+    Name = "Peer Reviewed Journal Articles"
+
+    [[Research.Categories.Activities]]
+      Title = "Towards a Unified Theory of Time-varying Data"
+      Authors = "B. Bumpus, J. Fairbanks, M. Karvonen, W. Leal, F. Simard"
+      Date = "Submitted 2024"
+      Venue = "Proc. of the Royal Society Phil. Trans."
+      URL = "https://doi.org/10.48550/arXiv.2402.00206"
+
+    [[Research.Categories.Activities]]
+      Title = "A Compositional Framework for First-Order Optimization"
+      Authors = "T. Hanks, M Klawonn, M Hale, E Patterson, JP Fairbanks"
+      Date = "Submitted 2024"
+      Venue = "arxiv"
+      URL = "https://doi.org/10.48550/arXiv.2403.05711"
+     
+    [[Research.Categories.Activities]]
+      Title = "A compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks"
+      Authors = "R. Aduddell, J. Fairbanks, A. Kumar, P.S. Ocal, E. Patterson, B.T. Shapiro"
+      Venue = "Compositionality"
+      Date = "Accepted April 2024"
+      URL = "https://doi.org/10.32408/compositionality-6-2"
+
+    [[Research.Categories.Activities]]
+      Title = "Decapodes: A Diagrammatic Tool for Representing, Composing, and Computing Spatialized Partial Differential Equations"
+      Authors = "L. Morris, A. Baas, J. Arias, M. Gaitlin, E. Patterson, J. Fairbanks"
+      Venue = "Journal of Computational Science"
+      Date = "Sub. 2023, Accepted April 2024."
+      URL = "https://doi.org/10.1016/j.jocs.2024.102345"
+
+    [[Research.Categories.Activities]]
+      Title = "The Diagrammatic Presentation of Equations in Categories"
+      Authors = "K. Arlin, J. Fairbanks, T. Hosgood, E. Patterson"
+      Venue = "Journal of Pure and Applied Algebra"
+      Date = "Submitted April 2024"
+      URL = "https://arxiv.org/abs/2401.09751"
+
+    [[Research.Categories.Activities]]
+      Title = "Computational Category-Theoretic Rewriting"
+      Authors = "K. Brown, E. Patterson, T. Hanks, J. Fairbanks"
+      Venue = "J. Logical and Algebraic Methods in Programming"
+      Date = "Aug 2023"
+      URL = "https://doi.org/10.1016/j.jlamp.2023.100888"
+
+    [[Research.Categories.Activities]]
+      Title = "The application of applied category theory to quantify mission success"
+      Authors = "R. Garrett, J. Fairbanks, M. Loper, J. Moreland"
+      Venue = "SIMULATION 99 (2) 201-220"
+      Date = "2023"
+      URL = "https://doi.org/10.1177/00375497221114861"
+
+    [[Research.Categories.Activities]]
+      Title = "Compositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves"
+      Authors = "E. Althaus, B. Bumpus, J. Fairbanks, D. Rosiak"
+      Venue = "Fundamenta Informaticae"
+      Date = "Submitted 2024"
+      URL = "https://doi.org/10.48550/arXiv.2302.05575"
+
+    [[Research.Categories.Activities]]
+      Title = "An Algebraic Framework for Structured Epidemic Modeling"
+      Authors = "S. Libkind, A. Baas, M. Halter, E. Patterson, and J. P. Fairbanks"
+      Venue = "Proc. of the Royal Society Phil. Trans."
+      Date = "Aug 2022"
+      URL = "https://doi.org/10.1098/rsta.2021.0309"
+
+    [[Research.Categories.Activities]]
+      Title = "A Diagrammatic View of Differential Equations in Physics"
+      Authors = "E. Patterson, A. Baas, T. Hosgood, J. P. Fairbanks"
+      Venue = "Mathematics in Engineering"
+      Date = "May 2022"
+      URL = "https://doi.org/10.3934/mine.2023036"
+
+    [[Research.Categories.Activities]]
+      Date = "Feb 2022"
+      Title = "Categorical Data Structures for Technical Computing"
+      Authors = "E. J. Patterson, O. Lynch, J. P. Fairbanks"
+      Venue = "Compositionality"
+      URL = "https://doi.org/10.32408/compositionality-4-5"
+
+    [[Research.Categories.Activities]]
+      Date = "Jan 2021"
+      Title = "Category-theoretic formulation of the model-based systems architecting cognitive-computational Cycle"
+      Authors = "Y. Mordecai, J. P. Fairbanks, E.F. Crawley"
+      Venue = "MDPI Applied Sciences 11 (4), 1945"
+      URL = "https://doi.org/10.3390/app11041945"
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Spectral Partitioning with Blends of Eigenvectors"
+      Authors = "J. P. Fairbanks, D. A. Bader, G. D. Sanders"
+      Venue = "Journal of Complex Networks"
+      URL = "https://academic.oup.com/comnet/article/5/4/551/2929335"
+
+    [[Research.Categories.Activities]]
+      Date = "2015"
+      Title = "Behavioral Clusters in Dynamic Graphs"
+      Authors = "J. P. Fairbanks, R. Kannan, H. Park, D. A. Bader"
+      Venue = "Parallel Computing Special Issue of Scientific Graph Analysis"
+      URL = "https://doi.org/10.1016/j.parco.2015.03.002"
+
+    [[Research.Categories.Activities]]
+      Date = "Dec 2011"
+      Title = "A Ramsey Theorem for Indecomposable Matchings"
+      Authors = "J. P. Fairbanks"
+      Venue = "Electronic Journal of Combinatorics, Vol 18(1)"
+      URL = "http://www.combinatorics.org/ojs/index.php/eljc/article/view/v18i1p227/pdf"
+
+  [[Research.Categories]]
+    Name = "Peer Reviewed Conference Publications"
+
+    [[Research.Categories.Activities]]
+      Title = "A Categorical Representation Language and Computational System for Knowledge-Based Planning"
+      Authors = "A. Aguinaldo, E. Patterson, J. Fairbanks and J. Ruiz"
+      Date = "2023 (Best paper award)"
+      Venue = "AAAI Fall Symposium on Unifying Representations for Robot Application Development"
+
+    [[Research.Categories.Activities]]
+      Title = "Generalized Gradient Descent is a Hypergraph Functor"
+      Authors = "T Hanks, M. Klawonn, J. Fairbanks"
+      Date = "Submitted March 2024"
+      Venue = "Applied Category Theory"
+
+    [[Research.Categories.Activities]]
+      Title = "How Nice is this Functor? Two Squares and Some Homology go a Long Way"
+      Authors = "B. Bumpus, D. Rosiak, C. Puca, F. Genovese, J. Fairbanks"
+      Date = "Submitted March 2024"
+      Venue = "Applied Category Theory"
+
+    [[Research.Categories.Activities]]
+      Title = "Short Note on Cohomology, Sheafification and Lavish Presheaves"
+      Authors = "B. Bumpus, D. Rosiak, M. Cappucci, J. Fairbanks"
+      Date = "Submitted March 2024"
+      Venue = "Applied Category Theory"
+
+    [[Research.Categories.Activities]]
+      Title = "GATlab: Modeling and Programming with Generalized Algebraic Theories"
+      Authors = "O Lynch, K Brown, JP Fairbanks, and E Patterson."
+      Date = "June 2024"
+      URL = "Mathematical Foundations of Programming Semantics"
+      Venue = "https://arxiv.org/abs/2404.04837"
+
+    [[Research.Categories.Activities]]
+      Title = "Modeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems"
+      Authors = "Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, James Fairbanks"
+      Venue = "American Control Conference"
+      Date = "Jul 2024"
+      URL = "https://doi.org/10.48550/arXiv.2305.03820"
+
+    [[Research.Categories.Activities]]
+      Title = "Characterizing Compositionality of LQR from the Categorical Perspective"
+      Authors = "Baike She, Tyler Hanks, James Fairbanks, Matthew Hale"
+      Venue = "IEEE Conf. Decision and Control"
+      Date = "2023"
+      URL = "https://doi.org/10.48550/arXiv.2305.01811"
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2022"
+      Title = "Compositional Exploration of Combinatorial Scientific Models"
+      Authors = "K. Brown, T. Hanks, J. P. Fairbanks"
+      Venue = "Applied Category Theory"
+      URL = "https://doi.org/10.48550/arXiv.2206.08755"
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2022"
+      Title = "Computational Category-Theoretic Rewriting"
+      Authors = "K. Brown, E. Patterson, T. Hanks, J. P. Fairbanks"
+      Venue = "International Conference on Graph Transformation (Best Paper Award)"
+      URL = "https://arxiv.org/abs/2111.03784"
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2021"
+      Title = "Operadic Modeling of Dynamical Systems: Mathematics and Computation"
+      Authors = "S. Libkind, A. Baas, E. J. Patterson, J. P. Fairbanks"
+      Venue = "Applied category Theory (Proceedings)"
+      URL = "https://www.cl.cam.ac.uk/events/act2021/papers/ACT_2021_paper_53.pdf"
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2020"
+      Title = "SemanticModels.jl: A Julia Package for Scientific Model Augmentation"
+      Authors = "M. Halter, S. Raparti, K. Cao, C. Herlihy, J. P. Fairbanks"
+      Venue = "Proceedings of the JuliaCon Conferences"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Aug 2019"
+      Title = "Constructing Knowledge Graphs from Scientific Texts"
+      Authors = "K. Cao, J. P. Fairbanks"
+      Venue = "KDD workshop on Machine Learning in Graphs"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "July 2019"
+      Title = "A Compositional Framework for Scientific Model Augmentation"
+      Authors = "M. Halter, C. Herlihy, J. P. Fairbanks"
+      Venue = "Applied Category Theory"
+      URL = "https://arxiv.org/pdf/1907.03536"
+
+    [[Research.Categories.Activities]]
+      Date = "May 2019"
+      Title = "Semantic Program Analysis for Scientific Model Augmentation"
+      Authors = "J. P. Fairbanks, C. Herlihy, K. Cao, S. Reparthi"
+      Venue = "Modeling the World's Systems"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Oct 2018"
+      Title = "Digital Witness: Remote Methods for Volunteering Digital Evidence on Mobile Devices"
+      Authors = "N. Campbell, T. Goodyear, W. Messer, E. Stuart, J. P. Fairbanks"
+      Venue = "IEEE Technologies for Homeland Security"
+      URL = "http://ieee-hst.org/october23.htm"
+
+    [[Research.Categories.Activities]]
+      Date = "Sep 2018"
+      Title = "Performance Effects of Backing Data Stores in Community Detection Algorithms"
+      Authors = "R. Varkey Thankachan, B. P. Swenson, J. P. Fairbanks"
+      Venue = "IEEE High Performance Extreme Computing"
+      URL = "http://ieee-hpec.org/copy/agendatext.html"
+
+    [[Research.Categories.Activities]]
+      Date = "Feb 2018"
+      Title = "Credibility Assessment in the News: Do we need to read?"
+      Authors = "N. Fitch, N. Knauf, J. P. Fairbanks, E. Briscoe"
+      Venue = "ACM WSDM MIS2"
+      URL = "http://snap.stanford.edu/mis2/files/MIS2_paper_17.pdf"
+
+    [[Research.Categories.Activities]]
+      Date = "Sep 2017"
+      Title = "Integrating Productivity-Oriented Programming Languages with High-Performance Data Structures"
+      Authors = "R. Varkey Thankachan, E. Hein, B. P. Swenson, J. P. Fairbanks"
+      Venue = "IEEE High Performance Extreme Computing"
+      URL = "https://ieeexplore.ieee.org/document/8091068/"
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Deriving Streaming Graph Algorithms from Static Definitions"
+      Authors = "J. P. Fairbanks, D. M. Ediger"
+      Venue = "IEEE International Parallel and Distributed Processing Graph Algorithms Building Blocks"
+      URL = "http://graphanalysis.org/GABB17_program_final.pdf"
+
+    [[Research.Categories.Activities]]
+      Date = "Jan 2017"
+      Title = "Graph Partitioning with Spectral Blends"
+      Authors = "J. P. Fairbanks, D. A. Bader, and G. D. Sanders"
+      Venue = "Oxford Journal of Complex Networks"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Ranking in Dynamic Graphs Using Exponential Centrality"
+      Authors = "E. Nathan, J. P. Fairbanks, D. A. Bader"
+      Venue = "International Conference on Complex Networks and their Applications"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Graph Ranking Guarantees for Numerical Approximations to Katz Centrality"
+      Authors = "E. Nathan, G. Sanders, J. P. Fairbanks, V. Henson and D. Bader"
+      Venue = "International Conference On Computational Science"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Deriving Streaming Graph Algorithms from Static Definitions."
+      Authors = "D. M. Ediger and J. P. Fairbanks"
+      Venue = "IEEE Parallel and Distributed Processing - Graph Algorithm Building Blocks"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = ""
+      Title = "A local measure of community change in dynamic graphs."
+      Authors = "A. Zakrzewska, E. Nathan, J. P. Fairbanks, D. A. Bader"
+      Venue = "IEEE/ACM ASONAM"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2016"
+      Title = "Novel Stopping Criteria for Spectral Partitioning"
+      Authors = "J. P. Fairbanks, A. Zakrzewska, D.A. Bader"
+      Venue = "SIAM Network Science"
+      URL = "www.siam.org/meetings/ns16/"
+
+    [[Research.Categories.Activities]]
+      Date = "Aug 2013"
+      Title = "A Statistical Framework for Analyzing Streaming Graphs"
+      Authors = "J. P. Fairbanks, D. Ediger, R. McColl, D.A. Bader, E. Gilbert"
+      Venue = "IEEE/ACM ASONAM"
+      URL = "http://stingergraph.com/data/uploads/papers/streaming-twitter-stats.pdf"
+
+  [[Research.Categories]]
+    Name = "Panels"
+    [[Research.Categories.Activities]]
+      Date = "May 2022"
+      Title = "HWCOE Early Career Researcher Award Panel"
+      Details = ["Host: Forrest Masters (UF)"]
+      Authors = ""
+      Venue = "UF ECR Development Workshop"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "May 2019"
+      Title = "Abstract Representations of Scientific Models"
+      Details = ["Host: Josh Elliot (DARPA), Moderator: J. P. Fairbanks"]
+      Authors = "Paul Cohen (Pitt), Eric Davis (Galois Inc),  Alec Nielson (Azimov.io)"
+      Venue = "DARPA ASKE Principal Investigator Meeting"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "May 2019"
+      Title = "Toward the Modeling Stack Panel"
+      Details = ["Host: Paul Cohen (Pitt), Moderator: Bruce Childers (Pitt)"]
+      Authors = "Joshua Elliot (DARPA), John Bachman (Harvard Medical School), Eric Davis (Galois), Clayton Morrison (Arizona), J. P. Fairbanks (GTRI)"
+      Venue = "Modeling the World's Systems 2019"
+      URL = "http://sci.pitt.edu/news/05-01-2019/"
+
+  [[Research.Categories]]
+    Name = "Conference Presentations"
+    [[Research.Categories.Activities]]
+      Date = "Jul 2022"
+      Title = "Diagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,"
+      Authors = "E. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks"
+      Venue = "Applied Category Theory 2022"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2022"
+      Title = "Typed and stratified models with slice categories"
+      Authors = "S. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks"
+      Venue = "Applied Category Theory 2022"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2022"
+      Title = "Individual.jl: Rewriting individual-based models for epidemiology using graph rewriting"
+      Authors = "S. Wu (speaker), K. Browm, and J. Fairbanks"
+      Venue = "Applied Category Theory 2022"
+      URL = ""
+     [[Research.Categories.Activities]]
+      Authors = "M. Jackson, M. Halter, T. Goodyear, B. O’Donnell, and J. Fairbanks"
+      Title = "Accelerating Automatic Target Recognition Performance Evaluation with a Relational Database"
+      Venue = "Tri-Service Radar Symposium"
+      Date = "Sep 2021"
+    [[Research.Categories.Activities]]
+      Date = "Jul 2021"
+      Title = "AlgebraicDynamics: Compositional dynamical systems"
+      Authors = "S. Libkind, J. P. Fairbanks"
+      Venue = "JuliaCon, Online"
+      URL = "https://pretalx.com/juliacon2021/talk/ARURL8/"
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2021"
+      Title = "Shaped Data with Acsets"
+      Authors = "O. Lynch, E. J. Patterson, J. P. Fairbanks"
+      Venue = "JuliaCon, Online"
+      URL = "https://pretalx.com/juliacon2021/talk/NWRPGY/"
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2019"
+      Title = "SemanticModels.jl: Not Just Another Modeling Framework"
+      Authors = "J. P. Fairbanks and C. R. Herlihy"
+      Venue = "JuliaCon, Baltimore, MD"
+      URL = "https://www.youtube.com/watch?v=WJneK7OjqMQ"
+    [[Research.Categories.Activities]]
+      Date = "Apr 2019"
+      Title = "Complex Systems Analysis of Hybrid Warfare"
+      Authors = "M. Nadolski and J. P. Fairbanks"
+      Venue = "Conference on Systems Engineering Research"
+      URL = ""
+    [[Research.Categories.Activities]]
+      ate = "2018"
+      Title = "Graph Interfaces: Bespoke Graphs for Every Occasion"
+      Authors = "M. Besan\\c{c}on, J. P. Fairbanks"
+      Venue = "JuliaCon, London, UK"
+      URL = "https://youtu.be/OD-BSn4FZ2A"
+
+    [[Research.Categories.Activities]]
+      Date = "2018"
+      Title = "The JuliaGraphs Ecosystem: Move Fast and Don't Break Things"
+      Authors = "J. P. Fairbanks"
+      Venue = "JuliaCon, London, UK"
+      URL = "https://youtu.be/OZuQoxTPoyM"
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Assessing Credibility in Global Media Networks"
+      Authors = "J. P. Fairbanks"
+      Venue = "Human Language Technologies"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Using Big Data to Predict and Analyze Cooperation and Conflict"
+      Authors = "T. Frederick, C. Herlihy, J. P. Fairbanks"
+      Venue = "The Conflict Conference at UT-Austin"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "LightGraphs: Our Network, Our Story"
+      Authors = "S. Bromberger, J. P. Fairbanks"
+      Venue = "JuliaCon, Berkeley, CA"
+      URL = "https://youtu.be/MFD-qmApXl8"
+
+  [[Research.Categories]]
+    Name = "Invited Talks"
+
+    [[Research.Categories.Activities]]
+      Title = "A Compositional Framework for First-Order Optimization"
+      Authors = "T. Hanks, M Klawonn, M Hale, E Patterson, JP Fairbanks"
+      Date = "April 2024"
+      Venue = "Air Force Research Lab - Rome, NY"
+    [[Research.Categories.Activities]]
+      Title = "A compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks"
+			Authors = "R. Aduddell, J. Fairbanks, P.S. Ocal, A. Kumar, E. Patterson, B. Shapiro"
+			Venue ="Applied Category Theory [Extended Abstract]"
+			Date = "Aug 2023"
+    [[Research.Categories.Activities]]
+      Title = "Abstraction and Composition in Modeling and Simulation"
+			Authors = "Luke Morris,  Andrew Baas,  Jesus Arias,  Maia Gaitlin, James Fairbanks"
+			Venue ="SIAM Conference on Computational Science and Engineering"
+			Date = "Aug 2023"
+    [[Research.Categories.Activities]]
+      Title = "Applied Category Theory for the Mathematics of Disease"
+			Authors = "James Fairbanks"
+			Venue = "Canadian Network for Modeling Infections Disease"
+			Date="Aug 2022"
+    [[Research.Categories.Activities]]
+      Title = "Computational Category Theory in Applied Mathematics"
+			Authors = "JP Fairbanks and O Lynch"
+			Venue = "Joint Mathematics Meetings"
+			Date = "Jan 2023"
+    [[Research.Categories.Activities]]
+      Title = "A Categorical Framework for (Gene) Regulatory Networks"
+			Authors = "R Aduddell, PS Ocal, JP Fairbanks, E Patterson, B Shapiro, and A Kumar"
+			Venue = "Joint Mathematics Meetings"
+			Date="Jan 2023"
+    [[Research.Categories.Activities]]
+      Title = "Scientific and Engineering Modeling with Applied Category Theory"
+			Authors = " James Fairbanks"
+			Venue = " DARPA Young Faculty Colloquium"
+			Date="Nov 2022"
+    [[Research.Categories.Activities]]
+      Title = "Diagrammatic Equations in Physics: Directly Computable Models"
+			Authors = " James Fairbanks"
+			Venue = " Lawrence Livermore National Laboratory Center for Applied Scientific Computing"
+			Date="Jun 2022"
+    [[Research.Categories.Activities]]
+      Title = "Chopping things up to decide stuff fast"
+			Authors = "Ben Bumpus, James Fairbanks"
+			Venue = "54th Southeastern International Conference on Combinatorics Graph Theory and Computing, Boca Raton, Florida, USA"
+			Date="Feb 2023"
+
+    [[Research.Categories.Activities]]
+      Title = "Abstraction and Composition in Modeling and Simulation"
+			Authors = "Luke Morris, Andrew Baas, Jesus Arias, Maia Gaitlin, James Fairbanks"
+			Venue = "University of Florida Graduate Mathematics Association (GMA)"
+    [[Research.Categories.Activities]]
+      Title = "Abstraction and Composition in Modeling and Simulation Seminar"
+			Authors = "James Fairbanks"
+			Venue = "Mechanical and Aerospace Engineering Department Affiliate Seminar"
+			Date = "Sep 2022"
+    [[Research.Categories.Activities]]
+      Title = "Scientific and Engineering Modeling with Applied Category Theory"
+			Authors = "James Fairbanks"
+			Venue = "MAE Control Theory Working Group"
+			Date = "Aug 2022"
+    [[Research.Categories.Activities]]
+      Title = "Diagrammatic Equations for Complex Machine Learning Formulations"
+			Authors = "James Fairbanks and Alina Zare"
+			Venue = "ECE Department ONR Site Visit"
+			Date = "June 2022"
+    [[Research.Categories.Activities]]
+      Title = "Decapodes.jl: A Framework for Multiphysics Simulation"
+			Authors = "James Fairbanks"
+			Venue = "MAE Department AFOSR Visit"
+			Date="Mar 2023"
+    [[Research.Categories.Activities]]
+      Title = "Enkix Task Reasoning"
+			Authors = "James Fairbanks and Evan Patterson"
+			Venue = " DARPA Site Visit"
+			Date="October 2022"
+    [[Research.Categories.Activities]]
+      Title = "Enkix Task Reasoning"
+			Authors = "James Fairbanks and Evan Patterson"
+			Venue = " DARPA Program Review"
+			Date="Nov 2022"
+    [[Research.Categories.Activities]]
+      Title = "Computational Modeling with Category Theory"
+			Venue = "Systems Medicine Laboratory Seminar at UF College of Medicine"
+			Date = "May 2022"
+
+    [[Research.Categories.Activities]]
+      Date = "Oct 2022"
+      Title = "Computational Physics with Categories"
+      Authors = "J. P. Fairbanks"
+      Venue = "Institute of Theoretical Physics Friedrich-Alexander-Universität Erlangen-Nürnberg"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "Sept 2022"
+      Title = "Using Category Theory to Design Computational Mathematics Software"
+      Authors = "J. P. Fairbanks"
+      Venue = "UF -- Numerical Analysis and SIAM seminar"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "Jun 2022"
+      Title = "Model Aware Scientific Computing with Categories"
+      Authors = "J. P. Fairbanks"
+      Venue = "Air Force Research Lab -- Information Directorate, Rome, NY"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "May 2022"
+      Title = "Diagrammatic Equations in Numerical Multiphysics"
+      Authors = "J. P. Fairbanks"
+      Venue = "Simula Research Laboratory Numerical Analysis Research Seminar (Oslo, NO)"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "May 2022"
+      Title = "Introduction to Applied Category Theory"
+      Authors = "J. P. Fairbanks"
+      Venue = "Simula Research Laboratory Coffee and Theorems (Oslo, NO)"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Mar 2022"
+      Title = "Scientific Modeling with AlgebraicJulia"
+      Authors = "J. P. Fairbanks"
+      Venue = "Rel.ai Research Seminar"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Spring 2022"
+      Title = "Automated Model Space Exploration"
+      Authors = "K. Brown and J. P. Fairbanks"
+      Venue = "Topos Institute and UW-IHME Compositional Epidemiology Modeling Working Group"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Fall 2022"
+      Title = "Compositional Modeling of Disease Dynamics"
+      Authors = "S. Libkind and J. P. Fairbanks"
+      Venue = "Topos Institute and UW-IHME Compositional Epidemiology Modeling Working Group"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Jan 2022"
+      Title = "Computational Modeling with Category Theory"
+      Authors = "J. P. Fairbanks"
+      Venue = "UF College of Medicine -- Laboratory for Systems Medicine"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Jul 2021"
+      Title = "Compositional Modeling with AlgebraicJulia"
+      Authors = "E. J. Patterson and J. P. Fairbanks"
+      Venue = "NIH IMAG MSM Viral Pandemic Meetings"
+      URL = "https://www.imagwiki.nibib.nih.gov/content/msm-viral-pandemics-meetings"
+
+    [[Research.Categories.Activities]]
+      Date = "Jun 2021"
+      Title = "The Algebraic Julia Ecosystem, a categorical approach to technical computing"
+      Authors = "J. P. Fairbanks"
+      Venue = "Topos Institute Berkeley Seminar"
+      URL = "https://topos.site/berkeley-seminar/"
+
+    [[Research.Categories.Activities]]
+      Date = "May 2021"
+      Title = "Computational Categorical Algebra with Catlab"
+      Authors = "J. P. Fairbanks"
+      Venue = "Greta: Graph Transformation, Theory, and Applications Seminar"
+      URL = "https://www.irif.fr/~greta/talk/may7th2021-fairbanks/"
+
+    [[Research.Categories.Activities]]
+      Date = "Feb 2021"
+      Title = "Introduction to the AlgebraicJulia Software Ecosystem"
+      Authors = "J. P. Fairbanks"
+      Venue = "UF CISE and LLNL Advisory Board Annual Meeting"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Feb 2021"
+      Title = "Rethinking Set Theory and Applications"
+      Authors = "J. P. Fairbanks"
+      Venue = "UF University Math Society"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Feb 2021"
+      Title = "Model Aware Scientific Computing with Categories"
+      Authors = "J. P. Fairbanks"
+      Venue = "DARPA Young Faculty Award Principal Investigators Meeting Poster Session"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Feb 2020"
+      Title = "Automating Model Fusion with Decorated Cospan Categories"
+      # Details = ["Host: David Spivak, MIT Math"]
+      Authors = "J. P. Fairbanks"
+      Venue = "MIT Category Theory Seminar"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Jun 2019"
+      Title = "Model IR Working Group: Initial Progress"
+      # Details = ["Host: Joshua Elliot (DARPA)"]
+      Authors = "J. P. Fairbanks, E. Davis, C. Morrison"
+      Venue = "DARPA ASKE Program Meeting"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "April 2019"
+      Title = "Semantic Program Analysis for Scientific Model Augmentation"
+      # Details = ["Host: Seth Bromberger (LLNL)"]
+      Authors = "J. P. Fairbanks"
+      Venue = "Lawrence Livermore National Lab"
+      URL = ""
+
+
+    [[Research.Categories.Activities]]
+      Date = "March 2019"
+      Title = "Program Analysis for Scientific Model Augmentation"
+      # Details = ["Host: UF Data Science and Informatics"]
+      Authors = "J. P. Fairbanks"
+      Venue = "University of Florida Informatics Institute Spring Symposium"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Nov 2018"
+      Title = "Data Science and Graph Analytics with Julia"
+      # Details = ["Host: UF Data Science and Informatics"]
+      Authors = "J. P. Fairbanks"
+      Venue = "University of Florida Informatics Institute"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2018"
+      Title = "Solving Applied Graph Theory Problems in the JuliaGraphs ecosystem"
+      # Details = ["Host: Alan Edelman, MIT Math/CSAIL"]
+      Authors = "J. P. Fairbanks"
+      Venue = "MIT CSAIL Seminar"
+      URL = ""
+
+
+  [[Research.Categories]]
+    Name = "Posters"
+    [[Research.Categories.Activities]]
+      Date = "Oct 2021"
+      Title = "Parameter Estimation by Minimizing the Loss with Respect to a Finite Difference Approximation on the Vector Field"
+      Authors = "J. L. Perez, A. Baas, M. C. Ferrall-Fairbanks, M. O. Platt, J. P. Fairbanks"
+      Venue = "Biomedical Engineering Society Annial Meeting"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "June 2021"
+      Title = "Graphical Semantic Modeling with Semagrams.jl"
+      Authors = "O. Lynch, J. P. Fairbanks, E. J. Patterson"
+      Venue = "Applied Category Theory 2021"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "May 2019"
+      Title = "Semantic Model Understanding for Scientific Model Augmentation"
+      Authors = "J. P. Fairbanks"
+      Venue = "Systems Biology of Human Disease, (Berlin, GER)"
+      URL = ""
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "QueryGarden: growing healthy applications in well prepared SQL"
+      Authors = "J. P. Fairbanks"
+      Venue = "OHDSI Symposium"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2017"
+      Title = "Implementing Real-Time Patient Level Predictions Using PLP Models"
+      Authors = "C. S. Brown, J. D. Duke, , J. P. Fairbanks, C. Herlihy, K. Mukadam, J. Poovey, M. Rost"
+      Venue = "OHDSI Symposium"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "Mar 2015"
+      Title = "Discovering Block Structure with Approximate Eigenvectors"
+      Authors = ""
+      Venue = "SIAM Computational Science and Engineering"
+      URL = ""
+
+    [[Research.Categories.Activities]]
+      Date = "2012"
+      Title = "Ramsey Theorem for Indecomposable Matchings"
+      Authors = ""
+      Venue = "Graph Theory at Georgia Tech (GT@GT)"
+      URL = ""
+  [[Research.Categories]]
+    Name = "Technical Reports"
+    [[Research.Categories.Activities]]
+      Date = "Dec 2018"
+      Title = "Remote Methods for Volunteering Digital Evidence on Mobile Devices"
+      Authors = "E. Stuart, J. P. Fairbanks"
+      Venue = "National Institutes of Justice"
+      URL = "https://www.ojp.gov/pdffiles1/nij/grants/300689.pdf"
+
+
+[OpenSource]
+  Name = "Open Source"
+  Label = "open-source"
+  Items = ["Core Developer of \\href{github.com/AlgebraicJulial}{\\emph{AlgebraicJulia}}, the premier applied category theory software ecosystem.", "Lead Developer of \\href{github.com/jpfairbanks/SemanticModels.jl}{\\emph{SemanticModels}}, a \\emph{Julia} package for representing scientific modes in a category theoretic framework.", "Core maintainer of \\href{github.com/JuliaGraphs/Graphs.jl}{\\emph{Graphs.jl}} the most widely used Graph Algorithm Package in \\href{julialang.org}{\\emph{Julia}}.", "Developer of \\href{stingergraph.com}{\\emph{STINGER}} the fastest streaming dynamic graph library for shared memory parallel computers.", "An up to date list of miscellaneous contributions can be found at \\href{https://github.com/jpfairbanks}{\\texttt{https://github.com/jpfairbanks}}"]
+
+[Teaching]
+  Name = "Teaching"
+  Label = "teaching"
+  [[Teaching.Categories]]
+    Name = "University of Florida"
+
+    [[Teaching.Categories.Activities]]
+      Date = "Spring 2024"
+      Title = "COT 4501 - Numerical Analysis a Computational Approach"
+      Authors = ""
+      Venue = ""
+      URL = ""
+    [[Teaching.Categories.Activities]]
+      Date = "Spring 2022"
+      Title = "COT 4501 - Numerical Analysis a Computational Approach"
+      Authors = ""
+      Venue = ""
+      URL = ""
+
+    [[Teaching.Categories.Activities]]
+      Date = "Fall 2021"
+      Title = "CIS 4930 - Abstraction Composition Computation"
+      Authors = ""
+      Venue = ""
+      URL = ""
+    [[Teaching.Categories.Activities]]
+      Date = "Fall 2021"
+      Title = "CIS 6930 - Abstraction Composition Computation"
+      Authors = ""
+      Venue = ""
+      URL = ""
+
+  [[Teaching.Categories]]
+    Name = "Professional Education"
+
+    [[Teaching.Categories.Activities]]
+      Date = "Aug 2022"
+      Title = "CANMOD Mathematical and Computational Modeling of Epidemics Workshop, Organizer and Instructor 1 week training for mathematical epidemiologists to learn applied category theoretic tools"
+      Authors = "Nathaniel Osgood"
+      Venue = "Simon Frasier University, Vancouver, Canada (virtual due to Covid-19)"
+      URL = ""
+
+    [[Teaching.Categories.Activities]]
+      Date = "Spring 2021"
+      Title = "ACT Adjoint School Instructor"
+      Authors = "Organizers: S. Libkind, D. J. Myers, Coteacher: E. Patterson, TA: O. Lynch"
+      Venue = "Applied Category Theory Conference"
+      URL = ""
+
+    [[Teaching.Categories.Activities]]
+      Date = "Spring 2019"
+      Title = "Data Analytics Methodology with J. Poovey"
+      Authors = ""
+      Venue = ""
+      URL = ""
+    [[Teaching.Categories.Activities]]
+      Date = "Fall 2018"
+      Title = "Programming for Data Science with Beverly Wright"
+      Authors = ""
+      Venue = ""
+      URL = ""
+
+    [[Teaching.Categories.Activities]]
+      Date = "Spring 2017"
+      Title = "Data Analytics Methodology with J. Poovey, D. Ediger, and M. Rost."
+      Authors = ""
+      Venue = ""
+      URL = ""
+
+    [[Teaching.Categories.Activities]]
+      Date = "Fall 2016"
+      Title = "Big Data Analytics with J. Poovey, D. Ediger, and M. Rost."
+      Authors = ""
+      Venue = ""
+      URL = ""
+
+  [[Teaching.Categories]]
+    Name = "Teaching Assistant at Georgia Tech"
+
+    [[Teaching.Categories.Activities]]
+      Date = "Spring 2016"
+      Title = "CSE 6643 Numerical Linear Algebra with Prof. Haesun Park"
+      Authors = ""
+      Venue = ""
+      URL = ""
+
+    [[Teaching.Categories.Activities]]
+      Date = "Spring 2014"
+      Title = "CSE 6220 High Performance Computing with Prof. Srinivas Aluru"
+      Authors = ""
+      Venue = ""
+      URL = ""
+
+[Mentoring]
+  Name = "Mentoring"
+  Label = "mentoring"
+
+  [[Mentoring.Students]]
+    Name = "Richard Samuelson"
+    Degree = "PhD Student"
+    Year = 2024
+    Company = "Thesis Advisor"
+    Dates = "2024-Present"
+
+  [[Mentoring.Students]]
+    Name = "University Multicultural Mentoring Program"
+    Year = 2023
+    Company = "UMMP Mentor"
+    Dates = "2022-2023"
+
+  [[Mentoring.Students]]
+    Name = "Adam Gregory"
+    Degree = "PhD"
+    Year = 2022
+    Company = "Thesis Committee"
+    Dates = "2022-Present"
+
+  [[Mentoring.Students]]
+    Name = "Hong Yu"
+    Degree = "PhD"
+    Year = 2022
+    Company = "Thesis Committee"
+    Dates = "2022-2024"
+
+  [[Mentoring.Students]]
+    Name = "Daniel A. Delgado"
+    Degree = "PhD"
+    Year = 2022
+    Company = "Thesis Committee"
+    Dates = "2022-Present"
+
+  [[Mentoring.Students]]
+    Name = "Luke Morris"
+    Degree = "PhD"
+    Year = 2021
+    Company = "Thesis Advisor"
+    Dates = "2021-Present"
+
+  [[Mentoring.Students]]
+    Name = "Tyler Hanks"
+    Degree = "PhD Student, NSF GRFP Fellow"
+    Year = 2021
+    Company = "Thesis Advisor"
+    Dates = "2021-Present"
+
+  [[Mentoring.Students]]
+    Name = "Kris Brown"
+    Degree = "UF Post-Doctoral Researcher"
+    Year = 2022
+    Company = "Topos Institute, Research Software Engineer"
+    Dates = "2021-22"
+
+  [[Mentoring.Students]]
+    Name = "UF HWCOE Mentoring Academy Participant"
+    Degree = ""
+    Year = 2021
+    Company = ""
+    Dates = "2021"
+  [[Mentoring.Students]]
+    Name = "Anna Knoerr"
+    Year = 2021
+    Degree = "ACT Adjoint School"
+    Dates = "2021"
+    Company = "ETH Zurich"
+  [[Mentoring.Students]]
+    Name = "Grant Generaux"
+    Year = 2021
+    Degree = "ACT Adjoint School"
+    Dates = "2021"
+    Company = "Bristol Myers Squibb"
+  [[Mentoring.Students]]
+    Name = "Amy Searle"
+    Year = 2021
+    Degree = "ACT Adjoint School"
+    Dates = "2021"
+    Company = "Oxford Physics, PhD Student"
+  [[Mentoring.Students]]
+    Name = "Kris Brown"
+    Degree = "Chemical Engineering, Stanford University"
+    Year = 2021
+    Company = "UF, Post-Doctoral Researcher"
+    Dates = "2021-2022"
+  [[Mentoring.Students]]
+    Name = "Sophie Libkind"
+    Degree = "Mathematics, Stanford University"
+    Year = 2021
+    Company = "Topos Institute, Mathematician"
+    Dates = "2020-2022"
+  [[Mentoring.Students]]
+    Name = "Owen Lynch"
+    Degree = "Statistics, University of Utrecht"
+    Year = 2021
+    Company = "Topos Institute, Research Software Engineer"
+    Dates = "2020-Present"
+  [[Mentoring.Students]]
+    Name = "Julian Perez"
+    Degree = "BS BME GT"
+    Year = 2021
+    Company = "Stanford, PhD Student"
+    Dates = "2021-22"
+  [[Mentoring.Students]]
+    Name = "Stephen Wellburg"
+    Degree = "BS DAS UF"
+    Year = 2021
+    Company = "Capital One, Software Engineer"
+    Dates = "2021-22"
+  [[Mentoring.Students]]
+    Name = "Sreenath Reparti"
+    Degree = "BS ISYE Georgia Tech"
+    Year = 2019
+    Company = "KPMG"
+    Dates = "2018-19"
+
+  [[Mentoring.Students]]
+    Name = "Kun Cao"
+    Degree = "MS CS Georgia Tech"
+    Year = 2019
+    Company = "GT"
+    Dates = "2019"
+
+  [[Mentoring.Students]]
+    Name = "Abhinav Mehndiratta"
+    Degree = ""
+    Year = 2019
+    Company = "Google Summer of Code"
+    Dates = "2019"
+
+  [[Mentoring.Students]]
+    Name = "Rohit Varkey"
+    Degree = "MS CS Georgia Tech"
+    Year = 2018
+    Company = "Google"
+    Dates = "2016-18"
+
+  [[Mentoring.Students]]
+    Name = "Micah Halter"
+    Degree = "BS CS Georgia Tech"
+    Year = 2019
+    Company = "GTRI"
+    Dates = "2016-19"
+
+  [[Mentoring.Students]]
+    Name = "Nate Knauf"
+    Degree = "BS CS Georgia Tech"
+    Year = 2019
+    Company = "GT"
+    Dates = "2016"
+
+  [[Mentoring.Students]]
+    Name = "Pushkar Godbole"
+    Degree = "MS CSE Georgia Tech"
+    Year = 2016
+    Company = "Yelp"
+    Dates = "2015"
