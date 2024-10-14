@@ -1,5 +1,5 @@
 ---
-title: "Lab Meeting Presentations"
+title: "Lab Meetings"
 image: assets/gatas_logo.png
 listing:
   - id: presentations
@@ -22,3 +22,7 @@ listing:
       author: "Presenter"
       href: "Link"
 ---
+
+Each week the GATAS Lab holds a lab meeting where one or two lab members gives a 30-60 minute presentation.
+We use these presentations for practice talks or educating each other on open problems.
+Here you can find a collection of previous talks. 
