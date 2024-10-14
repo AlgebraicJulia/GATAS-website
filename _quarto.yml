@@ -13,6 +13,7 @@ website:
       - members.qmd
       - projects.qmd
       - research.qmd
+      - presentations.qmd
       - text: "AMMA"
         href: amma.qmd
       - text: "Blog"
