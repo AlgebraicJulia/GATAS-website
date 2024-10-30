@@ -1,5 +1,5 @@
 ---
-title: "The GATAS Laboratory"
+title: "The GATAS Lab"
 listing:
   - id: pages
     type: grid
@@ -21,6 +21,8 @@ The GATAS Lab is hosting the 8th International Conference on Applied Category Th
 For more information see the [ACT2025 Page](/act2025.qmd)
 :::
 
+
+![](_assets/gatas_bar_UF.png)
 
 The GATAS laboratory uses applied category theory to develop novel approaches to scientific
 computing. We are domain-agnostic, solving problems in
