@@ -13,6 +13,15 @@ listing:
       - sponsors/sponsors.qmd
 ---
 
+
+:::{.callout-tip}
+## Applied Category Theory 2025
+
+The GATAS Lab is hosting the 8th International Conference on Applied Category Theory here at UF.
+For more information see the [ACT2025 Page](/act2025.qmd)
+:::
+
+
 The GATAS laboratory uses applied category theory to develop novel approaches to scientific
 computing. We are domain-agnostic, solving problems in
 [dynamics](https://arxiv.org/abs/2105.12282),
