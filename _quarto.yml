@@ -4,17 +4,17 @@ project:
 bibliography: bibliography.bib
 
 website:
-  title: "GATAS Laboratory | University of Florida"
+  title: "GATAS Lab | University of Florida"
   favicon: _assets/brand/favicon.ico
   navbar:
-    logo: _assets/gatas_logo.png
+    logo: _assets/gatas_bar_uf.png
     collapse-below: sm
     right:
       - members.qmd
       - projects.qmd
       - research.qmd
-      - text: "AMMA"
-        href: amma.qmd
+      - text: "ACT 2025"
+        href: act2025.qmd
       - text: "Blog"
         href: https://blog.algebraicjulia.org/
       - icon: github
@@ -25,11 +25,13 @@ format:
   html:
     html-math-method: katex
     theme:
-      light: flatly
-      dark: darkly
+      light: [flatly, custom.scss]
+      dark: [darkly, custom-dark.scss]
     linkcolor: "#4E8ABB" 
     navbar:
-      background: "#4E8ABB"
+      # background: "#343741"
+      # background: "#AABBCC"
+      background: "#D8D4D7"
       foreground: "#6FB450"
     # Blue: "#4E8ABB" 
     # Green: "#6FB450"
