@@ -13,6 +13,7 @@ website:
       - members.qmd
       - projects.qmd
       - research.qmd
+      - presentations.qmd
       - text: "ACT 2025"
         href: act2025.qmd
       - text: "Blog"
