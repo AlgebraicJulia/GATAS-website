@@ -7,17 +7,28 @@
     ]
   },
   {
-    "listing": "/members.html",
+    "listing": "/presentations.html",
+    "items": []
+  },
+  {
+    "listing": "/projects.html",
     "items": [
-      "/members/jamesfairbanks.html",
-      "/members/benbumpus.html",
-      "/members/wilmerleal.html",
-      "/members/lukemorris.html",
-      "/members/tylerhanks.html",
-      "/members/richardsamuelson.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html",
-      "/members/samuelcohen.html"
+      "/project/decapodes.html",
+      "/project/optimization.html",
+      "/project/sheaves.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
+    "items": []
+  },
+  {
+    "listing": "/sponsors/sponsors.html",
+    "items": [
+      "/sponsors/darpa.html",
+      "/sponsors/onr.html",
+      "/sponsors/afrl.html",
+      "/sponsors/nsf.html"
     ]
   },
   {
@@ -30,24 +41,17 @@
     ]
   },
   {
-    "listing": "/sponsors/sponsors.html",
+    "listing": "/members.html",
     "items": [
-      "/sponsors/darpa.html",
-      "/sponsors/onr.html",
-      "/sponsors/afrl.html",
-      "/sponsors/nsf.html"
-    ]
-  },
-  {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/project/decapodes.html",
-      "/project/optimization.html",
-      "/project/sheaves.html"
+      "/members/jamesfairbanks.html",
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html",
+      "/members/lukemorris.html",
+      "/members/tylerhanks.html",
+      "/members/richardsamuelson.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html",
+      "/members/samuelcohen.html"
     ]
   },
   {
