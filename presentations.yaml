@@ -54,3 +54,19 @@
     <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_04_08_matt_labretreat.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
   date: "3/25/2024"
   URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_04_08_matt_labretreat.pdf"
+
+
+- title: "Flow Talk"
+  author: "Tyler Hanks"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_9_tyler_flow%20talk.pdf"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "11/9/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_9_tyler_flow%20talk.pdf"
+
+- title: "Decorate Corels Talk"
+  author: "Tyler Hanks"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_9_14_tyler_Decorated%20Corels%20Talk.pdf"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "9/14/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_9_14_tyler_Decorated%20Corels%20Talk.pdf"
+  
