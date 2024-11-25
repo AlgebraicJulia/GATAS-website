@@ -41,8 +41,8 @@ Please contact the Programme Committee Chairs for more information: Amar Hadziha
 See conference website for full list: [https://gataslab.org/act2025](https://gataslab.org/act2025)
 
 * PC Chairs
-  * Amar Hadzihasanovic (PC Chair), Tallinn University of Technology  
-  * JS Lemay (PC Chair), Macquarie University  
+  * Amar Hadzihasanovic, Tallinn University of Technology  
+  * JS Lemay, Macquarie University  
 
 * PC Members  
   - Benedikt Ahrens, Delft University of Technology  
