@@ -15,7 +15,7 @@ website:
       - research.qmd
       - presentations.qmd
       - text: "ACT 2025"
-        href: act2025.qmd
+        href: act2025/act2025.qmd
       - text: "Blog"
         href: https://blog.algebraicjulia.org/
       - icon: github
