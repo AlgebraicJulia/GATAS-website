@@ -1,4 +1,4 @@
-## **Call for papers**
+## **Call for participation**
 
 The [Eighth International Conference on Applied Category Theory](https://gataslab.org/act2025) will take place at the University of Florida on June 2-6, 2025\. The conference will be preceded by the Adjoint School on May 26-30, 2025\. This conference follows previous events at Oxford (2024, 2019), University of Maryland (2023), Strathclyde (2022), Cambridge (2021), MIT (2020), and Leiden (2019).
 
