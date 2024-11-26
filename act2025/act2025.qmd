@@ -3,7 +3,7 @@ title: "8th International Conference on Applied Category Theory"
 ---
 
 
-![](UF_Skyline.webp)
+![](../UF_Skyline.webp)
 
 ## About
 
@@ -11,9 +11,15 @@ The 8th International Conference on Applied Category Theory (ACT) will take plac
 
 For more information on the ACT series, see [here](https://www.appliedcategorytheory.org/).
 
+:::{.callout-important}
+## Applied Category Theory 2025
+
+The call for participation ([CFP](act2025cfp.md)) has been posted
+:::
+
 ## Dates (tentative)
 
-- Call for proposals released: 2 December 2025 AOE
+- Call for participation released: 25 November 2025 AOE
 - Submission deadline: 3 March 2025 AOE
 - Reviews start: 5 March 2025 AOE
 - Announcement of accepted papers and presentations: 7 April 2025 AOE
