@@ -4,9 +4,8 @@ The [Eighth International Conference on Applied Category Theory](https://gatasla
 
 Applied category theory is important to a growing community of researchers who study computer science, logic, engineering, physics, biology, chemistry, social science, systems, linguistics and other subjects using category-theoretic tools. The background and experience of our members is as varied as the systems being studied. The goal of the Applied Category Theory conference series is to bring researchers together, strengthen the applied category theory community, disseminate the latest results, and facilitate further development of the field.
 
-## **SUBMISSION**
 
-### **Important dates**
+## **Important dates**
 
 All deadlines are AoE (Anywhere on Earth).
 
@@ -16,7 +15,7 @@ All deadlines are AoE (Anywhere on Earth).
 * May 19: Pre-proceedings ready versions  
 * June 2-6: conference
 
-### **Submissions**
+## **Submissions**
 
 The submission URL is: [https://easychair.org/conferences/?conf=act2025](https://easychair.org/conferences/?conf=act2025) 
 
@@ -41,37 +40,43 @@ Please contact the Programme Committee Chairs for more information: Amar Hadziha
 See conference website for full list: [https://gataslab.org/act2025](https://gataslab.org/act2025)
 
 * PC Chairs
-  * Amar Hadzihasanovic, Tallinn University of Technology  
-  * JS Lemay, Macquarie University  
+  - Amar Hadzihasanovic (PC Chair), Tallinn University of Technology
+  - JS Lemay (PC Chair), Macquarie University
 
 * PC Members  
-  - Benedikt Ahrens, Delft University of Technology  
-  - Robert Booth, University of Edinburgh  
-  - Cameron Calk, LIS  
-  - Cole Comfort, Université de Lorraine  
-  - Valeria de Paiva, Topos Institute   
-  - Elena Di Lavore, University of Pisa  
-  - Jonas Frey, LIPN  
-  - Tobias Fritz, University of Innsbruck   
-  - Zeinab Galal, University of Bologna   
-  - Léonard Guetta, Utrecht University  
-  - Shin-Ya Katsumata, Kyoto Sangyo University  
-  - Alex Kavvos, Univeristy of Bristol  
-  - Gabriele Lobbia, Università di Bologna  
-  - Fosco Loregian, Tallinn University of Technology  
-  - Giulio Manzonetto, IRIF  
-  - Adrian Miranda, University of Manchester  
-  - Koko Muroya, NII  
-  - Nina Otter, Université Paris-Saclay  
-  - John Power, Macquarie University  
-  - Dorette Pronk, Dalhousie University  
-  - Callum Reader, University of Sheffield   
-  - Martian Rovelli, University of Massachusetts Amherst  
-  - Peter Selinger, Dalhousie University  
-  - Alex Toumi, PlantingSpace  
-  - Todd Trimble, Western Connecticut State University  
-  - Sean Tull, Quantinuum  
-  - Paul Wilson, Ethereum Foundation   
-  - Dusko Pavlovic, University of Hawaii  
+  - Benedikt Ahrens, Delft University of Technology
+  - Robert Booth, University of Edinburgh
+  - Cameron Calk, LIS
+  - Cole Comfort, Université de Lorraine
+  - Valeria de Paiva, Topos Institute 
+  - Elena Di Lavore, University of Pisa
+  - Martin Frankland, University of Regina
+  - Jonas Frey, LIPN
+  - Tobias Fritz, University of Innsbruck 
+  - Zeinab Galal, University of Bologna 
+  - Léonard Guetta, Utrecht University
+  - Robin Kaarsgaard, University of Southern Denmark
+  - Martti Karvonen, UCL
+  - Shin-Ya Katsumata, Kyoto Sangyo University
+  - Alex Kavvos, University of Bristol
+  - Kohei Kishida, University of Illinois Urbana-Champagne
+  - Gabriele Lobbia, Università di Bologna
+  - Fosco Loregian, Tallinn University of Technology
+  - Giulio Manzonetto, IRIF
+  - Dan Marsden, University of Nottingham
+  - Adrian Miranda, University of Manchester
+  - Koko Muroya, NII
+  - Nina Otter, Université Paris-Saclay
+  - Hugo Paquet, INRIA Paris
+  - John Power, Macquarie University
+  - Dorette Pronk, Dalhousie University
+  - Callum Reader, University of Sheffield 
+  - Martina Rovelli, University of Massachusetts Amherst
+  - Peter Selinger, Dalhousie University
+  - Alex Toumi, PlantingSpace
+  - Todd Trimble, Western Connecticut State University
+  - Sean Tull, Quantinuum
+  - Paul Wilson, Ethereum Foundation 
+  - Dusko Pavlovic, University of Hawaii
   - Ruben Van Belle, University of Oxford
-
+  - Priyaa Varshinee Srinivasan, Tallinn University of Technology
