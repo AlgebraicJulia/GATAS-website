@@ -1,21 +1,21 @@
-## **Call for participation**
+## Call for participation
 
 The [Eighth International Conference on Applied Category Theory](https://gataslab.org/act2025) will take place at the University of Florida on June 2-6, 2025\. The conference will be preceded by the Adjoint School on May 26-30, 2025\. This conference follows previous events at Oxford (2024, 2019), University of Maryland (2023), Strathclyde (2022), Cambridge (2021), MIT (2020), and Leiden (2019).
 
 Applied category theory is important to a growing community of researchers who study computer science, logic, engineering, physics, biology, chemistry, social science, systems, linguistics and other subjects using category-theoretic tools. The background and experience of our members is as varied as the systems being studied. The goal of the Applied Category Theory conference series is to bring researchers together, strengthen the applied category theory community, disseminate the latest results, and facilitate further development of the field.
 
 
-## **Important dates**
+## Important dates
 
 All deadlines are AoE (Anywhere on Earth).
 
-* February 26: title and brief abstract submission  
-* March 3: paper submission  
-* April 7: notification of authors  
+* February 26: Title and brief abstract submission  
+* March 3: Paper submission  
+* April 7: Notification of authors  
 * May 19: Pre-proceedings ready versions  
-* June 2-6: conference
+* June 2-6: Conference
 
-## **Submissions**
+## Submissions
 
 The submission URL is: [https://easychair.org/conferences/?conf=act2025](https://easychair.org/conferences/?conf=act2025) 
 
@@ -35,7 +35,7 @@ In order to give our reviewers enough time to bid on submissions, we ask for a t
 
 Please contact the Programme Committee Chairs for more information: Amar Hadzihasanovic ([amar.hadzihasanovic@taltech.ee](mailto:amar@ioc.ee)) and JS Lemay ([js.lemay@mq.edu.au](mailto:js.lemay@mq.edu.au)).
 
-## **Programme Committee**
+## Programme Committee
 
 See conference website for full list: [https://gataslab.org/act2025](https://gataslab.org/act2025)
 
