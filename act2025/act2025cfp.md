@@ -44,6 +44,7 @@ See conference website for full list: [https://gataslab.org/act2025](https://gat
   - JS Lemay (PC Chair), Macquarie University
 
 * PC Members  
+
   - Benedikt Ahrens, Delft University of Technology
   - Robert Booth, University of Edinburgh
   - Cameron Calk, LIS
@@ -72,7 +73,9 @@ See conference website for full list: [https://gataslab.org/act2025](https://gat
   - Dorette Pronk, Dalhousie University
   - Callum Reader, University of Sheffield 
   - Martina Rovelli, University of Massachusetts Amherst
+  - Mehrnoosh Sadrzadeh, UCL
   - Peter Selinger, Dalhousie University
+  - David Sprunger, University of Indiana
   - Alex Toumi, PlantingSpace
   - Todd Trimble, Western Connecticut State University
   - Sean Tull, Quantinuum
