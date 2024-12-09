@@ -17,13 +17,15 @@ For more information on the ACT series, see [here](https://www.appliedcategoryth
 The call for participation ([CFP](act2025cfp.md)) has been posted
 :::
 
-## Dates (tentative)
+## Important dates
 
-- Call for participation released: 25 November 2025 AOE
-- Submission deadline: 3 March 2025 AOE
-- Reviews start: 5 March 2025 AOE
-- Announcement of accepted papers and presentations: 7 April 2025 AOE
-- Release of pre-proceedings: 19 May 2025 AOE
+All deadlines are AoE (Anywhere on Earth).
+
+* February 26: Title and brief abstract submission  
+* March 3: Paper submission  
+* April 7: Notification of authors  
+* May 19: Pre-proceedings ready versions  
+* June 2-6: Conference
 
 ## Adjoint School
 
