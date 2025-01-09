@@ -79,7 +79,7 @@ See conference website for full list: [https://gataslab.org/act2025](https://gat
   - Alex Toumi, PlantingSpace
   - Todd Trimble, Western Connecticut State University
   - Sean Tull, Quantinuum
-  - Paul Wilson, Ethereum Foundation 
+  - Paul Wilson, Hellas.AI
   - Dusko Pavlovic, University of Hawaii
   - Ruben Van Belle, University of Oxford
   - Priyaa Varshinee Srinivasan, Tallinn University of Technology
