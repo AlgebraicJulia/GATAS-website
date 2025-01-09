@@ -1,9 +1,21 @@
 [
   {
-    "listing": "/project/sheaves.html",
+    "listing": "/project/decapodes.html",
     "items": [
-      "/members/benbumpus.html",
-      "/members/wilmerleal.html"
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html",
+      "/members/lukemorris.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html"
+    ]
+  },
+  {
+    "listing": "/project/optimization.html",
+    "items": [
+      "/members/tylerhanks.html",
+      "/members/samuelcohen.html",
+      "/members/richardsamuelson.html"
     ]
   },
   {
@@ -11,16 +23,17 @@
     "items": []
   },
   {
-    "listing": "/research.html",
-    "items": []
+    "listing": "/index.html",
+    "items": [
+      "/members.html",
+      "/projects.html",
+      "/research.html",
+      "/sponsors/sponsors.html"
+    ]
   },
   {
-    "listing": "/projects.html",
-    "items": [
-      "/project/decapodes.html",
-      "/project/optimization.html",
-      "/project/sheaves.html"
-    ]
+    "listing": "/research.html",
+    "items": []
   },
   {
     "listing": "/sponsors/sponsors.html",
@@ -32,12 +45,11 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
-      "/members.html",
-      "/projects.html",
-      "/research.html",
-      "/sponsors/sponsors.html"
+      "/project/decapodes.html",
+      "/project/optimization.html",
+      "/project/sheaves.html"
     ]
   },
   {
@@ -55,22 +67,10 @@
     ]
   },
   {
-    "listing": "/project/decapodes.html",
+    "listing": "/project/sheaves.html",
     "items": [
-      "/publications/jocs.html",
-      "/publications/diagrampresentations/diagrampresentations.html",
-      "/publications/diagrameqns/diagrameqns.html",
-      "/members/lukemorris.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html"
-    ]
-  },
-  {
-    "listing": "/project/optimization.html",
-    "items": [
-      "/members/tylerhanks.html",
-      "/members/samuelcohen.html",
-      "/members/richardsamuelson.html"
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html"
     ]
   }
 ]
