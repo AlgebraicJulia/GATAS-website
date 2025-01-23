@@ -47,33 +47,33 @@ See conference website for full list: [https://gataslab.org/act2025](https://gat
 
   - Benedikt Ahrens, Delft University of Technology
   - Robert Booth, University of Edinburgh
-  - Cameron Calk, LIS
+  - Cameron Calk, Laboratoire d’Informatique et Systèmes (LIS)
   - Cole Comfort, Université de Lorraine
   - Valeria de Paiva, Topos Institute 
   - Elena Di Lavore, University of Pisa
   - Martin Frankland, University of Regina
-  - Jonas Frey, LIPN
+  - Jonas Frey, Laboratoire d'Informatique de Paris-Nord (LIPN)
   - Tobias Fritz, University of Innsbruck 
   - Zeinab Galal, University of Bologna 
   - Léonard Guetta, Utrecht University
   - Robin Kaarsgaard, University of Southern Denmark
-  - Martti Karvonen, UCL
+  - Martti Karvonen, University College London
   - Shin-Ya Katsumata, Kyoto Sangyo University
   - Alex Kavvos, University of Bristol
   - Kohei Kishida, University of Illinois Urbana-Champagne
   - Gabriele Lobbia, Università di Bologna
   - Fosco Loregian, Tallinn University of Technology
-  - Giulio Manzonetto, IRIF
+  - Giulio Manzonetto, L'Institut de Recherche en Informatique Fondamentale (IRIF)
   - Dan Marsden, University of Nottingham
   - Adrian Miranda, University of Manchester
-  - Koko Muroya, NII
+  - Koko Muroya, National Institute of Informatics
   - Nina Otter, Université Paris-Saclay
-  - Hugo Paquet, INRIA Paris
+  - Hugo Paquet, Institut national de recherche en sciences et technologies du numérique (INRIA), Paris
   - John Power, Macquarie University
   - Dorette Pronk, Dalhousie University
   - Callum Reader, University of Sheffield 
   - Martina Rovelli, University of Massachusetts Amherst
-  - Mehrnoosh Sadrzadeh, UCL
+  - Mehrnoosh Sadrzadeh, University College London
   - Peter Selinger, Dalhousie University
   - David Sprunger, University of Indiana
   - Alex Toumi, PlantingSpace
@@ -83,3 +83,4 @@ See conference website for full list: [https://gataslab.org/act2025](https://gat
   - Dusko Pavlovic, University of Hawaii
   - Ruben Van Belle, University of Oxford
   - Priyaa Varshinee Srinivasan, Tallinn University of Technology
+  - Gioele Zardini, Massachusettes Institute of Technology
