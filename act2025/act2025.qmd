@@ -31,6 +31,10 @@ All deadlines are AoE (Anywhere on Earth).
 
 More information about the adjoint school can be found at [adjointschool.com](https://adjointschool.com/2025.html).
 
+## Inclusive Spaces Resources
+
+Please refer to the UF Libraries page for finding [inclusive spaces](https://uflib.ufl.edu/using-the-libraries/inclusive-spaces/) on campus.
+
 ## LBGTQ+ Statement
 
 The 2025 conference for Applied Category Theory will be held at the University of
