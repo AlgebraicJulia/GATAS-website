@@ -14,6 +14,8 @@ For more information on the ACT series, see [here](https://www.appliedcategoryth
 :::{.callout-important}
 ## Applied Category Theory 2025
 
+[Registration](https://web.cvent.com/event/90221e5e-4fc5-4827-a025-cb57c5f22ba0/regProcessStep1) is now open!
+
 The call for participation ([CFP](act2025cfp.md)) has been posted
 :::
 
@@ -24,18 +26,26 @@ All deadlines are AoE (Anywhere on Earth).
 * February 26: Title and brief abstract submission  
 * March 3: Paper submission  
 * April 7: Notification of authors  
-* May 19: Pre-proceedings ready versions  
+* May 19: Registration deadline and Pre-proceedings ready versions  
 * June 2-6: Conference
 
-## Adjoint School
+### Conference Info
+
+This year, lunch and coffee will be provided for attendees. This will understandably mean that there will now be registration fees. We are using a tiered system based on occupation category:
+
+- Students \$140
+- Academics \$300
+- Industry professionals \$700
+
+Travel and registration assistance will be available to students depending on final registration numbers and funds available. Please follow this link for [assistance applications](https://forms.gle/MWDdBqNdFM9EewXv7).
+
+Due to technological constraints, only the keynote addresses, and the community meeting will be accessible via Zoom. Recordings of presentations will be made available after the conference on a best-effort basis. For exceptional circumstances in which a presenter cannot attend in person, submissions may be published in conference proceedings alone, and/or a recorded presentation may be made available after the conference. If circumstances outside your control prohibit you from presenting your work in person, please contact conference organizers.
+
+### Adjoint School
 
 More information about the adjoint school can be found at [adjointschool.com](https://adjointschool.com/2025.html).
 
-## Inclusive Spaces Resources
-
-Please refer to the UF Libraries page for finding [inclusive spaces](https://uflib.ufl.edu/using-the-libraries/inclusive-spaces/) on campus.
-
-## LBGTQ+ Statement
+### LBGTQ+ Statement
 
 The 2025 conference for Applied Category Theory will be held at the University of
 Florida in Gainesville, Florida. As organizers, we understand that the current political climate
@@ -50,7 +60,13 @@ collaborations, and discuss our research and pedagogy in applied category theory
 all members of the ACT community to participate in this endeavor, regardless of gender,
 sexuality, race, religion, etc.
 
-## Organizers
+### Inclusive Spaces Resources
+
+Please refer to the UF Libraries page for finding [inclusive spaces](https://uflib.ufl.edu/using-the-libraries/inclusive-spaces/) on campus. [Here is a map](https://uflib.ufl.edu/using-the-libraries/inclusive-spaces/#map) of inclusive spaces on campus. 
+
+Organizers can confirm that most buildings on campus, including the one the conference activities take place in, have multiple accessible, single-occupancy restrooms. The available [campus map](https://campusmap.ufl.edu/#/) also shows all locations of single-occupant restrooms, ADA accessible routes between buildings, bus stops, and more via the filter options in the top left corner of the map.
+
+### Organizers
 
 - Program Chairs
   - [Amar Hadzihasanovic](https://ioc.ee/~amar/)
