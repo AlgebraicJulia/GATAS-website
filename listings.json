@@ -1,35 +1,21 @@
 [
   {
-    "listing": "/presentations.html",
-    "items": []
-  },
-  {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
-    "listing": "/project/sheaves.html",
+    "listing": "/project/decapodes.html",
     "items": [
-      "/members/benbumpus.html",
-      "/members/wilmerleal.html"
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html",
+      "/members/lukemorris.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
-      "/members.html",
-      "/projects.html",
-      "/research.html",
-      "/sponsors/sponsors.html"
-    ]
-  },
-  {
-    "listing": "/sponsors/sponsors.html",
-    "items": [
-      "/sponsors/darpa.html",
-      "/sponsors/onr.html",
-      "/sponsors/afrl.html",
-      "/sponsors/nsf.html"
+      "/project/decapodes.html",
+      "/project/optimization.html",
+      "/project/sheaves.html"
     ]
   },
   {
@@ -47,22 +33,27 @@
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/index.html",
     "items": [
-      "/project/decapodes.html",
-      "/project/optimization.html",
-      "/project/sheaves.html"
+      "/members.html",
+      "/projects.html",
+      "/research.html",
+      "/sponsors/sponsors.html"
     ]
   },
   {
-    "listing": "/project/decapodes.html",
+    "listing": "/presentations.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": []
+  },
+  {
+    "listing": "/project/sheaves.html",
     "items": [
-      "/publications/jocs.html",
-      "/publications/diagrampresentations/diagrampresentations.html",
-      "/publications/diagrameqns/diagrameqns.html",
-      "/members/lukemorris.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html"
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html"
     ]
   },
   {
@@ -71,6 +62,15 @@
       "/members/tylerhanks.html",
       "/members/samuelcohen.html",
       "/members/richardsamuelson.html"
+    ]
+  },
+  {
+    "listing": "/sponsors/sponsors.html",
+    "items": [
+      "/sponsors/darpa.html",
+      "/sponsors/onr.html",
+      "/sponsors/afrl.html",
+      "/sponsors/nsf.html"
     ]
   }
 ]
