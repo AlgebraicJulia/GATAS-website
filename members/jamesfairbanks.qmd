@@ -14,8 +14,7 @@ about:
     template: solana
 ---
 
-is an assistant professor in Computer and Information Science and Engineering department.
-He is also affiliated with the Mechanical and Aerospace Engineering department, the Institute for Computational Engineering, and the Florida Institute for National Security. 
+is an assistant professor in the department of Mechanical and Aerospace Engineering, and affiliated with the Institute for Computational Engineering, and the Florida Institute for National Security. 
 
 My research focuses on new paradigms in scientific computing, specifically applied category theory. 
 This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. 
