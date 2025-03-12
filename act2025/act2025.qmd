@@ -45,7 +45,7 @@ Due to technological constraints, only the keynote addresses, and the community
 
 More information about the adjoint school can be found at [adjointschool.com](https://adjointschool.com/2025.html).
 
-### LBGTQ+ Statement
+### LGBTQ+ Statement
 
 The 2025 conference for Applied Category Theory will be held at the University of
 Florida in Gainesville, Florida. As organizers, we understand that the current political climate
