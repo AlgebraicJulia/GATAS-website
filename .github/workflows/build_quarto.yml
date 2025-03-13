@@ -18,7 +18,7 @@ jobs:
         with:
           name: _site
       - name: Delete all artifacts
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: |
             _site
