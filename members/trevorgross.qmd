@@ -1,6 +1,6 @@
 ---
 title: "Trevor Gross"
-image: images/trevorgross.jpg
+image: images/trevorgross.jpeg
 date: 1/16/2025
 published-title: "Lab Member Since:"
 about:
@@ -8,6 +8,8 @@ about:
     links:
         - text: Website
           href: https://trevorjgross.com/
+        - text: GitHub
+          href: https://github.com/GrossTrevor
 ---
 
 is an undergraduate junior studying computer science affiliated with the Florida Institute for National Security Talent Pipeline.
