@@ -1,5 +1,8 @@
 project:
   type: website
+  post-render: 
+    - mkdir -p _site/_freeze
+    - touch _site/_freeze/default.txt
 
 bibliography: bibliography.bib
 
