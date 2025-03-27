@@ -50,7 +50,7 @@ See conference website for full list: [https://gataslab.org/act2025](https://gat
   - Cameron Calk, Laboratoire d’Informatique et Systèmes (LIS)
   - Cole Comfort, Université de Lorraine
   - Valeria de Paiva, Topos Institute 
-  - Elena Di Lavore, University of Pisa
+  - Elena Di Lavore, Oxford University
   - Martin Frankland, University of Regina
   - Jonas Frey, Laboratoire d'Informatique de Paris-Nord (LIPN)
   - Tobias Fritz, University of Innsbruck 
