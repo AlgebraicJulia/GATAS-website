@@ -112,6 +112,97 @@
     "text": "Lab Mentees\nThese are people who might not have spent full-time employment in the lab, but were involved in a mentorship program or ongoing mentoring relationship outside beyond the institution.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Dates\n        \n         \n          Last Known Institution\n        \n         \n          Program\n        \n         \n          Name\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nProgram\n\n\nLast Known Institution\n\n\nDates\n\n\n\n\n\n\nKris Brown\n\n\nUF Post-Doctoral Researcher\n\n\nTopos Institute, Research Software Engineer\n\n\n2021-22\n\n\n\n\nAnna Knoerr\n\n\nACT Adjoint School\n\n\nETH Zurich\n\n\n2021\n\n\n\n\nGrant Generaux\n\n\nACT Adjoint School\n\n\nBristol Myers Squibb\n\n\n2021\n\n\n\n\nAmy Searle\n\n\nACT Adjoint School\n\n\nOxford Physics, PhD Student\n\n\n2021\n\n\n\n\nKris Brown\n\n\nChemical Engineering, Stanford University\n\n\nUF, Post-Doctoral Researcher\n\n\n2021-2022\n\n\n\n\nSophie Libkind\n\n\nMathematics, Stanford University\n\n\nTopos Institute, Mathematician\n\n\n2020-2022\n\n\n\n\nOwen Lynch\n\n\nStatistics, University of Utrecht\n\n\nTopos Institute, Research Software Engineer\n\n\n2020-Present\n\n\n\n\nJulian Perez\n\n\nBS BME GT\n\n\nStanford, PhD Student\n\n\n2021-22\n\n\n\n\nStephen Wellburg\n\n\nBS DAS UF\n\n\nCapital One, Software Engineer\n\n\n2021-22\n\n\n\n\nSreenath Reparti\n\n\nBS ISYE Georgia Tech\n\n\nKPMG\n\n\n2018-19\n\n\n\n\nKun Cao\n\n\nMS CS Georgia Tech\n\n\nGT\n\n\n2019\n\n\n\n\nMicah Halter\n\n\nBS CS Georgia Tech\n\n\nGTRI\n\n\n2016-19\n\n\n\n\nNate Knauf\n\n\nBS CS Georgia Tech\n\n\nGT\n\n\n2016\n\n\n\n\nRohit Varkey\n\n\nMS CS Georgia Tech\n\n\nGoogle\n\n\n2016-18\n\n\n\n\nPushkar Godbole\n\n\nMS CSE Georgia Tech\n\n\nYelp\n\n\n2015\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The GATAS Lab",
+    "section": "",
+    "text": "Applied Category Theory 2025\n\n\n\nThe GATAS Lab is hosting the 8th International Conference on Applied Category Theory here at UF. For more information see the ACT2025 Page\nThe GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. Our group works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
+  },
+  {
+    "objectID": "index.html#philosophy",
+    "href": "index.html#philosophy",
+    "title": "The GATAS Lab",
+    "section": "Philosophy",
+    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain.\n\n\n\n\n\n\n\n\nMembers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSponsors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "act2025/act2025.html#about",
+    "href": "act2025/act2025.html#about",
+    "title": "8th International Conference on Applied Category Theory",
+    "section": "About",
+    "text": "About\nThe 8th International Conference on Applied Category Theory (ACT) will take place together at the University of Florida on June 2-6, 2025. The conferences will be preceded by the Adjoint School on May 26-30, 2025.\nFor more information on the ACT series, see here.\n\n\n\n\n\n\nApplied Category Theory 2025\n\n\n\nRegistration is now open!\nThe call for participation (CFP) has been posted"
+  },
+  {
+    "objectID": "act2025/act2025.html#important-dates",
+    "href": "act2025/act2025.html#important-dates",
+    "title": "8th International Conference on Applied Category Theory",
+    "section": "Important dates",
+    "text": "Important dates\nAll deadlines are AoE (Anywhere on Earth).\n\nFebruary 26: Title and brief abstract submission\n\nMarch 3: Paper submission\n\nApril 7: Notification of authors\n\nMay 19: Registration deadline and Pre-proceedings ready versions\n\nJune 2-6: Conference\n\n\nConference Info\nThis year, lunch and coffee will be provided for attendees. This will understandably mean that there will now be registration fees. We are using a tiered system based on occupation category:\n\nStudents $140\nAcademics $300\nIndustry professionals $700\n\nTravel and registration assistance will be available to students depending on final registration numbers and funds available. Please follow this link for assistance applications.\nDue to technological constraints, only the keynote addresses, and the community meeting will be accessible via Zoom. Recordings of presentations will be made available after the conference on a best-effort basis. For exceptional circumstances in which a presenter cannot attend in person, submissions may be published in conference proceedings alone, and/or a recorded presentation may be made available after the conference. If circumstances outside your control prohibit you from presenting your work in person, please contact conference organizers.\n\n\nAdjoint School\nMore information about the adjoint school can be found at adjointschool.com.\n\n\nLGBTQ+ Statement\nThe 2025 conference for Applied Category Theory will be held at the University of Florida in Gainesville, Florida. As organizers, we understand that the current political climate and legal policies of the state of Florida do not instill a sense of comfort and safety in individuals from marginalized communities, especially the LGBTQ+ community. However, the organizers, University, and local community are committed to creating a welcoming environment for all. Along with the ACT community, Gainesville, FL is a kind and welcoming place for individuals of all backgrounds and experiences. Organizers and attendees of ACT 2025 will not tolerate any abuse or discrimination, direct or indirect, against members of the LGBTQ+ community. This event will be an opportunity to learn from each other, build connections and collaborations, and discuss our research and pedagogy in applied category theory. We welcome all members of the ACT community to participate in this endeavor, regardless of gender, sexuality, race, religion, etc.\n\n\nInclusive Spaces Resources\nPlease refer to the UF Libraries page for finding inclusive spaces on campus. Here is a map of inclusive spaces on campus.\nOrganizers can confirm that most buildings on campus, including the one the conference activities take place in, have multiple accessible, single-occupancy restrooms. The available campus map also shows all locations of single-occupant restrooms, ADA accessible routes between buildings, bus stops, and more via the filter options in the top left corner of the map.\n\n\nOrganizers\n\nProgram Chairs\n\nAmar Hadzihasanovic\nJS Lemay\n\nLocal Chair\n\nJames Fairbanks"
+  },
+  {
+    "objectID": "publications/jocs.html",
+    "href": "publications/jocs.html",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "",
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+  },
+  {
+    "objectID": "publications/jocs.html#abstract",
+    "href": "publications/jocs.html#abstract",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "",
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+  },
+  {
+    "objectID": "publications/jocs.html#links",
+    "href": "publications/jocs.html#links",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "section": "Links",
+    "text": "Links\n\nJournal\nCode\nDocs"
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html",
+    "href": "publications/diagrampresentations/diagrampresentations.html",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "",
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "",
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
+    "href": "publications/diagrampresentations/diagrampresentations.html#links",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "Links",
+    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
+  },
+  {
+    "objectID": "publications/diagrameqns/diagrameqns.html",
+    "href": "publications/diagrameqns/diagrameqns.html",
+    "title": "A diagrammatic view of differential equations in physics",
+    "section": "",
+    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+  },
+  {
+    "objectID": "publications/diagrameqns/diagrameqns.html#abstract",
+    "href": "publications/diagrameqns/diagrameqns.html#abstract",
+    "title": "A diagrammatic view of differential equations in physics",
+    "section": "",
+    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+  },
+  {
+    "objectID": "publications/diagrameqns/diagrameqns.html#links",
+    "href": "publications/diagrameqns/diagrameqns.html#links",
+    "title": "A diagrammatic view of differential equations in physics",
+    "section": "Links",
+    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\nJournal\nPDF\nCode\nDocs"
+  },
+  {
     "objectID": "act2025/act2025cfp.html",
     "href": "act2025/act2025cfp.html",
     "title": "GATAS Lab | University of Florida",
@@ -144,98 +235,7 @@
     "href": "act2025/act2025cfp.html#programme-committee",
     "title": "GATAS Lab | University of Florida",
     "section": "Programme Committee",
-    "text": "Programme Committee\nSee conference website for full list: https://gataslab.org/act2025\n\nPC Chairs\n\nAmar Hadzihasanovic (PC Chair), Tallinn University of Technology\nJS Lemay (PC Chair), Macquarie University\n\nPC Members\n\nBenedikt Ahrens, Delft University of Technology\nRobert Booth, University of Edinburgh\nCameron Calk, Laboratoire d’Informatique et Systèmes (LIS)\nCole Comfort, Université de Lorraine\nValeria de Paiva, Topos Institute\nElena Di Lavore, University of Pisa\nMartin Frankland, University of Regina\nJonas Frey, Laboratoire d’Informatique de Paris-Nord (LIPN)\nTobias Fritz, University of Innsbruck\nZeinab Galal, University of Bologna\nLéonard Guetta, Utrecht University\nRobin Kaarsgaard, University of Southern Denmark\nMartti Karvonen, University College London\nShin-Ya Katsumata, Kyoto Sangyo University\nAlex Kavvos, University of Bristol\nKohei Kishida, University of Illinois Urbana-Champagne\nGabriele Lobbia, Università di Bologna\nFosco Loregian, Tallinn University of Technology\nGiulio Manzonetto, L’Institut de Recherche en Informatique Fondamentale (IRIF)\nDan Marsden, University of Nottingham\nAdrian Miranda, University of Manchester\nKoko Muroya, National Institute of Informatics\nNina Otter, Université Paris-Saclay\nHugo Paquet, Institut national de recherche en sciences et technologies du numérique (INRIA), Paris\nJohn Power, Macquarie University\nDorette Pronk, Dalhousie University\nCallum Reader, University of Sheffield\nMartina Rovelli, University of Massachusetts Amherst\nMehrnoosh Sadrzadeh, University College London\nPeter Selinger, Dalhousie University\nDavid Sprunger, University of Indiana\nAlex Toumi, PlantingSpace\nTodd Trimble, Western Connecticut State University\nSean Tull, Quantinuum\nPaul Wilson, Hellas.AI\nDusko Pavlovic, University of Hawaii\nRuben Van Belle, University of Oxford\nPriyaa Varshinee Srinivasan, Tallinn University of Technology\nGioele Zardini, Massachusettes Institute of Technology"
-  },
-  {
-    "objectID": "publications/diagrameqns/diagrameqns.html",
-    "href": "publications/diagrameqns/diagrameqns.html",
-    "title": "A diagrammatic view of differential equations in physics",
-    "section": "",
-    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
-  },
-  {
-    "objectID": "publications/diagrameqns/diagrameqns.html#abstract",
-    "href": "publications/diagrameqns/diagrameqns.html#abstract",
-    "title": "A diagrammatic view of differential equations in physics",
-    "section": "",
-    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
-  },
-  {
-    "objectID": "publications/diagrameqns/diagrameqns.html#links",
-    "href": "publications/diagrameqns/diagrameqns.html#links",
-    "title": "A diagrammatic view of differential equations in physics",
-    "section": "Links",
-    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\nJournal\nPDF\nCode\nDocs"
-  },
-  {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html",
-    "href": "publications/diagrampresentations/diagrampresentations.html",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
-    "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
-  },
-  {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
-    "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
-  },
-  {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
-    "href": "publications/diagrampresentations/diagrampresentations.html#links",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
-    "section": "Links",
-    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
-  },
-  {
-    "objectID": "publications/jocs.html",
-    "href": "publications/jocs.html",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
-  },
-  {
-    "objectID": "publications/jocs.html#abstract",
-    "href": "publications/jocs.html#abstract",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
-  },
-  {
-    "objectID": "publications/jocs.html#links",
-    "href": "publications/jocs.html#links",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "Links",
-    "text": "Links\n\nJournal\nCode\nDocs"
-  },
-  {
-    "objectID": "act2025/act2025.html#about",
-    "href": "act2025/act2025.html#about",
-    "title": "8th International Conference on Applied Category Theory",
-    "section": "About",
-    "text": "About\nThe 8th International Conference on Applied Category Theory (ACT) will take place together at the University of Florida on June 2-6, 2025. The conferences will be preceded by the Adjoint School on May 26-30, 2025.\nFor more information on the ACT series, see here.\n\n\n\n\n\n\nApplied Category Theory 2025\n\n\n\nRegistration is now open!\nThe call for participation (CFP) has been posted"
-  },
-  {
-    "objectID": "act2025/act2025.html#important-dates",
-    "href": "act2025/act2025.html#important-dates",
-    "title": "8th International Conference on Applied Category Theory",
-    "section": "Important dates",
-    "text": "Important dates\nAll deadlines are AoE (Anywhere on Earth).\n\nFebruary 26: Title and brief abstract submission\n\nMarch 3: Paper submission\n\nApril 7: Notification of authors\n\nMay 19: Registration deadline and Pre-proceedings ready versions\n\nJune 2-6: Conference\n\n\nConference Info\nThis year, lunch and coffee will be provided for attendees. This will understandably mean that there will now be registration fees. We are using a tiered system based on occupation category:\n\nStudents $140\nAcademics $300\nIndustry professionals $700\n\nTravel and registration assistance will be available to students depending on final registration numbers and funds available. Please follow this link for assistance applications.\nDue to technological constraints, only the keynote addresses, and the community meeting will be accessible via Zoom. Recordings of presentations will be made available after the conference on a best-effort basis. For exceptional circumstances in which a presenter cannot attend in person, submissions may be published in conference proceedings alone, and/or a recorded presentation may be made available after the conference. If circumstances outside your control prohibit you from presenting your work in person, please contact conference organizers.\n\n\nAdjoint School\nMore information about the adjoint school can be found at adjointschool.com.\n\n\nLBGTQ+ Statement\nThe 2025 conference for Applied Category Theory will be held at the University of Florida in Gainesville, Florida. As organizers, we understand that the current political climate and legal policies of the state of Florida do not instill a sense of comfort and safety in individuals from marginalized communities, especially the LGBTQ+ community. However, the organizers, University, and local community are committed to creating a welcoming environment for all. Along with the ACT community, Gainesville, FL is a kind and welcoming place for individuals of all backgrounds and experiences. Organizers and attendees of ACT 2025 will not tolerate any abuse or discrimination, direct or indirect, against members of the LGBTQ+ community. This event will be an opportunity to learn from each other, build connections and collaborations, and discuss our research and pedagogy in applied category theory. We welcome all members of the ACT community to participate in this endeavor, regardless of gender, sexuality, race, religion, etc.\n\n\nInclusive Spaces Resources\nPlease refer to the UF Libraries page for finding inclusive spaces on campus. Here is a map of inclusive spaces on campus.\nOrganizers can confirm that most buildings on campus, including the one the conference activities take place in, have multiple accessible, single-occupancy restrooms. The available campus map also shows all locations of single-occupant restrooms, ADA accessible routes between buildings, bus stops, and more via the filter options in the top left corner of the map.\n\n\nOrganizers\n\nProgram Chairs\n\nAmar Hadzihasanovic\nJS Lemay\n\nLocal Chair\n\nJames Fairbanks"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The GATAS Lab",
-    "section": "",
-    "text": "Applied Category Theory 2025\n\n\n\nThe GATAS Lab is hosting the 8th International Conference on Applied Category Theory here at UF. For more information see the ACT2025 Page\nThe GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. Our group works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
-  },
-  {
-    "objectID": "index.html#philosophy",
-    "href": "index.html#philosophy",
-    "title": "The GATAS Lab",
-    "section": "Philosophy",
-    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain.\n\n\n\n\n\n\n\n\nMembers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSponsors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Programme Committee\nSee conference website for full list: https://gataslab.org/act2025\n\nPC Chairs\n\nAmar Hadzihasanovic (PC Chair), Tallinn University of Technology\nJS Lemay (PC Chair), Macquarie University\n\nPC Members\n\nBenedikt Ahrens, Delft University of Technology\nRobert Booth, University of Edinburgh\nCameron Calk, Laboratoire d’Informatique et Systèmes (LIS)\nCole Comfort, Université de Lorraine\nValeria de Paiva, Topos Institute\nElena Di Lavore, Oxford University\nMartin Frankland, University of Regina\nJonas Frey, Laboratoire d’Informatique de Paris-Nord (LIPN)\nTobias Fritz, University of Innsbruck\nZeinab Galal, University of Bologna\nLéonard Guetta, Utrecht University\nRobin Kaarsgaard, University of Southern Denmark\nMartti Karvonen, University College London\nShin-Ya Katsumata, Kyoto Sangyo University\nAlex Kavvos, University of Bristol\nKohei Kishida, University of Illinois Urbana-Champagne\nGabriele Lobbia, Università di Bologna\nFosco Loregian, Tallinn University of Technology\nGiulio Manzonetto, L’Institut de Recherche en Informatique Fondamentale (IRIF)\nDan Marsden, University of Nottingham\nAdrian Miranda, University of Manchester\nKoko Muroya, National Institute of Informatics\nNina Otter, Université Paris-Saclay\nHugo Paquet, Institut national de recherche en sciences et technologies du numérique (INRIA), Paris\nJohn Power, Macquarie University\nDorette Pronk, Dalhousie University\nCallum Reader, University of Sheffield\nMartina Rovelli, University of Massachusetts Amherst\nMehrnoosh Sadrzadeh, University College London\nPeter Selinger, Dalhousie University\nDavid Sprunger, University of Indiana\nAlex Toumi, PlantingSpace\nTodd Trimble, Western Connecticut State University\nSean Tull, Quantinuum\nPaul Wilson, Hellas.AI\nDusko Pavlovic, University of Hawaii\nRuben Van Belle, University of Oxford\nPriyaa Varshinee Srinivasan, Tallinn University of Technology\nGioele Zardini, Massachusettes Institute of Technology"
   },
   {
     "objectID": "presentations.html",
