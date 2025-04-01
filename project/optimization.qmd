@@ -57,7 +57,7 @@ the implementation of correct-by-construction MPC problems in software.
 
 ## Sponsors
 
-![NSF](/_assets/sponsors/NSF.svg){width=25%}
+![NSF](/_assets/sponsors/nsf.svg){width=25%}
 ![ONR](/_assets/sponsors/ONR.svg){width=25%}
 ![AFRL](/_assets/sponsors/AFRL.svg){width=25%}
 
