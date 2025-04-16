@@ -1,5 +1,10 @@
 ---
 title: "8th International Conference on Applied Category Theory"
+aliases: 
+  - /act2025/
+  - /act2025.html
+  - /act
+  - /act.html
 ---
 
 
