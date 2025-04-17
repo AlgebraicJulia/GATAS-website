@@ -1,0 +1,127 @@
+- title: 'Dependent Directed Wiring Diagrams for Composing Instantaneous Systems'
+  author: Keri D'Angelo and Sophie Libkind
+  category: Proceedings
+
+- title: A Critical Pair Enumeration Algorithm for String Diagram Rewriting
+  author: Anna Matsui, Innocent Obi, Guillaume Sabbagh, Leo Torres, Diana Kessler, Juan F. Meleiro and Koko Muroya
+  category: Proceedings
+
+- title: Categorical Semantics of Higher-Order Message Passing
+  author: Robin Cockett and Melika Norouzbeygi
+  category: Proceedings
+
+- title: Convex duality made difficult
+  author: Eigil Rischel
+  category: Proceedings
+
+- title: Categorical Calculus and Algebra for Multi-Model Data
+  author: Jiaheng Lu
+  category: Proceedings
+
+- title: Composable Uncertainty in Symmetric Monoidal Categories for Design Problems
+  author: Marius Furter, Yujun Huang and Gioele Zardini
+  category: Proceedings
+
+- title: 'Scalable and interpretable quantum natural language processing: an implementation on trapped ions'
+  author: Tiffany Duneau, Saskia Bruhn, Gabriel Matos, Tuomas Laakkonen, Katerina Saiti, Anna Pearson, Konstantinos Meichanetzidis and Bob Coecke
+  category: Talk
+
+- title: Empirical Distributions and Strong Laws of Large Numbers in Categorical Probability
+  author: Paolo Perrone, Tobias Fritz, Tomáš Gonda, Antonio Lorenzin and Areeb Shah Mohammed
+  category: Talk
+
+- title: Markov categories with random variables
+  author: Paolo Perrone
+  category: Talk
+
+- title: Partializations of Markov categories
+  author: Areeb Shah Mohammed
+  category: Talk
+
+- title: Simplicial effects as generalization of effect algebroids
+  author: Cihan Okay, Victor Castillo and Walker Stern
+  category: Talk
+
+- title: Gradual Semantics of Abstract Argumentation, categorically through Prisms
+  author: Juan Afanador
+  category: Talk
+
+- title: Algebras of the Giry monad
+  author: Ruben Van Belle
+  category: Talk
+
+- title: A categorical framework for Lyapunov theory
+  author: Joe Moeller, Aaron Ames and Paulo Tabuada
+  category: Talk
+
+- title: Simplicial methods in the resource theory of contextuality
+  author: Aziz Kharoof and Cihan Okay
+  category: Talk
+
+- title: A universal perspective on probability monads
+  author: Victor Bloch and Tobias Fritz
+  category: Talk
+
+- title: Lyapunov's theorem for coalgebras
+  author: Sébastien Mattenet, Joe Moeller and Aaron Ames
+  category: Talk
+
+- title: 'Why quantum state verification cannot be both efficient and secure: a categorical approach'
+  author: Fabian Wiesner, Ziad Chaoui, Diana Kessler, Anna Pappa and Martti Karvonen
+  category: Talk
+
+- title: Clock systems for stochastic and non-deterministic categorical systems theories
+  author: Owen Lynch, Eigil Rischel, David Jaz Myers and Sam Staton
+  category: Talk
+
+- title: Conformance Games for Graded Semantics
+  author: Jonas Forster, Lutz Schröder and Paul Wild
+  category: Talk
+
+- title: System Modeling and Simulation via Constraint Hypergraphs
+  author: John Morris, Gregory Mocko and John Wagner
+  category: Talk
+
+- title: Eilenberg-Moore categories of Markov monads
+  author: Rob Cornish
+  category: Talk
+
+- title: Compositional Semantics of Convex Optimization
+  author: Tyler Hanks, Matthew Klawonn, Matthew Hale and James Fairbanks
+  category: Talk
+
+- title: 'ACT-Informed Data Science: A Case Study in Public Health Research'
+  author: Jacob Zelko, Matt Cuffaro and Sean Wu
+  category: Talk
+
+- title: A stochastic mapping approach to the construction of objects according to the biology of cognition
+  author: Jorge Soto-Andrade and Juan-Carlos Letelier
+  category: Talk
+
+- title: Idempotent Arboreal Covers
+  author: Gabriel Goren-Roig
+  category: Talk
+
+- title: A Categorical Formulation of Dose-Escalation Trial Protocols Extending Naturally to Admit Titration
+  author: David Norris
+  category: Talk
+
+- title: 'HyperSyn: macro morphism metaprogramming (software demonstration)'
+  author: Paul Wilson
+  category: Software Demo
+
+- title: Visual Logic Interface (software demonstration)
+  author: Christian Wells
+  category: Software Demo
+
+- title: 'CatColab: formal, interoperable, conceptual modeling'
+  author: Kevin Carlson, Owen Lynch, Kris Brown and Evan Patterson
+  category: Software Demo
+
+- title: 'AlgebraicJulia: Compositional Development of Compositional Mathematics Software'
+  author: James Fairbanks and Evan Patterson
+  category: Software Demo
+
+- title: A Category Theoretic View of Algebraic Artificial Chemistries  
+  author: Joe Pratt-Johns, Toby St Clere Smithe, Chris Guiver, Kevin Hughes and Peter Andras
+  category: Proceedings

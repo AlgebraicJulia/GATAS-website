@@ -33,6 +33,13 @@
   date: "2/5/2024"
   URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_02_05_matt_BuildKitePresentation.pdf"
 
+- title: "Net Flow"
+  author: "Tyler Hanks"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_2_5_tyler_Net%20flow%20talk.pd" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "2/5/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_2_5_tyler_Net%20flow%20talk.pdf"
+
 - title: "Categorical Chemistry: The architecture of a chemical computer"
   author: "Wilmer Leal"
   href: |-
@@ -70,3 +77,74 @@
   date: "9/14/2023"
   URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_9_14_tyler_Decorated%20Corels%20Talk.pdf"
   
+- title: "Towards a Unified Theory of Time-Varying Data"
+  author: "Wilmer Leal"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_08_21_Leal_ACT2024_talk-4.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "8/21/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_08_21_Leal_ACT2024_talk-4.pdf"
+ 
+- title: "DEC Tips and Tricks 3"
+  author: "Luke Morris"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_08_28_dec_3.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "8/28/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_08_28_dec_3.pdf"
+
+- title: "Categorical Chemistry: The Architecture of a Chemical Computer"
+  author: "Wilmer Leal"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_09_10_Leal_Gatas_lab_meeting_sep_10-5.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "9/10/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_09_10_Leal_Gatas_lab_meeting_sep_10-5.pdf"
+
+- title: "Sharing Vector Variables via Typed UWDs in AlgebraicOptimization.jl"
+  author: "Sam Cohen"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_01_Sam_cohen_gatas_present.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "10/1/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_01_Sam_cohen_gatas_present.pdf"
+
+- title: "Newton's Method"
+  author: "Tyler Hanks"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_1_tyler_Newton%20Talk.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "10/1/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_1_tyler_Newton%20Talk.pdf"
+
+- title: "The Decapodes Pipeline"
+  author: "George Rauta"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_03_George%20The%20Decapodes%20Pipeline.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "10/3/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_03_George%20The%20Decapodes%20Pipeline.pdf"
+
+- title: "DEC Tips and Tricks 4"
+  author: "Luke Morris"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_29_dec_4.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "10/29/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_10_29_dec_4.pdf"
+
+- title: "Parallel Computing with MPI"
+  author: "George Rauta"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_11_05_George_Distributed_Computing_MPI.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "11/5/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_11_05_George_Distributed_Computing_MPI.pdf"
+
+- title: "Fall 2024 progress: Structured Decompositions"
+  author: "Andersen Wall"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_11_12_Andersen_StructuredDecompositions.pptx" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "11/12/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_11_12_Andersen_StructuredDecompositions.pptx"
+
+- title: "Implementing Cellular Sheaf Optimization Using PartitionedArrays"
+  author: "Sam Cohen"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_11_12_Sam_Distributed_Sheaf_Optimization_Pitch.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "11/12/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_11_12_Sam_Distributed_Sheaf_Optimization_Pitch.pdf"
+
+
