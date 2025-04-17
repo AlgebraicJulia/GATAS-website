@@ -18,7 +18,7 @@ listing:
 ## Applied Category Theory 2025
 
 The GATAS Lab is hosting the 8th International Conference on Applied Category Theory here at UF.
-For more information see the [ACT2025 Page](/act2025.qmd)
+For more information see the [ACT2025 Page](act2025/act2025.qmd)
 :::
 
 

@@ -1,0 +1,72 @@
+- title: "Discrete Exterior Calculus Tips & Tricks; Part 1"
+  author: "Luke Morris"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_09_11_dec_tips_tricks.pdf" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "09/11/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_09_11_dec_tips_tricks.pdf"
+
+- title: "Chemical Reactions and the reasoning system in Chemistry"
+  author: "Wilmer Leal"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_09_19_Leal_Chemical%20Reactions%20and%20the%20reasoning%20system%20in%20Chemistry.pdf" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "9/19/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_09_19_Leal_Chemical%20Reactions%20and%20the%20reasoning%20system%20in%20Chemistry.pdf"
+
+- title: "Dialectica Petri nets: A linear logic model of reaction systems"
+  author: "Wilmer Leal"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_09_Leal_Gatas_meeting___Dialectica_Petri_nets-2.pdf" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "11/9/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_09_Leal_Gatas_meeting___Dialectica_Petri_nets-2.pdf"
+
+- title: "Discrete Exterior Calculus Tips & Tricks; Part 2"
+  author: "Luke Morris"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_17_dec_2.pdf" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "11/17/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_17_dec_2.pdf"
+
+- title: "BuildKite: In My Daemon Node?"
+  author: "Matt Cuffaro"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_02_05_matt_BuildKitePresentation.pdf" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "2/5/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_02_05_matt_BuildKitePresentation.pdf"
+
+- title: "Categorical Chemistry: The architecture of a chemical computer"
+  author: "Wilmer Leal"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_03_03_Leal_Categorical%20Chemistry.pdf" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "3/3/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_03_03_Leal_Categorical%20Chemistry.pdf"
+
+- title: "CUDA.jl"
+  author: "George Rauta"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_03_25_George%20Lab%20Presentation%20Spring%202024.pdf" class="btn btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "3/25/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_03_25_George%20Lab%20Presentation%20Spring%202024.pdf"
+
+
+- title: "GATAS Lab Retreat Spring '24"
+  author: "Matt Cuffaro"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_04_08_matt_labretreat.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "3/25/2024"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2024_04_08_matt_labretreat.pdf"
+
+
+- title: "Flow Talk"
+  author: "Tyler Hanks"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_9_tyler_flow%20talk.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "11/9/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_11_9_tyler_flow%20talk.pdf"
+
+- title: "Decorate Corels Talk"
+  author: "Tyler Hanks"
+  href: |-
+    <a href="https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_9_14_tyler_Decorated%20Corels%20Talk.pdf" class="btn btn-block btn-secondary"><i class="bi bi-file-earmark-slides"></i></a>
+  date: "9/14/2023"
+  URL: "https://github.com/AlgebraicJulia/Presentations/blob/main/_assets/slides_and_notes/2023_9_14_tyler_Decorated%20Corels%20Talk.pdf"
+  

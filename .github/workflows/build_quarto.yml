@@ -14,11 +14,11 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: _site
       - name: Delete all artifacts
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: |
             _site
@@ -40,12 +40,12 @@ jobs:
     steps:
       - name: Make sure to only download _site folder
         run: rm -rf _site
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: _site
           path: _site
       - name: Delete _site artifact
-        uses: geekyeggo/delete-artifact@v2
+        uses: geekyeggo/delete-artifact@v5
         with:
           name: _site
       - name: Deploy to Production
@@ -68,15 +68,15 @@ jobs:
       - name: Remove old _freeze directory
         run: rm -rf _freeze
       - name: Get new _freeze directory
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         continue-on-error: true
         with:
           name: _freeze
           path: _freeze
-      - name: Delete _freeze artifact
-        uses: geekyeggo/delete-artifact@v2
-        with:
-          name: _freeze
+      # - name: Delete _freeze artifact
+      #   uses: geekyeggo/delete-artifact@v2
+      #   with:
+      #     name: _freeze
       - name: Commit updated _freeze directory
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

@@ -1,5 +1,8 @@
 project:
   type: website
+  post-render: 
+    - mkdir -p _site/_freeze
+    - touch _site/_freeze/default.txt
 
 bibliography: bibliography.bib
 
@@ -13,8 +16,9 @@ website:
       - members.qmd
       - projects.qmd
       - research.qmd
+      - presentations.qmd
       - text: "ACT 2025"
-        href: act2025.qmd
+        href: act2025/act2025.qmd
       - text: "Blog"
         href: https://blog.algebraicjulia.org/
       - icon: github
