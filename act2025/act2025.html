@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.42">
+<meta name="generator" content="quarto-1.6.43">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,13 +31,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../_assets/brand/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-4379b0ccadffce622b03caf4c46266b3.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-e4072bd73cf6823032223aa218c79277.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
@@ -69,12 +71,85 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ACT_talks .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-category','listing-author','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] }],
+      page: 20,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-category","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ACT_talks'] = new List('listing-ACT_talks', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -140,7 +215,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(32)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -234,12 +311,449 @@ Applied Category Theory 2025
 <li><a href="../members/jamesfairbanks.html">James Fairbanks</a></li>
 </ul></li>
 </ul>
+</section>
+</section>
+<section id="accepted-presentations" class="level2">
+<h2 class="anchored" data-anchor-id="accepted-presentations">Accepted Presentations</h2>
+<div class="{ACT_talks}">
+
+</div>
+
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-table" id="listing-ACT_talks">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-ACT_talks-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-ACT_talks'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-category" data-direction="asc">
+          Category
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author(s)
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table table-striped table-hover">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-category" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Category</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author(s)</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-title-sort="Why quantum state verification cannot be both efficient and secure: a categorical approach" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Fabian Wiesner, Ziad Chaoui, Diana Kessler, Anna Pappa and Martti Karvonen</span>
+</td>
+<td>
+<span class="listing-title">Why quantum state verification cannot be both efficient and secure: a categorical approach</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-title-sort="Visual Logic Interface (software demonstration)" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Software Demo</span>
+</td>
+<td>
+<span class="listing-author">Christian Wells</span>
+</td>
+<td>
+<span class="listing-title">Visual Logic Interface (software demonstration)</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-title-sort="System Modeling and Simulation via Constraint Hypergraphs" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">John Morris, Gregory Mocko and John Wagner</span>
+</td>
+<td>
+<span class="listing-title">System Modeling and Simulation via Constraint Hypergraphs</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-title-sort="Simplicial methods in the resource theory of contextuality" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Aziz Kharoof and Cihan Okay</span>
+</td>
+<td>
+<span class="listing-title">Simplicial methods in the resource theory of contextuality</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-title-sort="Simplicial effects as generalization of effect algebroids" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Cihan Okay, Victor Castillo and Walker Stern</span>
+</td>
+<td>
+<span class="listing-title">Simplicial effects as generalization of effect algebroids</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-title-sort="Scalable and interpretable quantum natural language processing: an implementation on trapped ions" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Tiffany Duneau, Saskia Bruhn, Gabriel Matos, Tuomas Laakkonen, Katerina Saiti, Anna Pearson, Konstantinos Meichanetzidis and Bob Coecke</span>
+</td>
+<td>
+<span class="listing-title">Scalable and interpretable quantum natural language processing: an implementation on trapped ions</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-title-sort="Partializations of Markov categories" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Areeb Shah Mohammed</span>
+</td>
+<td>
+<span class="listing-title">Partializations of Markov categories</span>
+</td>
+</tr>
+<tr data-index="7" data-listing-title-sort="Markov categories with random variables" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Paolo Perrone</span>
+</td>
+<td>
+<span class="listing-title">Markov categories with random variables</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-title-sort="Lyapunov's theorem for coalgebras" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Sébastien Mattenet, Joe Moeller and Aaron Ames</span>
+</td>
+<td>
+<span class="listing-title">Lyapunov’s theorem for coalgebras</span>
+</td>
+</tr>
+<tr data-index="9" data-listing-title-sort="Idempotent Arboreal Covers" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Gabriel Goren-Roig</span>
+</td>
+<td>
+<span class="listing-title">Idempotent Arboreal Covers</span>
+</td>
+</tr>
+<tr data-index="10" data-listing-title-sort="HyperSyn: macro morphism metaprogramming (software demonstration)" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Software Demo</span>
+</td>
+<td>
+<span class="listing-author">Paul Wilson</span>
+</td>
+<td>
+<span class="listing-title">HyperSyn: macro morphism metaprogramming (software demonstration)</span>
+</td>
+</tr>
+<tr data-index="11" data-listing-title-sort="Gradual Semantics of Abstract Argumentation, categorically through Prisms" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Juan Afanador</span>
+</td>
+<td>
+<span class="listing-title">Gradual Semantics of Abstract Argumentation, categorically through Prisms</span>
+</td>
+</tr>
+<tr data-index="12" data-listing-title-sort="Empirical Distributions and Strong Laws of Large Numbers in Categorical Probability" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Paolo Perrone, Tobias Fritz, Tomáš Gonda, Antonio Lorenzin and Areeb Shah Mohammed</span>
+</td>
+<td>
+<span class="listing-title">Empirical Distributions and Strong Laws of Large Numbers in Categorical Probability</span>
+</td>
+</tr>
+<tr data-index="13" data-listing-title-sort="Eilenberg-Moore categories of Markov monads" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Rob Cornish</span>
+</td>
+<td>
+<span class="listing-title">Eilenberg-Moore categories of Markov monads</span>
+</td>
+</tr>
+<tr data-index="14" data-listing-title-sort="Dependent Directed Wiring Diagrams for Composing Instantaneous Systems" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Proceedings</span>
+</td>
+<td>
+<span class="listing-author">Keri D’Angelo and Sophie Libkind</span>
+</td>
+<td>
+<span class="listing-title">Dependent Directed Wiring Diagrams for Composing Instantaneous Systems</span>
+</td>
+</tr>
+<tr data-index="15" data-listing-title-sort="Convex duality made difficult" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Proceedings</span>
+</td>
+<td>
+<span class="listing-author">Eigil Rischel</span>
+</td>
+<td>
+<span class="listing-title">Convex duality made difficult</span>
+</td>
+</tr>
+<tr data-index="16" data-listing-title-sort="Conformance Games for Graded Semantics" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Jonas Forster, Lutz Schröder and Paul Wild</span>
+</td>
+<td>
+<span class="listing-title">Conformance Games for Graded Semantics</span>
+</td>
+</tr>
+<tr data-index="17" data-listing-title-sort="Compositional Semantics of Convex Optimization" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Tyler Hanks, Matthew Klawonn, Matthew Hale and James Fairbanks</span>
+</td>
+<td>
+<span class="listing-title">Compositional Semantics of Convex Optimization</span>
+</td>
+</tr>
+<tr data-index="18" data-listing-title-sort="Composable Uncertainty in Symmetric Monoidal Categories for Design Problems" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Proceedings</span>
+</td>
+<td>
+<span class="listing-author">Marius Furter, Yujun Huang and Gioele Zardini</span>
+</td>
+<td>
+<span class="listing-title">Composable Uncertainty in Symmetric Monoidal Categories for Design Problems</span>
+</td>
+</tr>
+<tr data-index="19" data-listing-title-sort="Clock systems for stochastic and non-deterministic categorical systems theories" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Owen Lynch, Eigil Rischel, David Jaz Myers and Sam Staton</span>
+</td>
+<td>
+<span class="listing-title">Clock systems for stochastic and non-deterministic categorical systems theories</span>
+</td>
+</tr>
+<tr data-index="20" data-listing-title-sort="Categorical Semantics of Higher-Order Message Passing" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Proceedings</span>
+</td>
+<td>
+<span class="listing-author">Robin Cockett and Melika Norouzbeygi</span>
+</td>
+<td>
+<span class="listing-title">Categorical Semantics of Higher-Order Message Passing</span>
+</td>
+</tr>
+<tr data-index="21" data-listing-title-sort="Categorical Calculus and Algebra for Multi-Model Data" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Proceedings</span>
+</td>
+<td>
+<span class="listing-author">Jiaheng Lu</span>
+</td>
+<td>
+<span class="listing-title">Categorical Calculus and Algebra for Multi-Model Data</span>
+</td>
+</tr>
+<tr data-index="22" data-listing-title-sort="CatColab: formal, interoperable, conceptual modeling" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Software Demo</span>
+</td>
+<td>
+<span class="listing-author">Kevin Carlson, Owen Lynch, Kris Brown and Evan Patterson</span>
+</td>
+<td>
+<span class="listing-title">CatColab: formal, interoperable, conceptual modeling</span>
+</td>
+</tr>
+<tr data-index="23" data-listing-title-sort="Algebras of the Giry monad" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Ruben Van Belle</span>
+</td>
+<td>
+<span class="listing-title">Algebras of the Giry monad</span>
+</td>
+</tr>
+<tr data-index="24" data-listing-title-sort="AlgebraicJulia: Compositional Development of Compositional Mathematics Software" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Software Demo</span>
+</td>
+<td>
+<span class="listing-author">James Fairbanks and Evan Patterson</span>
+</td>
+<td>
+<span class="listing-title">AlgebraicJulia: Compositional Development of Compositional Mathematics Software</span>
+</td>
+</tr>
+<tr data-index="25" data-listing-title-sort="ACT-Informed Data Science: A Case Study in Public Health Research" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Jacob Zelko, Matt Cuffaro and Sean Wu</span>
+</td>
+<td>
+<span class="listing-title">ACT-Informed Data Science: A Case Study in Public Health Research</span>
+</td>
+</tr>
+<tr data-index="26" data-listing-title-sort="A universal perspective on probability monads" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Victor Bloch and Tobias Fritz</span>
+</td>
+<td>
+<span class="listing-title">A universal perspective on probability monads</span>
+</td>
+</tr>
+<tr data-index="27" data-listing-title-sort="A stochastic mapping approach to the construction of objects according to the biology of cognition" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Jorge Soto-Andrade and Juan-Carlos Letelier</span>
+</td>
+<td>
+<span class="listing-title">A stochastic mapping approach to the construction of objects according to the biology of cognition</span>
+</td>
+</tr>
+<tr data-index="28" data-listing-title-sort="A categorical framework for Lyapunov theory" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">Joe Moeller, Aaron Ames and Paulo Tabuada</span>
+</td>
+<td>
+<span class="listing-title">A categorical framework for Lyapunov theory</span>
+</td>
+</tr>
+<tr data-index="29" data-listing-title-sort="A Critical Pair Enumeration Algorithm for String Diagram Rewriting" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Proceedings</span>
+</td>
+<td>
+<span class="listing-author">Anna Matsui, Innocent Obi, Guillaume Sabbagh, Leo Torres, Diana Kessler, Juan F. Meleiro and Koko Muroya</span>
+</td>
+<td>
+<span class="listing-title">A Critical Pair Enumeration Algorithm for String Diagram Rewriting</span>
+</td>
+</tr>
+<tr data-index="30" data-listing-title-sort="A Category Theoretic View of Algebraic Artificial Chemistries" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Proceedings</span>
+</td>
+<td>
+<span class="listing-author">Joe Pratt-Johns, Toby St Clere Smithe, Chris Guiver, Kevin Hughes and Peter Andras</span>
+</td>
+<td>
+<span class="listing-title">A Category Theoretic View of Algebraic Artificial Chemistries</span>
+</td>
+</tr>
+<tr data-index="31" data-listing-title-sort="A Categorical Formulation of Dose-Escalation Trial Protocols Extending Naturally to Admit Titration" onclick="href = this.querySelector('a').getAttribute('href');
+ if (href) { window.location=href ; return false; }">
+<td>
+<span class="listing-category">Talk</span>
+</td>
+<td>
+<span class="listing-author">David Norris</span>
+</td>
+<td>
+<span class="listing-title">A Categorical Formulation of Dose-Escalation Trial Protocols Extending Naturally to Admit Titration</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="ACT_talks-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
