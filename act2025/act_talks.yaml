@@ -1,4 +1,4 @@
-- title: Dependent Directed Wiring Diagrams for Composing Instantaneous Systems
+- title: 'Dependent Directed Wiring Diagrams for Composing Instantaneous Systems'
   author: Keri D'Angelo and Sophie Libkind
   category: Proceedings
 
@@ -22,7 +22,7 @@
   author: Marius Furter, Yujun Huang and Gioele Zardini
   category: Proceedings
 
-- title: Scalable and interpretable quantum natural language processing: an implementation on trapped ions
+- title: 'Scalable and interpretable quantum natural language processing: an implementation on trapped ions'
   author: Tiffany Duneau, Saskia Bruhn, Gabriel Matos, Tuomas Laakkonen, Katerina Saiti, Anna Pearson, Konstantinos Meichanetzidis and Bob Coecke
   category: Talk
 
@@ -66,7 +66,7 @@
   author: Sébastien Mattenet, Joe Moeller and Aaron Ames
   category: Talk
 
-- title: Why quantum state verification cannot be both efficient and secure: a categorical approach
+- title: 'Why quantum state verification cannot be both efficient and secure: a categorical approach'
   author: Fabian Wiesner, Ziad Chaoui, Diana Kessler, Anna Pappa and Martti Karvonen
   category: Talk
 
@@ -90,7 +90,7 @@
   author: Tyler Hanks, Matthew Klawonn, Matthew Hale and James Fairbanks
   category: Talk
 
-- title: ACT-Informed Data Science: A Case Study in Public Health Research
+- title: 'ACT-Informed Data Science: A Case Study in Public Health Research'
   author: Jacob Zelko, Matt Cuffaro and Sean Wu
   category: Talk
 
@@ -106,7 +106,7 @@
   author: David Norris
   category: Talk
 
-- title: HyperSyn: macro morphism metaprogramming (software demonstration)
+- title: 'HyperSyn: macro morphism metaprogramming (software demonstration)'
   author: Paul Wilson
   category: Software Demo
 
@@ -114,14 +114,14 @@
   author: Christian Wells
   category: Software Demo
 
-- title: CatColab: formal, interoperable, conceptual modeling
+- title: 'CatColab: formal, interoperable, conceptual modeling'
   author: Kevin Carlson, Owen Lynch, Kris Brown and Evan Patterson
   category: Software Demo
 
-- title: AlgebraicJulia: Compositional Development of Compositional Mathematics Software
+- title: 'AlgebraicJulia: Compositional Development of Compositional Mathematics Software'
   author: James Fairbanks and Evan Patterson
   category: Software Demo
 
-- title: A Category Theoretic View of Algebraic Artificial Chemistries  author:
+- title: A Category Theoretic View of Algebraic Artificial Chemistries  
   author: Joe Pratt-Johns, Toby St Clere Smithe, Chris Guiver, Kevin Hughes and Peter Andras
   category: Proceedings
