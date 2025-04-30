@@ -1,150 +1,24 @@
 [
   {
-    "objectID": "sponsors/nsf.html",
-    "href": "sponsors/nsf.html",
-    "title": "National Science Foundation",
+    "objectID": "publications/diagrampresentations/diagrampresentations.html",
+    "href": "publications/diagrampresentations/diagrampresentations.html",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
     "section": "",
-    "text": "NSF has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nNSF Graduate Research Fellowship Program: Tyler Hanks"
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
   },
   {
-    "objectID": "sponsors/afrl.html",
-    "href": "sponsors/afrl.html",
-    "title": "Air Force Research Laboratory",
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
     "section": "",
-    "text": "AFRL has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nSummer Internships through the AFRL Scholars Program\nSummer Internships through the Griffis Scholars Program\nCollaboration with AFRL research staff"
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
   },
   {
-    "objectID": "sponsors/onr.html",
-    "href": "sponsors/onr.html",
-    "title": "Office of Naval Research",
-    "section": "",
-    "text": "ONR has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nONR Domain Transfer for Continuity of Performance Across Synthetic Aperture Sonar\nONR Extracting, Explaining, and Estimating Information in Sonar Data (E3ISD)\nONR Mine Counter-measures Situational Awareness\nONR Performance Estimation of Underwater Mine Counter-measures Operations"
-  },
-  {
-    "objectID": "project/decapodes.html",
-    "href": "project/decapodes.html",
-    "title": "Decapodes",
-    "section": "",
-    "text": "Decapodes.jl is a graphical tool for the composition of physical systems.\nThis library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\nLinks:"
-  },
-  {
-    "objectID": "project/decapodes.html#sponsors",
-    "href": "project/decapodes.html#sponsors",
-    "title": "Decapodes",
-    "section": "Sponsors",
-    "text": "Sponsors\n\n\n\nDecapodes has been supported by the following DARPA programs:\n\n\n\nAutomating Scientific Knolwedge Extraction\nDirectly Computable Models\nAutomating Scientific Knolwedge Extraction and Modeling"
-  },
-  {
-    "objectID": "members/tylerhanks.html",
-    "href": "members/tylerhanks.html",
-    "title": "Tyler Hanks",
-    "section": "",
-    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
-  },
-  {
-    "objectID": "members/wilmerleal.html",
-    "href": "members/wilmerleal.html",
-    "title": "Wilmer Leal",
-    "section": "",
-    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
-  },
-  {
-    "objectID": "members/cuffaromatt.html",
-    "href": "members/cuffaromatt.html",
-    "title": "Matt Cuffaro",
-    "section": "",
-    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
-  },
-  {
-    "objectID": "members/richardsamuelson.html",
-    "href": "members/richardsamuelson.html",
-    "title": "Richard Samuelson",
-    "section": "",
-    "text": "is a doctoral student researching category theory, machine learning, and convex analysis."
-  },
-  {
-    "objectID": "members/samuelcohen.html",
-    "href": "members/samuelcohen.html",
-    "title": "Samuel Cohen",
-    "section": "",
-    "text": "is an undergraduate studying math and computer science.\nMy work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems."
-  },
-  {
-    "objectID": "members/georgerauta.html",
-    "href": "members/georgerauta.html",
-    "title": "George Rauta",
-    "section": "",
-    "text": "is a master’s student with a focus in numerical linear algebra and high-performance computing.\nI believe that advances in the field of computer science are dependent on the existence of a highly performant computational foundation. It is critical that this foundation considers the theoretical aspects of algorithms, the method by which they are implemented in code and how they interact with the physical designs of modern processing and memory units.\nI am also a developer on the Decapodes.jl and CombinatorialSpaces.jl projects."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here you can find a list of our current research projects. Each project is composed of multiple publications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDecapodes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgebraic Dynamics, Optimization, and Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompositional Algorithms with Sheaves\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "members.html",
-    "href": "members.html",
-    "title": "Members",
-    "section": "",
-    "text": "The members of the lab come from diverse perspectives with unique training. We are always looking for students and researchers with a desire to solve problems by leveraging abstract applications in novel science and engineering applications.\nAccepting Applications for\nEmail fairbanksj [at] ufl [dot] edu for all new position inquiries\nIf you are interested in a career in Applied Category Theory or Computational Science and Engineering, please reach out."
-  },
-  {
-    "objectID": "members.html#current-members",
-    "href": "members.html#current-members",
-    "title": "Members",
-    "section": "Current Members",
-    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\n\n\n\nOct 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\n\n\nAug 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nSamuel Cohen\n\n\n\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "members.html#past-members",
-    "href": "members.html#past-members",
-    "title": "Members",
-    "section": "Past Members",
-    "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nChris Ruglestein\nUF Mathematics\n\n\nJames Horn\nMaster’s Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\nIndustry\n\n\nRebecca Boes\nIndustry\n\n\nJames Eschrich\nPhD Student at University of Illinois (UIUC)\n\n\nTaylor Frederick\nIndustry\n\n\nPatrick Stokes\nGatorSense Lab at UF ECE"
-  },
-  {
-    "objectID": "members.html#lab-mentees",
-    "href": "members.html#lab-mentees",
-    "title": "Members",
-    "section": "Lab Mentees",
-    "text": "Lab Mentees\nThese are people who might not have spent full-time employment in the lab, but were involved in a mentorship program or ongoing mentoring relationship outside beyond the institution.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Dates\n        \n         \n          Last Known Institution\n        \n         \n          Program\n        \n         \n          Name\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nName\n\n\nProgram\n\n\nLast Known Institution\n\n\nDates\n\n\n\n\n\n\nKris Brown\n\n\nUF Post-Doctoral Researcher\n\n\nTopos Institute, Research Software Engineer\n\n\n2021-22\n\n\n\n\nAnna Knoerr\n\n\nACT Adjoint School\n\n\nETH Zurich\n\n\n2021\n\n\n\n\nGrant Generaux\n\n\nACT Adjoint School\n\n\nBristol Myers Squibb\n\n\n2021\n\n\n\n\nAmy Searle\n\n\nACT Adjoint School\n\n\nOxford Physics, PhD Student\n\n\n2021\n\n\n\n\nKris Brown\n\n\nChemical Engineering, Stanford University\n\n\nUF, Post-Doctoral Researcher\n\n\n2021-2022\n\n\n\n\nSophie Libkind\n\n\nMathematics, Stanford University\n\n\nTopos Institute, Mathematician\n\n\n2020-2022\n\n\n\n\nOwen Lynch\n\n\nStatistics, University of Utrecht\n\n\nTopos Institute, Research Software Engineer\n\n\n2020-Present\n\n\n\n\nJulian Perez\n\n\nBS BME GT\n\n\nStanford, PhD Student\n\n\n2021-22\n\n\n\n\nStephen Wellburg\n\n\nBS DAS UF\n\n\nCapital One, Software Engineer\n\n\n2021-22\n\n\n\n\nSreenath Reparti\n\n\nBS ISYE Georgia Tech\n\n\nKPMG\n\n\n2018-19\n\n\n\n\nKun Cao\n\n\nMS CS Georgia Tech\n\n\nGT\n\n\n2019\n\n\n\n\nMicah Halter\n\n\nBS CS Georgia Tech\n\n\nGTRI\n\n\n2016-19\n\n\n\n\nNate Knauf\n\n\nBS CS Georgia Tech\n\n\nGT\n\n\n2016\n\n\n\n\nRohit Varkey\n\n\nMS CS Georgia Tech\n\n\nGoogle\n\n\n2016-18\n\n\n\n\nPushkar Godbole\n\n\nMS CSE Georgia Tech\n\n\nYelp\n\n\n2015\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The GATAS Lab",
-    "section": "",
-    "text": "Applied Category Theory 2025\n\n\n\nThe GATAS Lab is hosting the 8th International Conference on Applied Category Theory here at UF. For more information see the ACT2025 Page\nThe GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. Our group works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
-  },
-  {
-    "objectID": "index.html#philosophy",
-    "href": "index.html#philosophy",
-    "title": "The GATAS Lab",
-    "section": "Philosophy",
-    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain.\n\n\n\n\n\n\n\n\nMembers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSponsors\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "act2025/act2025.html#about",
-    "href": "act2025/act2025.html#about",
-    "title": "8th International Conference on Applied Category Theory",
-    "section": "About",
-    "text": "About\nThe 8th International Conference on Applied Category Theory (ACT) will take place together at the University of Florida on June 2-6, 2025. The conferences will be preceded by the Adjoint School on May 26-30, 2025.\nFor more information on the ACT series, see here.\n\n\n\n\n\n\nApplied Category Theory 2025\n\n\n\nRegistration is now open!\nThe call for participation (CFP) has been posted"
-  },
-  {
-    "objectID": "act2025/act2025.html#important-dates",
-    "href": "act2025/act2025.html#important-dates",
-    "title": "8th International Conference on Applied Category Theory",
-    "section": "Important dates",
-    "text": "Important dates\nAll deadlines are AoE (Anywhere on Earth).\n\nFebruary 26: Title and brief abstract submission\n\nMarch 3: Paper submission\n\nApril 7: Notification of authors\n\nMay 19: Registration deadline and Pre-proceedings ready versions\n\nJune 2-6: Conference\n\n\nConference Info\nThis year, lunch and coffee will be provided for attendees. This will understandably mean that there will now be registration fees. We are using a tiered system based on occupation category:\n\nStudents $140\nAcademics $300\nIndustry professionals $700\n\nTravel and registration assistance will be available to students depending on final registration numbers and funds available. Please follow this link for assistance applications.\nDue to technological constraints, only the keynote addresses, and the community meeting will be accessible via Zoom. Recordings of presentations will be made available after the conference on a best-effort basis. For exceptional circumstances in which a presenter cannot attend in person, submissions may be published in conference proceedings alone, and/or a recorded presentation may be made available after the conference. If circumstances outside your control prohibit you from presenting your work in person, please contact conference organizers.\n\n\nAdjoint School\nMore information about the adjoint school can be found at adjointschool.com.\n\n\nLGBTQ+ Statement\nThe 2025 conference for Applied Category Theory will be held at the University of Florida in Gainesville, Florida. As organizers, we understand that the current political climate and legal policies of the state of Florida do not instill a sense of comfort and safety in individuals from marginalized communities, especially the LGBTQ+ community. However, the organizers, University, and local community are committed to creating a welcoming environment for all. Along with the ACT community, Gainesville, FL is a kind and welcoming place for individuals of all backgrounds and experiences. Organizers and attendees of ACT 2025 will not tolerate any abuse or discrimination, direct or indirect, against members of the LGBTQ+ community. This event will be an opportunity to learn from each other, build connections and collaborations, and discuss our research and pedagogy in applied category theory. We welcome all members of the ACT community to participate in this endeavor, regardless of gender, sexuality, race, religion, etc.\n\n\nInclusive Spaces Resources\nPlease refer to the UF Libraries page for finding inclusive spaces on campus. Here is a map of inclusive spaces on campus.\nOrganizers can confirm that most buildings on campus, including the one the conference activities take place in, have multiple accessible, single-occupancy restrooms. The available campus map also shows all locations of single-occupant restrooms, ADA accessible routes between buildings, bus stops, and more via the filter options in the top left corner of the map.\n\n\nOrganizers\n\nProgram Chairs\n\nAmar Hadzihasanovic\nJS Lemay\n\nLocal Chair\n\nJames Fairbanks"
-  },
-  {
-    "objectID": "act2025/act2025.html#accepted-presentations",
-    "href": "act2025/act2025.html#accepted-presentations",
-    "title": "8th International Conference on Applied Category Theory",
-    "section": "Accepted Presentations",
-    "text": "Accepted Presentations"
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
+    "href": "publications/diagrampresentations/diagrampresentations.html#links",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "Links",
+    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
   },
   {
     "objectID": "publications/jocs.html",
@@ -168,46 +42,200 @@
     "text": "Links\n\nJournal\nCode\nDocs"
   },
   {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html",
-    "href": "publications/diagrampresentations/diagrampresentations.html",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "objectID": "sponsors/onr.html",
+    "href": "sponsors/onr.html",
+    "title": "Office of Naval Research",
     "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+    "text": "ONR has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nONR Domain Transfer for Continuity of Performance Across Synthetic Aperture Sonar\nONR Extracting, Explaining, and Estimating Information in Sonar Data (E3ISD)\nONR Mine Counter-measures Situational Awareness\nONR Performance Estimation of Underwater Mine Counter-measures Operations"
   },
   {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "objectID": "sponsors/nsf.html",
+    "href": "sponsors/nsf.html",
+    "title": "National Science Foundation",
     "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+    "text": "NSF has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nNSF Graduate Research Fellowship Program: Tyler Hanks"
   },
   {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
-    "href": "publications/diagrampresentations/diagrampresentations.html#links",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
-    "section": "Links",
-    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
-  },
-  {
-    "objectID": "publications/diagrameqns/diagrameqns.html",
-    "href": "publications/diagrameqns/diagrameqns.html",
-    "title": "A diagrammatic view of differential equations in physics",
+    "objectID": "members/cuffaromatt.html",
+    "href": "members/cuffaromatt.html",
+    "title": "Matt Cuffaro",
     "section": "",
-    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
   },
   {
-    "objectID": "publications/diagrameqns/diagrameqns.html#abstract",
-    "href": "publications/diagrameqns/diagrameqns.html#abstract",
-    "title": "A diagrammatic view of differential equations in physics",
+    "objectID": "members/benbumpus.html",
+    "href": "members/benbumpus.html",
+    "title": "Benjamin Merlin Bumpus",
     "section": "",
-    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+    "text": "is a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.\nThe main character in the stories I tell is Complexity and I mean this in the broadest sense: I am interested in classifying different kinds of complexity (structural, algorithmic, behavioral, etc.) and in understanding how complexity arises. The main focus of my work is the emergence of complexity and how this relates to the mathematics of Compositionality (the philosophical contention that the structure or meaning of the whole depends on that of its parts).\nIn this context, the stories I am interested in are often set in the land of computational complexity where combinatorial explosion guides and motivates deep insights in graph structure theory, parameterized complexity theory and finite model theory. I use category theory to better understand how the profound tools developed in the above areas relate to each other and to understand how far they can be pushed and generalized."
   },
   {
-    "objectID": "publications/diagrameqns/diagrameqns.html#links",
-    "href": "publications/diagrameqns/diagrameqns.html#links",
-    "title": "A diagrammatic view of differential equations in physics",
-    "section": "Links",
-    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\nJournal\nPDF\nCode\nDocs"
+    "objectID": "members/wilmerleal.html",
+    "href": "members/wilmerleal.html",
+    "title": "Wilmer Leal",
+    "section": "",
+    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
+  },
+  {
+    "objectID": "members/taylorfrederick.html",
+    "href": "members/taylorfrederick.html",
+    "title": "Taylor Frederick",
+    "section": "",
+    "text": "is a research scientist who likes math."
+  },
+  {
+    "objectID": "members/patrickstokes.html",
+    "href": "members/patrickstokes.html",
+    "title": "Patrick Stokes",
+    "section": "",
+    "text": "is a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
+  },
+  {
+    "objectID": "members/richardsamuelson.html",
+    "href": "members/richardsamuelson.html",
+    "title": "Richard Samuelson",
+    "section": "",
+    "text": "is a doctoral student researching category theory, machine learning, and convex analysis."
+  },
+  {
+    "objectID": "project/optimization.html",
+    "href": "project/optimization.html",
+    "title": "Algebraic Dynamics, Optimization, and Control",
+    "section": "",
+    "text": "AlgebraicControl.jl\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
+  },
+  {
+    "objectID": "project/optimization.html#sponsors",
+    "href": "project/optimization.html#sponsors",
+    "title": "Algebraic Dynamics, Optimization, and Control",
+    "section": "Sponsors",
+    "text": "Sponsors\n  \nAlgebraicOptimization and Control has been supported by the following programs:\n\nNSF: Graduate Research Fellowship Program\nONR: Domain Transfer for Continuity of Performance\nAFRL: Griffis Summer Internship Program"
+  },
+  {
+    "objectID": "project/sheaves.html",
+    "href": "project/sheaves.html",
+    "title": "Compositional Algorithms with Sheaves",
+    "section": "",
+    "text": "StructuredDecompositions.jl"
+  },
+  {
+    "objectID": "project/sheaves.html#sponsors",
+    "href": "project/sheaves.html#sponsors",
+    "title": "Compositional Algorithms with Sheaves",
+    "section": "Sponsors",
+    "text": "Sponsors\n\n\n\nComputation Sheaf Theory has been supported by the DARPA program Automating Scientific Knolwedge Extraction and Modeling"
+  },
+  {
+    "objectID": "act2025/act2025.html#about",
+    "href": "act2025/act2025.html#about",
+    "title": "8th International Conference on Applied Category Theory",
+    "section": "About",
+    "text": "About\nThe 8th International Conference on Applied Category Theory (ACT) will take place together at the University of Florida on June 2-6, 2025. The conferences will be preceded by the Adjoint School on May 26-30, 2025.\nFor more information on the ACT series, see here.\n\n\n\n\n\n\nApplied Category Theory 2025\n\n\n\nRegistration is now open!\nThe call for participation (CFP) has been posted"
+  },
+  {
+    "objectID": "act2025/act2025.html#important-dates",
+    "href": "act2025/act2025.html#important-dates",
+    "title": "8th International Conference on Applied Category Theory",
+    "section": "Important dates",
+    "text": "Important dates\nAll deadlines are AoE (Anywhere on Earth).\n\nFebruary 26: Title and brief abstract submission\n\nMarch 3: Paper submission\n\nApril 7: Notification of authors\n\nMay 19: Registration deadline and Pre-proceedings ready versions\n\nJune 2-6: Conference"
+  },
+  {
+    "objectID": "act2025/act2025.html#venue",
+    "href": "act2025/act2025.html#venue",
+    "title": "8th International Conference on Applied Category Theory",
+    "section": "Venue",
+    "text": "Venue\nThe conference will be held at the UF Reitz Union in the Career Connection Center\nJ. Wayne, Reitz Student Union, 686 Museum Rd Suite 1300, Gainesville, FL 32603\n\n\n\nConference Info\nThis year, lunch and coffee will be provided for attendees. This will understandably mean that there will now be registration fees. We are using a tiered system based on occupation category:\n\nStudents $140\nAcademics $300\nIndustry professionals $700\n\nTravel and registration assistance will be available to students depending on final registration numbers and funds available. Please follow this link for assistance applications.\nDue to technological constraints, only the keynote addresses, and the community meeting will be accessible via Zoom. Recordings of presentations will be made available after the conference on a best-effort basis. For exceptional circumstances in which a presenter cannot attend in person, submissions may be published in conference proceedings alone, and/or a recorded presentation may be made available after the conference. If circumstances outside your control prohibit you from presenting your work in person, please contact conference organizers.\n\n\nAdjoint School\nMore information about the adjoint school can be found at adjointschool.com.\n\n\nLGBTQ+ Statement\nThe 2025 conference for Applied Category Theory will be held at the University of Florida in Gainesville, Florida. As organizers, we understand that the current political climate and legal policies of the state of Florida do not instill a sense of comfort and safety in individuals from marginalized communities, especially the LGBTQ+ community. However, the organizers, University, and local community are committed to creating a welcoming environment for all. Along with the ACT community, Gainesville, FL is a kind and welcoming place for individuals of all backgrounds and experiences. Organizers and attendees of ACT 2025 will not tolerate any abuse or discrimination, direct or indirect, against members of the LGBTQ+ community. This event will be an opportunity to learn from each other, build connections and collaborations, and discuss our research and pedagogy in applied category theory. We welcome all members of the ACT community to participate in this endeavor, regardless of gender, sexuality, race, religion, etc.\n\n\nInclusive Spaces Resources\nPlease refer to the UF Libraries page for finding inclusive spaces on campus. Here is a map of inclusive spaces on campus.\nOrganizers can confirm that most buildings on campus, including the one the conference activities take place in, have multiple accessible, single-occupancy restrooms. The available campus map also shows all locations of single-occupant restrooms, ADA accessible routes between buildings, bus stops, and more via the filter options in the top left corner of the map.\n\n\nOrganizers\n\nProgram Chairs\n\nAmar Hadzihasanovic\nJS Lemay\n\nLocal Chair\n\nJames Fairbanks"
+  },
+  {
+    "objectID": "act2025/act2025.html#accepted-presentations",
+    "href": "act2025/act2025.html#accepted-presentations",
+    "title": "8th International Conference on Applied Category Theory",
+    "section": "Accepted Presentations",
+    "text": "Accepted Presentations"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "This page has tables of our research publications broken down by category."
+  },
+  {
+    "objectID": "research.html#journal-papers",
+    "href": "research.html#journal-papers",
+    "title": "Research",
+    "section": "Journal Papers",
+    "text": "Journal Papers\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Journal\n      \n      \n        Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nJournal\n\n\n\nLink\n\n\n\n\n\n\n\n\n2024\n\n\nTowards a Unified Theory of Time-varying Data\n\n\nB. Bumpus, J. Fairbanks, M. Karvonen, W. Leal, F. Simard\n\n\nArxiv\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nThe Diagrammatic Presentation of Equations in Categories\n\n\nK. Arlin, J. Fairbanks, T. Hosgood, E. Patterson\n\n\nArxiv\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nCompositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves\n\n\nE. Althaus, B. Bumpus, J. Fairbanks, D. Rosiak\n\n\nArxiv\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nA Compositional Framework for First-Order Optimization\n\n\nT. Hanks, M Klawonn, M Hale, E Patterson, JP Fairbanks\n\n\nArxiv\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nA compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks\n\n\nR. Aduddell, J. Fairbanks, A. Kumar, P.S. Ocal, E. Patterson, B.T. Shapiro\n\n\nCompositionality\n\n\nDOI\n\n\n\n\n\n\n2023\n\n\nComputational Category-Theoretic Rewriting\n\n\nK. Brown, E. Patterson, T. Hanks, J. Fairbanks\n\n\nJ. Logical and Algebraic Methods in Programming\n\n\nDOI\n\n\n\n\n\n\n2023\n\n\nDecapodes: A Diagrammatic Tool for Representing, Composing, and Computing Spatialized Partial Differential Equations\n\n\nL. Morris, A. Baas, J. Arias, M. Gaitlin, E. Patterson, J. Fairbanks\n\n\nJournal of Computational Science\n\n\nDOI\n\n\n\n\n\n\n2023\n\n\nThe application of applied category theory to quantify mission success\n\n\nR. Garrett, J. Fairbanks, M. Loper, J. Moreland\n\n\nSIMULATION 99 (2) 201-220\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nCategorical Data Structures for Technical Computing\n\n\nE. J. Patterson, O. Lynch, J. P. Fairbanks\n\n\nCompositionality\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nA Diagrammatic View of Differential Equations in Physics\n\n\nE. Patterson, A. Baas, T. Hosgood, J. P. Fairbanks\n\n\nMathematics in Engineering\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nAn Algebraic Framework for Structured Epidemic Modeling\n\n\nS. Libkind, A. Baas, M. Halter, E. Patterson, and J. P. Fairbanks\n\n\nProc. of the Royal Society Phil. Trans.\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nCategory-theoretic formulation of the model-based systems architecting cognitive-computational Cycle\n\n\nY. Mordecai, J. P. Fairbanks, E.F. Crawley\n\n\nMDPI Applied Sciences 11 (4), 1945\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nSpectral Partitioning with Blends of Eigenvectors\n\n\nJ. P. Fairbanks, D. A. Bader, G. D. Sanders\n\n\nJournal of Complex Networks\n\n\nDOI\n\n\n\n\n\n\n2015\n\n\nBehavioral Clusters in Dynamic Graphs\n\n\nJ. P. Fairbanks, R. Kannan, H. Park, D. A. Bader\n\n\nParallel Computing Special Issue of Scientific Graph Analysis\n\n\nDOI\n\n\n\n\n\n\n2011\n\n\nA Ramsey Theorem for Indecomposable Matchings\n\n\nJ. P. Fairbanks\n\n\nElectronic Journal of Combinatorics, Vol 18(1)\n\n\nDOI\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#conference-papers",
+    "href": "research.html#conference-papers",
+    "title": "Research",
+    "section": "Conference Papers",
+    "text": "Conference Papers\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Venue\n      \n      \n        Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nVenue\n\n\n\nLink\n\n\n\n\n\n\n\n\n2024\n\n\nModeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems\n\n\nTyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, James Fairbanks\n\n\nAmerican Control Conference\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nGeneralized Gradient Descent is a Hypergraph Functor\n\n\nT Hanks, M. Klawonn, J. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nHow Nice is this Functor? Two Squares and Some Homology go a Long Way\n\n\nB. Bumpus, D. Rosiak, C. Puca, F. Genovese, J. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nShort Note on Cohomology, Sheafification and Lavish Presheaves\n\n\nB. Bumpus, D. Rosiak, M. Cappucci, J. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n\n\n2024\n\n\nGATlab: Modeling and Programming with Generalized Algebraic Theories\n\n\nO Lynch, K Brown, JP Fairbanks, and E Patterson.\n\n\nhttps://arxiv.org/abs/2404.04837\n\n\nDOI\n\n\n\n\n\n\n2023\n\n\nA Categorical Representation Language and Computational System for Knowledge-Based Planning\n\n\nA. Aguinaldo, E. Patterson, J. Fairbanks and J. Ruiz\n\n\nAAAI Fall Symposium on Unifying Representations for Robot Application Development\n\n\nDOI\n\n\n\n\n\n\n2023\n\n\nCharacterizing Compositionality of LQR from the Categorical Perspective\n\n\nBaike She, Tyler Hanks, James Fairbanks, Matthew Hale\n\n\nIEEE Conf. Decision and Control\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nCompositional Exploration of Combinatorial Scientific Models\n\n\nK. Brown, T. Hanks, J. P. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nComputational Category-Theoretic Rewriting\n\n\nK. Brown, E. Patterson, T. Hanks, J. P. Fairbanks\n\n\nInternational Conference on Graph Transformation (Best Paper Award)\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nOperadic Modeling of Dynamical Systems: Mathematics and Computation\n\n\nS. Libkind, A. Baas, E. J. Patterson, J. P. Fairbanks\n\n\nApplied category Theory (Proceedings)\n\n\nDOI\n\n\n\n\n\n\n2020\n\n\nSemanticModels.jl: A Julia Package for Scientific Model Augmentation\n\n\nM. Halter, S. Raparti, K. Cao, C. Herlihy, J. P. Fairbanks\n\n\nProceedings of the JuliaCon Conferences\n\n\nDOI\n\n\n\n\n\n\n2019\n\n\nA Compositional Framework for Scientific Model Augmentation\n\n\nM. Halter, C. Herlihy, J. P. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n\n\n2019\n\n\nConstructing Knowledge Graphs from Scientific Texts\n\n\nK. Cao, J. P. Fairbanks\n\n\nKDD workshop on Machine Learning in Graphs\n\n\nDOI\n\n\n\n\n\n\n2019\n\n\nSemantic Program Analysis for Scientific Model Augmentation\n\n\nJ. P. Fairbanks, C. Herlihy, K. Cao, S. Reparthi\n\n\nModeling the World’s Systems\n\n\nDOI\n\n\n\n\n\n\n2018\n\n\nCredibility Assessment in the News: Do we need to read?\n\n\nN. Fitch, N. Knauf, J. P. Fairbanks, E. Briscoe\n\n\nACM WSDM MIS2\n\n\nDOI\n\n\n\n\n\n\n2018\n\n\nPerformance Effects of Backing Data Stores in Community Detection Algorithms\n\n\nR. Varkey Thankachan, B. P. Swenson, J. P. Fairbanks\n\n\nIEEE High Performance Extreme Computing\n\n\nDOI\n\n\n\n\n\n\n2018\n\n\nDigital Witness: Remote Methods for Volunteering Digital Evidence on Mobile Devices\n\n\nN. Campbell, T. Goodyear, W. Messer, E. Stuart, J. P. Fairbanks\n\n\nIEEE Technologies for Homeland Security\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nIntegrating Productivity-Oriented Programming Languages with High-Performance Data Structures\n\n\nR. Varkey Thankachan, E. Hein, B. P. Swenson, J. P. Fairbanks\n\n\nIEEE High Performance Extreme Computing\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nDeriving Streaming Graph Algorithms from Static Definitions\n\n\nJ. P. Fairbanks, D. M. Ediger\n\n\nIEEE International Parallel and Distributed Processing Graph Algorithms Building Blocks\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nDeriving Streaming Graph Algorithms from Static Definitions.\n\n\nD. M. Ediger and J. P. Fairbanks\n\n\nIEEE Parallel and Distributed Processing - Graph Algorithm Building Blocks\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nGraph Ranking Guarantees for Numerical Approximations to Katz Centrality\n\n\nE. Nathan, G. Sanders, J. P. Fairbanks, V. Henson and D. Bader\n\n\nInternational Conference On Computational Science\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nRanking in Dynamic Graphs Using Exponential Centrality\n\n\nE. Nathan, J. P. Fairbanks, D. A. Bader\n\n\nInternational Conference on Complex Networks and their Applications\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nGraph Partitioning with Spectral Blends\n\n\nJ. P. Fairbanks, D. A. Bader, and G. D. Sanders\n\n\nOxford Journal of Complex Networks\n\n\nDOI\n\n\n\n\n\n\n2016\n\n\nNovel Stopping Criteria for Spectral Partitioning\n\n\nJ. P. Fairbanks, A. Zakrzewska, D.A. Bader\n\n\nSIAM Network Science\n\n\nDOI\n\n\n\n\n\n\n2013\n\n\nA Statistical Framework for Analyzing Streaming Graphs\n\n\nJ. P. Fairbanks, D. Ediger, R. McColl, D.A. Bader, E. Gilbert\n\n\nIEEE/ACM ASONAM\n\n\nDOI\n\n\n\n\n\n\n \n\n\nA local measure of community change in dynamic graphs.\n\n\nA. Zakrzewska, E. Nathan, J. P. Fairbanks, D. A. Bader\n\n\nIEEE/ACM ASONAM\n\n\nDOI\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#conference-talks",
+    "href": "research.html#conference-talks",
+    "title": "Research",
+    "section": "Conference Talks",
+    "text": "Conference Talks\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Venue\n      \n      \n        Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nVenue\n\n\n\nLink\n\n\n\n\n\n\n\n\n2022\n\n\nDiagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,\n\n\nE. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nIndividual.jl: Rewriting individual-based models for epidemiology using graph rewriting\n\n\nS. Wu (speaker), K. Browm, and J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nTyped and stratified models with slice categories\n\n\nS. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nAlgebraicDynamics: Compositional dynamical systems\n\n\nS. Libkind, J. P. Fairbanks\n\n\nJuliaCon, Online\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nShaped Data with Acsets\n\n\nO. Lynch, E. J. Patterson, J. P. Fairbanks\n\n\nJuliaCon, Online\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nAccelerating Automatic Target Recognition Performance Evaluation with a Relational Database\n\n\nM. Jackson, M. Halter, T. Goodyear, B. O’Donnell, and J. Fairbanks\n\n\nTri-Service Radar Symposium\n\n\nDOI\n\n\n\n\n\n\n2019\n\n\nComplex Systems Analysis of Hybrid Warfare\n\n\nM. Nadolski and J. P. Fairbanks\n\n\nConference on Systems Engineering Research\n\n\nDOI\n\n\n\n\n\n\n2019\n\n\nSemanticModels.jl: Not Just Another Modeling Framework\n\n\nJ. P. Fairbanks and C. R. Herlihy\n\n\nJuliaCon, Baltimore, MD\n\n\nDOI\n\n\n\n\n\n\n2018\n\n\nThe JuliaGraphs Ecosystem: Move Fast and Don’t Break Things\n\n\nJ. P. Fairbanks\n\n\nJuliaCon, London, UK\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nAssessing Credibility in Global Media Networks\n\n\nJ. P. Fairbanks\n\n\nHuman Language Technologies\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nLightGraphs: Our Network, Our Story\n\n\nS. Bromberger, J. P. Fairbanks\n\n\nJuliaCon, Berkeley, CA\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nUsing Big Data to Predict and Analyze Cooperation and Conflict\n\n\nT. Frederick, C. Herlihy, J. P. Fairbanks\n\n\nThe Conflict Conference at UT-Austin\n\n\nDOI\n\n\n\n\n\n\n \n\n\nGraph Interfaces: Bespoke Graphs for Every Occasion\n\n\nM. Besanon, J. P. Fairbanks\n\n\nJuliaCon, London, UK\n\n\nDOI\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research.html#preprints",
+    "href": "research.html#preprints",
+    "title": "Research",
+    "section": "Preprints",
+    "text": "Preprints\n\n\n\nYear\nTitle\n\n\n\n\n2024\nTowards a Compositional Framework for Convex Analysis  Richard Samuelson and Dario Stein\n\n\n2023\nA Compositional Framework for Convex Model Predictive Control  Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, and James Fairbanks"
+  },
+  {
+    "objectID": "members.html",
+    "href": "members.html",
+    "title": "Members",
+    "section": "",
+    "text": "The members of the lab come from diverse perspectives with unique training. We are always looking for students and researchers with a desire to solve problems by leveraging abstract applications in novel science and engineering applications.\nAccepting Applications for\nEmail fairbanksj [at] ufl [dot] edu for all new position inquiries\nIf you are interested in a career in Applied Category Theory or Computational Science and Engineering, please reach out."
+  },
+  {
+    "objectID": "members.html#current-members",
+    "href": "members.html#current-members",
+    "title": "Members",
+    "section": "Current Members",
+    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\nJan 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\nOct 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\nAug 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nSamuel Cohen\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "members.html#past-members",
+    "href": "members.html#past-members",
+    "title": "Members",
+    "section": "Past Members",
+    "text": "Past Members\n\n\n\n\n\n\n\nName\nWhere are they now?\n\n\n\n\nChris Ruglestein\nUF Mathematics\n\n\nJames Horn\nMaster’s Student at Georgia Tech\n\n\nKris Brown\nResearch Software Engineer at the Topos Institute\n\n\nMicah Halter\nResearch Scientist at the Georgia Tech Research Institute\n\n\nCaroline Rogers\nIndustry\n\n\nRebecca Boes\nIndustry\n\n\nJames Eschrich\nPhD Student at University of Illinois (UIUC)\n\n\nTaylor Frederick\nIndustry\n\n\nPatrick Stokes\nGatorSense Lab at UF ECE"
+  },
+  {
+    "objectID": "members.html#lab-mentees",
+    "href": "members.html#lab-mentees",
+    "title": "Members",
+    "section": "Lab Mentees",
+    "text": "Lab Mentees\nThese are people who might not have spent full-time employment in the lab, but were involved in a mentorship program or ongoing mentoring relationship outside beyond the institution.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Dates\n      \n      \n        Last Known Institution\n      \n      \n        Program\n      \n      \n        Name\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nName\n\n\n\nProgram\n\n\n\nLast Known Institution\n\n\n\nDates\n\n\n\n\n\n\n\n\nKris Brown\n\n\nUF Post-Doctoral Researcher\n\n\nTopos Institute, Research Software Engineer\n\n\n2021-22\n\n\n\n\n\n\nAnna Knoerr\n\n\nACT Adjoint School\n\n\nETH Zurich\n\n\n2021\n\n\n\n\n\n\nGrant Generaux\n\n\nACT Adjoint School\n\n\nBristol Myers Squibb\n\n\n2021\n\n\n\n\n\n\nAmy Searle\n\n\nACT Adjoint School\n\n\nOxford Physics, PhD Student\n\n\n2021\n\n\n\n\n\n\nKris Brown\n\n\nChemical Engineering, Stanford University\n\n\nUF, Post-Doctoral Researcher\n\n\n2021-2022\n\n\n\n\n\n\nSophie Libkind\n\n\nMathematics, Stanford University\n\n\nTopos Institute, Mathematician\n\n\n2020-2022\n\n\n\n\n\n\nOwen Lynch\n\n\nStatistics, University of Utrecht\n\n\nTopos Institute, Research Software Engineer\n\n\n2020-Present\n\n\n\n\n\n\nJulian Perez\n\n\nBS BME GT\n\n\nStanford, PhD Student\n\n\n2021-22\n\n\n\n\n\n\nStephen Wellburg\n\n\nBS DAS UF\n\n\nCapital One, Software Engineer\n\n\n2021-22\n\n\n\n\n\n\nSreenath Reparti\n\n\nBS ISYE Georgia Tech\n\n\nKPMG\n\n\n2018-19\n\n\n\n\n\n\nKun Cao\n\n\nMS CS Georgia Tech\n\n\nGT\n\n\n2019\n\n\n\n\n\n\nMicah Halter\n\n\nBS CS Georgia Tech\n\n\nGTRI\n\n\n2016-19\n\n\n\n\n\n\nNate Knauf\n\n\nBS CS Georgia Tech\n\n\nGT\n\n\n2016\n\n\n\n\n\n\nRohit Varkey\n\n\nMS CS Georgia Tech\n\n\nGoogle\n\n\n2016-18\n\n\n\n\n\n\nPushkar Godbole\n\n\nMS CSE Georgia Tech\n\n\nYelp\n\n\n2015\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The GATAS Lab",
+    "section": "",
+    "text": "Applied Category Theory 2025\n\n\n\nThe GATAS Lab is hosting the 8th International Conference on Applied Category Theory here at UF. For more information see the ACT2025 Page\nThe GATAS laboratory uses applied category theory to develop novel approaches to scientific computing. We are domain-agnostic, solving problems in dynamics, physics, biology, the life sciences, and industrial engineering. Our group works closely with Evan Patterson’s research group at the Topos Institute to maintain and develop the AlgebraicJulia software ecosystem."
+  },
+  {
+    "objectID": "index.html#philosophy",
+    "href": "index.html#philosophy",
+    "title": "The GATAS Lab",
+    "section": "Philosophy",
+    "text": "Philosophy\nScientists develop simulations by translating scientific concepts into mathematical models, and then embodying those models in software. We seek to automate this process using category theory. Category theory is a mathematical language rich enough in abstraction to represent any scientific concept, yet pliable enough to manipulate efficiently with a computer. The software in AlgebraicJulia encodes a number of these abstractions; with it, scientists can build powerful, robust, and bespoke scientific models without starting from scratch in each domain.\n\n\n\n\n\n\n\n\nMembers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSponsors\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here you can find a list of our current research projects. Each project is composed of multiple publications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDecapodes\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlgebraic Dynamics, Optimization, and Control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCompositional Algorithms with Sheaves\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "act2025/act2025cfp.html",
@@ -245,67 +273,32 @@
     "text": "Programme Committee\nSee conference website for full list: https://gataslab.org/act2025\n\nPC Chairs\n\nAmar Hadzihasanovic (PC Chair), Tallinn University of Technology\nJS Lemay (PC Chair), Macquarie University\n\nPC Members\n\nBenedikt Ahrens, Delft University of Technology\nRobert Booth, University of Edinburgh\nCameron Calk, Laboratoire d’Informatique et Systèmes (LIS)\nCole Comfort, Université de Lorraine\nValeria de Paiva, Topos Institute\nElena Di Lavore, Oxford University\nMartin Frankland, University of Regina\nJonas Frey, Laboratoire d’Informatique de Paris-Nord (LIPN)\nTobias Fritz, University of Innsbruck\nZeinab Galal, University of Bologna\nLéonard Guetta, Utrecht University\nRobin Kaarsgaard, University of Southern Denmark\nMartti Karvonen, University College London\nShin-Ya Katsumata, Kyoto Sangyo University\nAlex Kavvos, University of Bristol\nKohei Kishida, University of Illinois Urbana-Champagne\nGabriele Lobbia, Università di Bologna\nFosco Loregian, Tallinn University of Technology\nGiulio Manzonetto, L’Institut de Recherche en Informatique Fondamentale (IRIF)\nDan Marsden, University of Nottingham\nAdrian Miranda, University of Manchester\nKoko Muroya, National Institute of Informatics\nNina Otter, Université Paris-Saclay\nHugo Paquet, Institut national de recherche en sciences et technologies du numérique (INRIA), Paris\nJohn Power, Macquarie University\nDorette Pronk, Dalhousie University\nCallum Reader, University of Sheffield\nMartina Rovelli, University of Massachusetts Amherst\nMehrnoosh Sadrzadeh, University College London\nPeter Selinger, Dalhousie University\nDavid Sprunger, University of Indiana\nAlex Toumi, PlantingSpace\nTodd Trimble, Western Connecticut State University\nSean Tull, Quantinuum\nPaul Wilson, Hellas.AI\nDusko Pavlovic, University of Hawaii\nRuben Van Belle, University of Oxford\nPriyaa Varshinee Srinivasan, Tallinn University of Technology\nGioele Zardini, Massachusettes Institute of Technology"
   },
   {
+    "objectID": "project/decapodes.html",
+    "href": "project/decapodes.html",
+    "title": "Decapodes",
+    "section": "",
+    "text": "Decapodes.jl is a graphical tool for the composition of physical systems.\nThis library includes tooling which takes advantage of the formalization of physical theories described by DEC provided by CombinatorialSpaces.jl.\nLinks:"
+  },
+  {
+    "objectID": "project/decapodes.html#sponsors",
+    "href": "project/decapodes.html#sponsors",
+    "title": "Decapodes",
+    "section": "Sponsors",
+    "text": "Sponsors\n\n\n\nDecapodes has been supported by the following DARPA programs:\n\n\n\nAutomating Scientific Knolwedge Extraction\nDirectly Computable Models\nAutomating Scientific Knolwedge Extraction and Modeling"
+  },
+  {
     "objectID": "presentations.html",
     "href": "presentations.html",
     "title": "Lab Meetings",
     "section": "",
-    "text": "Each week the GATAS Lab holds a lab meeting where one or two lab members gives a 30-60 minute presentation. We use these presentations for practice talks or educating each other on open problems. Here you can find a collection of previous talks.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Presenter\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nPresenter\n\n\nLink\n\n\n\n\n\n\nNov 12, 2024\n\n\nImplementing Cellular Sheaf Optimization Using PartitionedArrays\n\n\nSam Cohen\n\n\n\n\n\n\n\nNov 12, 2024\n\n\nFall 2024 progress: Structured Decompositions\n\n\nAndersen Wall\n\n\n\n\n\n\n\nNov 5, 2024\n\n\nParallel Computing with MPI\n\n\nGeorge Rauta\n\n\n\n\n\n\n\nOct 29, 2024\n\n\nDEC Tips and Tricks 4\n\n\nLuke Morris\n\n\n\n\n\n\n\nOct 3, 2024\n\n\nThe Decapodes Pipeline\n\n\nGeorge Rauta\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nSharing Vector Variables via Typed UWDs in AlgebraicOptimization.jl\n\n\nSam Cohen\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nNewton’s Method\n\n\nTyler Hanks\n\n\n\n\n\n\n\nSep 10, 2024\n\n\nCategorical Chemistry: The Architecture of a Chemical Computer\n\n\nWilmer Leal\n\n\n\n\n\n\n\nAug 28, 2024\n\n\nDEC Tips and Tricks 3\n\n\nLuke Morris\n\n\n\n\n\n\n\nAug 21, 2024\n\n\nTowards a Unified Theory of Time-Varying Data\n\n\nWilmer Leal\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nGATAS Lab Retreat Spring ’24\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nCUDA.jl\n\n\nGeorge Rauta\n\n\n\n\n\n\n\nMar 3, 2024\n\n\nCategorical Chemistry: The architecture of a chemical computer\n\n\nWilmer Leal\n\n\n\n\n\n\n\nFeb 5, 2024\n\n\nNet Flow\n\n\nTyler Hanks\n\n\n\n\n\n\n\nFeb 5, 2024\n\n\nBuildKite: In My Daemon Node?\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\nNov 17, 2023\n\n\nDiscrete Exterior Calculus Tips & Tricks; Part 2\n\n\nLuke Morris\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nFlow Talk\n\n\nTyler Hanks\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nDialectica Petri nets: A linear logic model of reaction systems\n\n\nWilmer Leal\n\n\n\n\n\n\n\nSep 19, 2023\n\n\nChemical Reactions and the reasoning system in Chemistry\n\n\nWilmer Leal\n\n\n\n\n\n\n\nSep 14, 2023\n\n\nDecorate Corels Talk\n\n\nTyler Hanks\n\n\n\n\n\n\n\nSep 11, 2023\n\n\nDiscrete Exterior Calculus Tips & Tricks; Part 1\n\n\nLuke Morris\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Each week the GATAS Lab holds a lab meeting where one or two lab members gives a 30-60 minute presentation. We use these presentations for practice talks or educating each other on open problems. Here you can find a collection of previous talks.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Presenter\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nPresenter\n\n\n\nLink\n\n\n\n\n\n\n\n\nNov 12, 2024\n\n\nImplementing Cellular Sheaf Optimization Using PartitionedArrays\n\n\nSam Cohen\n\n\n\n\n\n\n\n\n\nNov 12, 2024\n\n\nFall 2024 progress: Structured Decompositions\n\n\nAndersen Wall\n\n\n\n\n\n\n\n\n\nNov 5, 2024\n\n\nParallel Computing with MPI\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\nOct 29, 2024\n\n\nDEC Tips and Tricks 4\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\nOct 3, 2024\n\n\nThe Decapodes Pipeline\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nSharing Vector Variables via Typed UWDs in AlgebraicOptimization.jl\n\n\nSam Cohen\n\n\n\n\n\n\n\n\n\nOct 1, 2024\n\n\nNewton’s Method\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\nSep 10, 2024\n\n\nCategorical Chemistry: The Architecture of a Chemical Computer\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\nAug 28, 2024\n\n\nDEC Tips and Tricks 3\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\nAug 21, 2024\n\n\nTowards a Unified Theory of Time-Varying Data\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nGATAS Lab Retreat Spring ’24\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\n\nMar 25, 2024\n\n\nCUDA.jl\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\n\nMar 3, 2024\n\n\nCategorical Chemistry: The architecture of a chemical computer\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\nFeb 5, 2024\n\n\nNet Flow\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\nFeb 5, 2024\n\n\nBuildKite: In My Daemon Node?\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\n\nNov 17, 2023\n\n\nDiscrete Exterior Calculus Tips & Tricks; Part 2\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nFlow Talk\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\nNov 9, 2023\n\n\nDialectica Petri nets: A linear logic model of reaction systems\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\nSep 19, 2023\n\n\nChemical Reactions and the reasoning system in Chemistry\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\n\nSep 14, 2023\n\n\nDecorate Corels Talk\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\n\nSep 11, 2023\n\n\nDiscrete Exterior Calculus Tips & Tricks; Part 1\n\n\nLuke Morris\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "members/georgerauta.html",
+    "href": "members/georgerauta.html",
+    "title": "George Rauta",
     "section": "",
-    "text": "This page has tables of our research publications broken down by category."
-  },
-  {
-    "objectID": "research.html#journal-papers",
-    "href": "research.html#journal-papers",
-    "title": "Research",
-    "section": "Journal Papers",
-    "text": "Journal Papers\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Journal\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nYear\n\n\nTitle\n\n\nAuthor\n\n\nJournal\n\n\nLink\n\n\n\n\n\n\n2024\n\n\nTowards a Unified Theory of Time-varying Data\n\n\nB. Bumpus, J. Fairbanks, M. Karvonen, W. Leal, F. Simard\n\n\nArxiv\n\n\nDOI\n\n\n\n\n2024\n\n\nThe Diagrammatic Presentation of Equations in Categories\n\n\nK. Arlin, J. Fairbanks, T. Hosgood, E. Patterson\n\n\nArxiv\n\n\nDOI\n\n\n\n\n2024\n\n\nCompositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves\n\n\nE. Althaus, B. Bumpus, J. Fairbanks, D. Rosiak\n\n\nArxiv\n\n\nDOI\n\n\n\n\n2024\n\n\nA Compositional Framework for First-Order Optimization\n\n\nT. Hanks, M Klawonn, M Hale, E Patterson, JP Fairbanks\n\n\nArxiv\n\n\nDOI\n\n\n\n\n2024\n\n\nA compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks\n\n\nR. Aduddell, J. Fairbanks, A. Kumar, P.S. Ocal, E. Patterson, B.T. Shapiro\n\n\nCompositionality\n\n\nDOI\n\n\n\n\n2023\n\n\nComputational Category-Theoretic Rewriting\n\n\nK. Brown, E. Patterson, T. Hanks, J. Fairbanks\n\n\nJ. Logical and Algebraic Methods in Programming\n\n\nDOI\n\n\n\n\n2023\n\n\nDecapodes: A Diagrammatic Tool for Representing, Composing, and Computing Spatialized Partial Differential Equations\n\n\nL. Morris, A. Baas, J. Arias, M. Gaitlin, E. Patterson, J. Fairbanks\n\n\nJournal of Computational Science\n\n\nDOI\n\n\n\n\n2023\n\n\nThe application of applied category theory to quantify mission success\n\n\nR. Garrett, J. Fairbanks, M. Loper, J. Moreland\n\n\nSIMULATION 99 (2) 201-220\n\n\nDOI\n\n\n\n\n2022\n\n\nCategorical Data Structures for Technical Computing\n\n\nE. J. Patterson, O. Lynch, J. P. Fairbanks\n\n\nCompositionality\n\n\nDOI\n\n\n\n\n2022\n\n\nA Diagrammatic View of Differential Equations in Physics\n\n\nE. Patterson, A. Baas, T. Hosgood, J. P. Fairbanks\n\n\nMathematics in Engineering\n\n\nDOI\n\n\n\n\n2022\n\n\nAn Algebraic Framework for Structured Epidemic Modeling\n\n\nS. Libkind, A. Baas, M. Halter, E. Patterson, and J. P. Fairbanks\n\n\nProc. of the Royal Society Phil. Trans.\n\n\nDOI\n\n\n\n\n2021\n\n\nCategory-theoretic formulation of the model-based systems architecting cognitive-computational Cycle\n\n\nY. Mordecai, J. P. Fairbanks, E.F. Crawley\n\n\nMDPI Applied Sciences 11 (4), 1945\n\n\nDOI\n\n\n\n\n2017\n\n\nSpectral Partitioning with Blends of Eigenvectors\n\n\nJ. P. Fairbanks, D. A. Bader, G. D. Sanders\n\n\nJournal of Complex Networks\n\n\nDOI\n\n\n\n\n2015\n\n\nBehavioral Clusters in Dynamic Graphs\n\n\nJ. P. Fairbanks, R. Kannan, H. Park, D. A. Bader\n\n\nParallel Computing Special Issue of Scientific Graph Analysis\n\n\nDOI\n\n\n\n\n2011\n\n\nA Ramsey Theorem for Indecomposable Matchings\n\n\nJ. P. Fairbanks\n\n\nElectronic Journal of Combinatorics, Vol 18(1)\n\n\nDOI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research.html#conference-papers",
-    "href": "research.html#conference-papers",
-    "title": "Research",
-    "section": "Conference Papers",
-    "text": "Conference Papers\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Venue\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nYear\n\n\nTitle\n\n\nAuthor\n\n\nVenue\n\n\nLink\n\n\n\n\n\n\n2024\n\n\nModeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems\n\n\nTyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, James Fairbanks\n\n\nAmerican Control Conference\n\n\nDOI\n\n\n\n\n2024\n\n\nGeneralized Gradient Descent is a Hypergraph Functor\n\n\nT Hanks, M. Klawonn, J. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n2024\n\n\nHow Nice is this Functor? Two Squares and Some Homology go a Long Way\n\n\nB. Bumpus, D. Rosiak, C. Puca, F. Genovese, J. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n2024\n\n\nShort Note on Cohomology, Sheafification and Lavish Presheaves\n\n\nB. Bumpus, D. Rosiak, M. Cappucci, J. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n2024\n\n\nGATlab: Modeling and Programming with Generalized Algebraic Theories\n\n\nO Lynch, K Brown, JP Fairbanks, and E Patterson.\n\n\nhttps://arxiv.org/abs/2404.04837\n\n\nDOI\n\n\n\n\n2023\n\n\nA Categorical Representation Language and Computational System for Knowledge-Based Planning\n\n\nA. Aguinaldo, E. Patterson, J. Fairbanks and J. Ruiz\n\n\nAAAI Fall Symposium on Unifying Representations for Robot Application Development\n\n\nDOI\n\n\n\n\n2023\n\n\nCharacterizing Compositionality of LQR from the Categorical Perspective\n\n\nBaike She, Tyler Hanks, James Fairbanks, Matthew Hale\n\n\nIEEE Conf. Decision and Control\n\n\nDOI\n\n\n\n\n2022\n\n\nCompositional Exploration of Combinatorial Scientific Models\n\n\nK. Brown, T. Hanks, J. P. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n2022\n\n\nComputational Category-Theoretic Rewriting\n\n\nK. Brown, E. Patterson, T. Hanks, J. P. Fairbanks\n\n\nInternational Conference on Graph Transformation (Best Paper Award)\n\n\nDOI\n\n\n\n\n2021\n\n\nOperadic Modeling of Dynamical Systems: Mathematics and Computation\n\n\nS. Libkind, A. Baas, E. J. Patterson, J. P. Fairbanks\n\n\nApplied category Theory (Proceedings)\n\n\nDOI\n\n\n\n\n2020\n\n\nSemanticModels.jl: A Julia Package for Scientific Model Augmentation\n\n\nM. Halter, S. Raparti, K. Cao, C. Herlihy, J. P. Fairbanks\n\n\nProceedings of the JuliaCon Conferences\n\n\nDOI\n\n\n\n\n2019\n\n\nA Compositional Framework for Scientific Model Augmentation\n\n\nM. Halter, C. Herlihy, J. P. Fairbanks\n\n\nApplied Category Theory\n\n\nDOI\n\n\n\n\n2019\n\n\nConstructing Knowledge Graphs from Scientific Texts\n\n\nK. Cao, J. P. Fairbanks\n\n\nKDD workshop on Machine Learning in Graphs\n\n\nDOI\n\n\n\n\n2019\n\n\nSemantic Program Analysis for Scientific Model Augmentation\n\n\nJ. P. Fairbanks, C. Herlihy, K. Cao, S. Reparthi\n\n\nModeling the World’s Systems\n\n\nDOI\n\n\n\n\n2018\n\n\nCredibility Assessment in the News: Do we need to read?\n\n\nN. Fitch, N. Knauf, J. P. Fairbanks, E. Briscoe\n\n\nACM WSDM MIS2\n\n\nDOI\n\n\n\n\n2018\n\n\nPerformance Effects of Backing Data Stores in Community Detection Algorithms\n\n\nR. Varkey Thankachan, B. P. Swenson, J. P. Fairbanks\n\n\nIEEE High Performance Extreme Computing\n\n\nDOI\n\n\n\n\n2018\n\n\nDigital Witness: Remote Methods for Volunteering Digital Evidence on Mobile Devices\n\n\nN. Campbell, T. Goodyear, W. Messer, E. Stuart, J. P. Fairbanks\n\n\nIEEE Technologies for Homeland Security\n\n\nDOI\n\n\n\n\n2017\n\n\nIntegrating Productivity-Oriented Programming Languages with High-Performance Data Structures\n\n\nR. Varkey Thankachan, E. Hein, B. P. Swenson, J. P. Fairbanks\n\n\nIEEE High Performance Extreme Computing\n\n\nDOI\n\n\n\n\n2017\n\n\nDeriving Streaming Graph Algorithms from Static Definitions\n\n\nJ. P. Fairbanks, D. M. Ediger\n\n\nIEEE International Parallel and Distributed Processing Graph Algorithms Building Blocks\n\n\nDOI\n\n\n\n\n2017\n\n\nDeriving Streaming Graph Algorithms from Static Definitions.\n\n\nD. M. Ediger and J. P. Fairbanks\n\n\nIEEE Parallel and Distributed Processing - Graph Algorithm Building Blocks\n\n\nDOI\n\n\n\n\n2017\n\n\nGraph Ranking Guarantees for Numerical Approximations to Katz Centrality\n\n\nE. Nathan, G. Sanders, J. P. Fairbanks, V. Henson and D. Bader\n\n\nInternational Conference On Computational Science\n\n\nDOI\n\n\n\n\n2017\n\n\nRanking in Dynamic Graphs Using Exponential Centrality\n\n\nE. Nathan, J. P. Fairbanks, D. A. Bader\n\n\nInternational Conference on Complex Networks and their Applications\n\n\nDOI\n\n\n\n\n2017\n\n\nGraph Partitioning with Spectral Blends\n\n\nJ. P. Fairbanks, D. A. Bader, and G. D. Sanders\n\n\nOxford Journal of Complex Networks\n\n\nDOI\n\n\n\n\n2016\n\n\nNovel Stopping Criteria for Spectral Partitioning\n\n\nJ. P. Fairbanks, A. Zakrzewska, D.A. Bader\n\n\nSIAM Network Science\n\n\nDOI\n\n\n\n\n2013\n\n\nA Statistical Framework for Analyzing Streaming Graphs\n\n\nJ. P. Fairbanks, D. Ediger, R. McColl, D.A. Bader, E. Gilbert\n\n\nIEEE/ACM ASONAM\n\n\nDOI\n\n\n\n\n \n\n\nA local measure of community change in dynamic graphs.\n\n\nA. Zakrzewska, E. Nathan, J. P. Fairbanks, D. A. Bader\n\n\nIEEE/ACM ASONAM\n\n\nDOI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research.html#conference-talks",
-    "href": "research.html#conference-talks",
-    "title": "Research",
-    "section": "Conference Talks",
-    "text": "Conference Talks\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n         \n          Venue\n        \n         \n          Year\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nYear\n\n\nTitle\n\n\nAuthor\n\n\nVenue\n\n\nLink\n\n\n\n\n\n\n2022\n\n\nDiagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,\n\n\nE. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n2022\n\n\nIndividual.jl: Rewriting individual-based models for epidemiology using graph rewriting\n\n\nS. Wu (speaker), K. Browm, and J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n2022\n\n\nTyped and stratified models with slice categories\n\n\nS. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n2021\n\n\nAlgebraicDynamics: Compositional dynamical systems\n\n\nS. Libkind, J. P. Fairbanks\n\n\nJuliaCon, Online\n\n\nDOI\n\n\n\n\n2021\n\n\nShaped Data with Acsets\n\n\nO. Lynch, E. J. Patterson, J. P. Fairbanks\n\n\nJuliaCon, Online\n\n\nDOI\n\n\n\n\n2021\n\n\nAccelerating Automatic Target Recognition Performance Evaluation with a Relational Database\n\n\nM. Jackson, M. Halter, T. Goodyear, B. O’Donnell, and J. Fairbanks\n\n\nTri-Service Radar Symposium\n\n\nDOI\n\n\n\n\n2019\n\n\nComplex Systems Analysis of Hybrid Warfare\n\n\nM. Nadolski and J. P. Fairbanks\n\n\nConference on Systems Engineering Research\n\n\nDOI\n\n\n\n\n2019\n\n\nSemanticModels.jl: Not Just Another Modeling Framework\n\n\nJ. P. Fairbanks and C. R. Herlihy\n\n\nJuliaCon, Baltimore, MD\n\n\nDOI\n\n\n\n\n2018\n\n\nThe JuliaGraphs Ecosystem: Move Fast and Don’t Break Things\n\n\nJ. P. Fairbanks\n\n\nJuliaCon, London, UK\n\n\nDOI\n\n\n\n\n2017\n\n\nAssessing Credibility in Global Media Networks\n\n\nJ. P. Fairbanks\n\n\nHuman Language Technologies\n\n\nDOI\n\n\n\n\n2017\n\n\nLightGraphs: Our Network, Our Story\n\n\nS. Bromberger, J. P. Fairbanks\n\n\nJuliaCon, Berkeley, CA\n\n\nDOI\n\n\n\n\n2017\n\n\nUsing Big Data to Predict and Analyze Cooperation and Conflict\n\n\nT. Frederick, C. Herlihy, J. P. Fairbanks\n\n\nThe Conflict Conference at UT-Austin\n\n\nDOI\n\n\n\n\n \n\n\nGraph Interfaces: Bespoke Graphs for Every Occasion\n\n\nM. Besanon, J. P. Fairbanks\n\n\nJuliaCon, London, UK\n\n\nDOI\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "research.html#preprints",
-    "href": "research.html#preprints",
-    "title": "Research",
-    "section": "Preprints",
-    "text": "Preprints\n\n\n\nYear\nTitle\n\n\n\n\n2024\nTowards a Compositional Framework for Convex Analysis  Richard Samuelson and Dario Stein\n\n\n2023\nA Compositional Framework for Convex Model Predictive Control  Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, and James Fairbanks"
-  },
-  {
-    "objectID": "members/taylorfrederick.html",
-    "href": "members/taylorfrederick.html",
-    "title": "Taylor Frederick",
-    "section": "",
-    "text": "is a research scientist who likes math."
-  },
-  {
-    "objectID": "members/patrickstokes.html",
-    "href": "members/patrickstokes.html",
-    "title": "Patrick Stokes",
-    "section": "",
-    "text": "is a faculty research scientist in the GATAS lab.\nMy background is in signal processing, statistical modeling, and system identification in computational neuroscience.\nMy research interest is applying category theory to develop structures and algorithms for robust inference and identification of complex, high-dimensional, multi-scale, and stochastic systems."
-  },
-  {
-    "objectID": "members/lukemorris.html",
-    "href": "members/lukemorris.html",
-    "title": "Luke Morris",
-    "section": "",
-    "text": "is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.\n… for representing multiphysics models and automatically generating simulations from those representations.\n\nI am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: Decapodes.jl and CombinatorialSpaces.jl.\nWe use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. Catlab.jl - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.\nOf course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.\nDeveloping a library for scientific computing is best done by collaborating with the user that you have in mind. So I lead a few collaborations with labs who study space weather. One model simulates electron dissipation - where electrons end up in our atmosphere as they precipitate down from space - and another is a model for galactic cosmic ray (GCR) and solar energetic particle (SEP) transport - how particles coming from other stars or the Sun travel through our solar system. There are applications for the weather on Earth as well, from modeling glacier dynamics to the circulation of matter in our atmosphere."
+    "text": "is a master’s student with a focus in numerical linear algebra and high-performance computing.\nI believe that advances in the field of computer science are dependent on the existence of a highly performant computational foundation. It is critical that this foundation considers the theoretical aspects of algorithms, the method by which they are implemented in code and how they interact with the physical designs of modern processing and memory units.\nI am also a developer on the Decapodes.jl and CombinatorialSpaces.jl projects."
   },
   {
     "objectID": "members/jamesfairbanks.html",
@@ -315,39 +308,39 @@
     "text": "is an assistant professor in the department of Mechanical and Aerospace Engineering, and affiliated with the Institute for Computational Engineering, and the Florida Institute for National Security.\nMy research focuses on new paradigms in scientific computing, specifically applied category theory. This approach to mathematical modeling focuses on structure and structure preserving relationships between mathematical objects. The GATAS lab studies these topics and supports software-focused research in the AlgebraicJulia Ecosystem. We collaborate closely across the HWCOE and with external collaborators at NIST, AFRL, and the Topos Institute."
   },
   {
-    "objectID": "members/benbumpus.html",
-    "href": "members/benbumpus.html",
-    "title": "Benjamin Merlin Bumpus",
+    "objectID": "members/tylerhanks.html",
+    "href": "members/tylerhanks.html",
+    "title": "Tyler Hanks",
     "section": "",
-    "text": "is a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.\nThe main character in the stories I tell is Complexity and I mean this in the broadest sense: I am interested in classifying different kinds of complexity (structural, algorithmic, behavioral, etc.) and in understanding how complexity arises. The main focus of my work is the emergence of complexity and how this relates to the mathematics of Compositionality (the philosophical contention that the structure or meaning of the whole depends on that of its parts).\nIn this context, the stories I am interested in are often set in the land of computational complexity where combinatorial explosion guides and motivates deep insights in graph structure theory, parameterized complexity theory and finite model theory. I use category theory to better understand how the profound tools developed in the above areas relate to each other and to understand how far they can be pushed and generalized."
+    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
   },
   {
-    "objectID": "project/sheaves.html",
-    "href": "project/sheaves.html",
-    "title": "Compositional Algorithms with Sheaves",
+    "objectID": "members/lukemorris.html",
+    "href": "members/lukemorris.html",
+    "title": "Luke Morris",
     "section": "",
-    "text": "StructuredDecompositions.jl"
+    "text": "is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects."
   },
   {
-    "objectID": "project/sheaves.html#sponsors",
-    "href": "project/sheaves.html#sponsors",
-    "title": "Compositional Algorithms with Sheaves",
-    "section": "Sponsors",
-    "text": "Sponsors\n\n\n\nComputation Sheaf Theory has been supported by the DARPA program Automating Scientific Knolwedge Extraction and Modeling"
+    "objectID": "members/lukemorris.html#for-representing-multiphysics-models-and-automatically-generating-simulations-from-those-representations.",
+    "href": "members/lukemorris.html#for-representing-multiphysics-models-and-automatically-generating-simulations-from-those-representations.",
+    "title": "Luke Morris",
+    "section": "… for representing multiphysics models and automatically generating simulations from those representations.",
+    "text": "… for representing multiphysics models and automatically generating simulations from those representations.\nI am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: Decapodes.jl and CombinatorialSpaces.jl.\nWe use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. Catlab.jl - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.\nOf course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.\nDeveloping a library for scientific computing is best done by collaborating with the user that you have in mind. So I lead a few collaborations with labs who study space weather. One model simulates electron dissipation - where electrons end up in our atmosphere as they precipitate down from space - and another is a model for galactic cosmic ray (GCR) and solar energetic particle (SEP) transport - how particles coming from other stars or the Sun travel through our solar system. There are applications for the weather on Earth as well, from modeling glacier dynamics to the circulation of matter in our atmosphere."
   },
   {
-    "objectID": "project/optimization.html",
-    "href": "project/optimization.html",
-    "title": "Algebraic Dynamics, Optimization, and Control",
+    "objectID": "members/samuelcohen.html",
+    "href": "members/samuelcohen.html",
+    "title": "Samuel Cohen",
     "section": "",
-    "text": "AlgebraicControl.jl\nModel predictive control (MPC) is an optimal control technique which involves solving a sequence of constrained optimization problems across a given time horizon. We present a novel Julia library that leverages our theoretical results to automate the implementation of correct-by-construction MPC problems in software."
+    "text": "is an undergraduate studying math and computer science.\nMy work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems."
   },
   {
-    "objectID": "project/optimization.html#sponsors",
-    "href": "project/optimization.html#sponsors",
-    "title": "Algebraic Dynamics, Optimization, and Control",
-    "section": "Sponsors",
-    "text": "Sponsors\n  \nAlgebraicOptimization and Control has been supported by the following programs:\n\nNSF: Graduate Research Fellowship Program\nONR: Domain Transfer for Continuity of Performance\nAFRL: Griffis Summer Internship Program"
+    "objectID": "sponsors/afrl.html",
+    "href": "sponsors/afrl.html",
+    "title": "Air Force Research Laboratory",
+    "section": "",
+    "text": "AFRL has supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\nSummer Internships through the AFRL Scholars Program\nSummer Internships through the Griffis Scholars Program\nCollaboration with AFRL research staff"
   },
   {
     "objectID": "sponsors/darpa.html",
@@ -368,6 +361,27 @@
     "href": "sponsors/sponsors.html#grants-and-contracts",
     "title": "Sponsors",
     "section": "Grants and Contracts",
-    "text": "Grants and Contracts\nOur sponsors have supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Amount\n        \n         \n          End Year\n        \n         \n          Sponsor\n        \n         \n          Title\n        \n         \n          Start Year - Oldest\n        \n         \n          Start Year - Newest\n        \n         \n          Primary Institution\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nSponsor\n\n\nTitle\n\n\nAmount\n\n\nStart Year\n\n\nEnd Year\n\n\nPrimary Institution\n\n\n\n\n\n\nONR\n\n\nDomain Transfer for Continuity of Performance Across Synthetic Aperture Sonar\n\n\n500K\n\n\n2023\n\n\n2026\n\n\nUFL\n\n\n\n\nARO\n\n\nMachine Learning-based Sensor Fusion for Electro-optical and Infrared Target Detection\n\n\n175K\n\n\n2022\n\n\n2023\n\n\nHuntington-Ingalls\n\n\n\n\nDARPA\n\n\nASKEM: Generalized Algebraic Techniques Advancing Scientific Discovery\n\n\n5.8M\n\n\n2022\n\n\n2025\n\n\nUFL\n\n\n\n\nDARPA\n\n\nDirector’s Fellowship: Model Aware Scientific Computing\n\n\n250K\n\n\n2022\n\n\n2023\n\n\nUFL\n\n\n\n\nDARPA\n\n\nPerceptual Task Guidance: ENKIx\n\n\n4.8M\n\n\n2022\n\n\n2024\n\n\nUFL\n\n\n\n\nDARPA\n\n\nYoung Faculty Award: Model Aware Scientific Computing\n\n\n500K\n\n\n2020\n\n\n2022\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nAIE: Automating Scientific Knowledge Extraction Extended\n\n\n700K\n\n\n2020\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nDirectly Computable Models: Generalized Algebraic Theories Enhancing Multiphysics\n\n\n1M\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nArtificial Social Intelligence for Successful Teams (ASIST)\n\n\n400K\n\n\n2019\n\n\n2023\n\n\nGallup\n\n\n\n\nONR\n\n\nExtracting, Explaining, and Estimating Information in Sonar Data (E3ISD)\n\n\n695K\n\n\n2019\n\n\n2022\n\n\nGTRI\n\n\n\n\nONR\n\n\nMine Counter-measures Situational Awareness\n\n\n375K\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\nDARPA\n\n\nArtificial Intelligence Exporation: Automating Scientific Knowledge Extraction\n\n\n1M\n\n\n2018\n\n\n2020\n\n\nGTRI\n\n\n\n\nNIJ\n\n\nDeveloping Novel Means of Evidence Collection\n\n\n400K\n\n\n2016\n\n\n2018\n\n\nGTRI\n\n\n\n\nONR\n\n\nPerformance Estimation of Underwater Mine Counter-measures Operations\n\n\n990K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\nGTRI SI\n\n\nMulti-source Anticipatory Intelligence\n\n\n900K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\n\nNo matching items"
+    "text": "Grants and Contracts\nOur sponsors have supported the GATAS Lab and the AlgebraicJulia Ecosystem through the following projects.\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Amount\n      \n      \n        End Year\n      \n      \n        Sponsor\n      \n      \n        Title\n      \n      \n        Start Year - Oldest\n      \n      \n        Start Year - Newest\n      \n      \n        Primary Institution\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nSponsor\n\n\n\nTitle\n\n\n\nAmount\n\n\n\nStart Year\n\n\n\nEnd Year\n\n\n\nPrimary Institution\n\n\n\n\n\n\n\n\nONR\n\n\nDomain Transfer for Continuity of Performance Across Synthetic Aperture Sonar\n\n\n500K\n\n\n2023\n\n\n2026\n\n\nUFL\n\n\n\n\n\n\nARO\n\n\nMachine Learning-based Sensor Fusion for Electro-optical and Infrared Target Detection\n\n\n175K\n\n\n2022\n\n\n2023\n\n\nHuntington-Ingalls\n\n\n\n\n\n\nDARPA\n\n\nASKEM: Generalized Algebraic Techniques Advancing Scientific Discovery\n\n\n5.8M\n\n\n2022\n\n\n2025\n\n\nUFL\n\n\n\n\n\n\nDARPA\n\n\nDirector’s Fellowship: Model Aware Scientific Computing\n\n\n250K\n\n\n2022\n\n\n2023\n\n\nUFL\n\n\n\n\n\n\nDARPA\n\n\nPerceptual Task Guidance: ENKIx\n\n\n4.8M\n\n\n2022\n\n\n2024\n\n\nUFL\n\n\n\n\n\n\nDARPA\n\n\nYoung Faculty Award: Model Aware Scientific Computing\n\n\n500K\n\n\n2020\n\n\n2022\n\n\nGTRI\n\n\n\n\n\n\nDARPA\n\n\nAIE: Automating Scientific Knowledge Extraction Extended\n\n\n700K\n\n\n2020\n\n\n2021\n\n\nGTRI\n\n\n\n\n\n\nDARPA\n\n\nDirectly Computable Models: Generalized Algebraic Theories Enhancing Multiphysics\n\n\n1M\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\n\n\nDARPA\n\n\nArtificial Social Intelligence for Successful Teams (ASIST)\n\n\n400K\n\n\n2019\n\n\n2023\n\n\nGallup\n\n\n\n\n\n\nONR\n\n\nExtracting, Explaining, and Estimating Information in Sonar Data (E3ISD)\n\n\n695K\n\n\n2019\n\n\n2022\n\n\nGTRI\n\n\n\n\n\n\nONR\n\n\nMine Counter-measures Situational Awareness\n\n\n375K\n\n\n2019\n\n\n2021\n\n\nGTRI\n\n\n\n\n\n\nDARPA\n\n\nArtificial Intelligence Exporation: Automating Scientific Knowledge Extraction\n\n\n1M\n\n\n2018\n\n\n2020\n\n\nGTRI\n\n\n\n\n\n\nNIJ\n\n\nDeveloping Novel Means of Evidence Collection\n\n\n400K\n\n\n2016\n\n\n2018\n\n\nGTRI\n\n\n\n\n\n\nONR\n\n\nPerformance Estimation of Underwater Mine Counter-measures Operations\n\n\n990K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\n\n\nGTRI SI\n\n\nMulti-source Anticipatory Intelligence\n\n\n900K\n\n\n2016\n\n\n2019\n\n\nGTRI\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/diagrameqns/diagrameqns.html",
+    "href": "publications/diagrameqns/diagrameqns.html",
+    "title": "A diagrammatic view of differential equations in physics",
+    "section": "",
+    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+  },
+  {
+    "objectID": "publications/diagrameqns/diagrameqns.html#abstract",
+    "href": "publications/diagrameqns/diagrameqns.html#abstract",
+    "title": "A diagrammatic view of differential equations in physics",
+    "section": "",
+    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+  },
+  {
+    "objectID": "publications/diagrameqns/diagrameqns.html#links",
+    "href": "publications/diagrameqns/diagrameqns.html#links",
+    "title": "A diagrammatic view of differential equations in physics",
+    "section": "Links",
+    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\nJournal\nPDF\nCode\nDocs"
   }
 ]

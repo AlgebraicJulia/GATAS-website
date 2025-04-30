@@ -1,22 +1,26 @@
 [
   {
-    "listing": "/project/decapodes.html",
+    "listing": "/project/optimization.html",
     "items": [
-      "/publications/jocs.html",
-      "/publications/diagrampresentations/diagrampresentations.html",
-      "/publications/diagrameqns/diagrameqns.html",
-      "/members/lukemorris.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html"
+      "/members/tylerhanks.html",
+      "/members/samuelcohen.html",
+      "/members/richardsamuelson.html"
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/project/sheaves.html",
     "items": [
-      "/project/decapodes.html",
-      "/project/optimization.html",
-      "/project/sheaves.html"
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html"
     ]
+  },
+  {
+    "listing": "/act2025/act2025.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
+    "items": []
   },
   {
     "listing": "/members.html",
@@ -42,31 +46,27 @@
     ]
   },
   {
-    "listing": "/act2025/act2025.html",
-    "items": []
+    "listing": "/projects.html",
+    "items": [
+      "/project/decapodes.html",
+      "/project/optimization.html",
+      "/project/sheaves.html"
+    ]
+  },
+  {
+    "listing": "/project/decapodes.html",
+    "items": [
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html",
+      "/members/lukemorris.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html"
+    ]
   },
   {
     "listing": "/presentations.html",
     "items": []
-  },
-  {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
-    "listing": "/project/sheaves.html",
-    "items": [
-      "/members/benbumpus.html",
-      "/members/wilmerleal.html"
-    ]
-  },
-  {
-    "listing": "/project/optimization.html",
-    "items": [
-      "/members/tylerhanks.html",
-      "/members/samuelcohen.html",
-      "/members/richardsamuelson.html"
-    ]
   },
   {
     "listing": "/sponsors/sponsors.html",
