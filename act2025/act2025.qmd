@@ -5,6 +5,13 @@ aliases:
   - /act2025.html
   - /act
   - /act.html
+format:
+  html:
+    toc: true
+    css: styles.css
+website:
+  listing:
+    categories: false
 listing:
     id: ACT_talks
     type: table
@@ -15,7 +22,7 @@ listing:
     sort: 
       - "date desc"
       - "title desc"
-    categories: true
+    categories: false
     fields: [category, author, title]
     sort-ui: [category, author, title]
     filter-ui: [category, author]
@@ -106,7 +113,17 @@ Organizers can confirm that most buildings on campus, including the one the conf
 - Local Chair
   - [James Fairbanks](/members/jamesfairbanks.qmd)
 
+### Scheduled Presentations
+
+::: {.panel-tabset}
+
+## Schedule
+
+![](act2025schedule.png)
+
 ## Accepted Presentations
 
-::: {ACT_talks}
+::: {#ACT_talks}
+:::
+
 :::
