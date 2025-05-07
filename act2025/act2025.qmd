@@ -119,7 +119,7 @@ Organizers can confirm that most buildings on campus, including the one the conf
 
 ## Schedule
 
-![](act2025schedule.png)
+{{< include act2025_schedule.md >}}
 
 ## Accepted Presentations
 
