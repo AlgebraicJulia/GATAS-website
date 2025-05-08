@@ -12,6 +12,7 @@ listing:
       - members/cuffaromatt.qmd
       - members/georgerauta.qmd
       - members/samuelcohen.qmd
+      - members/trevorgross.qmd
 
     type: default
     image-align: left

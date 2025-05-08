@@ -1,0 +1,17 @@
+---
+title: "Trevor Gross"
+image: images/trevorgross.jpeg
+date: 1/16/2025
+published-title: "Lab Member Since:"
+about:
+    template: solana
+    links:
+        - text: Website
+          href: https://trevorjgross.com/
+        - text: GitHub
+          href: https://github.com/GrossTrevor
+---
+
+is an undergraduate junior studying computer science affiliated with the Florida Institute for National Security Talent Pipeline.
+
+My research interests lie in developing and implementing new techniques to solve existing problems. I primarily work in the AlgebraicOptimization.jl library to improve the efficiency of distributed systems and make other engineers' work easier. I am a highly motivated student who aims to contribute to research and industries worldwide.
