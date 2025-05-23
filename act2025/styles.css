@@ -28,3 +28,8 @@
 .quarto-listing-category {
   display: none;
 }
+
+td {
+  vertical-align: middle !important;
+  height: 4em;
+}
