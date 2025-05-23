@@ -9,6 +9,15 @@
     ]
   },
   {
+    "listing": "/index.html",
+    "items": [
+      "/members.html",
+      "/projects.html",
+      "/research.html",
+      "/sponsors/sponsors.html"
+    ]
+  },
+  {
     "listing": "/project/decapodes.html",
     "items": [
       "/publications/jocs.html",
@@ -17,6 +26,14 @@
       "/members/lukemorris.html",
       "/members/cuffaromatt.html",
       "/members/georgerauta.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/project/decapodes.html",
+      "/project/optimization.html",
+      "/project/sheaves.html"
     ]
   },
   {
@@ -34,20 +51,8 @@
     ]
   },
   {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
     "listing": "/act2025/act2025.html",
     "items": []
-  },
-  {
-    "listing": "/projects.html",
-    "items": [
-      "/project/decapodes.html",
-      "/project/optimization.html",
-      "/project/sheaves.html"
-    ]
   },
   {
     "listing": "/project/sheaves.html",
@@ -65,13 +70,8 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/members.html",
-      "/projects.html",
-      "/research.html",
-      "/sponsors/sponsors.html"
-    ]
+    "listing": "/research.html",
+    "items": []
   },
   {
     "listing": "/presentations.html",
