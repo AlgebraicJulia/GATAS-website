@@ -113,10 +113,6 @@ Organizers can confirm that most buildings on campus, including the one the conf
 - Local Chair
   - [James Fairbanks](/members/jamesfairbanks.qmd)
 
-### Scheduled Presentations
-
-::: {.panel-tabset}
-
 ## Schedule
 
 {{< include act2025_schedule.md >}}
