@@ -34,7 +34,7 @@ listing:
 ---
 
 
-![](../UF_Skyline.webp)
+![](act_group.jpg)
 
 ## About
 
@@ -127,12 +127,11 @@ Organizers can confirm that most buildings on campus, including the one the conf
 ::: {#ACT_talks}
 :::
 
-:::
 
 
 ## Outing Options
 
-### Kyaking
+### Kayaking
 
 Dorrette Pronk <pronk@mathstat.dal.ca> is leading a kyaking trip in Silver Springs, FL departing the conference venue at 7:30 AM Wednesday. Please email by Monday 6/2/2025 by 6pm to join. Include in the email if you have a vehicle and can drive people to attend.
 
