@@ -54,6 +54,7 @@ If you are interested in a career in Applied Category Theory or Computational Sc
 
 |  Name | Where are they now?|
 |:------|:-------------------|
+|Chris Ruglestein | UF Mathematics |
 |James Horn      |Master's Student at Georgia Tech        |
 |Kris Brown      |Research Software Engineer at the Topos Institute|
 |Micah Halter    |Research Scientist at the Georgia Tech Research Institute|

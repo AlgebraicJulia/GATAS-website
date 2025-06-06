@@ -10,7 +10,7 @@ website:
   title: "GATAS Lab | University of Florida"
   favicon: _assets/brand/favicon.ico
   navbar:
-    logo: _assets/gatas_bar_uf.png
+    logo: _assets/gatas_bar_UF.png
     collapse-below: sm
     right:
       - members.qmd
