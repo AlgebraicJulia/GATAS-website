@@ -5,14 +5,14 @@ start_year: 2022
 published-title: "Lab Member Since:"
 date: 08/15/2022
 program: CISE
-degree: MS
+degree: PhD
 status: Starting
 href: ""
 about:
     template: solana
 ---
 
-is a master's student with a focus in numerical linear algebra and high-performance computing.
+is a PhD student with a focus in numerical linear algebra and high-performance computing.
 
 I believe that advances in the field of computer science are dependent on the existence of a highly 
 performant computational foundation. It is critical that this foundation considers the theoretical
