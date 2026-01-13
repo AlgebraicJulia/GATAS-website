@@ -76,10 +76,3 @@ This page has tables of our research publications broken down by category.
 
 :::{#conference-talks}
 :::
-
-## Preprints
-
-| Year | Title |
-| ---- | ----- |
-| 2024 | [Towards a Compositional Framework for Convex Analysis](https://arxiv.org/abs/2312.02291) <br> Richard Samuelson and Dario Stein |
-| 2023 | [A Compositional Framework for Convex Model Predictive Control](https://arxiv.org/abs/2305.03820) <br> Tyler Hanks, Baike She, Matthew Hale, Evan Patterson, Matthew Klawonn, and James Fairbanks |
