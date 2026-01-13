@@ -1,3 +1,20 @@
+- preprint: "https://doi.org/10.48550/arXiv.2508.12501"
+  materials: ""
+  doi: "https://doi.org/10.48550/arXiv.2508.12501"
+  Date: "2025"
+  toc: false
+  author: "L. Morris, G. Rauta, K. Carlson, J. Fairbanks"
+  Authors: "L. Morris, G. Rauta, K. Carlson, J. Fairbanks"
+  href: |-
+    <a href="https://doi.org/10.48550/arXiv.2508.12501" class="btn btn-secondary">DOI</a>
+  year: "2025"
+  date: "2026"
+  Title: "Porous Convection in the Discrete Exterior Calculus with Geometric Multigrid"
+  Venue: "Arxiv"
+  URL: "https://doi.org/10.48550/arXiv.2508.12501"
+  publication: "Arxiv"
+  title: "Porous Convection in the Discrete Exterior Calculus with Geometric Multigrid"
+  type: "article"
 - preprint: "https://doi.org/10.48550/arXiv.2402.00206"
   materials: ""
   doi: "https://doi.org/10.48550/arXiv.2402.00206"
