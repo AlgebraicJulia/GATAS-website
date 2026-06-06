@@ -1,0 +1,35 @@
+.listing-pagination {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.listing-pagination .pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.listing-pagination .page-item {
+  margin: 0 2px;
+}
+
+.listing-pagination .page-link {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  line-height: 1.25;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.quarto-listing-category {
+  display: none;
+}
+
+td {
+  vertical-align: middle !important;
+  height: 4em;
+}
