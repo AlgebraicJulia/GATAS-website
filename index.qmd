@@ -24,7 +24,7 @@ For more information see the [ACT2025 Page](act2025/act2025.qmd)
 
 ![](_assets/gatas_bar_UF.png)
 
-The GATAS laboratory uses applied category theory to develop novel approaches to scientific
+The GATAS (Generalized Algebraic Techniques Advancing Science) laboratory uses applied category theory to develop novel approaches to scientific
 computing. We are domain-agnostic, solving problems in
 [dynamics](https://arxiv.org/abs/2105.12282),
 [physics](https://github.com/AlgebraicJulia/Decapodes.jl),
