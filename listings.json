@@ -1,20 +1,21 @@
 [
   {
-    "listing": "/projects.html",
+    "listing": "/members.html",
     "items": [
-      "/project/decapodes.html",
-      "/project/optimization.html",
-      "/project/sheaves.html"
+      "/members/jamesfairbanks.html",
+      "/members/benbumpus.html",
+      "/members/wilmerleal.html",
+      "/members/lukemorris.html",
+      "/members/tylerhanks.html",
+      "/members/richardsamuelson.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html",
+      "/members/samuelcohen.html"
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/members.html",
-      "/projects.html",
-      "/research.html",
-      "/sponsors/sponsors.html"
-    ]
+    "listing": "/presentations.html",
+    "items": []
   },
   {
     "listing": "/project/decapodes.html",
@@ -28,21 +29,6 @@
     ]
   },
   {
-    "listing": "/project/sheaves.html",
-    "items": [
-      "/members/benbumpus.html",
-      "/members/wilmerleal.html"
-    ]
-  },
-  {
-    "listing": "/act2025/act2025.html",
-    "items": []
-  },
-  {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
     "listing": "/project/optimization.html",
     "items": [
       "/members/tylerhanks.html",
@@ -51,7 +37,16 @@
     ]
   },
   {
-    "listing": "/presentations.html",
+    "listing": "/index.html",
+    "items": [
+      "/members.html",
+      "/projects.html",
+      "/research.html",
+      "/sponsors/sponsors.html"
+    ]
+  },
+  {
+    "listing": "/research.html",
     "items": []
   },
   {
@@ -64,17 +59,22 @@
     ]
   },
   {
-    "listing": "/members.html",
+    "listing": "/project/sheaves.html",
     "items": [
-      "/members/jamesfairbanks.html",
       "/members/benbumpus.html",
-      "/members/wilmerleal.html",
-      "/members/lukemorris.html",
-      "/members/tylerhanks.html",
-      "/members/richardsamuelson.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html",
-      "/members/samuelcohen.html"
+      "/members/wilmerleal.html"
     ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/project/decapodes.html",
+      "/project/optimization.html",
+      "/project/sheaves.html"
+    ]
+  },
+  {
+    "listing": "/act2025/act2025.html",
+    "items": []
   }
 ]

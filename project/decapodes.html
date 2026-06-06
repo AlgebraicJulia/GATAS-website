@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Decapodes – GATAS Lab | University of Florida</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -38,14 +41,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a81a2621d5f85014d6cf8c11928219d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-faf4ec50da2d4f0a7049e62082c91a4e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-a81a2621d5f85014d6cf8c11928219d9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dd0d400b3baf6de2068da51b8919de12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-9883befdbb4496bd4224f054f1e38e70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-dd0d400b3baf6de2068da51b8919de12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -159,7 +162,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -348,7 +351,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../_assets/gatas_bar_UF.png" alt="" class="navbar-logo">
+    <img src="../_assets/gatas_bar_UF.png" alt="" class="navbar-logo light-content">
+    <img src="../_assets/gatas_bar_UF.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">GATAS Lab | University of Florida</span>
@@ -477,7 +481,7 @@ Program
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1628985600000" data-listing-file-modified-sort="1755091820742" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422" data-listing-title-sort="Luke Morris" data-listing-filename-sort="lukemorris.qmd">
+<tr data-index="0" data-listing-date-sort="1628985600000" data-listing-file-modified-sort="1780762916416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422" data-listing-title-sort="Luke Morris" data-listing-filename-sort="lukemorris.qmd">
 <td>
 <span class="listing-image"><img loading="lazy" src="../members/images/lukemorris.jpeg" style="height: 40px;"></span>
 </td>
@@ -494,7 +498,7 @@ Program
 <span class="listing-program">CISE</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1755091820725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Matt Cuffaro" data-listing-filename-sort="cuffaromatt.qmd">
+<tr data-index="1" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1780762916402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29" data-listing-title-sort="Matt Cuffaro" data-listing-filename-sort="cuffaromatt.qmd">
 <td>
 <span class="listing-image"><img loading="lazy" src="../members/images/cuffaromatt.jpeg" style="height: 40px;"></span>
 </td>
@@ -511,7 +515,7 @@ Program
 <span class="listing-program">Research Software Engineer</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1660521600000" data-listing-file-modified-sort="1755091820725" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76" data-listing-title-sort="George Rauta" data-listing-filename-sort="georgerauta.qmd">
+<tr data-index="2" data-listing-date-sort="1660521600000" data-listing-file-modified-sort="1780762916402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76" data-listing-title-sort="George Rauta" data-listing-filename-sort="georgerauta.qmd">
 <td>
 <span class="listing-image"><img loading="lazy" src="../members/images/georgerauta.jpg" style="height: 40px;"></span>
 </td>
@@ -562,7 +566,7 @@ Program
     </div>
 </div>
 <ul class="pub-list list">
-  <li data-index="0" data-categories="TXVsdGlwaHlzaWNzJTJDRGlzY3JldGUlMjBleHRlcmlvciUyMGNhbGN1bHVzJTJDTnVtZXJpY2FsJTIwbWV0aG9kcyUyQ09wZXJhZCUyMGFsZ2VicmFz" data-listing-file-modified-sort="1755091820746" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+  <li data-index="0" data-categories="TXVsdGlwaHlzaWNzJTJDRGlzY3JldGUlMjBleHRlcmlvciUyMGNhbGN1bHVzJTJDTnVtZXJpY2FsJTIwbWV0aG9kcyUyQ09wZXJhZCUyMGFsZ2VicmFz" data-listing-file-modified-sort="1780762916419" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
     <span class="listing-title lead">Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations</span><br>
     <span class="listing-author">Luke Morris, Andrew Baas, Jesus Arias, Maia Gatlin, Evan Patterson, James P. Fairbanks</span><br>
     <span class="listing-publication fst-italic ">Journal of Computational Science</span>
@@ -577,7 +581,7 @@ Program
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
   </li>
-  <li data-index="1" data-categories="Q2F0ZWdvcnktdGhlb3JldGljJTIwZGlhZ3JhbXM=" data-listing-file-modified-sort="1755091820744" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+  <li data-index="1" data-categories="Q2F0ZWdvcnktdGhlb3JldGljJTIwZGlhZ3JhbXM=" data-listing-file-modified-sort="1780762916417" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
     <span class="listing-title lead">A Diagrammatic Presentation of Equations in Categories</span><br>
     <span class="listing-author">Kevin Arlin, James Fairbanks, Tim Hosgood, Evan Patterson</span><br>
     <span class="listing-publication fst-italic ">Arxiv</span>
@@ -589,7 +593,7 @@ Program
       <i class="bi bi-file-earmark-text"></i> Preprint
     </a>
   </li>
-  <li data-index="2" data-categories="VG9udGklMjBkaWFncmFtcyUyQ0NhdGVnb3J5LXRoZW9yZXRpYyUyMGRpYWdyYW1zJTJDUGFydGlhbCUyMGRpZmZlcmVudGlhbCUyMGVxdWF0aW9ucyUyQ0V4dGVyaW9yJTIwY2FsY3VsdXMlMkNDb21wdXRhdGlvbmFsJTIwcGh5c2ljcyUyQ011bHRpcGh5c2ljcw==" data-listing-file-modified-sort="1755091820744" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
+  <li data-index="2" data-categories="VG9udGklMjBkaWFncmFtcyUyQ0NhdGVnb3J5LXRoZW9yZXRpYyUyMGRpYWdyYW1zJTJDUGFydGlhbCUyMGRpZmZlcmVudGlhbCUyMGVxdWF0aW9ucyUyQ0V4dGVyaW9yJTIwY2FsY3VsdXMlMkNDb21wdXRhdGlvbmFsJTIwcGh5c2ljcyUyQ011bHRpcGh5c2ljcw==" data-listing-file-modified-sort="1780762916417" data-listing-reading-time-sort="1" data-listing-word-count-sort="124">
     <span class="listing-title lead">A diagrammatic view of differential equations in physics</span><br>
     <span class="listing-author">Evan Patterson, Andrew Baas, Timothy Hosgood, James Fairbanks</span><br>
     <span class="listing-publication fst-italic ">Mathematics in Engineering</span>
@@ -700,13 +704,14 @@ Program
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
