@@ -11,7 +11,7 @@
     "href": "members.html#current-members",
     "title": "Members",
     "section": "Current Members",
-    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\nJan 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\nOct 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\nAug 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nSamuel Cohen\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\nNo matching items"
+    "text": "Current Members\n\n\n\n\n\n\n\n\n\n\nJames Fairbanks\n\n\n\n\n\n\n\n\nJan 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Merlin Bumpus\n\n\n\n\n\n\n\n\nOct 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nWilmer Leal\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nLuke Morris\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nTyler Hanks\n\n\n\n\n\n\n\n\nAug 15, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Samuelson\n\n\n\n\n\n\n\n\nJan 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Cuffaro\n\n\n\n\n\n\n\n\nOct 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nGeorge Rauta\n\n\n\n\n\n\n\n\nAug 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nSamuel Cohen\n\n\n\n\n\n\n\n\nMay 21, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTrevor Gross\n\n\n\n\n\n\n\n\nJan 16, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "members.html#past-members",
@@ -119,46 +119,67 @@
     "text": "… for representing multiphysics models and automatically generating simulations from those representations.\nI am interested in problems that applied scientists face when they do any computational work. In particular, I mean the problems of developing models faster, and making the models themselves faster and more accurate. I lead a couple of projects on this front: Decapodes.jl and CombinatorialSpaces.jl.\nWe use techniques from Applied Category Theory (ACT) to represent models (as “Decapodes”) and how models compose together. These models are systems of partial differential equations (PDEs). ACT - the “science of composition” - lets us analyze scientific models as mathematical objects in their own right. Catlab.jl - an ACT programming library - enables us to write a library in an ACT-programming style, without sacrificing performance. We use Catlab’s implementation of “C-Sets” by specifying a small Decapode “schema”, which produces an efficient in-memory database to store a model. Doing algebra on these models then becomes as efficient as performing database operations. It is quite natural to interpret a system of PDEs as a relational database, adopting the point of view that such systems describe how physical quantities relate to one another.\nOf course, when we generate simulations from these Decapodes, we need a framework for understanding numerical methods. Otherwise, we only have an encyclopaedia or ontology of physics equations, and nothing to “do” with them. The Discrete Exterior Calculus (DEC) is a good fit here, since it generalizes vector calculus, and differential operators become efficient matrix-vector operations that we can chain together. The DEC works on any type of manifold - a representation of space that makes sense, like a sphere, a plane, or a teapot - and so a Decapode is not necessarily tied to any particular shape or resolution of space. In 1 dimension, your physics make sense on a line or a circle. The CombinatorialSpaces.jl library is where we have implemented a representation of such spaces as “simplicial sets”, and definitions of differential operators.\nDeveloping a library for scientific computing is best done by collaborating with the user that you have in mind. So I lead a few collaborations with labs who study space weather. One model simulates electron dissipation - where electrons end up in our atmosphere as they precipitate down from space - and another is a model for galactic cosmic ray (GCR) and solar energetic particle (SEP) transport - how particles coming from other stars or the Sun travel through our solar system. There are applications for the weather on Earth as well, from modeling glacier dynamics to the circulation of matter in our atmosphere."
   },
   {
-    "objectID": "members/taylorfrederick.html",
-    "href": "members/taylorfrederick.html",
-    "title": "Taylor Frederick",
+    "objectID": "members/tylerhanks.html",
+    "href": "members/tylerhanks.html",
+    "title": "Tyler Hanks",
     "section": "",
-    "text": "is a research scientist who likes math."
+    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
   },
   {
-    "objectID": "members/samuelcohen.html",
-    "href": "members/samuelcohen.html",
-    "title": "Samuel Cohen",
+    "objectID": "members/georgerauta.html",
+    "href": "members/georgerauta.html",
+    "title": "George Rauta",
     "section": "",
-    "text": "is an undergraduate studying math and computer science.\nMy work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems."
+    "text": "is a PhD student with a focus in numerical linear algebra and high-performance computing.\nI believe that advances in the field of computer science are dependent on the existence of a highly performant computational foundation. It is critical that this foundation considers the theoretical aspects of algorithms, the method by which they are implemented in code and how they interact with the physical designs of modern processing and memory units.\nI am also a developer on the Decapodes.jl and CombinatorialSpaces.jl projects."
   },
   {
-    "objectID": "members/cuffaromatt.html",
-    "href": "members/cuffaromatt.html",
-    "title": "Matt Cuffaro",
+    "objectID": "members/wilmerleal.html",
+    "href": "members/wilmerleal.html",
+    "title": "Wilmer Leal",
     "section": "",
-    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
+    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
   },
   {
-    "objectID": "publications/diagrameqns/diagrameqns.html",
-    "href": "publications/diagrameqns/diagrameqns.html",
-    "title": "A diagrammatic view of differential equations in physics",
+    "objectID": "publications/jocs.html",
+    "href": "publications/jocs.html",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
     "section": "",
-    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
   },
   {
-    "objectID": "publications/diagrameqns/diagrameqns.html#abstract",
-    "href": "publications/diagrameqns/diagrameqns.html#abstract",
-    "title": "A diagrammatic view of differential equations in physics",
+    "objectID": "publications/jocs.html#abstract",
+    "href": "publications/jocs.html#abstract",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
     "section": "",
-    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
+    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
   },
   {
-    "objectID": "publications/diagrameqns/diagrameqns.html#links",
-    "href": "publications/diagrameqns/diagrameqns.html#links",
-    "title": "A diagrammatic view of differential equations in physics",
+    "objectID": "publications/jocs.html#links",
+    "href": "publications/jocs.html#links",
+    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
     "section": "Links",
-    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\nJournal\nPDF\nCode\nDocs"
+    "text": "Links\n\nJournal\nCode\nDocs"
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html",
+    "href": "publications/diagrampresentations/diagrampresentations.html",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "",
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "",
+    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+  },
+  {
+    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
+    "href": "publications/diagrampresentations/diagrampresentations.html#links",
+    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "section": "Links",
+    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
   },
   {
     "objectID": "research.html",
@@ -189,67 +210,53 @@
     "text": "Conference Talks\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n      \n        Venue\n      \n      \n        Year\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nYear\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\nVenue\n\n\n\nLink\n\n\n\n\n\n\n\n\n2022\n\n\nDiagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation,\n\n\nE. Patterson, T. Hosgood (speaker), A. Baas, J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nIndividual.jl: Rewriting individual-based models for epidemiology using graph rewriting\n\n\nS. Wu (speaker), K. Browm, and J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n\n\n2022\n\n\nTyped and stratified models with slice categories\n\n\nS. Libkind (speaker), E. Patterson, A. Baas, M. Halter, J. Fairbanks\n\n\nApplied Category Theory 2022\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nAlgebraicDynamics: Compositional dynamical systems\n\n\nS. Libkind, J. P. Fairbanks\n\n\nJuliaCon, Online\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nShaped Data with Acsets\n\n\nO. Lynch, E. J. Patterson, J. P. Fairbanks\n\n\nJuliaCon, Online\n\n\nDOI\n\n\n\n\n\n\n2021\n\n\nAccelerating Automatic Target Recognition Performance Evaluation with a Relational Database\n\n\nM. Jackson, M. Halter, T. Goodyear, B. O’Donnell, and J. Fairbanks\n\n\nTri-Service Radar Symposium\n\n\nDOI\n\n\n\n\n\n\n2019\n\n\nComplex Systems Analysis of Hybrid Warfare\n\n\nM. Nadolski and J. P. Fairbanks\n\n\nConference on Systems Engineering Research\n\n\nDOI\n\n\n\n\n\n\n2019\n\n\nSemanticModels.jl: Not Just Another Modeling Framework\n\n\nJ. P. Fairbanks and C. R. Herlihy\n\n\nJuliaCon, Baltimore, MD\n\n\nDOI\n\n\n\n\n\n\n2018\n\n\nThe JuliaGraphs Ecosystem: Move Fast and Don’t Break Things\n\n\nJ. P. Fairbanks\n\n\nJuliaCon, London, UK\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nAssessing Credibility in Global Media Networks\n\n\nJ. P. Fairbanks\n\n\nHuman Language Technologies\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nLightGraphs: Our Network, Our Story\n\n\nS. Bromberger, J. P. Fairbanks\n\n\nJuliaCon, Berkeley, CA\n\n\nDOI\n\n\n\n\n\n\n2017\n\n\nUsing Big Data to Predict and Analyze Cooperation and Conflict\n\n\nT. Frederick, C. Herlihy, J. P. Fairbanks\n\n\nThe Conflict Conference at UT-Austin\n\n\nDOI\n\n\n\n\n\n\n \n\n\nGraph Interfaces: Bespoke Graphs for Every Occasion\n\n\nM. Besanon, J. P. Fairbanks\n\n\nJuliaCon, London, UK\n\n\nDOI\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html",
-    "href": "publications/diagrampresentations/diagrampresentations.html",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "objectID": "publications/diagrameqns/diagrameqns.html",
+    "href": "publications/diagrameqns/diagrameqns.html",
+    "title": "A diagrammatic view of differential equations in physics",
     "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
   },
   {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "href": "publications/diagrampresentations/diagrampresentations.html#abstract",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "objectID": "publications/diagrameqns/diagrameqns.html#abstract",
+    "href": "publications/diagrameqns/diagrameqns.html#abstract",
+    "title": "A diagrammatic view of differential equations in physics",
     "section": "",
-    "text": "Lifts of categorical diagrams D:𝖩→𝖷 against discrete opfibrations π:𝖤→𝖷 can be interpreted as presenting solutions to systems of equations. With this interpretation in mind, it is natural to ask if there is a notion of equivalence of diagrams D≃D′ that precisely captures the idea of the two diagrams “having the same solutions’’. We give such a definition, and then show how the localisation of the category of diagrams in 𝖷 along such equivalences is isomorphic to the localisation of the slice category 𝖢𝖺𝗍/𝖷 along the class of initial functors. Finally, we extend this result to the 2-categorical setting, proving the analogous statement for any locally presentable 2-category in place of 𝖢𝖺𝗍."
+    "text": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included."
   },
   {
-    "objectID": "publications/diagrampresentations/diagrampresentations.html#links",
-    "href": "publications/diagrampresentations/diagrampresentations.html#links",
-    "title": "A Diagrammatic Presentation of Equations in Categories",
+    "objectID": "publications/diagrameqns/diagrameqns.html#links",
+    "href": "publications/diagrameqns/diagrameqns.html#links",
+    "title": "A diagrammatic view of differential equations in physics",
     "section": "Links",
-    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\narxiv\nCode\nDocs"
+    "text": "Links\n\nTopos Blog 1\nTopos Blog 2\nJournal\nPDF\nCode\nDocs"
   },
   {
-    "objectID": "publications/jocs.html",
-    "href": "publications/jocs.html",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "objectID": "members/cuffaromatt.html",
+    "href": "members/cuffaromatt.html",
+    "title": "Matt Cuffaro",
     "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+    "text": "is the systems administrator and research programmer for the GATAS lab.\nI help my colleagues build the AlgebraicJulia ecosystem as well as be a custodian for our IT infrastructure."
   },
   {
-    "objectID": "publications/jocs.html#abstract",
-    "href": "publications/jocs.html#abstract",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+    "objectID": "members/samuelcohen.html",
+    "href": "members/samuelcohen.html",
+    "title": "Samuel Cohen",
     "section": "",
-    "text": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development."
+    "text": "is an undergraduate studying math and computer science.\nMy work is implementing distributed optimization algorithms in the AlgebraicOptimization.jl package. This package uses the framework of category theory to exploit naturally occurring compositional structures in various optimization problems."
   },
   {
-    "objectID": "publications/jocs.html#links",
-    "href": "publications/jocs.html#links",
-    "title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
-    "section": "Links",
-    "text": "Links\n\nJournal\nCode\nDocs"
-  },
-  {
-    "objectID": "members/wilmerleal.html",
-    "href": "members/wilmerleal.html",
-    "title": "Wilmer Leal",
+    "objectID": "members/taylorfrederick.html",
+    "href": "members/taylorfrederick.html",
+    "title": "Taylor Frederick",
     "section": "",
-    "text": "is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.\nI am fascinated by the interplay between chemistry and mathematics, leveraging mathematical tools to solve chemical questions and using chemical intuition to inspire mathematical insights.\nMy current research revolves around developing categorical models for various flavours of compositionality in chemistry. As a chemist, I am naturally inclined to reason and navigate through reaction networks, making hypernetworks a particularly exciting area of study for me.\nPrior to joining the University of Florida, I pursued my Ph.D. in the Bioinformatics Group at the University of Leipzig and the Max Planck Institute for Mathematics in the Sciences, Germany.\nThere, I explored both mathematical structures and vast chemical databases. This enabled me to delve into the depths of chemical space, uncovering its secrets and unraveling the intricate history of chemistry.\nUltimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science."
+    "text": "is a research scientist who likes math."
   },
   {
-    "objectID": "members/georgerauta.html",
-    "href": "members/georgerauta.html",
-    "title": "George Rauta",
+    "objectID": "members/trevorgross.html",
+    "href": "members/trevorgross.html",
+    "title": "Trevor Gross",
     "section": "",
-    "text": "is a PhD student with a focus in numerical linear algebra and high-performance computing.\nI believe that advances in the field of computer science are dependent on the existence of a highly performant computational foundation. It is critical that this foundation considers the theoretical aspects of algorithms, the method by which they are implemented in code and how they interact with the physical designs of modern processing and memory units.\nI am also a developer on the Decapodes.jl and CombinatorialSpaces.jl projects."
-  },
-  {
-    "objectID": "members/tylerhanks.html",
-    "href": "members/tylerhanks.html",
-    "title": "Tyler Hanks",
-    "section": "",
-    "text": "is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.\nSpecifically, I am interested in applying category theory and other tools from abstract algebra and type theory to formalize and exploit the compositional structures arising in these fields. Examples of such compositional structures that I study include multi-agent control, distributed optimization, and complex neural network architectures. In my free time, I enjoy gaming (both video and board), cycling, and playing music."
+    "text": "is an undergraduate junior studying computer science affiliated with the Florida Institute for National Security Talent Pipeline.\nMy research interests lie in developing and implementing new techniques to solve existing problems. I primarily work in the AlgebraicOptimization.jl library to improve the efficiency of distributed systems and make other engineers’ work easier. I am a highly motivated student who aims to contribute to research and industries worldwide."
   },
   {
     "objectID": "members/benbumpus.html",
