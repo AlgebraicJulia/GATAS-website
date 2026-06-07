@@ -4,15 +4,24 @@ listing:
   - id: members
     contents: 
       - members/jamesfairbanks.qmd
-      - members/benbumpus.qmd
-      - members/wilmerleal.qmd
-      - members/lukemorris.qmd
-      - members/tylerhanks.qmd
-      - members/richardsamuelson.qmd
-      - members/cuffaromatt.qmd
       - members/georgerauta.qmd
+      - members/richardsamuelson.qmd
+      - members/joanaboubarcelo.qmd
+      - members/itaykadosh.qmd
       - members/samuelcohen.qmd
+
+    type: default
+    image-align: left
+    image-height: 250px
+    sort: false
+  - id: alumni
+    contents: 
+      - members/tylerhanks.qmd
+      - members/lukemorris.qmd
       - members/trevorgross.qmd
+      - members/wilmerleal.qmd
+      - members/cuffaromatt.qmd
+      - members/benbumpus.qmd
 
     type: default
     image-align: left
@@ -51,6 +60,11 @@ If you are interested in a career in Applied Category Theory or Computational Sc
 :::{#members}
 :::
 
+## Alumni
+
+::: {#alumni}
+:::
+
 ## Past Members
 
 |  Name | Where are they now?|
@@ -64,6 +78,7 @@ If you are interested in a career in Applied Category Theory or Computational Sc
 |James Eschrich  |PhD Student at University of Illinois (UIUC) |
 |Taylor Frederick|Industry|
 |Patrick Stokes  |GatorSense Lab at UF ECE|
+
 
 ## Lab Mentees
 
