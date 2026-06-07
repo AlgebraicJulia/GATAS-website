@@ -13,11 +13,16 @@ listing:
       - sponsors/sponsors.qmd
 ---
 
+:::{.callout-tip}
+## Graduations!
+
+The GATAS Lab graduated two PhD students this year! [Tyler Hanks](/members/tylerhanks.qmd) and [Luke Morris](/members/lukemorris.qmd) are our first two PhD Graduates.
+:::
 
 :::{.callout-tip}
 ## Applied Category Theory 2025
 
-The GATAS Lab is hosting the 8th International Conference on Applied Category Theory here at UF.
+The GATAS Lab hosted the 8th International Conference on Applied Category Theory here at UF.
 For more information see the [ACT2025 Page](act2025/act2025.qmd)
 :::
 
