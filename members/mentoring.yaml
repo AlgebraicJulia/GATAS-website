@@ -3,34 +3,42 @@
   title: "Kris Brown"
   date: 2022
   Degree: "UF Post-Doctoral Researcher"
-  Name: "Kris Brown"
+  Name: "[Kris Brown](https://www.krisb.org/docs/research.html)"
   Year: 2022
+  linkedin: ""
+  website: "<a href=\"https://www.krisb.org/research.html\"><i class=\"fa-solid fa-link\"></i></a>"
 - Dates: "2021"
   Company: "ETH Zurich"
   title: "Anna Knoerr"
+  linkedin: "<a href=\"https://linkedin.com/in/anna-kn%C3%B6rr-224171230\"><i class=\"fa-brands fa-linkedin\"></i></a>"
+  website: ""
   date: 2021
   Degree: "ACT Adjoint School"
-  Name: "Anna Knoerr"
+  Name: "[Anna Knoerr](https://linkedin.com/in/anna-kn%C3%B6rr-224171230)"
   Year: 2021
 - Dates: "2021"
   Company: "Bristol Myers Squibb"
   title: "Grant Generaux"
+  linkedin: "<a href=\"https://www.linkedin.com/in/grant-generaux/\"><i class=\"fa-brands fa-linkedin\"></i></a>"
+  website: ""
   date: 2021
   Degree: "ACT Adjoint School"
-  Name: "Grant Generaux"
+  Name: "[Grant Generaux](https://www.linkedin.com/in/grant-generaux/)"
   Year: 2021
 - Dates: "2021"
-  Company: "Oxford Physics, PhD Student"
+  Company: "Oxford Physics, PhD (graduated 2024)"
   title: "Amy Searle"
+  linkedin: ""
+  website: "<a href=\"https://aj-searle.github.io/\"><i class=\"fa-solid fa-link\"></i></a>"
   date: 2021
   Degree: "ACT Adjoint School"
-  Name: "Amy Searle"
+  Name: "[Amy Searle](https://aj-searle.github.io/)"
   Year: 2021
 - Dates: "2021-2022"
   Company: "UF, Post-Doctoral Researcher"
   title: "Kris Brown"
   date: 2021
-  Degree: "Chemical Engineering, Stanford University"
+  Degree: "ACT Adjoint School"
   Name: "Kris Brown"
   Year: 2021
 - Dates: "2020-2022"
@@ -38,32 +46,40 @@
   title: "Sophie Libkind"
   date: 2021
   Degree: "Mathematics, Stanford University"
-  Name: "Sophie Libkind"
+  Name: "[Sophie Libkind](https://slibkind.github.io/)"
   Year: 2021
 - Dates: "2020-Present"
-  Company: "Topos Institute, Research Software Engineer"
+  Company: "Topos Institute, Research Software Engineer, PhD Student Oxford University"
   title: "Owen Lynch"
+  linkedin: ""
+  website: "<a href=\"https://owenlynch.org/\"><i class=\"fa-solid fa-link\"></i></a>"
   date: 2021
   Degree: "Statistics, University of Utrecht"
-  Name: "Owen Lynch"
+  Name: "[Owen Lynch](https://owenlynch.org/)"
   Year: 2021
 - Dates: "2021-22"
   Company: "Stanford, PhD Student"
   title: "Julian Perez"
+  linkedin: "<a href=\"https://www.linkedin.com/in/julian-perez-7ab979208/\"><i class=\"fa-brands fa-linkedin\"></i></a>"
+  website: ""
   date: 2021
   Degree: "BS BME GT"
-  Name: "Julian Perez"
+  Name: "[Julian Perez](https://linkedin.com/in/julian-perez082)"
   Year: 2021
 - Dates: "2021-22"
   Company: "Capital One, Software Engineer"
   title: "Stephen Wellburg"
+  linkedin: "<a href=\"https://www.linkedin.com/in/stephen-wehlburg/\"><i class=\"fa-brands fa-linkedin\"></i></a>"
+  website: ""
   date: 2021
   Degree: "BS DAS UF"
-  Name: "Stephen Wellburg"
+  Name: "[Stephen Wellburg](https://linkedin.com/in/stephen-wehlburg)"
   Year: 2021
 - Dates: "2018-19"
   Company: "KPMG"
   title: "Sreenath Reparti"
+  linkedin: ""
+  website: ""
   date: 2019
   Degree: "BS ISYE Georgia Tech"
   Name: "Sreenath Reparti"
@@ -71,6 +87,8 @@
 - Dates: "2019"
   Company: "GT"
   title: "Kun Cao"
+  linkedin: "<a href=\"https://linkedin.com/in/kun-cao-19960906\"><i class=\"fa-brands fa-linkedin\"></i></a>"
+  website: ""
   date: 2019
   Degree: "MS CS Georgia Tech"
   Name: "Kun Cao"
@@ -78,6 +96,8 @@
 - Dates: "2016-18"
   Company: "Google"
   title: "Rohit Varkey"
+  linkedin: "<a href=\"https://linkedin.com/in/rohitvarkey\"><i class=\"fa-brands fa-linkedin\"></i></a>"
+  website: ""
   date: 2018
   Degree: "MS CS Georgia Tech"
   Name: "Rohit Varkey"
@@ -85,6 +105,8 @@
 - Dates: "2016-19"
   Company: "GTRI"
   title: "Micah Halter"
+  linkedin: "<a href=\"https://linkedin.com/in/mehalter\"><i class=\"fa-brands fa-linkedin\"></i></a>"
+  website: "<a href=\"https://mehalter.com/\"><i class=\"fa-solid fa-link\"></i></a>"
   date: 2019
   Degree: "BS CS Georgia Tech"
   Name: "Micah Halter"
@@ -92,6 +114,8 @@
 - Dates: "2016"
   Company: "GT"
   title: "Nate Knauf"
+  linkedin: ""
+  website: ""
   date: 2019
   Degree: "BS CS Georgia Tech"
   Name: "Nate Knauf"
@@ -99,6 +123,8 @@
 - Dates: "2015"
   Company: "Yelp"
   title: "Pushkar Godbole"
+  linkedin: ""
+  website: ""
   date: 2016
   Degree: "MS CSE Georgia Tech"
   Name: "Pushkar Godbole"
