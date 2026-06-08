@@ -40,8 +40,6 @@ format:
       foreground: "#6FB450"
     css: styles.css
     monofont: JuliaMono-Regular
-filters:
-  - multibib
 validate-yaml: false
 resources:
   - assets/bib
