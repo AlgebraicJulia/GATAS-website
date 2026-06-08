@@ -8,16 +8,16 @@ listing:
     table-hover: true
     contents:
       - publications/article/listing.yaml
-    sort: 
+    sort:
       - "year desc"
       - "publication asc"
       - "title desc"
     categories: true
     fields: [year, title, author, publication, href]
-    sort-ui: [title,author,publication,year]
-    filter-ui: [title,author,publication,year]
+    sort-ui: [title, author, publication, year]
+    filter-ui: [title, author, publication, year]
     page-size: 20
-    field-display-names: 
+    field-display-names:
       publication: "Journal"
       date: "Date"
       year: "Year"
@@ -26,16 +26,16 @@ listing:
     type: table
     contents:
       - publications/conference_publication/listing.yaml
-    sort: 
+    sort:
       - "year desc"
       - "publication asc"
       - "title"
     categories: true
     fields: [year, title, author, publication, href]
-    sort-ui: [title,author,publication,year]
-    filter-ui: [title,author,publication,year]
+    sort-ui: [title, author, publication, year]
+    filter-ui: [title, author, publication, year]
     page-size: 10
-    field-display-names: 
+    field-display-names:
       publication: "Venue"
       date: "Date"
       year: "Year"
@@ -44,16 +44,16 @@ listing:
     type: table
     contents:
       - publications/conference_presentation/listing.yaml
-    sort: 
+    sort:
       - "year desc"
       - "publication asc"
       - "title"
     categories: true
     fields: [year, title, author, publication, href]
-    sort-ui: [title,author,publication,year]
-    filter-ui: [title,author,publication,year]
+    sort-ui: [title, author, publication, year]
+    filter-ui: [title, author, publication, year]
     page-size: 10
-    field-display-names: 
+    field-display-names:
       publication: "Venue"
       date: "Date"
       year: "Year"
@@ -64,15 +64,15 @@ This page has tables of our research publications broken down by category.
 
 ## Journal Papers
 
-:::{#journal-articles}
+::: {#journal-articles}
 :::
 
 ## Conference Papers
 
-:::{#conference-articles}
+::: {#conference-articles}
 :::
 
 ## Conference Talks
 
-:::{#conference-talks}
+::: {#conference-talks}
 :::
