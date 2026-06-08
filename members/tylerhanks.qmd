@@ -22,7 +22,7 @@ structures that naturally arise in multi‑agent systems, distributed
 optimization, and deep neural‑network architectures. To that end, Tyler applies
 tools from category theory, abstract algebra, and type theory, which are areas
 traditionally associated with pure mathematics, to create rigorous, modular
-frameworks that can be reused across disparate problem domains.\
+frameworks that can be reused across disparate problem domains.
 
 Beyond his theoretical work, Tyler has contributed substantial software
 infrastructure to the lab. He maintains the Julia‑based codebase that implements
@@ -30,18 +30,29 @@ the categorical abstractions used in the GATAS publications, and he routinely
 integrates those tools into the lab's open‑source repository, making them
 available to the broader scientific community.
 
-In 2022 he was awarded a National Science Foundation **Graduate Research
-Fellowship**, a prestigious honor that supports early‑career researchers as they
-start their academic journey. He presents his work at international conferences
-including American Control Conference, the Conference on Decision and Control,
-and Applied Category Theory. Tyler mentors undergraduate students including [Sam
-Cohen](./samuelcohen.qmd) and [Trevor Gross](./trevorgross.qmd) and newer
-graduate students including [Richard Samuelson](./richardsamuelson.qmd). Through
-a combination of high‑impact publications, open‑source software, and community
-mentorship, Tyler Hanks exemplifies the GATAS Lab's mission to advance
-scientific computing by bridging abstract mathematics with concrete engineering
-applications. His hobbies including gaming, cycling, and playing music with his
-band [Ininite Eights](https://open.spotify.com/artist/14vSwyEZcAa1jQITYnapMy).
+In 2022 he was
+[awarded](https://cise.ufl.edu/2022/05/cise-student-earns-nsf-graduate-research-fellowship/)
+a National Science Foundation [Graduate Research
+Fellowship](https://www.nsfgrfp.org/), a prestigious honor that supports
+early‑career researchers as they start their academic journey. He presents his
+work at international conferences including American Control Conference, the
+Conference on Decision and Control, and Applied Category Theory. Tyler mentors
+undergraduate students including [Sam Cohen](./samuelcohen.qmd) and [Trevor
+Gross](./trevorgross.qmd) and newer graduate students including [Richard
+Samuelson](./richardsamuelson.qmd). Through a combination of high‑impact
+publications, open‑source software, and community mentorship, Tyler Hanks
+exemplifies the GATAS Lab's mission to advance scientific computing by bridging
+abstract mathematics with concrete engineering applications. His hobbies
+including gaming, cycling, and playing music with his band [Ininite
+Eights](https://open.spotify.com/artist/14vSwyEZcAa1jQITYnapMy).
+
+
+### Selected publications
+
+- **Modeling Model Predictive Control: A Category‑Theoretic Framework for Multistage Control Problems** (2024). Tyler Hanks, Baike She, Evan Patterson, Matthew Hale, Matthew Klawonn, James Fairbanks. American Control Conference (ACC 2024). DOI: [https://doi.org/10.48550/arXiv.2305.03820](https://doi.org/10.48550/arXiv.2305.03820) (see ACC 2024 proceedings).
+- **Characterizing Compositionality of LQR from the Categorical Perspective** (2023). Baike She, Tyler Hanks, James Fairbanks, Matthew Hale. IEEE Conference on Decision and Control (CDC 2023). DOI: [https://doi.org/10.48550/arXiv.2305.01811](https://doi.org/10.48550/arXiv.2305.01811) (see CDC 2023 proceedings).
+- **Compositional Exploration of Combinatorial Scientific Models** (2022). K. Brown, Tyler Hanks, James Fairbanks. Applied Category Theory conference (ACT 2022). DOI: [https://doi.org/10.48550/arXiv.2206.08755](https://doi.org/10.48550/arXiv.2206.08755).
+- **Computational Category‑Theoretic Rewriting** (2022). K. Brown, Evan Patterson, Tyler Hanks, James Fairbanks. International Conference on Graph Transformation (ICGT 2022) – Best Paper Award. DOI: [https://doi.org/10.48550/arXiv.2111.03784](https://doi.org/10.48550/arXiv.2111.03784).
 
 Tyler graduated in Spring 2026 and started a faculty position at the Florida
 Institute of Technology in Fall 2026!
