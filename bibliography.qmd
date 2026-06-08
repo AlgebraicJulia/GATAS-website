@@ -17,17 +17,20 @@ resources:
   - assets/bib/cv_preprints.json
 ---
 
-## Articles
+We try to keep this page as up to date as possible. It is machine generated from
+a zotero library with all of the research products.
+
+## Journal Articles
 
 ::: {#refs-journal}
 :::
 
-## Conferences
+## Conference Proceedings
 
 ::: {#refs-conference}
 :::
 
-## Talks
+## Talks and Conference Talks
 
 ::: {#refs-talk}
 :::
@@ -41,5 +44,3 @@ resources:
 
 ::: {#refs-preprint}
 :::
-
-
