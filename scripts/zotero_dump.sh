@@ -48,23 +48,25 @@ if [[ ! -d "$BIBDIR" ]]; then
 fi
 
 # -----------------------------------------------------------------------------
-# Mapping of Zotero tag (URL‑encoded) → destination filename (without extension)
+# Mapping of Zotero tags and corresponding output base names
 # -----------------------------------------------------------------------------
-declare -A TAGS=(
-  ["cv%2Dtalk"]="cv_talks"
-  ["cv%2Dproceedings"]="cv_proceedings"
-  ["cv%2Djournal"]="cv_journals"
-  ["cv%2Dpreprint"]="cv_preprints"
-  ["cv%2Dposter"]="cv_posters"
-)
+# We use parallel indexed arrays to avoid associative‑array quoting hassles.
+# "tags" hold the raw tag strings (with hyphens). "names" hold the desired
+# output filenames (without extension).
+
+tags=("cv-talk" "cv-proceedings" "cv-journal" "cv-preprint" "cv-poster")
+names=("cv_talks" "cv_proceedings" "cv_journals" "cv_preprints" "cv_posters")
 
 # -----------------------------------------------------------------------------
 # Download each bibliography file
 # -----------------------------------------------------------------------------
-for tag in "${!TAGS[@]}"; do
-  filename="${TAGS[$tag]}.bib"
+for i in "${!tags[@]}"; do
+  tag="${tags[i]}"
+  filename="${names[i]}.json"
   outpath="${BIBDIR}/${filename}"
-  url="${ZOTERO_URL}?tag=${tag}&format=biblatex"
+  # URL‑encode hyphen for Zotero API ("-" → "%2D")
+  encoded_tag="${tag//-/%2D}"
+  url="${ZOTERO_URL}?tag=${encoded_tag}&format=csljson"
 
   log "Downloading ${tag} → ${outpath}"
   # -f makes curl exit on HTTP errors, -S shows error message, -L follows redirects

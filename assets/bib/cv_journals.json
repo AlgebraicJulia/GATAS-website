@@ -1,0 +1,555 @@
+[
+	{
+		"id": "brown2023ComputationalCategorytheoretic",
+		"type": "article-journal",
+		"abstract": "We demonstrate how category theory provides specifications that can efficiently be implemented via imperative algorithms and apply this to the field of graph transformation. By examples, we show how this paradigm of software development makes it easy to quickly write correct and performant code. We provide a modern implementation of graph rewriting techniques at the level of abstraction of finitely-presented C-sets and clarify the connections between C-sets and the typed graphs supported in existing rewriting software. We emphasize that our open-source library is extensible: by taking new categorical constructions (such as slice categories, structured cospans, and distributed graphs) and relating their limits and colimits to those of their underlying categories, users inherit efficient algorithms for pushout complements and (final) pullback complements. This allows one to perform double-, single-, and sesqui-pushout rewriting over a broad class of data structures. Graph transformation researchers, scientists, and engineers can then use this library to computationally manipulate rewriting systems and apply them to their domains of interest.",
+		"citation-key": "brown2023ComputationalCategorytheoretic",
+		"container-title": "Journal of Logical and Algebraic Methods in Programming",
+		"DOI": "10.1016/j.jlamp.2023.100888",
+		"ISSN": "2352-2208",
+		"journalAbbreviation": "Journal of Logical and Algebraic Methods in Programming",
+		"note": "arXiv: 2111.03784",
+		"page": "100888",
+		"source": "ScienceDirect",
+		"title": "Computational category-theoretic rewriting",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S2352220823000421",
+		"volume": "134",
+		"author": [
+			{
+				"family": "Brown",
+				"given": "Kristopher"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Hanks",
+				"given": "Tyler"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					2,
+					28
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					8,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "garrett2023application",
+		"type": "article-journal",
+		"citation-key": "garrett2023application",
+		"container-title": "Simulation",
+		"issue": "2",
+		"note": "publisher: SAGE Publications Sage UK: London, England",
+		"page": "201–220",
+		"title": "The application of applied category theory to quantify mission success",
+		"volume": "99",
+		"author": [
+			{
+				"family": "Garrett",
+				"given": "Robert K"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P"
+			},
+			{
+				"family": "Loper",
+				"given": "Margaret L"
+			},
+			{
+				"family": "Moreland",
+				"given": "James D"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2017spectral",
+		"type": "article-journal",
+		"citation-key": "fairbanks2017spectral",
+		"container-title": "Journal of Complex Networks",
+		"issue": "4",
+		"page": "551–580",
+		"publisher": "Oxford University Press",
+		"title": "Spectral partitioning with blends of eigenvectors",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P"
+			},
+			{
+				"family": "Bader",
+				"given": "David A"
+			},
+			{
+				"family": "Sanders",
+				"given": "Geoffrey D"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "morris2024DecapodesDiagrammatic",
+		"type": "article-journal",
+		"abstract": "We present Decapodes, a diagrammatic tool for representing, composing, and solving partial differential equations. Decapodes provides an intuitive diagrammatic representation of the relationships between variables in a system of equations, a method for composing systems of partial differential equations using an operad of wiring diagrams, and an algorithm for deriving solvers using hypergraphs and string diagrams. The string diagrams are in turn compiled into executable programs using the techniques of categorical data migration, graph traversal, and the discrete exterior calculus. The generated solvers produce numerical solutions consistent with state-of-the-art open source tools as demonstrated by benchmark comparisons with SU2. These numerical experiments demonstrate the feasibility of this approach to multiphysics simulation and identify areas requiring further development.",
+		"citation-key": "morris2024DecapodesDiagrammatic",
+		"container-title": "Journal of Computational Science",
+		"DOI": "10.1016/j.jocs.2024.102345",
+		"ISSN": "1877-7503",
+		"journalAbbreviation": "Journal of Computational Science",
+		"language": "en",
+		"page": "102345",
+		"source": "ScienceDirect",
+		"title": "Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations",
+		"title-short": "Decapodes",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S1877750324001388",
+		"volume": "81",
+		"author": [
+			{
+				"family": "Morris",
+				"given": "Luke"
+			},
+			{
+				"family": "Baas",
+				"given": "Andrew"
+			},
+			{
+				"family": "Arias",
+				"given": "Jesus"
+			},
+			{
+				"family": "Gatlin",
+				"given": "Maia"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					9,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "nadolski2019ComplexSystems",
+		"type": "article-journal",
+		"abstract": "Being empowered with the appropriate toolset will enable decision-makers to analyze how best to intervene in ever-changing complex systems. This research project explored deconstructing qualitative methods to identify and document requirements to connect the models to computational social science approaches. Previous efforts from our research provided a customizable toolset that assesses the current and future impact that decisions, policies, or strategies can deliver in a system to tackle particularly complex problems. This paper presents a portion of the research effort that developed a threat analysis framework by establishing formally documented research methods to effectively combine conceptual and computational tools. This enables more accurate, efficient, and foresightful knowledge capture and depictions of a particular problem space. The case that the tools and approach are tested against is Russia’s application of grey zone warfare tools in Moldova.",
+		"citation-key": "nadolski2019ComplexSystems",
+		"collection-title": "17th Annual Conference on Systems Engineering Research (CSER)",
+		"container-title": "Procedia Computer Science",
+		"DOI": "10.1016/j.procs.2019.05.072",
+		"ISSN": "1877-0509",
+		"journalAbbreviation": "Procedia Computer Science",
+		"page": "210-217",
+		"source": "ScienceDirect",
+		"title": "Complex systems analysis of hybrid warfare",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S1877050919307318",
+		"volume": "153",
+		"author": [
+			{
+				"family": "Nadolski",
+				"given": "Molly"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					6,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "mordecai2021category",
+		"type": "article-journal",
+		"citation-key": "mordecai2021category",
+		"container-title": "Applied Sciences",
+		"issue": "4",
+		"page": "1945",
+		"publisher": "MDPI",
+		"title": "Category-theoretic formulation of the model-based systems architecting cognitive-computational cycle",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Mordecai",
+				"given": "Yaniv"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P"
+			},
+			{
+				"family": "Crawley",
+				"given": "Edward F"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "patterson2022CategoricalData",
+		"type": "article-journal",
+		"abstract": "Many mathematical objects can be represented as functors from finitely-presented categories $\\mathsf{C}$ to $\\mathsf{Set}$. For instance, graphs are functors to $\\mathsf{Set}$ from the category with two parallel arrows. Such functors are known informally as $\\mathsf{C}$-sets. In this paper, we describe and implement an extension of $\\mathsf{C}$-sets having data attributes with fixed types, such as graphs with labeled vertices or real-valued edge weights. We call such structures \"acsets,\" short for \"attributed $\\mathsf{C}$-sets.\" Derived from previous work on algebraic databases, acsets are a joint generalization of graphs and data frames. They also encompass more elaborate graph-like objects such as wiring diagrams and Petri nets with rate constants. We develop the mathematical theory of acsets and then describe a generic implementation in the Julia programming language, which uses advanced language features to achieve performance comparable with specialized data structures.",
+		"citation-key": "patterson2022CategoricalData",
+		"container-title": "Compositionality",
+		"DOI": "10.32408/compositionality-4-5",
+		"ISSN": "2631-4444",
+		"publisher": "Episciences.org",
+		"source": "compositionality.episciences.org",
+		"title": "Categorical Data Structures for Technical Computing",
+		"URL": "https://compositionality.episciences.org/13519",
+		"volume": "Volume 4 (2022)",
+		"author": [
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Lynch",
+				"given": "Owen"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					5,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					28
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2015behavioral",
+		"type": "article-journal",
+		"citation-key": "fairbanks2015behavioral",
+		"container-title": "Parallel Computing",
+		"page": "38–50",
+		"publisher": "North-Holland",
+		"title": "Behavioral clusters in dynamic graphs",
+		"volume": "47",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P"
+			},
+			{
+				"family": "Kannan",
+				"given": "Ramakrishnan"
+			},
+			{
+				"family": "Park",
+				"given": "Haesun"
+			},
+			{
+				"family": "Bader",
+				"given": "David A"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "briscoe2020artificial",
+		"type": "article-journal",
+		"citation-key": "briscoe2020artificial",
+		"container-title": "Orbis",
+		"issue": "4",
+		"page": "544–554",
+		"publisher": "JAI",
+		"title": "Artificial scientific intelligence and its impact on national security and foreign policy",
+		"volume": "64",
+		"author": [
+			{
+				"family": "Briscoe",
+				"given": "Erica"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "libkind2022AlgebraicFramework",
+		"type": "article-journal",
+		"abstract": "Pandemic management requires that scientists rapidly formulate and analyse epidemiological models in order to forecast the spread of disease and the effects of mitigation strategies. Scientists must modify existing models and create novel ones in light of new biological data and policy changes such as social distancing and vaccination. Traditional scientific modelling workflows detach the structure of a model—its submodels and their interactions—from its implementation in software. Consequently, incorporating local changes to model components may require global edits to the code base through a manual, time-intensive and error-prone process. We propose a compositional modelling framework that uses high-level algebraic structures to capture domain-specific scientific knowledge and bridge the gap between how scientists think about models and the code that implements them. These algebraic structures, grounded in applied category theory, simplify and expedite modelling tasks such as model specification, stratification, analysis and calibration. With their structure made explicit, models also become easier to communicate, criticize and refine in light of stakeholder feedback.\n\nThis article is part of the theme issue ‘Technical challenges of modelling real-life epidemics and examples of overcoming these’.",
+		"citation-key": "libkind2022AlgebraicFramework",
+		"container-title": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+		"DOI": "10.1098/rsta.2021.0309",
+		"issue": "2233",
+		"page": "20210309",
+		"publisher": "Royal Society",
+		"source": "royalsocietypublishing.org (Atypon)",
+		"title": "An algebraic framework for structured epidemic modelling",
+		"URL": "https://royalsocietypublishing.org/doi/10.1098/rsta.2021.0309",
+		"volume": "380",
+		"author": [
+			{
+				"family": "Libkind",
+				"given": "Sophie"
+			},
+			{
+				"family": "Baas",
+				"given": "Andrew"
+			},
+			{
+				"family": "Halter",
+				"given": "Micah"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					1,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2011ramsey",
+		"type": "article-journal",
+		"citation-key": "fairbanks2011ramsey",
+		"container-title": "arXiv preprint arXiv:1110.3314",
+		"title": "A Ramsey theorem for indecomposable matchings",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "patterson2023DiagrammaticView",
+		"type": "article-journal",
+		"abstract": "Presenting systems of differential equations in the form of diagrams has become common in certain parts of physics, especially electromagnetism and computational physics. In this work, we aim to put such use of diagrams on a firm mathematical footing, while also systematizing a broadly applicable framework to reason formally about systems of equations and their solutions. Our main mathematical tools are category-theoretic diagrams, which are well known, and morphisms between diagrams, which have been less appreciated. As an application of the diagrammatic framework, we show how complex, multiphysical systems can be modularly constructed from basic physical principles. A wealth of examples, drawn from electromagnetism, transport phenomena, fluid mechanics, and other fields, is included.",
+		"citation-key": "patterson2023DiagrammaticView",
+		"container-title": "Mathematics in Engineering",
+		"DOI": "10.3934/mine.2023036",
+		"ISSN": "2640-3501",
+		"issue": "2",
+		"language": "en",
+		"license": "2023 The Author(s)",
+		"page": "1–59",
+		"title": "A diagrammatic view of differential equations in physics",
+		"URL": "http://www.aimspress.com/article/doi/10.3934/mine.2023036",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Baas",
+				"given": "Andrew"
+			},
+			{
+				"family": "Hosgood",
+				"given": "Timothy"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2024",
+					7,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "aduddell2024CompositionalAccount",
+		"type": "article-journal",
+		"abstract": "Regulatory networks depict promoting or inhibiting interactions between molecules in a biochemical system. We introduce a category-theoretic formalism for regulatory networks, using signed graphs to model the networks and signed functors to describe occurrences of one network in another, especially occurrences of network motifs. With this foundation, we establish functorial mappings between regulatory networks and other mathematical models in biochemistry. We construct a functor from reaction networks, modeled as Petri nets with signed links, to regulatory networks, enabling us to precisely define when a reaction network could be a physical mechanism underlying a regulatory network. Turning to quantitative models, we associate a regulatory network with a Lotka-Volterra system of differential equations, defining a functor from the category of signed graphs to a category of parameterized dynamical systems. We extend this result from closed to open systems, demonstrating that Lotka-Volterra dynamics respects not only inclusions and collapsings of regulatory networks, but also the process of building up complex regulatory networks by gluing together simpler pieces. Formally, we use the theory of structured cospans to produce a lax double functor from the double category of open signed graphs to that of open parameterized dynamical systems. Throughout the paper, we ground the categorical formalism in examples inspired by systems biology.",
+		"citation-key": "aduddell2024CompositionalAccount",
+		"container-title": "Compositionality",
+		"DOI": "10.32408/compositionality-6-2",
+		"ISSN": "2631-4444",
+		"journalAbbreviation": "Compositionality",
+		"language": "en",
+		"note": "tex.ids= aduddell2024compositional, aduddellCompositionalAccountMotifs2023",
+		"page": "2",
+		"publisher": "Episciences. org",
+		"source": "arXiv.org",
+		"title": "A compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks",
+		"URL": "https://arxiv.org/abs/2301.01445v3",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Aduddell",
+				"given": "Rebekah"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			},
+			{
+				"family": "Kumar",
+				"given": "Amit"
+			},
+			{
+				"family": "Ocal",
+				"given": "Pablo S."
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Shapiro",
+				"given": "Brandon T."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					5,
+					13
+				]
+			]
+		}
+	}
+]
