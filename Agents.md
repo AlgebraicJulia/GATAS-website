@@ -2,7 +2,8 @@
 
 ## Repository overview
 
-All rules in this file are written in **second‑person** to give direct instructions to the assistant.
+All rules in this file are written in **second‑person** to give direct
+instructions to the assistant.
 
 This repo contains the source for the **GATAS Lab website** (University of
 Florida). It's a static site built with Quarto that showcases:
@@ -65,17 +66,30 @@ handle the underlying git‑compatible operations for you.
 
 ## Editing conventions
 
-- **Minimal change**: Only modify the portion that needs alteration. Never rewrite whole sections unless explicitly requested.
-- **Exact‑text matching**: For `edit`, `oldText` must match the file *exactly* (including whitespace). Trim surrounding lines to the smallest unique block.
-- **Multiple edits**: When issuing several edits in one `edit` call, ensure each `oldText` block is **unique** and **non‑overlapping**; combine overlapping changes into a single edit.
-- **Preserve YAML front‑matter**: Never alter keys unless the user asks for a metadata change.
-- **Maintain list formatting**: When adding entries to YAML listings, keep the same indentation, ordering, and field names (`preprint`, `materials`, `doi`, `Date`, `author`, `Authors`, `href`, `year`, `date`, `Title`, `Venue`, `URL`, `publication`, `title`, `type`).
-- **Link formatting**: Use markdown link syntax `[text](url)` for any URL the user wants clickable (e.g., DOI links, GitHub repos, personal sites).
-- **Markdown format** qmd files are markdown with YAML metadata. Make sure that any output you generate is valid quarto flavored markdown and yaml.
-- **Image assets**: Verify that any referenced image file exists in the `images/` directory (or appropriate sub‑folder) and uses the correct case‑sensitive filename. If the image is missing, add a `<!-- TODO: add image -->` comment.
-- **Quarto validation**: After making changes, optionally run `bash` `quarto render` (or `quarto preview`) to ensure the page builds without errors.
-
-
+- **Minimal change**: Only modify the portion that needs alteration. Never
+  rewrite whole sections unless explicitly requested.
+- **Exact‑text matching**: For `edit`, `oldText` must match the file *exactly*
+  (including whitespace). Trim surrounding lines to the smallest unique block.
+- **Multiple edits**: When issuing several edits in one `edit` call, ensure each
+  `oldText` block is **unique** and **non‑overlapping**; combine overlapping
+  changes into a single edit.
+- **Preserve YAML front‑matter**: Never alter keys unless the user asks for a
+  metadata change.
+- **Maintain list formatting**: When adding entries to YAML listings, keep the
+  same indentation, ordering, and field names (`preprint`, `materials`, `doi`,
+  `Date`, `author`, `Authors`, `href`, `year`, `date`, `Title`, `Venue`, `URL`,
+  `publication`, `title`, `type`).
+- **Link formatting**: Use markdown link syntax `[text](url)` for any URL the
+  user wants clickable (e.g., DOI links, GitHub repos, personal sites).
+- **Markdown format** qmd files are markdown with YAML metadata. Make sure that
+  any output you generate is valid quarto flavored markdown and yaml.
+- **Image assets**: Verify that any referenced image file exists in the
+  `images/` directory (or appropriate sub‑folder) and uses the correct
+  case‑sensitive filename. If the image is missing, add a
+  `<!-- TODO: add image -->` comment.
+- **Quarto validation**: After making changes, optionally run `bash`
+  `quarto render` (or `quarto preview`) to ensure the page builds without
+  errors.
 - **Minimal change**: Only modify the portion that needs alteration. Never
   rewrite whole sections unless explicitly requested.
 - **Exact‑text matching**: For `edit`, `oldText` must match the file *exactly*
@@ -133,7 +147,8 @@ handle the underlying git‑compatible operations for you.
 
 ## Communication style
 
-- **Bullet lists** for selections, **code fences** for commands, and **inline markdown** for links.
+- **Bullet lists** for selections, **code fences** for commands, and **inline
+  markdown** for links.
 
 - Use **short paragraphs**; break long blocks with a blank line.
 
@@ -146,19 +161,28 @@ handle the underlying git‑compatible operations for you.
   • Removed “*Authors:*” label and kept author lists inline.
   ```
 
-- Suggest git commit messages when we change topics. The user wants to have isolated commits with fine‑grained changes. So when we switch tasks, suggest a commit message for the previous tasks based on our interactions and the current git diff.
+- Suggest git commit messages when we change topics. The user wants to have
+  isolated commits with fine‑grained changes. So when we switch tasks, suggest a
+  commit message for the previous tasks based on our interactions and the
+  current git diff.
 
-- **Rate‑limiting web queries**: When using `web_search` or `fetch_content`, batch related queries together (2‑4 queries per request) and avoid excessive repeated calls in a single turn.
+- **Rate‑limiting web queries**: When using `web_search` or `fetch_content`,
+  batch related queries together (2‑4 queries per request) and avoid excessive
+  repeated calls in a single turn.
 
-- **Naming new member pages**: New member biographies must be placed in `members/` with a filename matching the lowercase hyphenated version of the member’s name (e.g., `john-doe.qmd`). The `title:` front‑matter should be the full name, and the `image:` path should point to `images/<slug>.png` (or `.jpg`).
+- **Naming new member pages**: New member biographies must be placed in
+  `members/` with a filename matching the lowercase hyphenated version of the
+  member's name (e.g., `john-doe.qmd`). The `title:` front‑matter should be the
+  full name, and the `image:` path should point to `images/<slug>.png` (or
+  `.jpg`).
 
 - **Example workflow** (quick reference):
-  1. `bash` `grep -R "author: \"John Doe\"" -n publications/article/listing.yaml`
+  1. `bash`
+     `grep -R "author: \"John Doe\"" -n publications/article/listing.yaml`
   2. `edit` the matching block with the official citation.
   3. `read` the file to confirm.
   4. `studio_export_html` (optional) to preview.
   5. Commit with message `Add official citation for “Title” – John Doe`.
-
 
 - **Bullet lists** for selections, **code fences** for commands, and **inline
   markdown** for links.
@@ -178,3 +202,5 @@ handle the underlying git‑compatible operations for you.
   isolated commits with fine grained changes. So when we switch tasks, suggest a
   commit message for the previous tasks based on our interactions and the
   current git diff.
+
+- Assets are stored in `_assets`, not `/assets`
