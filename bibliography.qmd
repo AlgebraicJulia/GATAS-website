@@ -1,0 +1,46 @@
+---
+title: "Bibliography"
+format: html
+bibliography:
+  journal: assets/bib/cv_journals.bib
+  conference: assets/bib/cv_proceedings.bib
+  talk: assets/bib/cv_talks.bib
+  poster: assets/bib/cv_posters.bib
+  preprint: assets/bib/cv_preprints.bib
+csl: https://www.zotero.org/styles/apa
+nocite: "@*"
+resources:
+  - assets/bib/cv_journals.bib
+  - assets/bib/cv_proceedings.bib
+  - assets/bib/cv_talks.bib
+  - assets/bib/cv_posters.bib
+  - assets/bib/cv_preprints.bib
+---
+
+## Articles
+
+::: {#refs-journal}
+:::
+
+## Conferences
+
+::: {#refs-conference}
+:::
+
+## Talks
+
+::: {#refs-talk}
+:::
+
+## Posters
+
+::: {#refs-poster}
+:::
+
+## Preprints
+
+::: {#refs-preprint}
+:::
+
+cv_journals.bib cv_posters.bib cv_preprints.bib cv_proceedings.bib cv_talks.bib
+cv-conference.bib cv-journal.bib cv-poster.bib cv-preprint.bib cv-talk.bib

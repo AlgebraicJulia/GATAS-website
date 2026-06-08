@@ -1,6 +1,7 @@
 project:
   type: website
-  post-render: 
+
+  post-render:
     - mkdir -p _site/_freeze
     - touch _site/_freeze/default.txt
 
@@ -31,16 +32,18 @@ format:
     theme:
       light: [flatly, custom.scss]
       dark: [darkly, custom-dark.scss]
-    linkcolor: "#4E8ABB" 
+    linkcolor: "#4E8ABB"
     navbar:
       # background: "#343741"
       # background: "#AABBCC"
       background: "#D8D4D7"
       foreground: "#6FB450"
-    # Blue: "#4E8ABB" 
-    # Green: "#6FB450"
-    # Orange: "#6FB450"
     css: styles.css
     monofont: JuliaMono-Regular
+filters:
+  - multibib
+validate-yaml: false
+resources:
+  - assets/bib
 
 from: markdown+tex_math_single_backslash

@@ -9,46 +9,51 @@ listing:
     contents:
       - projects.qmd
       - members.qmd
+      - bibliography.qmd
       - research.qmd
       - sponsors/sponsors.qmd
 ---
 
-:::{.callout-tip}
+::: {.callout-tip}
 ## Graduations!
 
-The GATAS Lab graduated two PhD students this year! [Tyler Hanks](/members/tylerhanks.qmd) and [Luke Morris](/members/lukemorris.qmd) are our first two PhD Graduates.
+The GATAS Lab graduated two PhD students this year! [Tyler
+Hanks](/members/tylerhanks.qmd) and [Luke Morris](/members/lukemorris.qmd) are
+our first two PhD Graduates.
 :::
 
-:::{.callout-tip}
+::: {.callout-tip}
 ## Applied Category Theory 2025
 
-The GATAS Lab hosted the 8th International Conference on Applied Category Theory here at UF.
-For more information see the [ACT2025 Page](act2025/act2025.qmd)
+The GATAS Lab hosted the 8th International Conference on Applied Category Theory
+here at UF. For more information see the [ACT2025 Page](act2025/act2025.qmd)
 :::
-
 
 ![](_assets/gatas_bar_UF.png)
 
-The GATAS (Generalized Algebraic Techniques Advancing Science) laboratory uses applied category theory to develop novel approaches to scientific
-computing. We are domain-agnostic, solving problems in
+The GATAS (Generalized Algebraic Techniques Advancing Science) laboratory uses
+applied category theory to develop novel approaches to scientific computing. We
+are domain-agnostic, solving problems in
 [dynamics](https://arxiv.org/abs/2105.12282),
 [physics](https://github.com/AlgebraicJulia/Decapodes.jl),
 [biology](https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2021.0309),
-[the life sciences](https://arxiv.org/abs/2301.01445),
-and [industrial engineering](https://arxiv.org/abs/2305.03820). Our group works closely
-with Evan Patterson's research group at the [Topos Institute](https://topos.institute) to
-maintain and develop the [AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
+[the life sciences](https://arxiv.org/abs/2301.01445), and [industrial
+engineering](https://arxiv.org/abs/2305.03820). Our group works closely with
+Evan Patterson's research group at the [Topos
+Institute](https://topos.institute) to maintain and develop the
+[AlgebraicJulia](https://www.algebraicjulia.org/) software ecosystem.
 
 ## Philosophy
 
-Scientists develop simulations by translating scientific concepts into mathematical models,
-and then embodying those models in software. We seek to automate this process using
-[category theory](https://en.wikipedia.org/wiki/Category_theory).
-Category theory is a mathematical language rich enough in abstraction to represent any
-scientific concept, yet pliable enough to manipulate efficiently with a computer. The
-software in [AlgebraicJulia](https://www.algebraicjulia.org/) encodes a number of these
-abstractions; with it, scientists can build powerful, robust, and bespoke scientific models
-without starting from scratch in each domain.
+Scientists develop simulations by translating scientific concepts into
+mathematical models, and then embodying those models in software. We seek to
+automate this process using [category
+theory](https://en.wikipedia.org/wiki/Category_theory). Category theory is a
+mathematical language rich enough in abstraction to represent any scientific
+concept, yet pliable enough to manipulate efficiently with a computer. The
+software in [AlgebraicJulia](https://www.algebraicjulia.org/) encodes a number
+of these abstractions; with it, scientists can build powerful, robust, and
+bespoke scientific models without starting from scratch in each domain.
 
-:::{#pages}
+::: {#pages}
 :::

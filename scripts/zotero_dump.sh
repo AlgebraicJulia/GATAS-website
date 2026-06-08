@@ -1,0 +1,11 @@
+ZOTERO_API="http://localhost:23119/api"
+ZOTERO_USER="0"
+ZOTERO_SEARCH="Z72JGWEB"
+ZOTERO_URL="$ZOTERO_API/users/$ZOTERO_USER/searches/$ZOTERO_SEARCH/items"
+
+BIBDIR="assets/bib"
+curl -s "$ZOTERO_URL?tag=cv%2Dtalk&format=biblatex" > "$BIBDIR/cv_talks.bib"
+curl -s "$ZOTERO_URL?tag=cv%2Dproceedings&format=biblatex" > "$BIBDIR/cv_proceedings.bib"
+curl -s "$ZOTERO_URL?tag=cv%2Djournal&format=biblatex" > "$BIBDIR/cv_journals.bib"
+curl -s "$ZOTERO_URL?tag=cv%2Dpreprint&format=biblatex" > "$BIBDIR/cv_preprints.bib"
+curl -s "$ZOTERO_URL?tag=cv%2Dposter&format=biblatex" > "$BIBDIR/cv_posters.bib"
