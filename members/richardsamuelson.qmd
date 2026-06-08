@@ -5,13 +5,31 @@ start_year: 2024
 date: 1/1/2024
 published-title: "Lab Member Since:"
 about:
-    template: solana
-    links:
-        - icon: Github
-          text: GitHub
-          href: https://github.com/samuelsonric
-        - text: Website
-          href: https://richardsamuelson.com
+  template: solana
+  links:
+    - icon: Github
+      text: GitHub
+      href: https://github.com/samuelsonric
+    - text: Website
+      href: https://richardsamuelson.com
 ---
 
-is a doctoral student researching category theory, machine learning, and convex analysis.
+is a doctoral student researching category theory, convex analysis, and
+high‑performance computing. He has made significant contributions to the
+**[CliqueTrees.jl](https://github.com/AlgebraicJulia/CliqueTrees.jl)** package,
+implementing the ChordalLDLt multifrontal factorisation that underpins sparse
+symmetric positive‑definite linear solves. These improvements accelerate
+nullspace and global‑section computations in the
+**[CellularSheaves.jl](https://github.com/AlgebraicJulia/CellularSheaves.jl)**
+library and enable more efficient compositional methods across the lab's
+projects.
+
+### Selected publications
+
+- **Graphical Quadratic Algebra** -- ICTAC 2025 (Lecture Notes in Computer
+  Science). Dario Stein, Fabio Zanasi, Robin Piedeleu, and Richard Samuelson.
+  DOI:
+  [10.1007/978-3-032-11176-0_18](https://doi.org/10.1007/978-3-032-11176-0_18)
+- **A Categorical Treatment of Open Linear Systems** -- *Logical Methods in
+  Computer Science*, 2025. Dario Stein and Richard Samuelson. DOI:
+  [10.46298/lmcs-21(3:11)2025](https://doi.org/10.46298/lmcs-21(3:11)2025)
