@@ -1,0 +1,777 @@
+[
+	{
+		"id": "carlson2025MultigridMethods",
+		"type": "speech",
+		"citation-key": "carlson2025MultigridMethods",
+		"event-place": "Copper Mountain, CO",
+		"event-title": "22ND Copper Mountain Conference on Multigrid Methods",
+		"genre": "talk",
+		"title": "Multigrid Methods for Structure Preserving Discretizations",
+		"author": [
+			{
+				"family": "Carlson",
+				"given": "Kevin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					4,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2025ModelingACT",
+		"type": "speech",
+		"citation-key": "fairbanks2025ModelingACT",
+		"event-place": "Denver, CO",
+		"event-title": "American Control Conference",
+		"genre": "talk",
+		"title": "Modeling with ACT for Compositional Decision Making",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2025CompositionalDevelopment",
+		"type": "speech",
+		"citation-key": "fairbanks2025CompositionalDevelopment",
+		"event-place": "Gainesville, FL",
+		"event-title": "Applied Category Theory",
+		"genre": "talk",
+		"title": "Compositional Development of Compositional Mathematics",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2025",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "talk6",
+		"type": "speech",
+		"citation-key": "talk6",
+		"event-place": "Virtual",
+		"event-title": "JuliaCon",
+		"note": "tex.publication: JuliaCon, Online",
+		"title": "Shaped data with acsets",
+		"URL": "https://pretalx.com/juliacon2021/talk/NWRPGY/",
+		"author": [
+			{
+				"family": "Lynch",
+				"given": "Owen"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "talk13",
+		"type": "speech",
+		"citation-key": "talk13",
+		"event-place": "Berkeley, CA",
+		"event-title": "JuliaCon",
+		"title": "LightGraphs: Our network, our story",
+		"URL": "https://youtu.be/MFD-qmApXl8",
+		"author": [
+			{
+				"family": "Bromberger",
+				"given": "Seth"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "talk12",
+		"type": "speech",
+		"citation-key": "talk12",
+		"event-place": "University of Texas, Austin, TX",
+		"event-title": "The Conflict Conference",
+		"note": "tex.publication:",
+		"title": "Using big data to predict and analyze cooperation and conflict",
+		"author": [
+			{
+				"family": "Frederick",
+				"given": "T"
+			},
+			{
+				"family": "Herlihy",
+				"given": "C"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "talk10",
+		"type": "speech",
+		"citation-key": "talk10",
+		"event-place": "London, UK",
+		"event-title": "JuliaCon",
+		"title": "The JuliaGraphs ecosystem: Move fast and don't break things",
+		"URL": "https://youtu.be/OZuQoxTPoyM",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "talk7",
+		"type": "speech",
+		"citation-key": "talk7",
+		"event-place": "Baltimore, MD",
+		"event-title": "JuliaCon",
+		"note": "tex.publication: JuliaCon, Baltimore, MD",
+		"title": "semanticmodels.jl: Not just another modeling framework",
+		"URL": "https://www.youtube.com/watch?v=WJneK7OjqMQ",
+		"author": [
+			{
+				"family": "Herlihy",
+				"given": "Christine"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "talk5",
+		"type": "speech",
+		"citation-key": "talk5",
+		"event-place": "Virtual",
+		"event-title": "JuliaCon",
+		"note": "tex.publication: JuliaCon, Online",
+		"title": "AlgebraicDynamics: Compositional dynamical systems",
+		"URL": "https://pretalx.com/juliacon2021/talk/ARURL8/",
+		"author": [
+			{
+				"family": "Libkind",
+				"given": "Sophie"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "talk4",
+		"type": "speech",
+		"citation-key": "talk4",
+		"event-title": "Tri-Service Radar Symposium",
+		"note": "tex.publication: Tri-Service Radar Symposium",
+		"title": "Accelerating automatic target recognition performance evaluation with a relational database",
+		"author": [
+			{
+				"family": "Jackson",
+				"given": "Matthew"
+			},
+			{
+				"family": "Halter",
+				"given": "Micah"
+			},
+			{
+				"family": "Goodyear",
+				"given": "Trevor"
+			},
+			{
+				"family": "O’Donnell",
+				"given": "Brian"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "talk1",
+		"type": "speech",
+		"citation-key": "talk1",
+		"DOI": "10.3934/mine.2023036",
+		"event-place": "Glasgow, UK",
+		"event-title": "Applied Category Theory",
+		"note": "tex.publication: Applied Category Theory 2022",
+		"title": "Diagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation",
+		"URL": "https://msp.cis.strath.ac.uk/act2022/slides/ACT2022_slides_2217.pdf",
+		"author": [
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Hosgood",
+				"given": "Timothy"
+			},
+			{
+				"family": "Baas",
+				"given": "Andrew"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "besancon2018GraphInterfaces",
+		"type": "speech",
+		"citation-key": "besancon2018GraphInterfaces",
+		"event-place": "London, UK",
+		"event-title": "JuliaCon",
+		"language": "en",
+		"note": "tex.publication: JuliaCon, London, UK",
+		"title": "Graph interfaces: Bespoke graphs for every occasion",
+		"URL": "https://youtu.be/OD-BSn4FZ2A",
+		"author": [
+			{
+				"family": "Besançon",
+				"given": "Mathieu"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018"
+				]
+			]
+		}
+	},
+	{
+		"id": "libkindtyped",
+		"type": "paper-conference",
+		"citation-key": "libkindtyped",
+		"container-title": "Applied Category Theory",
+		"event-title": "Applied Category Theory",
+		"page": "1-3",
+		"publisher-place": "Glasgow, UK",
+		"title": "Typed and stratified models with slice categories",
+		"URL": "https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3530.pdf",
+		"author": [
+			{
+				"family": "Libkind",
+				"given": "Sophie"
+			},
+			{
+				"family": "Baas",
+				"given": "Andrew"
+			},
+			{
+				"family": "Halter",
+				"given": "Micah"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "wuindividual",
+		"type": "speech",
+		"citation-key": "wuindividual",
+		"event-place": "Glasgow, UK",
+		"event-title": "Applied Category Theory",
+		"genre": "Extended Abstract",
+		"language": "en",
+		"title": "Individual. jl: Rewriting individual-based models for epidemiology using graph rewriting",
+		"URL": "https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3642.pdf",
+		"author": [
+			{
+				"family": "Wu",
+				"given": "Sean L"
+			},
+			{
+				"family": "Libkind",
+				"given": "Sophie"
+			},
+			{
+				"family": "Brown",
+				"given": "Kristopher"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2023computational",
+		"type": "speech",
+		"citation-key": "fairbanks2023computational",
+		"event-place": "Boston, MA",
+		"event-title": "Joint Mathematics Meetings",
+		"genre": "Invited",
+		"title": "Computational category theory in applied mathematics",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P"
+			},
+			{
+				"family": "Lynch",
+				"given": "Owen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "bader2015semantic",
+		"type": "paper-conference",
+		"citation-key": "bader2015semantic",
+		"container-title": "The 44th Computer Applications and Quantitative Methods in Archaeology Conference (CAA)",
+		"event-title": "The 44th Computer Applications and Quantitative Methods in Archaeology Conference (CAA)",
+		"publisher": "Archaeopress",
+		"publisher-place": "Oslo, NO",
+		"title": "Semantic database applications at the samtavro cemetery, georgia",
+		"URL": "https://2016.caaconference.org/session-11-supporting-researchers-in-the-use-and-re-use-of-archaeological-data-continuing-the-ariadne-thread/",
+		"author": [
+			{
+				"family": "Bader",
+				"given": "David"
+			},
+			{
+				"family": "Michalewicz",
+				"given": "Aleksandra"
+			},
+			{
+				"family": "Green",
+				"given": "Oded"
+			},
+			{
+				"family": "Birkett-Rees",
+				"given": "Jessie"
+			},
+			{
+				"family": "Riedy",
+				"given": "Jason"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			},
+			{
+				"family": "Zakrzewska",
+				"given": "Anita"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					4,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "halter2020CompositionalScientific",
+		"type": "paper-conference",
+		"abstract": "Scientific computing is currently performed by writing domain specific modeling frameworks for solving special classes of mathematical problems. Since applied category theory provides abstract reasoning machinery for describing and analyzing diverse areas of math, it is a natural platform for building generic and reusable software components for scientific computing. We present Catlab.jl, which provides the category-theoretic infrastructure for this project, together with SemanticModels.jl, which leverages this infrastructure for particular modeling tasks. This approach enhances and automates scientific computing workflows by applying recent advances in mathematical modeling of interconnected systems as cospan algebras.",
+		"citation-key": "halter2020CompositionalScientific",
+		"event-title": "Applied Category Theory",
+		"note": "arXiv: 2005.04831",
+		"publisher-place": "Cambridge, MA (online)",
+		"source": "arXiv.org",
+		"title": "Compositional Scientific Computing with Catlab and SemanticModels",
+		"URL": "http://arxiv.org/abs/2005.04831",
+		"author": [
+			{
+				"family": "Halter",
+				"given": "Micah"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Baas",
+				"given": "Andrew"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					12
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					6,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "halter2020semanticmodels",
+		"type": "paper-conference",
+		"citation-key": "halter2020semanticmodels",
+		"container-title": "Proceedings of the JuliaCon conferences",
+		"note": "number: 1",
+		"page": "57",
+		"title": "SemanticModels. jl: a julia package for scientific model augmentation",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Halter",
+				"given": "Micah"
+			},
+			{
+				"family": "Raparti",
+				"given": "Sreenath"
+			},
+			{
+				"family": "Cao",
+				"given": "Kun"
+			},
+			{
+				"family": "Herlihy",
+				"given": "Christine"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "herlihy2019SemanticProgram",
+		"type": "article-journal",
+		"abstract": "SemanticModels.jl is a system for extracting semantic information from scientiﬁc code and reconciling it with conceptual descriptions to build a knowledge graph. This knowledge graph represents the connections between elements of code (variables, values, functions, and expressions) and elements of scientiﬁc understanding (concepts, terms, relations), and can be reasoned over to facilitate several metamodeling tasks, including model augmentation, synthesis, and validation. We present a category theory-based framework for deﬁning metamodeling tasks and extracting semantic information from model implementations, and show how SemanticModels.jl can be used to augment scientiﬁc workﬂows in the epidemiological domain.",
+		"citation-key": "herlihy2019SemanticProgram",
+		"container-title": "Modeling the World’s Systems",
+		"language": "en",
+		"page": "7",
+		"source": "Zotero",
+		"title": "Semantic Program Analysis for Scientiﬁc Model Augmentation",
+		"author": [
+			{
+				"family": "Herlihy",
+				"given": "Christine"
+			},
+			{
+				"family": "Cao",
+				"given": "Kun"
+			},
+			{
+				"family": "Reparti",
+				"given": "Sreenath"
+			},
+			{
+				"family": "Briscoe",
+				"given": "Erica"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2017assessing",
+		"type": "speech",
+		"citation-key": "fairbanks2017assessing",
+		"title": "Assessing credibility in the global news media",
+		"URL": "http://resources.basistech.com.s3.amazonaws.com/hltcon-presentations/2017/Fairbanks_Georgia_Tech_HLTCon.pdf",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			},
+			{
+				"family": "Knauf",
+				"given": "N"
+			},
+			{
+				"family": "Fitch",
+				"given": "N"
+			},
+			{
+				"family": "Herlihy",
+				"given": "C"
+			},
+			{
+				"family": "Briscoe",
+				"given": "E"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "halter2019compositional",
+		"type": "article-journal",
+		"citation-key": "halter2019compositional",
+		"container-title": "arXiv preprint arXiv:1907.03536",
+		"title": "A compositional framework for scientific model augmentation",
+		"author": [
+			{
+				"family": "Halter",
+				"given": "Micah"
+			},
+			{
+				"family": "Herlihy",
+				"given": "Christine"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanks2024compositional",
+		"type": "speech",
+		"citation-key": "fairbanks2024compositional",
+		"event-place": "Tallahassee, FL",
+		"event-title": "AMS Southeastern Sectional Meeting",
+		"title": "A compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P"
+			},
+			{
+				"family": "Aduddell",
+				"given": "Rebekah"
+			},
+			{
+				"family": "Kumar",
+				"given": "Amit"
+			},
+			{
+				"family": "Ocal",
+				"given": "Pablo S"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Shapiro",
+				"given": "Brandon T"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2024",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "aduddell2023CategoricalFramework",
+		"type": "speech",
+		"citation-key": "aduddell2023CategoricalFramework",
+		"event-place": "Boston, MA",
+		"event-title": "Joint Mathematics Meeting",
+		"language": "en",
+		"title": "A categorical framework for (gene) regulatory networks",
+		"author": [
+			{
+				"family": "Aduddell",
+				"given": "Rebekah"
+			},
+			{
+				"family": "Ocal",
+				"given": "Pablo S"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P"
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			},
+			{
+				"family": "Shapiro",
+				"given": "Brandon"
+			},
+			{
+				"family": "Kumar",
+				"given": "Amit"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	}
+]

@@ -2,19 +2,19 @@
 title: "Bibliography"
 format: html
 bibliography:
-  journal: assets/bib/cv_journals.bib
-  conference: assets/bib/cv_proceedings.bib
-  talk: assets/bib/cv_talks.bib
-  poster: assets/bib/cv_posters.bib
-  preprint: assets/bib/cv_preprints.bib
+  journal: assets/bib/cv_journals.json
+  conference: assets/bib/cv_proceedings.json
+  talk: assets/bib/cv_talks.json
+  poster: assets/bib/cv_posters.json
+  preprint: assets/bib/cv_preprints.json
 csl: https://www.zotero.org/styles/apa
 nocite: "@*"
 resources:
-  - assets/bib/cv_journals.bib
-  - assets/bib/cv_proceedings.bib
-  - assets/bib/cv_talks.bib
-  - assets/bib/cv_posters.bib
-  - assets/bib/cv_preprints.bib
+  - assets/bib/cv_journals.json
+  - assets/bib/cv_proceedings.json
+  - assets/bib/cv_talks.json
+  - assets/bib/cv_posters.json
+  - assets/bib/cv_preprints.json
 ---
 
 ## Articles
@@ -42,5 +42,4 @@ resources:
 ::: {#refs-preprint}
 :::
 
-cv_journals.bib cv_posters.bib cv_preprints.bib cv_proceedings.bib cv_talks.bib
-cv-conference.bib cv-journal.bib cv-poster.bib cv-preprint.bib cv-talk.bib
+
