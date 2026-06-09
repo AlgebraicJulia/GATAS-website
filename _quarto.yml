@@ -45,6 +45,3 @@ resources:
   - assets/bib
 
 from: markdown+tex_math_single_backslash
-
-filters:
-  - lua/auto-gallery.lua
