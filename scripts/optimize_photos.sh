@@ -43,7 +43,7 @@ for src in "${candidates[@]}"; do
   fi
 
   ext="${src##*.}"
-  ext="${ext,,}"
+  ext=$(printf '%s' "$ext" | tr '[:upper:]' '[:lower:]')
 
   case "$ext" in
     jpg|jpeg|png|webp) ;;

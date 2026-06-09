@@ -13,23 +13,23 @@ about:
   template: solana
 lightbox: auto
 assets:
-  - assets/photos/IMG_1277.jpeg
+  - assets/photos/IMG_1277.webp
 gallery:
   heading: Photos
   columns: 2
   group: my-gallery
   images:
-    - src: /assets/photos/IMG_1439.jpeg
+    - src: /assets/photos/IMG_1439.webp
       caption: "Tyler's Graduation"
-    - src: /assets/photos/IMG_1277.jpeg
+    - src: /assets/photos/IMG_1277.webp
       caption: "Tyler's Defense"
-    - src: /assets/photos/IMG_0161.jpeg
+    - src: /assets/photos/IMG_0161.webp
       caption: "Giving a keynote address at the ACT2025 conference in Gainesville, FL"
-    - src: /assets/photos/IMG_0329.jpeg
+    - src: /assets/photos/IMG_0329.webp
       caption: "During ACC 2025 in Denver, we met with Joe Moeller from CalTech to discuss his work on categorical Lyapunov theory"
-    - src: /assets/photos/IMG_5037.jpeg
+    - src: /assets/photos/IMG_5037.webp
       caption: "Tyler's first SEC football tailgate!"
-    - src: /assets/photos/IMG_4013.jpeg
+    - src: /assets/photos/IMG_4013.webp
       caption: "During his internship at AFOSR in upstate New York"
 ---
 
