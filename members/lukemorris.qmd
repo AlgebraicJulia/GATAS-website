@@ -6,7 +6,8 @@ date: 8/15/2021
 published-title: "Lab Member Since:"
 program: CISE
 degree: PhD
-status: Qualifying
+status: Graduated
+lightbox: auto
 href: |-
     <a href="https://www.cise.ufl.edu/~luke.morris" class="btn btn-secondary">Site</a>
 tools:
@@ -20,6 +21,29 @@ about:
         - icon: Github
           text: Github
           href: https://github.com/lukem12345
+gallery:
+  heading: Photos
+  columns: 2
+  group: my-gallery
+  images:
+    - src: /assets/photos/IMG_1273.webp
+      caption: "PhD Defense"
+    - src: /assets/photos/IMG_7780.webp
+      caption: "ASKEM Hackathon in Austin. We found a de Rahm complex in the wild!"
+    - src: /assets/photos/IMG_9068.webp
+      caption: "The final ASKEM Hackathon, where Luke ascended to the mountain top."
+    - src: /assets/photos/IMG_0175.webp
+      caption: "PhD Qualifier Exam"
+    - src: /assets/photos/IMG_6982.webp
+      caption: "ACT 2023 at the University of Maryland"
+    - src: /assets/photos/IMG_7758.webp
+      caption: "Presenting a DECAPODES poster at MAE PhD student recruiting"
+    - src: /assets/photos/IMG_8864.webp
+      caption: "Becoming one with the machines on a Hipergator tour."
+    - src: /assets/photos/IMG_5037.webp
+      caption: "Luke's first UF football game, still a Kentucky fan."
+filters:
+  - ../lua/auto-gallery.lua
 ---
 is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.
 

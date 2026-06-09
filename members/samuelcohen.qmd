@@ -5,6 +5,8 @@ date: 5/21/2024
 published-title: "Lab Member Since:"
 about:
     template: solana
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is an undergraduate studying math and computer science. 

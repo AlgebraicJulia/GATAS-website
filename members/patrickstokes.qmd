@@ -11,6 +11,8 @@ href: |-
     <a href="https://www.cise.ufl.edu/~luke.morris" class="btn btn-secondary">Site</a>
 about:
     template: solana
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is a faculty research scientist in the GATAS lab. 

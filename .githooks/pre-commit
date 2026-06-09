@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root=$(git rev-parse --show-toplevel)
+cd "$repo_root"
+
+# NOTE: This hook is only active if Git is configured to use this directory:
+#   git config core.hooksPath .githooks
+staged_files=()
+while IFS= read -r -d '' file; do
+  staged_files+=("$file")
+done < <(git diff --cached --name-only --diff-filter=ACMR -z -- assets/photos)
+
+if [[ ${#staged_files[@]} -eq 0 ]]; then
+  exit 0
+fi
+
+if scripts/optimize_photos.sh "${staged_files[@]}"; then
+  exit 0
+fi
+
+git add -A -- assets/photos
+echo "Photo assets were normalized. Review changes and commit again."
+exit 1

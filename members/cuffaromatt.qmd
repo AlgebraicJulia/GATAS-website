@@ -10,6 +10,8 @@ status: Crushing it
 href: ""
 about:
   template: solana
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is the systems administrator and research programmer for the GATAS lab. 

@@ -12,6 +12,8 @@ about:
       href: https://github.com/samuelsonric
     - text: Website
       href: https://richardsamuelson.com
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is a doctoral student researching category theory, convex analysis, and

@@ -12,6 +12,8 @@ href: |-
     <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
 about:
     template: solana
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.    

@@ -4,6 +4,8 @@ image: images/profile.jpg
 
 about:
     template: solana
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is a research scientist who likes math.
