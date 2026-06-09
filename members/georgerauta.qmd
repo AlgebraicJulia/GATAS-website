@@ -10,6 +10,8 @@ status: Starting
 href: ""
 about:
     template: solana
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is a PhD student with a focus in numerical linear algebra and high-performance computing.

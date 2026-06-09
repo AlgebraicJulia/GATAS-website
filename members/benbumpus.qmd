@@ -17,6 +17,8 @@ about:
   links:
     - text: Website
       href: https://bmbumpus.com/
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 Benjamin Merlin Bumpus was a faculty research scientist and led the algorithms

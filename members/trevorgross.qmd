@@ -10,6 +10,8 @@ about:
           href: https://trevorjgross.com/
         - text: GitHub
           href: https://github.com/GrossTrevor
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is an undergraduate junior studying computer science affiliated with the Florida Institute for National Security Talent Pipeline.

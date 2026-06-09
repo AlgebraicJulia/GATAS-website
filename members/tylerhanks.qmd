@@ -6,7 +6,7 @@ published-title: "Lab Member Since:"
 date: 8/15/2021
 program: CISE
 degree: PhD
-status: Qualified
+status: Graduated
 href: |-
   <a href="https://gataslab.org/members/tylerhanks" class="btn btn-secondary">Site</a>
 about:
@@ -31,6 +31,8 @@ gallery:
       caption: "Tyler's first SEC football tailgate!"
     - src: /assets/photos/IMG_4013.webp
       caption: "During his internship at AFOSR in upstate New York"
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 Tyler joined the GATAS Lab in the summer of 2021 as a graduate research

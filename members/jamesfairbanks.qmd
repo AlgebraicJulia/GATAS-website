@@ -12,6 +12,8 @@ href: |-
     <a href="gataslab.org" class="btn btn-secondary">Site</a>
 about:
     template: solana
+filters:
+  - ../lua/auto-gallery.lua
 ---
 
 is an assistant professor in the department of Mechanical and Aerospace Engineering, and affiliated with the Institute for Computational Engineering, and the Florida Institute for National Security. 
