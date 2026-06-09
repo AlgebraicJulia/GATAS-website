@@ -11,6 +11,26 @@ href: |-
   <a href="https://gataslab.org/members/tylerhanks" class="btn btn-secondary">Site</a>
 about:
   template: solana
+lightbox: auto
+assets:
+  - assets/photos/IMG_1277.jpeg
+gallery:
+  heading: Photos
+  columns: 2
+  group: my-gallery
+  images:
+    - src: /assets/photos/IMG_1439.jpeg
+      caption: "Tyler's Graduation"
+    - src: /assets/photos/IMG_1277.jpeg
+      caption: "Tyler's Defense"
+    - src: /assets/photos/IMG_0161.jpeg
+      caption: "Giving a keynote address at the ACT2025 conference in Gainesville, FL"
+    - src: /assets/photos/IMG_0329.jpeg
+      caption: "During ACC 2025 in Denver, we met with Joe Moeller from CalTech to discuss his work on categorical Lyapunov theory"
+    - src: /assets/photos/IMG_5037.jpeg
+      caption: "Tyler's first SEC football tailgate!"
+    - src: /assets/photos/IMG_4013.jpeg
+      caption: "During his internship at AFOSR in upstate New York"
 ---
 
 Tyler joined the GATAS Lab in the summer of 2021 as a graduate research
@@ -46,13 +66,27 @@ abstract mathematics with concrete engineering applications. His hobbies
 including gaming, cycling, and playing music with his band [Ininite
 Eights](https://open.spotify.com/artist/14vSwyEZcAa1jQITYnapMy).
 
-
 ### Selected publications
 
-- **Modeling Model Predictive Control: A Category‑Theoretic Framework for Multistage Control Problems** (2024). Tyler Hanks, Baike She, Evan Patterson, Matthew Hale, Matthew Klawonn, James Fairbanks. American Control Conference (ACC 2024). DOI: [https://doi.org/10.48550/arXiv.2305.03820](https://doi.org/10.48550/arXiv.2305.03820) (see ACC 2024 proceedings).
-- **Characterizing Compositionality of LQR from the Categorical Perspective** (2023). Baike She, Tyler Hanks, James Fairbanks, Matthew Hale. IEEE Conference on Decision and Control (CDC 2023). DOI: [https://doi.org/10.48550/arXiv.2305.01811](https://doi.org/10.48550/arXiv.2305.01811) (see CDC 2023 proceedings).
-- **Compositional Exploration of Combinatorial Scientific Models** (2022). K. Brown, Tyler Hanks, James Fairbanks. Applied Category Theory conference (ACT 2022). DOI: [https://doi.org/10.48550/arXiv.2206.08755](https://doi.org/10.48550/arXiv.2206.08755).
-- **Computational Category‑Theoretic Rewriting** (2022). K. Brown, Evan Patterson, Tyler Hanks, James Fairbanks. International Conference on Graph Transformation (ICGT 2022) – Best Paper Award. DOI: [https://doi.org/10.48550/arXiv.2111.03784](https://doi.org/10.48550/arXiv.2111.03784).
+- **Modeling Model Predictive Control: A Category‑Theoretic Framework for
+  Multistage Control Problems** (2024). Tyler Hanks, Baike She, Evan Patterson,
+  Matthew Hale, Matthew Klawonn, James Fairbanks. American Control Conference
+  (ACC 2024). DOI:
+  [https://doi.org/10.48550/arXiv.2305.03820](https://doi.org/10.48550/arXiv.2305.03820)
+  (see ACC 2024 proceedings).
+- **Characterizing Compositionality of LQR from the Categorical Perspective**
+  (2023). Baike She, Tyler Hanks, James Fairbanks, Matthew Hale. IEEE Conference
+  on Decision and Control (CDC 2023). DOI:
+  [https://doi.org/10.48550/arXiv.2305.01811](https://doi.org/10.48550/arXiv.2305.01811)
+  (see CDC 2023 proceedings).
+- **Compositional Exploration of Combinatorial Scientific Models** (2022).
+  K. Brown, Tyler Hanks, James Fairbanks. Applied Category Theory conference
+  (ACT 2022). DOI:
+  [https://doi.org/10.48550/arXiv.2206.08755](https://doi.org/10.48550/arXiv.2206.08755).
+- **Computational Category‑Theoretic Rewriting** (2022). K. Brown,
+  Evan Patterson, Tyler Hanks, James Fairbanks. International Conference on
+  Graph Transformation (ICGT 2022) -- Best Paper Award. DOI:
+  [https://doi.org/10.48550/arXiv.2111.03784](https://doi.org/10.48550/arXiv.2111.03784).
 
 Tyler graduated in Spring 2026 and started a faculty position at the Florida
 Institute of Technology in Fall 2026!
