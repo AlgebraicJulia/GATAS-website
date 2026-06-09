@@ -8,10 +8,22 @@ role: Postdoctoral Fellow
 degree: PhD
 program: N/A
 status: Writing
+lightbox: auto
 href: |- 
     <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
 about:
     template: solana
+gallery:
+  heading: Photos
+  columns: 2
+  group: wilmer-gallery
+  images:
+    - src: /assets/photos/IMG_7424.webp
+      caption: "Enjoying a tea in Oxford during the ACT conference"
+    - src: /assets/photos/IMG_8220.webp
+      caption: "A historical place for chemists"
+    - src: /assets/photos/IMG_9815.webp
+      caption: "Watching the Gators win the 2025 Basketball National Championship"
 filters:
   - ../lua/auto-gallery.lua
 ---
