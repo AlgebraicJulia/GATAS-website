@@ -4,7 +4,7 @@
 		"type": "speech",
 		"citation-key": "Posters1",
 		"event-place": "Orlando, FL",
-		"event-title": "Biomedical Engineering Society Annial Meeting",
+		"event-title": "Biomedical Engineering Society Annual Meeting",
 		"title": "Parameter estimation by minimizing the loss with respect to a finite difference approximation on the vector field",
 		"author": [
 			{
@@ -54,8 +54,8 @@
 				"given": "James P."
 			},
 			{
-				"family": "Evan",
-				"given": "Patterson"
+				"family": "Patterson",
+				"given": "Evan"
 			}
 		],
 		"issued": {

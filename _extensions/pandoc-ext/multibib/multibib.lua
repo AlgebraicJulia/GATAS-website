@@ -67,13 +67,24 @@ end
 local function resolve_doc_citations (doc)
   -- combine all bibliographies
   local meta = doc.meta
-  local bibconf = meta.bibliography
+  local orig_bib = meta.bibliography
+
   meta.bibliography = pandoc.MetaList{}
-  if metatype(bibconf) == 'table' then
-    for _, value in pairs(bibconf) do
+  if metatype(orig_bib) == 'table' then
+    -- MetaMap (multibib config): combine all bib files
+    for _, value in pairs(orig_bib) do
       table.insert(meta.bibliography, stringify(value))
     end
+  elseif metatype(orig_bib) == 'List' then
+    -- MetaList: keep the existing list
+    for _, value in ipairs(orig_bib) do
+      table.insert(meta.bibliography, stringify(value))
+    end
+  elseif orig_bib then
+    -- single entry
+    table.insert(meta.bibliography, stringify(orig_bib))
   end
+
   -- add refs div to catch the created bibliography
   table.insert(doc.blocks, refs_div)
   -- resolve all citations

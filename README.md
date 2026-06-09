@@ -14,10 +14,10 @@ We use Quarto for this website.
 
 ## Zotero Bibliography Export
 
-`scripts/zotero_dump.sh` is a defensive Bash utility that exports items from your local Zotero library (saved‑search **CV**) into BibLaTeX files. The script:
+`scripts/zotero_dump.sh` is a defensive Bash utility that exports items from your local Zotero library (saved‑search **CV**) into CSL JSON (`.json`) files. The script:
 
 - Queries the Zotero local API for each CV‑related tag (`cv‑talk`, `cv‑proceedings`, `cv‑journal`, `cv‑preprint`, `cv‑poster`).
-- Writes the results to `assets/bib/` with clear filenames (`cv_talks.bib`, `cv_proceedings.bib`, …).
+- Writes the results to `assets/bib/` with clear filenames (`cv_talks.json`, `cv_proceedings.json`, …).
 - Logs progress and errors to **stderr** with timestamps.
 - Aborts on any failure (missing tools, HTTP error, etc.) for safe CI integration.
 
@@ -38,7 +38,7 @@ bash scripts/zotero_dump.sh
 | `ZOTERO_API` | `http://localhost:23119/api` | Base URL of the Zotero local API. |
 | `ZOTERO_USER` | `0` | User ID for the local API (always `0`). |
 | `ZOTERO_SEARCH` | `Z72JGWEB` | Saved‑search key that groups the CV items. |
-| `BIBDIR` | `assets/bib` | Directory where the `.bib` files will be written. |
+| `BIBDIR` | `assets/bib` | Directory where the `.json` files will be written. |
 
 You can override any of these variables on the command line, e.g.:
 ```bash

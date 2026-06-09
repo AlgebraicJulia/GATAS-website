@@ -8,7 +8,7 @@ role: Research Assistant Professor
 degree: PhD
 status: Writing
 href: |-
-  <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
+  <a href="https://merlinsnotebook.com" class="btn btn-secondary">Site</a>
 tools:
   - text: Full Bio
     href: members/benbumpus.qmd
