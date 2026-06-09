@@ -7,6 +7,7 @@ date: 10/1/2022
 role: Research Assistant Professor
 degree: PhD
 status: Writing
+lightbox: auto
 href: |-
   <a href="https://merlinsnotebook.com" class="btn btn-secondary">Site</a>
 tools:
@@ -17,6 +18,23 @@ about:
   links:
     - text: Website
       href: https://bmbumpus.com/
+gallery:
+  heading: Photos
+  columns: 2
+  group: ben-gallery
+  images:
+    - src: /assets/photos/IMG_3971.jpeg
+      caption: "Benjamin *Merlin* Bumpus summons a presheaf."
+    - src: /assets/photos/IMG_5559.jpeg
+      caption: "When Owen came to visit and ideated about hierarchical data structures that eventually became InterTypes.jl"
+    - src: /assets/photos/IMG_5914.JPG
+      caption: "Attending the SIAM CSE meeting in Amsterdam 2023 with Ingeborg Gjerde and Luke Morris"
+    - src: /assets/photos/IMG_6468.jpeg
+      caption: "Lab dinner at Cry Baby's"
+    - src: /assets/photos/IMG_7442.jpeg
+      caption: "Teaching diagrammatic reasoning in the lab"
+    - src: /assets/photos/IMG_7873.jpeg
+      caption: "Caught in the act of doing Sheaf Theory while we were still a Category Theory lab"
 filters:
   - ../lua/auto-gallery.lua
 ---
