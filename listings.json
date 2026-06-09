@@ -1,30 +1,7 @@
 [
   {
-    "listing": "/research.html",
+    "listing": "/act2025/act2025.html",
     "items": []
-  },
-  {
-    "listing": "/members.html",
-    "items": [
-      "/members/jamesfairbanks.html",
-      "/members/georgerauta.html",
-      "/members/richardsamuelson.html",
-      "/members/samuelcohen.html",
-      "/members/tylerhanks.html",
-      "/members/lukemorris.html",
-      "/members/trevorgross.html",
-      "/members/wilmerleal.html",
-      "/members/cuffaromatt.html",
-      "/members/benbumpus.html"
-    ]
-  },
-  {
-    "listing": "/project/optimization.html",
-    "items": [
-      "/members/tylerhanks.html",
-      "/members/samuelcohen.html",
-      "/members/richardsamuelson.html"
-    ]
   },
   {
     "listing": "/projects.html",
@@ -32,21 +9,6 @@
       "/project/decapodes.html",
       "/project/optimization.html",
       "/project/sheaves.html"
-    ]
-  },
-  {
-    "listing": "/act2025/act2025.html",
-    "items": []
-  },
-  {
-    "listing": "/project/decapodes.html",
-    "items": [
-      "/publications/jocs.html",
-      "/publications/diagrampresentations/diagrampresentations.html",
-      "/publications/diagrameqns/diagrameqns.html",
-      "/members/lukemorris.html",
-      "/members/cuffaromatt.html",
-      "/members/georgerauta.html"
     ]
   },
   {
@@ -66,7 +28,7 @@
     ]
   },
   {
-    "listing": "/presentations.html",
+    "listing": "/research.html",
     "items": []
   },
   {
@@ -76,6 +38,44 @@
       "/projects.html",
       "/bibliography.html",
       "/sponsors/sponsors.html"
+    ]
+  },
+  {
+    "listing": "/project/optimization.html",
+    "items": [
+      "/members/tylerhanks.html",
+      "/members/samuelcohen.html",
+      "/members/richardsamuelson.html"
+    ]
+  },
+  {
+    "listing": "/project/decapodes.html",
+    "items": [
+      "/publications/jocs.html",
+      "/publications/diagrampresentations/diagrampresentations.html",
+      "/publications/diagrameqns/diagrameqns.html",
+      "/members/lukemorris.html",
+      "/members/cuffaromatt.html",
+      "/members/georgerauta.html"
+    ]
+  },
+  {
+    "listing": "/presentations.html",
+    "items": []
+  },
+  {
+    "listing": "/members.html",
+    "items": [
+      "/members/jamesfairbanks.html",
+      "/members/georgerauta.html",
+      "/members/richardsamuelson.html",
+      "/members/samuelcohen.html",
+      "/members/tylerhanks.html",
+      "/members/lukemorris.html",
+      "/members/trevorgross.html",
+      "/members/wilmerleal.html",
+      "/members/cuffaromatt.html",
+      "/members/benbumpus.html"
     ]
   }
 ]
