@@ -1,6 +1,7 @@
 ---
-title: "Bibliography"
+title: "Publications"
 format: html
+image: publications/mie_title.png
 bibliography:
   journal: assets/bib/cv_journals.json
   conference: assets/bib/cv_proceedings.json
@@ -20,14 +21,12 @@ resources:
   - assets/bib/apa-cv.csl
 ---
 
-We try to keep this page as up to date as possible. It is machine generated from
-a zotero library with all of the research products.
+This list is the same data as the [bibliography table](/bibtable.qmd)
 
 ## Journal Articles
 
 ::: {#refs-journal}
 :::
-   
 
 ## Conference Proceedings
 
