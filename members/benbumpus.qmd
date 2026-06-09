@@ -9,7 +9,7 @@ degree: PhD
 status: Writing
 lightbox: auto
 href: |-
-  <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
+  <a href="https://merlinsnotebook.com" class="btn btn-secondary">Site</a>
 tools:
   - text: Full Bio
     href: members/benbumpus.qmd

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # =============================================================================
-# zotero_dump.sh – Export Zotero items for the "CV" saved search into BibLaTeX.
+# zotero_dump.sh – Export Zotero items for the "CV" saved search into CSL JSON.
 #
 # This script is deliberately defensive:
 #   • `set -euo pipefail` aborts on any error, undefined variable or pipe failure.
@@ -25,8 +25,7 @@ error() { echo "$(date +'%Y-%m-%d %H:%M:%S') [ERROR] $*" >&2; }
 : "${ZOTERO_API:=http://localhost:23119/api}"   # Base API URL
 : "${ZOTERO_USER:=0}"                           # Zotero user ID (local API always 0)
 : "${ZOTERO_SEARCH:=Z72JGWEB}"                  # Saved‑search key for "CV"
-: "${BIBDIR:=assets/bib}"                        # Destination directory for .bib files
-
+: "${BIBDIR:=assets/bib}"                        # Destination directory for .json files
 ZOTERO_URL="${ZOTERO_API}/users/${ZOTERO_USER}/searches/${ZOTERO_SEARCH}/items"
 
 # -----------------------------------------------------------------------------

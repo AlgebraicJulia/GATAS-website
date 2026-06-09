@@ -28,17 +28,19 @@ function Pandoc(doc)
 
 	-- Gather file paths. Handles a plain list, a map (multibib), or a single entry.
 	local files = {}
-	if type(bib_files) == "table" then
+
+	local is_metamap = (type(bib_files) == "table" or type(bib_files) == "userdata") and bib_files.t == "MetaMap"
+	if is_metamap then
+		for _, v in pairs(bib_files) do
+			local p = pandoc.utils.stringify(v)
+			dbg("Inserting file (map): " .. p)
+			table.insert(files, p)
+		end
+	elseif type(bib_files) == "table" then
 		-- Assume it's a list of strings (or Meta objects) – iterate
 		for _, b in ipairs(bib_files) do
 			local p = pandoc.utils.stringify(b)
 			dbg("Inserting file (list): " .. p)
-			table.insert(files, p)
-		end
-	elseif type(bib_files) == "userdata" and bib_files.t == "MetaMap" then
-		for _, v in pairs(bib_files) do
-			local p = pandoc.utils.stringify(v)
-			dbg("Inserting file (map): " .. p)
 			table.insert(files, p)
 		end
 	else
@@ -77,7 +79,7 @@ function Pandoc(doc)
 	for i, ref in ipairs(refs) do
 		-- Authors
 		local authors = {}
-		if ref.author then
+		if type(ref.author) == "table" then
 			for _, a in ipairs(ref.author) do
 				local name = ""
 				if a.given then
@@ -93,7 +95,6 @@ function Pandoc(doc)
 			table.insert(authors, ref.author)
 		end
 		local author_str = table.concat(authors, ", ")
-
 		-- Title
 		local title_str = tostring_el(ref.title)
 
@@ -204,8 +205,8 @@ function Pandoc(doc)
 	local caption = pandoc.Inlines({})
 	local simple_tbl = pandoc.SimpleTable(
 		caption,
-		{ pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft },
-		{ 0, 0, 0, 0, 0 },
+		{ pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft },
+		{ 0, 0, 0, 0, 0, 0 },
 		header_cells,
 		rows
 	)

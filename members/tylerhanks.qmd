@@ -62,10 +62,9 @@ Conference on Decision and Control, and Applied Category Theory. Tyler mentors
 undergraduate students including [Sam Cohen](./samuelcohen.qmd) and [Trevor
 Gross](./trevorgross.qmd) and newer graduate students including [Richard
 Samuelson](./richardsamuelson.qmd). Through a combination of high‑impact
-publications, open‑source software, and community mentorship, Tyler Hanks
 exemplifies the GATAS Lab's mission to advance scientific computing by bridging
-abstract mathematics with concrete engineering applications. His hobbies
-including gaming, cycling, and playing music with his band [Ininite
+abstract mathematics with concrete engineering applications. His hobbies include
+gaming, cycling, and playing music with his band [Infinite
 Eights](https://open.spotify.com/artist/14vSwyEZcAa1jQITYnapMy).
 
 ### Selected publications
