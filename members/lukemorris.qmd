@@ -6,7 +6,8 @@ date: 8/15/2021
 published-title: "Lab Member Since:"
 program: CISE
 degree: PhD
-status: Qualifying
+status: Graduated
+lightbox: auto
 href: |-
     <a href="https://www.cise.ufl.edu/~luke.morris" class="btn btn-secondary">Site</a>
 tools:
@@ -20,6 +21,23 @@ about:
         - icon: Github
           text: Github
           href: https://github.com/lukem12345
+gallery:
+  heading: Photos
+  columns: 2
+  group: my-gallery
+  images:
+    - src: /assets/photos/IMG_6846.webp
+      caption: "Temporary caption 1"
+    - src: /assets/photos/IMG_6982.webp
+      caption: "Temporary caption 2"
+    - src: /assets/photos/IMG_7758.webp
+      caption: "Temporary caption 3"
+    - src: /assets/photos/IMG_8864.webp
+      caption: "Temporary caption 4"
+    - src: /assets/photos/IMG_9068.webp
+      caption: "Temporary caption 5"
+filters:
+  - ../lua/auto-gallery.lua
 ---
 is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.
 
