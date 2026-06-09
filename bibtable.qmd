@@ -1,0 +1,44 @@
+---
+title: "Bibliography Table"
+format: html
+bibliography:
+  - assets/bib/cv_journals.json
+  - assets/bib/cv_proceedings.json
+  - assets/bib/cv_talks.json
+  - assets/bib/cv_posters.json
+  - assets/bib/cv_preprints.json
+csl: https://www.zotero.org/styles/apa
+nocite: "@*"
+resources:
+  - assets/bib/cv_journals.json
+filters:
+  - lua/print-bib.lua
+---
+
+We try to keep this page as up to date as possible. It is machine generated from
+a zotero library with all of the research products.
+
+## Journal Articles
+
+::: {#refs-journal}
+:::
+
+## Conference Proceedings
+
+::: {#refs-conference}
+:::
+
+## Talks and Conference Talks
+
+::: {#refs-talk}
+:::
+
+## Posters
+
+::: {#refs-poster}
+:::
+
+## Preprints
+
+::: {#refs-preprint}
+:::
