@@ -48,6 +48,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-dd0d400b3baf6de2068da51b8919de12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-9883befdbb4496bd4224f054f1e38e70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/bootstrap/bootstrap-dd0d400b3baf6de2068da51b8919de12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -337,6 +340,24 @@ There, I explored both mathematical structures and vast chemical databases. This
 <p>Ultimately, my goal is to advance our understanding of the rich interplay between chemistry, mathematics, computer science and history of science.</p>
 
 
+<section class="level3">
+<h3 data-anchor-id="">Photos</h3>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="../assets/photos/IMG_7424.webp" class="lightbox" data-gallery="wilmer-gallery" title="Enjoying a tea in Oxford during the ACT conference"><img src="../assets/photos/IMG_7424.webp" class="img-fluid" alt="Enjoying a tea in Oxford during the ACT conference"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="../assets/photos/IMG_8220.webp" class="lightbox" data-gallery="wilmer-gallery" title="A historical place for chemists"><img src="../assets/photos/IMG_8220.webp" class="img-fluid" alt="A historical place for chemists"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="../assets/photos/IMG_9815.webp" class="lightbox" data-gallery="wilmer-gallery" title="Watching the Gators win the 2025 Basketball National Championship"><img src="../assets/photos/IMG_9815.webp" class="img-fluid" alt="Watching the Gators win the 2025 Basketball National Championship"></a></p>
+</div>
+</div>
+</div>
+</section>
 </main></div>
     </div>
     <img src="images/wilmerleal.jpg" class="about-image
@@ -751,6 +772,38 @@ There, I explored both mathematical structures and vast chemical databases. This
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
