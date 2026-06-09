@@ -4,6 +4,8 @@ set -euo pipefail
 repo_root=$(git rev-parse --show-toplevel)
 cd "$repo_root"
 
+# NOTE: This hook is only active if Git is configured to use this directory:
+#   git config core.hooksPath .githooks
 staged_files=()
 while IFS= read -r -d '' file; do
   staged_files+=("$file")

@@ -5,8 +5,8 @@ ROOT="assets/photos"
 MAX_DIM=2560
 QUALITY=82
 
-if ! command -v mogrify >/dev/null 2>&1; then
-  echo "optimize-photos-webp: ImageMagick 'mogrify' is required but was not found in PATH."
+if ! command -v mogrify >/dev/null 2>&1 || ! command -v identify >/dev/null 2>&1; then
+  echo "optimize_photos.sh: ImageMagick 'mogrify' and 'identify' are required but were not found in PATH."
   exit 1
 fi
 

@@ -26,7 +26,7 @@ gallery:
   columns: 2
   group: my-gallery
   images:
-    - src: /assets/photos/IMG_1273.webp 
+    - src: /assets/photos/IMG_1273.webp
       caption: "PhD Defense"
     - src: /assets/photos/IMG_7780.webp
       caption: "ASKEM Hackathon in Austin. We found a de Rahm complex in the wild!"
@@ -39,7 +39,7 @@ gallery:
     - src: /assets/photos/IMG_7758.webp
       caption: "Presenting a DECAPODES poster at MAE PhD student recruiting"
     - src: /assets/photos/IMG_8864.webp
-      caption: "Becomming one with the machines on a Hipergator tour."
+      caption: "Becoming one with the machines on a Hipergator tour."
     - src: /assets/photos/IMG_5037.webp
       caption: "Luke's first UF football game, still a Kentucky fan."
 filters:
