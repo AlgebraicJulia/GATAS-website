@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – GATAS Lab | University of Florida</title>
+<title>Publications – GATAS Lab | University of Florida</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -34,8 +54,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./_assets/brand/favicon.ico" rel="icon">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -77,79 +95,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script>document.addEventListener("DOMContentLoaded", function () {
- var mathElements = document.getElementsByClassName("math");
- var macros = [];
- for (var i = 0; i < mathElements.length; i++) {
-  var texText = mathElements[i].firstChild;
-  if (mathElements[i].tagName == "SPAN") {
-   katex.render(texText.data, mathElements[i], {
-    displayMode: mathElements[i].classList.contains('display'),
-    throwOnError: false,
-    macros: macros,
-    fleqn: false
-   });
-}}});
-  </script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css">
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -342,11 +288,11 @@ window.Quarto = {
 <span class="menu-text">Members</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./bibliography.html"> 
+    <a class="nav-link active" href="./bibliography.html" aria-current="page"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -390,7 +336,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Publications</h1>
 </div>
 
 
@@ -407,74 +353,264 @@ window.Quarto = {
 </header>
 
 
-<p>Here you can find a list of our current research projects. Each project is composed of multiple publications.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-projects">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1781024572528" data-listing-reading-time-sort="1" data-listing-word-count-sort="96">
-<div class="thumbnail"><a href="./project/decapodes.html" class="no-external">
-
-<img loading="lazy" src="https://raw.githubusercontent.com/AlgebraicJulia/Decapodes.jl/main/docs/src/logo/decapodes_logo.svg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./project/decapodes.html" class="no-external">Decapodes</a>
-</h3>
-<div class="delink listing-description"><a href="./project/decapodes.html" class="no-external">
-Decapodes.jl is a graphical tool for the composition of physical systems.<br>
-This library includes tooling which takes advantage of the formalization of physical theories…
-</a></div>
+<p>This list is the same data as the <a href="./bibtable.html">bibliography table</a></p>
+<section id="journal-articles" class="level2">
+<h2 class="anchored" data-anchor-id="journal-articles">Journal Articles</h2>
+<div id="refs-journal" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-aduddell2024CompositionalAccount" class="csl-entry" role="listitem">
+13. Aduddell, R., Fairbanks, J., Kumar, A., Ocal, P. S., Patterson, E., &amp; Shapiro, B. T. (2024). A compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks. <em>Compositionality</em>, <em>6</em>, 2. <a href="https://doi.org/10.32408/compositionality-6-2">https://doi.org/10.32408/compositionality-6-2</a>
 </div>
-<div class="metadata">
-<a href="./project/decapodes.html" class="no-external">
-</a>
+<div id="ref-morris2024DecapodesDiagrammatic" class="csl-entry" role="listitem">
+12. Morris, L., Baas, A., Arias, J., Gatlin, M., Patterson, E., &amp; Fairbanks, J. P. (2024). Decapodes: A diagrammatic tool for representing, composing, and computing spatialized partial differential equations. <em>Journal of Computational Science</em>, <em>81</em>, 102345. <a href="https://doi.org/10.1016/j.jocs.2024.102345">https://doi.org/10.1016/j.jocs.2024.102345</a>
 </div>
+<div id="ref-brown2023ComputationalCategorytheoretic" class="csl-entry" role="listitem">
+11. Brown, K., Patterson, E., Hanks, T., &amp; Fairbanks, J. (2023). Computational category-theoretic rewriting. <em>Journal of Logical and Algebraic Methods in Programming</em>, <em>134</em>, 100888. <a href="https://doi.org/10.1016/j.jlamp.2023.100888">https://doi.org/10.1016/j.jlamp.2023.100888</a>
 </div>
-<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1781024572529" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<div class="thumbnail"><a href="./project/optimization.html" class="no-external">
-
-<img loading="lazy" src="./project/img/cross_constraint.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./project/optimization.html" class="no-external">Algebraic Dynamics, Optimization, and Control</a>
-</h3>
-<div class="delink listing-description"><a href="./project/optimization.html" class="no-external">
-AlgebraicControl.jl
-</a></div>
+<div id="ref-garrett2023application" class="csl-entry" role="listitem">
+10. Garrett, R. K., Fairbanks, J. P., Loper, M. L., &amp; Moreland, J. D. (2023). The application of applied category theory to quantify mission success. <em>Simulation</em>, <em>99</em>(2), 201–220.
 </div>
-<div class="metadata">
-<a href="./project/optimization.html" class="no-external">
-</a>
+<div id="ref-patterson2023DiagrammaticView" class="csl-entry" role="listitem">
+9. Patterson, E., Baas, A., Hosgood, T., &amp; Fairbanks, J. (2023). A diagrammatic view of differential equations in physics. <em>Mathematics in Engineering</em>, <em>5</em>(2), 1–59. <a href="https://doi.org/10.3934/mine.2023036">https://doi.org/10.3934/mine.2023036</a>
+</div>
+<div id="ref-libkind2022AlgebraicFramework" class="csl-entry" role="listitem">
+8. Libkind, S., Baas, A., Halter, M., Patterson, E., &amp; Fairbanks, J. P. (2022). An algebraic framework for structured epidemic modelling. <em>Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences</em>, <em>380</em>(2233), 20210309. <a href="https://doi.org/10.1098/rsta.2021.0309">https://doi.org/10.1098/rsta.2021.0309</a>
+</div>
+<div id="ref-patterson2022CategoricalData" class="csl-entry" role="listitem">
+7. Patterson, E., Lynch, O., &amp; Fairbanks, J. (2022). Categorical Data Structures for Technical Computing. <em>Compositionality</em>, <em>Volume 4 (2022)</em>. <a href="https://doi.org/10.32408/compositionality-4-5">https://doi.org/10.32408/compositionality-4-5</a>
+</div>
+<div id="ref-mordecai2021category" class="csl-entry" role="listitem">
+6. Mordecai, Y., Fairbanks, J. P., &amp; Crawley, E. F. (2021). Category-theoretic formulation of the model-based systems architecting cognitive-computational cycle. <em>Applied Sciences</em>, <em>11</em>(4), 1945.
+</div>
+<div id="ref-briscoe2020artificial" class="csl-entry" role="listitem">
+5. Briscoe, E., &amp; Fairbanks, J. (2020). Artificial scientific intelligence and its impact on national security and foreign policy. <em>Orbis</em>, <em>64</em>(4), 544–554.
+</div>
+<div id="ref-nadolski2019ComplexSystems" class="csl-entry" role="listitem">
+4. Nadolski, M., &amp; Fairbanks, J. (2019). Complex systems analysis of hybrid warfare. <em>Procedia Computer Science, 17th Annual Conference on Systems Engineering Research (CSER)</em>, <em>153</em>, 210–217. <a href="https://doi.org/10.1016/j.procs.2019.05.072">https://doi.org/10.1016/j.procs.2019.05.072</a>
+</div>
+<div id="ref-fairbanks2017spectral" class="csl-entry" role="listitem">
+3. Fairbanks, J. P., Bader, D. A., &amp; Sanders, G. D. (2017). Spectral partitioning with blends of eigenvectors. <em>Journal of Complex Networks</em>, <em>5</em>(4), 551–580.
+</div>
+<div id="ref-fairbanks2015behavioral" class="csl-entry" role="listitem">
+2. Fairbanks, J. P., Kannan, R., Park, H., &amp; Bader, D. A. (2015). Behavioral clusters in dynamic graphs. <em>Parallel Computing</em>, <em>47</em>, 38–50.
+</div>
+<div id="ref-fairbanks2011ramsey" class="csl-entry" role="listitem">
+1. Fairbanks, J. (2011). A Ramsey theorem for indecomposable matchings. <em>arXiv Preprint arXiv:1110.3314</em>.
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-listing-file-modified-sort="1781024572529" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
-<div class="thumbnail"><a href="./project/sheaves.html" class="no-external">
+</section>
+<section id="conference-proceedings" class="level2">
+<h2 class="anchored" data-anchor-id="conference-proceedings">Conference Proceedings</h2>
+<div id="refs-conference" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-currier2026WhitneyControl" class="csl-entry" role="listitem">
+26. Currier, K., Leal, W., Rauta, G., Copeland, A., Dixon, W., &amp; Fairbanks, J. (2026). Whitney Control Barrier Functions: A Mesh-based Geometric approach via Discrete Exterior Calculus. <em>Submitted</em>. IFAC.
+</div>
+<div id="ref-hanks2026HeterogeneousMultiagent" class="csl-entry" role="listitem">
+25. Hanks, T., Nino, C., Barcelo, J. B., Copeland, A., Dixon, W., &amp; Fairbanks, J. (2026). Heterogeneous Multi-agent multi-target tracking using cellular sheaves. <em>Submitted</em>. European Control Conference.
+</div>
+<div id="ref-zhao2026AsynchronousNonlinear" class="csl-entry" role="listitem">
+24. Zhao, Y., Hanks, T., Riess, H., Cohen, S., Hale, M., &amp; Fairbanks, J. (2026). Asynchronous nonlinear sheaf diffusion for mult-agent coordiantion. <em>Accepted</em>. IEEE American Control Conference.
+</div>
+<div id="ref-larylearning" class="csl-entry" role="listitem">
+23. Lary, M., Samuelson, R., Wilentz, A., Zare, A., Klawonn, M., &amp; Fairbanks, J. (2025). Learning diagrams: a graphical language for compositional training regimes. <em>The Thirteenth International Conference on Learning Representations</em>. International Conference on Learning Representations. <a href="https://openreview.net/forum?id=dqyuCsBvn9">https://openreview.net/forum?id=dqyuCsBvn9</a>
+</div>
+<div id="ref-hanks2025DistributedMultiagent" class="csl-entry" role="listitem">
+22. Hanks, T., Riess, H., Cohen, S., Gross, T., Hale, M., &amp; Fairbanks, J. (2025, April 4). Distributed Multi-agent Coordination over Cellular Sheaves. <em>IEEE Conference on Decision and Control</em>. IEEE Conference on Decision and Control. <a href="https://doi.org/10.48550/arXiv.2504.02049">https://doi.org/10.48550/arXiv.2504.02049</a>
+</div>
+<div id="ref-bumpus2024nice" class="csl-entry" role="listitem">
+21. Bumpus, B. M., Fairbanks, J., Genovese, F., Puca, C., &amp; Rosiak, D. (2024). How nice is this functor? Two squares and some homology go a long way. <em>Proceedings of Applied Category Theory</em>, <em>2024</em>.
+</div>
+<div id="ref-hanks2024ModelingModel" class="csl-entry" role="listitem">
+20. Hanks, T., She, B., Hale, M., Patterson, E., Klawonn, M., &amp; Fairbanks, J. (2024). Modeling Model Predictive Control: A Category Theoretic Framework for Multistage Control Problems. <em>2024 American Control Conference (ACC)</em>, 4850–4857. <a href="https://doi.org/10.23919/ACC60939.2024.10644848">https://doi.org/10.23919/ACC60939.2024.10644848</a>
+</div>
+<div id="ref-lynch2024GATlabModeling" class="csl-entry" role="listitem">
+19. Lynch, O., Brown, K., Fairbanks, J., &amp; Patterson, E. (2024). GATlab: Modeling and Programming with Generalized Algebraic Theories. <em>Electronic Notes in Theoretical Informatics and Computer Science</em>, <em>4</em>.
+</div>
+<div id="ref-hanks2024GeneralizedGradient" class="csl-entry" role="listitem">
+18. Hanks, T., Klawonn, M., &amp; Fairbanks, J. (2024, March 28). <em>Generalized Gradient Descent is a Hypergraph Functor</em>. Applied Category Theory. <a href="https://doi.org/10.48550/arXiv.2403.19845">https://doi.org/10.48550/arXiv.2403.19845</a>
+</div>
+<div id="ref-aguinaldo2023CategoricalRepresentation" class="csl-entry" role="listitem">
+17. Aguinaldo, A., Patterson, E., Fairbanks, J., Regli, W., &amp; Ruiz, J. (2023). A Categorical Representation Language and Computational System for Knowledge-Based Robotic Task Planning [Best Paper Award]. <em>Proceedings of the AAAI Symposium Series</em>, <em>2</em>, 491–497. <a href="https://doi.org/10.1609/aaaiss.v2i1.27718">https://doi.org/10.1609/aaaiss.v2i1.27718</a>
+</div>
+<div id="ref-she2023CharacterizingCompositionality" class="csl-entry" role="listitem">
+16. She, B., Hanks, T., Fairbanks, J., &amp; Hale, M. (2023). Characterizing Compositionality of LQR from the Categorical Perspective. <em>2023 62nd IEEE Conference on Decision and Control (CDC)</em>, 1680–1685. <a href="https://doi.org/10.1109/CDC49753.2023.10383467">https://doi.org/10.1109/CDC49753.2023.10383467</a>
+</div>
+<div id="ref-brown2022CompositionalExploration" class="csl-entry" role="listitem">
+15. Brown, K., Hanks, T., &amp; Fairbanks, J. (2022). <em>Compositional Exploration of Combinatorial Scientific Models</em>. Applied Category Theory. <a href="https://doi.org/10.48550/ARXIV.2206.08755">https://doi.org/10.48550/ARXIV.2206.08755</a>
+</div>
+<div id="ref-brown2022ComputationalCategoryTheoretic" class="csl-entry" role="listitem">
+14. Brown, K., Patterson, E., Hanks, T., &amp; Fairbanks, J. (2022). Computational Category-Theoretic Rewriting [Best Paper]. <em>Graph Transformation: 15th International Conference, ICGT 2022, Held as Part of STAF 2022, Nantes, France, July 7–8, 2022, Proceedings</em>, 155–172. <a href="https://doi.org/10.1007/978-3-031-09843-7_9">https://doi.org/10.1007/978-3-031-09843-7_9</a>
+</div>
+<div id="ref-libkind2022OperadicModeling" class="csl-entry" role="listitem">
+13. Libkind, S., Baas, A., Patterson, E., &amp; Fairbanks, J. (2022). Operadic Modeling of Dynamical Systems: Mathematics and Computation. <em>Electronic Proceedings in Theoretical Computer Science</em>, <em>372</em>, 192–206. <a href="https://doi.org/10.4204/EPTCS.372.14">https://doi.org/10.4204/EPTCS.372.14</a>
+</div>
+<div id="ref-fairbanks2020CredibilityDevelopment" class="csl-entry" role="listitem">
+12. Fairbanks, J. P., Fitch, N., Bradfield, F., &amp; Briscoe, E. (2020). Credibility Development with Knowledge Graphs. In C. Grimme, M. Preuss, F. W. Takes, &amp; A. Waldherr (Eds.), <em>Lecture Notes in Computer Science</em> (Vol. 12021, pp. 33–47). Springer International Publishing. <a href="https://doi.org/10.1007/978-3-030-39627-5_4">https://doi.org/10.1007/978-3-030-39627-5_4</a>
+</div>
+<div id="ref-cao2019UnsupervisedConstruction" class="csl-entry" role="listitem">
+11. Cao, K., &amp; Fairbanks, J. (2019). Unsupervised Construction of Knowledge Graphs From Text and Code. <em>SIGKDD Conference on Knowledge Discovery and Data Mining International Workshop on Mining and Learning with Graphs</em>, <em>15</em>.
+</div>
+<div id="ref-campbell2018DigitalWitness" class="csl-entry" role="listitem">
+10. Campbell, N., Goodyear, T., Messer, W., Stuart, E., &amp; Fairbanks, J. (2018). Digital Witness: Remote Method for Volunteering Digital Evidence on Mobile Devices. <em>2018 IEEE International Symposium on Technologies for Homeland Security (HST)</em>, 1–5. <a href="https://doi.org/10.1109/THS.2018.8574119">https://doi.org/10.1109/THS.2018.8574119</a>
+</div>
+<div id="ref-fairbanks2018credibility" class="csl-entry" role="listitem">
+9. Fairbanks, J. P., Fitch, N., Knauf, N., &amp; Briscoe, E. (2018). Credibility Assessment in the News: Do We Need to Read? <em>WSDM/MIS2</em>, <em>2</em>.
+</div>
+<div id="ref-nathan2018ranking" class="csl-entry" role="listitem">
+8. Nathan, E., Fairbanks, J., &amp; Bader, D. (2018). Ranking in dynamic graphs using exponential centrality. <em>Complex Networks &amp; Their Applications VI: Proceedings of Complex Networks 2017 (the Sixth International Conference on Complex Networks and Their Applications)</em>, 378–389.
+</div>
+<div id="ref-thankachan2018performance" class="csl-entry" role="listitem">
+7. Thankachan, R. V., Swenson, B. P., &amp; Fairbanks, J. P. (2018). Performance effects of dynamic graph data structures in community detection algorithms. <em>2018 IEEE High Performance Extreme Computing Conference (HPEC)</em>, 1–7.
+</div>
+<div id="ref-ediger2017deriving" class="csl-entry" role="listitem">
+6. Ediger, D., &amp; Fairbanks, J. P. (2017). Deriving Streaming Graph Algorithms from Static Definitions. <em>2017 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), Graph Algorithms Building Blocks</em>, 637–642. <a href="https://doi.org/10.1109/IPDPSW.2017.146">https://doi.org/10.1109/IPDPSW.2017.146</a>
+</div>
+<div id="ref-fairbanks2017integrating" class="csl-entry" role="listitem">
+5. Fairbanks, J., Thankachan, R. V., Hein, E., &amp; Swenson, B. (2017). Integrating productivity-oriented programming languages with high-performance data structures. <em>2017 IEEE High Performance Extreme Computing Conference (HPEC)</em>, 1–8.
+</div>
+<div id="ref-nathan2017GraphRanking" class="csl-entry" role="listitem">
+4. Nathan, E., Sanders, G., Fairbanks, J., Henson, V. E., &amp; Bader, D. A. (2017). Graph Ranking Guarantees for Numerical Approximations to Katz Centrality. <em>Procedia Computer Science, International Conference on Computational Science, ICCS 2017, 12-14 June 2017, Zurich, Switzerland</em>, <em>108</em>, 68–78. <a href="https://doi.org/10.1016/j.procs.2017.05.021">https://doi.org/10.1016/j.procs.2017.05.021</a>
+</div>
+<div id="ref-fairbanks2016new" class="csl-entry" role="listitem">
+3. Fairbanks, J. P., Zakrzewska, A., &amp; Bader, D. A. (2016). New stopping criteria for spectral partitioning. <em>2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)</em>, 25–32.
+</div>
+<div id="ref-zakrzewska2016local" class="csl-entry" role="listitem">
+2. Zakrzewska, A., Nathan, E., Fairbanks, J., &amp; Bader, D. A. (2016). A local measure of community change in dynamic graphs. <em>2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)</em>, 349–353.
+</div>
+<div id="ref-fairbanks2013StatisticalFramework" class="csl-entry" role="listitem">
+1. Fairbanks, J., Ediger, D., McColl, R., Bader, D. A., &amp; Gilbert, E. (2013). A statistical framework for streaming graph analysis. <em>2013 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM 2013)</em>, 341–347. <a href="https://doi.org/10.1145/2492517.2492620">https://doi.org/10.1145/2492517.2492620</a>
+</div>
+</div>
+</section>
+<section id="talks-and-conference-talks" class="level2">
+<h2 class="anchored" data-anchor-id="talks-and-conference-talks">Talks and Conference Talks</h2>
+<div id="refs-talk" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-carlson2025MultigridMethods" class="csl-entry" role="listitem">
+23. Carlson, K. (2025, April 16). <em>Multigrid Methods for Structure Preserving Discretizations</em> [Talk]. 22ND Copper Mountain Conference on Multigrid Methods, Copper Mountain, CO.
+</div>
+<div id="ref-fairbanks2025ModelingACT" class="csl-entry" role="listitem">
+22. Fairbanks, J. (2025, July). <em>Modeling with ACT for Compositional Decision Making</em> [Talk]. American Control Conference, Denver, CO.
+</div>
+<div id="ref-fairbanks2025CompositionalDevelopment" class="csl-entry" role="listitem">
+21. Fairbanks, J., &amp; Patterson, E. (2025, July). <em>Compositional Development of Compositional Mathematics</em> [Talk]. Applied Category Theory, Gainesville, FL.
+</div>
+<div id="ref-fairbanks2024compositional" class="csl-entry" role="listitem">
+20. Fairbanks, J. P., Aduddell, R., Kumar, A., Ocal, P. S., Patterson, E., &amp; Shapiro, B. T. (2024, February). <em>A compositional account of motifs, mechanisms, and dynamics in biochemical regulatory networks</em>. AMS Southeastern Sectional Meeting, Tallahassee, FL.
+</div>
+<div id="ref-aduddell2023CategoricalFramework" class="csl-entry" role="listitem">
+19. Aduddell, R., Ocal, P. S., Fairbanks, J. P., Patterson, E., Shapiro, B., &amp; Kumar, A. (2023). <em>A categorical framework for (gene) regulatory networks</em>. Joint Mathematics Meeting, Boston, MA.
+</div>
+<div id="ref-fairbanks2023computational" class="csl-entry" role="listitem">
+18. Fairbanks, J. P., &amp; Lynch, O. (2023). <em>Computational category theory in applied mathematics</em> [Invited]. Joint Mathematics Meetings, Boston, MA.
+</div>
+<div id="ref-libkindtyped" class="csl-entry" role="listitem">
+17. Libkind, S., Baas, A., Halter, M., Patterson, E., &amp; Fairbanks, J. (2022). Typed and stratified models with slice categories. <em>Applied Category Theory</em>, 1–3. <a href="https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3530.pdf">https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3530.pdf</a>
+</div>
+<div id="ref-wuindividual" class="csl-entry" role="listitem">
+16. Wu, S. L., Libkind, S., Brown, K., Patterson, E., &amp; Fairbanks, J. (2022). <em>Individual. jl: Rewriting individual-based models for epidemiology using graph rewriting</em> [Extended Abstract]. Applied Category Theory, Glasgow, UK. <a href="https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3642.pdf">https://msp.cis.strath.ac.uk/act2022/papers/ACT2022_paper_3642.pdf</a>
+</div>
+<div id="ref-talk1" class="csl-entry" role="listitem">
+15. Patterson, E., Hosgood, T., Baas, A., &amp; Fairbanks, J. (2022, July). <em>Diagrammatic differential equations: Formal categorical framework and applications to multiphysics simulation</em>. Applied Category Theory, Glasgow, UK. <a href="https://doi.org/10.3934/mine.2023036">https://doi.org/10.3934/mine.2023036</a>
+</div>
+<div id="ref-talk5" class="csl-entry" role="listitem">
+14. Libkind, S., &amp; Fairbanks, J. (2021, July). <em>AlgebraicDynamics: Compositional dynamical systems</em>. JuliaCon, Virtual. <a href="https://pretalx.com/juliacon2021/talk/ARURL8/">https://pretalx.com/juliacon2021/talk/ARURL8/</a>
+</div>
+<div id="ref-talk6" class="csl-entry" role="listitem">
+13. Lynch, O., Patterson, E., &amp; Fairbanks, J. (2021, July). <em>Shaped data with acsets</em>. JuliaCon, Virtual. <a href="https://pretalx.com/juliacon2021/talk/NWRPGY/">https://pretalx.com/juliacon2021/talk/NWRPGY/</a>
+</div>
+<div id="ref-talk4" class="csl-entry" role="listitem">
+12. Jackson, M., Halter, M., Goodyear, T., O’Donnell, B., &amp; Fairbanks, J. (2021, September). <em>Accelerating automatic target recognition performance evaluation with a relational database</em>. Tri-Service Radar Symposium.
+</div>
+<div id="ref-halter2020semanticmodels" class="csl-entry" role="listitem">
+11. Halter, M., Raparti, S., Cao, K., Herlihy, C., &amp; Fairbanks, J. (2020). SemanticModels. jl: a julia package for scientific model augmentation. <em>Proceedings of the JuliaCon Conferences</em>, <em>1</em>, Article 1.
+</div>
+<div id="ref-halter2020CompositionalScientific" class="csl-entry" role="listitem">
+10. Halter, M., Patterson, E., Baas, A., &amp; Fairbanks, J. (2020, June 29). <em>Compositional Scientific Computing with Catlab and SemanticModels</em>. Applied Category Theory. <a href="http://arxiv.org/abs/2005.04831">http://arxiv.org/abs/2005.04831</a>
+</div>
+<div id="ref-halter2019compositional" class="csl-entry" role="listitem">
+9. Halter, M., Herlihy, C., &amp; Fairbanks, J. (2019). A compositional framework for scientific model augmentation. <em>arXiv Preprint arXiv:1907.03536</em>.
+</div>
+<div id="ref-herlihy2019SemanticProgram" class="csl-entry" role="listitem">
+8. Herlihy, C., Cao, K., Reparti, S., Briscoe, E., &amp; Fairbanks, J. (2019). Semantic Program Analysis for Scientiﬁc Model Augmentation. <em>Modeling the World’s Systems</em>, 7.
+</div>
+<div id="ref-talk7" class="csl-entry" role="listitem">
+7. Herlihy, C., &amp; Fairbanks, J. (2019, July). <em>semanticmodels.jl: Not just another modeling framework</em>. JuliaCon, Baltimore, MD. <a href="https://www.youtube.com/watch?v=WJneK7OjqMQ">https://www.youtube.com/watch?v=WJneK7OjqMQ</a>
+</div>
+<div id="ref-besancon2018GraphInterfaces" class="csl-entry" role="listitem">
+6. Besançon, M., &amp; Fairbanks, J. (2018). <em>Graph interfaces: Bespoke graphs for every occasion</em>. JuliaCon, London, UK. <a href="https://youtu.be/OD-BSn4FZ2A">https://youtu.be/OD-BSn4FZ2A</a>
+</div>
+<div id="ref-talk10" class="csl-entry" role="listitem">
+5. Fairbanks, J. (2018). <em>The JuliaGraphs ecosystem: Move fast and don’t break things</em>. JuliaCon, London, UK. <a href="https://youtu.be/OZuQoxTPoyM">https://youtu.be/OZuQoxTPoyM</a>
+</div>
+<div id="ref-talk13" class="csl-entry" role="listitem">
+4. Bromberger, S., &amp; Fairbanks, J. (2017). <em>LightGraphs: Our network, our story</em>. JuliaCon, Berkeley, CA. <a href="https://youtu.be/MFD-qmApXl8">https://youtu.be/MFD-qmApXl8</a>
+</div>
+<div id="ref-fairbanks2017assessing" class="csl-entry" role="listitem">
+3. Fairbanks, J., Knauf, N., Fitch, N., Herlihy, C., &amp; Briscoe, E. (2017). <em>Assessing credibility in the global news media</em>. <a href="http://resources.basistech.com.s3.amazonaws.com/hltcon-presentations/2017/Fairbanks_Georgia_Tech_HLTCon.pdf">http://resources.basistech.com.s3.amazonaws.com/hltcon-presentations/2017/Fairbanks_Georgia_Tech_HLTCon.pdf</a>
+</div>
+<div id="ref-talk12" class="csl-entry" role="listitem">
+2. Frederick, T., Herlihy, C., &amp; Fairbanks, J. (2017). <em>Using big data to predict and analyze cooperation and conflict</em>. The Conflict Conference, University of Texas, Austin, TX.
+</div>
+<div id="ref-bader2015semantic" class="csl-entry" role="listitem">
+1. Bader, D., Michalewicz, A., Green, O., Birkett-Rees, J., Riedy, J., Fairbanks, J., &amp; Zakrzewska, A. (2016, April 2). Semantic database applications at the samtavro cemetery, georgia. <em>The 44th Computer Applications and Quantitative Methods in Archaeology Conference (CAA)</em>. The 44th Computer Applications and Quantitative Methods in Archaeology Conference (CAA). <a href="https://2016.caaconference.org/session-11-supporting-researchers-in-the-use-and-re-use-of-archaeological-data-continuing-the-ariadne-thread/">https://2016.caaconference.org/session-11-supporting-researchers-in-the-use-and-re-use-of-archaeological-data-continuing-the-ariadne-thread/</a>
+</div>
+</div>
+</section>
+<section id="posters" class="level2">
+<h2 class="anchored" data-anchor-id="posters">Posters</h2>
+<div id="refs-poster" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Posters2" class="csl-entry" role="listitem">
+8. Lynch, O., Fairbanks, J. P., &amp; Patterson, E. (2021, June). <em>Graphical semantic modeling with semagrams.jl</em>. Applied Category Theory, Cambridge, UK.
+</div>
+<div id="ref-Posters1" class="csl-entry" role="listitem">
+7. Perez, J., Baas, A., Ferrall-Fairbanks, M. C., Platt, M. O., &amp; Fairbanks, J. P. (2021, October). <em>Parameter estimation by minimizing the loss with respect to a finite difference approximation on the vector field</em>. Biomedical Engineering Society Annual Meeting, Orlando, FL.
+</div>
+<div id="ref-Posters3" class="csl-entry" role="listitem">
+6. Fairbanks, J. P. (2019, May). <em>Semantic model understanding for scientific model augmentation</em>. Systems Biology of Human Disease, Berlin, DE.
+</div>
+<div id="ref-Posters5" class="csl-entry" role="listitem">
+5. Brown, C. S., Duke, J., Fairbanks, J. P., Herlihy, C., Mukadam, K., Poovey, J., &amp; Rost, M. (2017). <em>Implementing real-time patient level predictions using PLP models</em>. OHDSI Symposium.
+</div>
+<div id="ref-Posters4" class="csl-entry" role="listitem">
+4. Fairbanks, J. P. (2017). <em>QueryGarden: growing healthy applications in well prepared SQL</em>. OHDSI Symposium, New York, NY.
+</div>
+<div id="ref-fairbanksdiscovering" class="csl-entry" role="listitem">
+3. Fairbanks, J., &amp; Sanders, G. (2015). <em>Discovering block structure in graphs with approximate eigenvectors</em> [Poster]. SIAM Computational Science and Engineering, Salt Lake City, UT. <a href="https://jpfairbanks.com/doc/siam-cse-2015.pdf">https://jpfairbanks.com/doc/siam-cse-2015.pdf</a>
+</div>
+<div id="ref-Posters6" class="csl-entry" role="listitem">
+2. Fairbanks, J. P. (2015, March). <em>Discovering block structure with approximate eigenvectors</em>. SIAM Computational Science and Engineering.
+</div>
+<div id="ref-Posters7" class="csl-entry" role="listitem">
+1. Fairbanks, J. P. (2012). <em>Ramsey theorem for indecomposable matchings</em>. Graph Theory at Georgia Tech (GT@GT), Atlanta, GA.
+</div>
+</div>
+</section>
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
+<div id="refs-preprint" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-arlin2024diagrammatic" class="csl-entry" role="listitem">
+6. Arlin, K., Fairbanks, J., Hosgood, T., &amp; Patterson, E. (2024). The diagrammatic presentation of equations in categories. <em>arXiv Preprint arXiv:2401.09751</em>.
+</div>
+<div id="ref-bumpus2024failures" class="csl-entry" role="listitem">
+5. Bumpus, B. M., Capucci, M., Fairbanks, J., &amp; Rosiak, D. (2024). Failures of compositionality: a short note on cohomology, sheafification and lavish presheaves. <em>arXiv Preprint arXiv:2407.03488</em>.
+</div>
+<div id="ref-bumpus2024UnifiedTheory" class="csl-entry" role="listitem">
+4. Bumpus, B. M., Fairbanks, J., Karvonen, M., Leal, W., &amp; Simard, F. (2024). <em>Towards a Unified Theory of Time-Varying Data</em> (arXiv:2402.00206). arXiv. <a href="https://doi.org/10.48550/arXiv.2402.00206">https://doi.org/10.48550/arXiv.2402.00206</a>
+</div>
+<div id="ref-bumpus2024PushingTree" class="csl-entry" role="listitem">
+3. Bumpus, B. M., Fairbanks, J., &amp; Turner, W. J. (2024). <em>Pushing Tree Decompositions Forward Along Graph Homomorphisms</em> (arXiv:2408.15184). arXiv. <a href="https://doi.org/10.48550/arXiv.2408.15184">https://doi.org/10.48550/arXiv.2408.15184</a>
+</div>
+<div id="ref-hanks2024CompositionalFramework" class="csl-entry" role="listitem">
+2. Hanks, T., Klawonn, M., Patterson, E., Hale, M., &amp; Fairbanks, J. (2024). <em>A Compositional Framework for First-Order Optimization</em> (arXiv:2403.05711). arXiv. <a href="https://doi.org/10.48550/arXiv.2403.05711">https://doi.org/10.48550/arXiv.2403.05711</a>
+</div>
+<div id="ref-althaus2023CompositionalAlgorithms" class="csl-entry" role="listitem">
+1. Althaus, E., Bumpus, B. M., Fairbanks, J., &amp; Rosiak, D. (2023). <em>Compositional Algorithms on Compositional Data: Deciding Sheaves on Presheaves</em> (arXiv:2302.05575). arXiv. <a href="https://doi.org/10.48550/arXiv.2302.05575">https://doi.org/10.48550/arXiv.2302.05575</a>
+</div>
+</div>
 
-<img loading="lazy" src="./_assets/gatas_logo.png" class="thumbnail-image">
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./project/sheaves.html" class="no-external">Compositional Algorithms with Sheaves</a>
-</h3>
-<div class="delink listing-description"><a href="./project/sheaves.html" class="no-external">
-StructuredDecompositions.jl
-</a></div>
-</div>
-<div class="metadata">
-<a href="./project/sheaves.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

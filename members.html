@@ -47,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dd0d400b3baf6de2068da51b8919de12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-9883befdbb4496bd4224f054f1e38e70.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-dd0d400b3baf6de2068da51b8919de12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1557cd08684dcf829fe6a1f5d175fa52.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-0b7e8df9ffdaaefd3fc56e6dbd087a1e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-1557cd08684dcf829fe6a1f5d175fa52.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -108,6 +108,34 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-mentoring .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -117,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-Name','listing-Degree','listing-Company','listing-Dates',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-Dates","listing-Company","listing-title","listing-date","listing-Degree","listing-Name","listing-Year"],
+      searchColumns: ["listing-Dates","listing-Company","listing-title","listing-date","listing-Degree","listing-Name","listing-Year","listing-linkedin","listing-website"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -374,8 +402,8 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./bibliography.html"> 
+<span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./presentations.html"> 
@@ -438,13 +466,13 @@ window.Quarto = {
 <p>The members of the lab come from diverse perspectives with unique training. We are always looking for students and researchers with a desire to solve problems by leveraging abstract applications in novel science and engineering applications.</p>
 <p>Accepting Applications for</p>
 <ul>
-<li><p>PhD Students in both <a href="https://www.cise.ufl.edu/academics/graduate/phd/">CISE</a> and <a href="https://mae.ufl.edu/students/graduate/degree-programs-requirements/">MAE</a>. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.</p>
+<li><p>PhD Students in both <a href="https://mae.ufl.edu/students/graduate/degree-programs-requirements/">MAE</a> and <a href="https://www.cise.ufl.edu/academics/graduate/phd/">CISE</a>. Mathematically minded students would benefit from the MAE degree program specializing in Dynamics, Systems, and Control.</p>
 <ul>
 <li>For MAE applicants, the GATAS lab is particularly well suited to students interested in either Dynamics, Systems, and Control for <a href="./project/optimization.html">optimization and dynamics projects</a> or Computational Fluid Dynamics (CFD) for the <a href="./project/decapodes.html">Decapodes project</a>.</li>
 <li>For CISE students, the GATAS lab is a good fit for students interested in High Performance Computing (HPC), Machine Learning, Data Science, Applied and Computational Mathematics, Computer Algebra, and Programming Language Theory.</li>
 </ul></li>
-<li><p>Research Projects for Undergraduates and Graduate Students in CISE, MAE, and Math</p></li>
-<li><p>Research Scientists and Postdocs in CISE, MAE, Math</p></li>
+<li><p>Research Projects for Undergraduates and Graduate Students in MAE, CISE, and Math</p></li>
+<li><p>Research Scientists and Postdocs in MAE, CISE, and Math</p></li>
 </ul>
 <p><em>Email fairbanksj [at] ufl [dot] edu for all new position inquiries</em></p>
 <p>If you are interested in a career in Applied Category Theory or Computational Science and Engineering, please reach out.</p>
@@ -452,7 +480,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="current-members">Current Members</h2>
 <div id="listing-members" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1609459200000" data-listing-file-modified-sort="1780763562768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
+<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1609459200000" data-listing-file-modified-sort="1781024572528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
 <div class="thumbnail"><a href="./members/jamesfairbanks.html" class="no-external">
 
 <img loading="lazy" src="./members/images/jamesfairbanks.png" class="thumbnail-image" style="height: 250px;">
@@ -474,139 +502,7 @@ Jan 1, 2021
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1664582400000" data-listing-file-modified-sort="1780763562750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
-<div class="thumbnail"><a href="./members/benbumpus.html" class="no-external">
-
-<img loading="lazy" src="./members/images/benbumpus.png" class="thumbnail-image" style="height: 250px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./members/benbumpus.html" class="no-external">Benjamin Merlin Bumpus</a>
-</h3>
-<div class="delink listing-description"><a href="./members/benbumpus.html" class="no-external">
-is a faculty research scientist and the lead of algorithms subprojects within the GATAS lab.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./members/benbumpus.html" class="no-external">
-<div class="listing-date">
-Oct 1, 2022
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1780763562768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
-<div class="thumbnail"><a href="./members/wilmerleal.html" class="no-external">
-
-<img loading="lazy" src="./members/images/wilmerleal.jpg" class="thumbnail-image" style="height: 250px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./members/wilmerleal.html" class="no-external">Wilmer Leal</a>
-</h3>
-<div class="delink listing-description"><a href="./members/wilmerleal.html" class="no-external">
-is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./members/wilmerleal.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1628985600000" data-listing-file-modified-sort="1780763562768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
-<div class="thumbnail"><a href="./members/lukemorris.html" class="no-external">
-
-<img loading="lazy" src="./members/images/lukemorris.jpeg" class="thumbnail-image" style="height: 250px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./members/lukemorris.html" class="no-external">Luke Morris</a>
-</h3>
-<div class="delink listing-description"><a href="./members/lukemorris.html" class="no-external">
-is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./members/lukemorris.html" class="no-external">
-<div class="listing-date">
-Aug 15, 2021
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-listing-date-sort="1628985600000" data-listing-file-modified-sort="1780763562768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
-<div class="thumbnail"><a href="./members/tylerhanks.html" class="no-external">
-
-<img loading="lazy" src="./members/images/tylerhanks.png" class="thumbnail-image" style="height: 250px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./members/tylerhanks.html" class="no-external">Tyler Hanks</a>
-</h3>
-<div class="delink listing-description"><a href="./members/tylerhanks.html" class="no-external">
-is a PhD student in the GATAS lab working on optimization, control theory, and machine learning.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./members/tylerhanks.html" class="no-external">
-<div class="listing-date">
-Aug 15, 2021
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="5" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1780763562768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="12">
-<div class="thumbnail"><a href="./members/richardsamuelson.html" class="no-external">
-
-<img loading="lazy" src="./members/images/richardsamuelson.jpg" class="thumbnail-image" style="height: 250px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./members/richardsamuelson.html" class="no-external">Richard Samuelson</a>
-</h3>
-<div class="delink listing-description"><a href="./members/richardsamuelson.html" class="no-external">
-is a doctoral student researching category theory, machine learning, and convex analysis.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./members/richardsamuelson.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="6" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1780763562751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<div class="thumbnail"><a href="./members/cuffaromatt.html" class="no-external">
-
-<img loading="lazy" src="./members/images/cuffaromatt.jpeg" class="thumbnail-image" style="height: 250px;">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./members/cuffaromatt.html" class="no-external">Matt Cuffaro</a>
-</h3>
-<div class="delink listing-description"><a href="./members/cuffaromatt.html" class="no-external">
-is the systems administrator and research programmer for the GATAS lab.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./members/cuffaromatt.html" class="no-external">
-<div class="listing-date">
-Oct 1, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="7" data-listing-date-sort="1660521600000" data-listing-file-modified-sort="1780763562751" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1660521600000" data-listing-file-modified-sort="1781024572509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
 <div class="thumbnail"><a href="./members/georgerauta.html" class="no-external">
 
 <img loading="lazy" src="./members/images/georgerauta.jpg" class="thumbnail-image" style="height: 250px;">
@@ -628,7 +524,29 @@ Aug 15, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="8" data-listing-date-sort="1716249600000" data-listing-file-modified-sort="1780763562768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1781024572528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<div class="thumbnail"><a href="./members/richardsamuelson.html" class="no-external">
+
+<img loading="lazy" src="./members/images/richardsamuelson.jpg" class="thumbnail-image" style="height: 250px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./members/richardsamuelson.html" class="no-external">Richard Samuelson</a>
+</h3>
+<div class="delink listing-description"><a href="./members/richardsamuelson.html" class="no-external">
+is a doctoral student researching category theory, convex analysis, and high‑performance computing. He has made significant contributions to the <strong>CliqueTrees.jl</strong> package…<strong></strong>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./members/richardsamuelson.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1716249600000" data-listing-file-modified-sort="1781024572528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
 <div class="thumbnail"><a href="./members/samuelcohen.html" class="no-external">
 
 <img loading="lazy" src="./members/images/samuelcohen.jpg" class="thumbnail-image" style="height: 250px;">
@@ -650,7 +568,59 @@ May 21, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="9" data-listing-date-sort="1736985600000" data-listing-file-modified-sort="1780763562768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="alumni" class="level2">
+<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
+<div id="listing-alumni" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1628985600000" data-listing-file-modified-sort="1781024572528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="332">
+<div class="thumbnail"><a href="./members/tylerhanks.html" class="no-external">
+
+<img loading="lazy" src="./members/images/tylerhanks.png" class="thumbnail-image" style="height: 250px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./members/tylerhanks.html" class="no-external">Tyler Hanks</a>
+</h3>
+<div class="delink listing-description"><a href="./members/tylerhanks.html" class="no-external">
+Tyler joined the GATAS Lab in the summer of 2021 as a graduate research assistant and has quickly become one of the group’s most visible contributors to the lab’s work at…<em></em>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./members/tylerhanks.html" class="no-external">
+<div class="listing-date">
+Aug 15, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1628985600000" data-listing-file-modified-sort="1781024572528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="422">
+<div class="thumbnail"><a href="./members/lukemorris.html" class="no-external">
+
+<img loading="lazy" src="./members/images/lukemorris.jpeg" class="thumbnail-image" style="height: 250px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./members/lukemorris.html" class="no-external">Luke Morris</a>
+</h3>
+<div class="delink listing-description"><a href="./members/lukemorris.html" class="no-external">
+is leading development on the CombinatorialSpaces.jl and Decapodes.jl projects.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./members/lukemorris.html" class="no-external">
+<div class="listing-date">
+Aug 15, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1736985600000" data-listing-file-modified-sort="1781024572528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
 <div class="thumbnail"><a href="./members/trevorgross.html" class="no-external">
 
 <img loading="lazy" src="./members/images/trevorgross.jpeg" class="thumbnail-image" style="height: 250px;">
@@ -668,6 +638,72 @@ is an undergraduate junior studying computer science affiliated with the Florida
 <a href="./members/trevorgross.html" class="no-external">
 <div class="listing-date">
 Jan 16, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1672531200000" data-listing-file-modified-sort="1781024572528" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+<div class="thumbnail"><a href="./members/wilmerleal.html" class="no-external">
+
+<img loading="lazy" src="./members/images/wilmerleal.jpg" class="thumbnail-image" style="height: 250px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./members/wilmerleal.html" class="no-external">Wilmer Leal</a>
+</h3>
+<div class="delink listing-description"><a href="./members/wilmerleal.html" class="no-external">
+is a postdoctoral researcher at the Computer Science Department at the University of Florida, USA.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./members/wilmerleal.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-listing-date-sort="1696118400000" data-listing-file-modified-sort="1781024572509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
+<div class="thumbnail"><a href="./members/cuffaromatt.html" class="no-external">
+
+<img loading="lazy" src="./members/images/cuffaromatt.jpeg" class="thumbnail-image" style="height: 250px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./members/cuffaromatt.html" class="no-external">Matt Cuffaro</a>
+</h3>
+<div class="delink listing-description"><a href="./members/cuffaromatt.html" class="no-external">
+is the systems administrator and research programmer for the GATAS lab.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./members/cuffaromatt.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="5" data-listing-date-sort="1664582400000" data-listing-file-modified-sort="1781024572508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+<div class="thumbnail"><a href="./members/benbumpus.html" class="no-external">
+
+<img loading="lazy" src="./members/images/benbumpus.png" class="thumbnail-image" style="height: 250px;">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./members/benbumpus.html" class="no-external">Benjamin Merlin Bumpus</a>
+</h3>
+<div class="delink listing-description"><a href="./members/benbumpus.html" class="no-external">
+Benjamin Merlin Bumpus was a faculty research scientist and led the algorithms subproject within the GATAS Lab.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./members/benbumpus.html" class="no-external">
+<div class="listing-date">
+Oct 1, 2022
 </div>
 </a>
 </div>
@@ -784,7 +820,7 @@ Jan 16, 2025
 
 <tr data-index="0" data-listing-date-sort="2022" data-listing-title-sort="Kris Brown">
 <td>
-<span class="listing-Name">Kris Brown</span>
+<span class="listing-Name"><a href="https://www.krisb.org/docs/research.html">Kris Brown</a></span>
 </td>
 <td>
 <span class="listing-Degree">UF Post-Doctoral Researcher</span>
@@ -800,7 +836,7 @@ Jan 16, 2025
 
 <tr data-index="1" data-listing-date-sort="2021" data-listing-title-sort="Anna Knoerr">
 <td>
-<span class="listing-Name">Anna Knoerr</span>
+<span class="listing-Name"><a href="https://linkedin.com/in/anna-kn%C3%B6rr-224171230">Anna Knoerr</a></span>
 </td>
 <td>
 <span class="listing-Degree">ACT Adjoint School</span>
@@ -816,7 +852,7 @@ Jan 16, 2025
 
 <tr data-index="2" data-listing-date-sort="2021" data-listing-title-sort="Grant Generaux">
 <td>
-<span class="listing-Name">Grant Generaux</span>
+<span class="listing-Name"><a href="https://www.linkedin.com/in/grant-generaux/">Grant Generaux</a></span>
 </td>
 <td>
 <span class="listing-Degree">ACT Adjoint School</span>
@@ -832,13 +868,13 @@ Jan 16, 2025
 
 <tr data-index="3" data-listing-date-sort="2021" data-listing-title-sort="Amy Searle">
 <td>
-<span class="listing-Name">Amy Searle</span>
+<span class="listing-Name"><a href="https://aj-searle.github.io/">Amy Searle</a></span>
 </td>
 <td>
 <span class="listing-Degree">ACT Adjoint School</span>
 </td>
 <td>
-<span class="listing-Company">Oxford Physics, PhD Student</span>
+<span class="listing-Company">Oxford Physics, PhD (graduated 2024)</span>
 </td>
 <td>
 <span class="listing-Dates">2021</span>
@@ -851,7 +887,7 @@ Jan 16, 2025
 <span class="listing-Name">Kris Brown</span>
 </td>
 <td>
-<span class="listing-Degree">Chemical Engineering, Stanford University</span>
+<span class="listing-Degree">ACT Adjoint School</span>
 </td>
 <td>
 <span class="listing-Company">UF, Post-Doctoral Researcher</span>
@@ -864,7 +900,7 @@ Jan 16, 2025
 
 <tr data-index="5" data-listing-date-sort="2021" data-listing-title-sort="Sophie Libkind">
 <td>
-<span class="listing-Name">Sophie Libkind</span>
+<span class="listing-Name"><a href="https://slibkind.github.io/">Sophie Libkind</a></span>
 </td>
 <td>
 <span class="listing-Degree">Mathematics, Stanford University</span>
@@ -880,13 +916,13 @@ Jan 16, 2025
 
 <tr data-index="6" data-listing-date-sort="2021" data-listing-title-sort="Owen Lynch">
 <td>
-<span class="listing-Name">Owen Lynch</span>
+<span class="listing-Name"><a href="https://owenlynch.org/">Owen Lynch</a></span>
 </td>
 <td>
 <span class="listing-Degree">Statistics, University of Utrecht</span>
 </td>
 <td>
-<span class="listing-Company">Topos Institute, Research Software Engineer</span>
+<span class="listing-Company">Topos Institute, Research Software Engineer, PhD Student Oxford University</span>
 </td>
 <td>
 <span class="listing-Dates">2020-Present</span>
@@ -896,7 +932,7 @@ Jan 16, 2025
 
 <tr data-index="7" data-listing-date-sort="2021" data-listing-title-sort="Julian Perez">
 <td>
-<span class="listing-Name">Julian Perez</span>
+<span class="listing-Name"><a href="https://linkedin.com/in/julian-perez082">Julian Perez</a></span>
 </td>
 <td>
 <span class="listing-Degree">BS BME GT</span>
@@ -912,7 +948,7 @@ Jan 16, 2025
 
 <tr data-index="8" data-listing-date-sort="2021" data-listing-title-sort="Stephen Wellburg">
 <td>
-<span class="listing-Name">Stephen Wellburg</span>
+<span class="listing-Name"><a href="https://linkedin.com/in/stephen-wehlburg">Stephen Wellburg</a></span>
 </td>
 <td>
 <span class="listing-Degree">BS DAS UF</span>

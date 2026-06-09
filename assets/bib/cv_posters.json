@@ -1,0 +1,227 @@
+[
+	{
+		"id": "Posters1",
+		"type": "speech",
+		"citation-key": "Posters1",
+		"event-place": "Orlando, FL",
+		"event-title": "Biomedical Engineering Society Annual Meeting",
+		"title": "Parameter estimation by minimizing the loss with respect to a finite difference approximation on the vector field",
+		"author": [
+			{
+				"family": "Perez",
+				"given": "Julian"
+			},
+			{
+				"family": "Baas",
+				"given": "Andrew"
+			},
+			{
+				"family": "Ferrall-Fairbanks",
+				"given": "Meghan C."
+			},
+			{
+				"family": "Platt",
+				"given": "Manu O."
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "Posters2",
+		"type": "speech",
+		"citation-key": "Posters2",
+		"event-place": "Cambridge, UK",
+		"event-title": "Applied Category Theory",
+		"title": "Graphical semantic modeling with semagrams.jl",
+		"author": [
+			{
+				"family": "Lynch",
+				"given": "Owen"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			},
+			{
+				"family": "Patterson",
+				"given": "Evan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "Posters3",
+		"type": "speech",
+		"citation-key": "Posters3",
+		"event-place": "Berlin, DE",
+		"event-title": "Systems Biology of Human Disease,",
+		"title": "Semantic model understanding for scientific model augmentation",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "Posters4",
+		"type": "speech",
+		"citation-key": "Posters4",
+		"event-place": "New York, NY",
+		"event-title": "OHDSI Symposium",
+		"title": "QueryGarden: growing healthy applications in well prepared SQL",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Posters5",
+		"type": "speech",
+		"citation-key": "Posters5",
+		"event-title": "OHDSI Symposium",
+		"title": "Implementing real-time patient level predictions using PLP models",
+		"author": [
+			{
+				"family": "Brown",
+				"given": "C. S."
+			},
+			{
+				"family": "Duke",
+				"given": "Jonathan"
+			},
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			},
+			{
+				"family": "Herlihy",
+				"given": "Christine"
+			},
+			{
+				"family": "Mukadam",
+				"given": "K."
+			},
+			{
+				"family": "Poovey",
+				"given": "Jason"
+			},
+			{
+				"family": "Rost",
+				"given": "Melissa"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Posters6",
+		"type": "speech",
+		"citation-key": "Posters6",
+		"event-title": "SIAM Computational Science and Engineering",
+		"title": "Discovering block structure with approximate eigenvectors",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "Posters7",
+		"type": "speech",
+		"citation-key": "Posters7",
+		"event-place": "Atlanta, GA",
+		"event-title": "Graph Theory at Georgia Tech (GT@GT)",
+		"title": "Ramsey theorem for indecomposable matchings",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "fairbanksdiscovering",
+		"type": "speech",
+		"citation-key": "fairbanksdiscovering",
+		"event-place": "Salt Lake City, UT",
+		"event-title": "SIAM Computational Science and Engineering",
+		"genre": "poster",
+		"language": "en",
+		"title": "Discovering block structure in graphs with approximate eigenvectors",
+		"URL": "https://jpfairbanks.com/doc/siam-cse-2015.pdf",
+		"author": [
+			{
+				"family": "Fairbanks",
+				"given": "James"
+			},
+			{
+				"family": "Sanders",
+				"given": "Geoff"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	}
+]
