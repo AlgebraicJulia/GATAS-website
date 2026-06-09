@@ -10,7 +10,6 @@ listing:
       - projects.qmd
       - members.qmd
       - bibliography.qmd
-      - research.qmd
       - sponsors/sponsors.qmd
 ---
 

@@ -16,7 +16,7 @@ website:
     right:
       - members.qmd
       - projects.qmd
-      - research.qmd
+      - bibliography.qmd
       - presentations.qmd
       - text: "ACT 2025"
         href: act2025/act2025.qmd

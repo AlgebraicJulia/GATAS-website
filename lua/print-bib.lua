@@ -71,8 +71,8 @@ function Pandoc(doc)
 
 	dbg("found " .. #refs .. " bibliography entries")
 
-	-- Build SimpleTable rows
-	local rows = {}
+	-- Build SimpleTable rows (collect entries with year for sorting)
+	local entries = {}
 
 	for i, ref in ipairs(refs) do
 		-- Authors
@@ -97,56 +97,115 @@ function Pandoc(doc)
 		-- Title
 		local title_str = tostring_el(ref.title)
 
-		-- Year
+		-- Year (extract from issued date-parts if available)
 		local year_str = ""
-		if ref.issued and ref.issued[1] and ref.issued[1]["date-parts"] then
-			year_str = tostring(ref.issued[1]["date-parts"][1][1] or "")
+		if ref.issued and ref.issued["date-parts"] and ref.issued["date-parts"][1] then
+			year_str = tostring(ref.issued["date-parts"][1][1] or "")
+		elseif ref.year then
+			year_str = tostring(ref.year)
 		end
 
-		-- DOI (as plain URL)
-		local doi_str = ""
+		-- Venue (journal, conference, or speech event)
+		local venue_str = ""
+		if ref["container-title"] then
+			venue_str = tostring_el(ref["container-title"])
+		elseif ref["collection-title"] then
+			venue_str = tostring_el(ref["collection-title"])
+		elseif ref.type == "speech" then
+			local ev_title = ""
+			if ref["event-title"] then
+				ev_title = tostring_el(ref["event-title"])
+			end
+			local ev_place = ""
+			if ref["event-place"] then
+				ev_place = tostring_el(ref["event-place"])
+			end
+			if ev_title ~= "" then
+				venue_str = ev_title
+				if ev_place ~= "" then
+					venue_str = venue_str .. " (" .. ev_place .. ")"
+				end
+			elseif ev_place ~= "" then
+				venue_str = ev_place
+			end
+		end
+
+		-- DOI (as hyperlink if present, displayed as "DOI")
+		local doi_inline = pandoc.Str("")
 		if ref.DOI then
-			doi_str = "https://doi.org/" .. tostring_el(ref.DOI)
+			local url = "https://doi.org/" .. tostring_el(ref.DOI)
+			doi_inline = pandoc.Link(pandoc.Str("DOI"), url)
 		end
 
 		-- Debug line
-		local line = string.format("%d. %s. %s. %s. %s", i, author_str, title_str, year_str, doi_str)
+		local line =
+			string.format("%d. %s. %s. %s. %s. %s", i, author_str, title_str, year_str, venue_str, ref.DOI or "")
 		dbg("entry " .. i .. ": " .. line)
 
-		-- Append row cells (each cell is a list containing a Plain block)
+		-- Determine item type for display
+		local item_type = ""
+		local t = ref.type or ""
+		if t == "article-journal" or t == "journal-article" then
+			item_type = "Article"
+		elseif t == "paper-conference" or t == "conference-paper" or t == "proceedings" then
+			item_type = "Proceedings"
+		elseif t == "speech" or t == "presentation" then
+			item_type = "Presentation"
+		elseif t == "poster" then
+			item_type = "Poster"
+		elseif t == "preprint" then
+			item_type = "Preprint"
+		end
+
+		-- Store entry data for later sorting
+		local entry = {
+			year = year_str,
+			item_type = item_type,
+			author = author_str,
+			title = title_str,
+			venue = venue_str,
+			doi = doi_inline,
+		}
+		table.insert(entries, entry)
+	end
+
+	-- Sort entries by year descending (numeric; missing years treated as 0)
+	table.sort(entries, function(a, b)
+		local ya = tonumber(a.year) or 0
+		local yb = tonumber(b.year) or 0
+		return ya > yb
+	end)
+
+	-- Build rows from sorted entries
+	local rows = {}
+	for _, e in ipairs(entries) do
 		local cells = {
-			pandoc.Plain(pandoc.Str(author_str)),
-			pandoc.Plain(pandoc.Str(title_str)),
-			pandoc.Plain(pandoc.Str(year_str)),
-			pandoc.Plain(pandoc.Str(doi_str))
+			{ pandoc.Plain(pandoc.Str(e.year)) },
+			{ pandoc.Plain(pandoc.Str(e.item_type)) },
+			{ pandoc.Plain(pandoc.Str(e.author)) },
+			{ pandoc.Plain(pandoc.Str(e.title)) },
+			{ pandoc.Plain(pandoc.Str(e.venue)) },
+			{ pandoc.Plain(e.doi) },
 		}
 		table.insert(rows, cells)
 	end
 
-	-- Header for the table (unused, kept for reference)
-	local header = {
-		pandoc.Str("Authors"),
-		pandoc.Str("Title"),
-		pandoc.Str("Year"),
-		pandoc.Str("DOI")
-	}
-
-	-- Insert heading before the table
-	table.insert(doc.blocks, pandoc.Header(1, pandoc.Str("Bibliography Dump (debug)")))
 	-- Build the SimpleTable (no column widths, left-aligned)
 	-- Header cells (each a list of Blocks)
 	local header_cells = {
-		{pandoc.Plain(pandoc.Str("Authors"))},
-		{pandoc.Plain(pandoc.Str("Title"))},
-		{pandoc.Plain(pandoc.Str("Year"))},
-		{pandoc.Plain(pandoc.Str("DOI"))}
+		{ pandoc.Plain(pandoc.Str("Year")) },
+		{ pandoc.Plain(pandoc.Str("Type")) },
+		{ pandoc.Plain(pandoc.Str("Authors")) },
+		{ pandoc.Plain(pandoc.Str("Title")) },
+		{ pandoc.Plain(pandoc.Str("Venue")) },
+		{ pandoc.Plain(pandoc.Str("DOI")) },
 	}
 	-- Caption as Inlines (empty)
 	local caption = pandoc.Inlines({})
 	local simple_tbl = pandoc.SimpleTable(
 		caption,
-		{pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft},
-		{0,0,0,0},
+		{ pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft, pandoc.AlignLeft },
+		{ 0, 0, 0, 0, 0 },
 		header_cells,
 		rows
 	)
