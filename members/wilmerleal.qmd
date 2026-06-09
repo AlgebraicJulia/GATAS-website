@@ -10,7 +10,7 @@ program: N/A
 status: Writing
 lightbox: auto
 href: |- 
-    <a href="merlinsnotebook.com" class="btn btn-secondary">Site</a>
+    <a href="https://www.linkedin.com/in/wilmerlealj/" class="btn btn-secondary">Site</a>
 about:
     template: solana
 gallery:
